@@ -1,0 +1,4 @@
+reglage,instances,ecart_moyen,V,E,D,p,tirages_song_median,depassement_median_s,depassement_max_s,p_holm,scenario,descriptif
+5x4,50,-2.75072829922175,43,6,1,1.0001777104684305e-08,20,6.6335,65.353,3.0005331314052916e-08,A (faisceau meilleur),nettement
+10x4,50,-2.7088019478540235,43,6,1,1.0021935294539549e-08,20,6.779999999999999,66.463,3.0005331314052916e-08,A (faisceau meilleur),nettement
+50x5,50,-3.1078152442270532,43,7,0,1.1170795792022065e-08,20,4.5565,37.217,3.0005331314052916e-08,A (faisceau meilleur),nettement

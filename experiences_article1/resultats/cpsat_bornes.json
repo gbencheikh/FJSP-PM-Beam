@@ -1,0 +1,5272 @@
+{
+ "BrandimarteMk2|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 31,
+  "bound": 31.0,
+  "time": 208.258037,
+  "S": [
+   23,
+   31,
+   33,
+   33,
+   31,
+   23
+  ],
+  "pm": 12,
+  "hint_cmax": 31.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "BrandimarteMk1|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 50,
+  "bound": 50.0,
+  "time": 555.9652252000001,
+  "S": [
+   9,
+   29,
+   21,
+   10,
+   5,
+   15
+  ],
+  "pm": 12,
+  "hint_cmax": 51.0,
+  "hint_source": "Algorithme g\u00e9n\u00e9tique [budget=5s,depart=heuristique]"
+ },
+ "BrandimarteMk4|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 72,
+  "bound": 35.0,
+  "time": 750.1611895000001,
+  "S": [
+   19,
+   5,
+   17,
+   23,
+   9,
+   11,
+   13,
+   7
+  ],
+  "pm": 18,
+  "hint_cmax": 72.0,
+  "hint_source": "Recuit simul\u00e9 [budget=5s,depart=heuristique]"
+ },
+ "BrandimarteMk3|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 219,
+  "bound": 63.0,
+  "time": 750.4241201000001,
+  "S": [
+   21,
+   19,
+   45,
+   27,
+   19,
+   27,
+   21,
+   29
+  ],
+  "pm": 16,
+  "hint_cmax": 219.0,
+  "hint_source": "MWKR+EFT []"
+ },
+ "BrandimarteMk5|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 184,
+  "bound": 59.0,
+  "time": 750.0849109000001,
+  "S": [
+   9,
+   9,
+   9,
+   13
+  ],
+  "pm": 11,
+  "hint_cmax": 185.0,
+  "hint_source": "RL:imit-ft [echantillons=100]"
+ },
+ "BrandimarteMk6|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 68,
+  "bound": 33.0,
+  "time": 726.8271275,
+  "S": [
+   39,
+   37,
+   40,
+   35,
+   47,
+   7,
+   33,
+   23,
+   27,
+   25
+  ],
+  "pm": 25,
+  "hint_cmax": 68.0,
+  "hint_source": "RL:imit-ft [faisceau=100,k=4]"
+ },
+ "BrandimarteMk7|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 153,
+  "bound": 44.0,
+  "time": 750.3293654,
+  "S": [
+   19,
+   19,
+   27,
+   25,
+   17
+  ],
+  "pm": 85,
+  "hint_cmax": 156.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique]"
+ },
+ "BrandimarteMk8|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 556,
+  "bound": 162.0,
+  "time": 750.1788997,
+  "S": [
+   9,
+   3,
+   13,
+   7,
+   7,
+   1,
+   11,
+   13,
+   5,
+   13
+  ],
+  "pm": 18,
+  "hint_cmax": 556.0,
+  "hint_source": "Recuit simul\u00e9 [budget=5s,depart=heuristique]"
+ },
+ "HurinkEdata4|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 723,
+  "bound": 723.0,
+  "time": 19.5929948,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   7
+  ],
+  "pm": 8,
+  "hint_cmax": 723.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata6|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 645,
+  "bound": 645.0,
+  "time": 97.16551030000001,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   7
+  ],
+  "pm": 7,
+  "hint_cmax": 645.0,
+  "hint_source": "Recherche tabou [budget=5s,depart=heuristique]"
+ },
+ "HurinkEdata5|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 814,
+  "bound": 814.0,
+  "time": 121.3464259,
+  "S": [
+   7,
+   5,
+   7,
+   9,
+   7
+  ],
+  "pm": 7,
+  "hint_cmax": 814.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata7|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 675,
+  "bound": 675.0,
+  "time": 13.521481400000003,
+  "S": [
+   7,
+   7,
+   9,
+   9,
+   7
+  ],
+  "pm": 8,
+  "hint_cmax": 675.0,
+  "hint_source": "Recuit simul\u00e9 [evals=10000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata8|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 595,
+  "bound": 595.0,
+  "time": 46.8615921,
+  "S": [
+   9,
+   7,
+   9,
+   9,
+   5
+  ],
+  "pm": 9,
+  "hint_cmax": 595.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "BrandimarteMk9|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 325,
+  "bound": 130.0,
+  "time": 750.3050791000001,
+  "S": [
+   19,
+   19,
+   13,
+   19,
+   13,
+   9,
+   13,
+   19,
+   9,
+   11
+  ],
+  "pm": 20,
+  "hint_cmax": 325.0,
+  "hint_source": "RL:imit-ft [faisceau=1,k=4]"
+ },
+ "BrandimarteMk10|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 235,
+  "bound": 113.0,
+  "time": 684.1877764000001,
+  "S": [
+   29,
+   45,
+   29,
+   27,
+   27,
+   17,
+   25,
+   15,
+   25,
+   33,
+   1,
+   1,
+   7,
+   1,
+   1
+  ],
+  "pm": 31,
+  "hint_cmax": 235.0,
+  "hint_source": "RL:imit-ft [faisceau=10,k=4]"
+ },
+ "HurinkEdata9|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 902,
+  "bound": 413.0,
+  "time": 750.2564715,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   7
+  ],
+  "pm": 8,
+  "hint_cmax": 902.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata10|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 852,
+  "bound": 376.0,
+  "time": 750.0796782,
+  "S": [
+   7,
+   7,
+   9,
+   7,
+   7
+  ],
+  "pm": 17,
+  "hint_cmax": 859.0,
+  "hint_source": "Algorithme g\u00e9n\u00e9tique [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata11|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 905,
+  "bound": 369.0,
+  "time": 750.1023323000001,
+  "S": [
+   5,
+   5,
+   9,
+   9,
+   7
+  ],
+  "pm": 8,
+  "hint_cmax": 905.0,
+  "hint_source": "Recuit simul\u00e9 [evals=10000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata12|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 972,
+  "bound": 382.0,
+  "time": 750.1176128,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   7
+  ],
+  "pm": 8,
+  "hint_cmax": 972.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata13|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 974,
+  "bound": 443.0,
+  "time": 605.0152754000001,
+  "S": [
+   7,
+   7,
+   9,
+   7,
+   5
+  ],
+  "pm": 8,
+  "hint_cmax": 974.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata14|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1181,
+  "bound": 413.0,
+  "time": 750.0891198000002,
+  "S": [
+   7,
+   7,
+   9,
+   7,
+   7
+  ],
+  "pm": 8,
+  "hint_cmax": 1181.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata15|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1054,
+  "bound": 408.0,
+  "time": 750.0836364,
+  "S": [
+   7,
+   7,
+   9,
+   7,
+   5
+  ],
+  "pm": 8,
+  "hint_cmax": 1054.0,
+  "hint_source": "RL:imit-ft [echantillons=100]"
+ },
+ "HurinkEdata16|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1135,
+  "bound": 382.0,
+  "time": 750.0580994000001,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   7
+  ],
+  "pm": 8,
+  "hint_cmax": 1135.0,
+  "hint_source": "Recherche tabou [budget=5s,depart=heuristique]"
+ },
+ "HurinkEdata17|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1208,
+  "bound": 443.0,
+  "time": 750.0901175,
+  "S": [
+   7,
+   7,
+   9,
+   7,
+   7
+  ],
+  "pm": 8,
+  "hint_cmax": 1208.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata18|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1219,
+  "bound": 378.0,
+  "time": 739.5265247000001,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   5
+  ],
+  "pm": 8,
+  "hint_cmax": 1219.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata19|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 989,
+  "bound": 717.0,
+  "time": 750.1954927000002,
+  "S": [
+   7,
+   5,
+   9,
+   7,
+   7,
+   5,
+   7,
+   5,
+   7,
+   7
+  ],
+  "pm": 18,
+  "hint_cmax": 1013.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata20|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 777,
+  "bound": 646.0,
+  "time": 750.0994398,
+  "S": [
+   7,
+   7,
+   7,
+   11,
+   7,
+   5,
+   7,
+   7,
+   5,
+   5
+  ],
+  "pm": 45,
+  "hint_cmax": 814.0,
+  "hint_source": "RL:imit-ft [echantillons=100]"
+ },
+ "HurinkEdata21|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 919,
+  "bound": 736.0,
+  "time": 660.5756753000001,
+  "S": [
+   7,
+   7,
+   9,
+   7,
+   5,
+   5,
+   7,
+   7,
+   5,
+   5
+  ],
+  "pm": 16,
+  "hint_cmax": 944.0,
+  "hint_source": "Recherche tabou [budget=5s,depart=heuristique]"
+ },
+ "HurinkEdata22|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 844,
+  "bound": 617.0,
+  "time": 750.1992097,
+  "S": [
+   5,
+   7,
+   9,
+   7,
+   5,
+   7,
+   7,
+   5,
+   5,
+   5
+  ],
+  "pm": 44,
+  "hint_cmax": 874.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata23|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 925,
+  "bound": 756.0,
+  "time": 750.0628115000001,
+  "S": [
+   5,
+   7,
+   9,
+   7,
+   7,
+   5,
+   5,
+   5,
+   7,
+   5
+  ],
+  "pm": 50,
+  "hint_cmax": 944.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata24|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1095,
+  "bound": 717.0,
+  "time": 750.0894044,
+  "S": [
+   7,
+   5,
+   7,
+   7,
+   7,
+   5,
+   7,
+   5,
+   7,
+   7
+  ],
+  "pm": 49,
+  "hint_cmax": 1113.0,
+  "hint_source": "Recuit simul\u00e9 [evals=20000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata25|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 937,
+  "bound": 619.0,
+  "time": 750.1038347,
+  "S": [
+   7,
+   5,
+   7,
+   9,
+   7,
+   5,
+   7,
+   7,
+   7,
+   5
+  ],
+  "pm": 13,
+  "hint_cmax": 937.0,
+  "hint_source": "Recherche tabou [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata26|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1058,
+  "bound": 640.0,
+  "time": 750.0707983,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   5,
+   5,
+   7,
+   7,
+   7,
+   5
+  ],
+  "pm": 15,
+  "hint_cmax": 1058.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata27|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1016,
+  "bound": 704.0,
+  "time": 750.0660660000001,
+  "S": [
+   7,
+   7,
+   9,
+   7,
+   5,
+   5,
+   7,
+   7,
+   7,
+   7
+  ],
+  "pm": 17,
+  "hint_cmax": 1016.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata28|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 993,
+  "bound": 723.0,
+  "time": 750.104531,
+  "S": [
+   7,
+   7,
+   9,
+   9,
+   5,
+   5,
+   7,
+   7,
+   7,
+   7
+  ],
+  "pm": 50,
+  "hint_cmax": 1004.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata29|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1207,
+  "bound": 717.0,
+  "time": 750.0892274000001,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   7,
+   5,
+   5,
+   7,
+   7,
+   7
+  ],
+  "pm": 47,
+  "hint_cmax": 1209.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata30|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1289,
+  "bound": 686.0,
+  "time": 750.1307966,
+  "S": [
+   7,
+   7,
+   7,
+   9,
+   7,
+   7,
+   7,
+   7,
+   5,
+   5
+  ],
+  "pm": 13,
+  "hint_cmax": 1289.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata31|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1248,
+  "bound": 756.0,
+  "time": 750.0844888000001,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   7,
+   5,
+   5,
+   7,
+   7,
+   7
+  ],
+  "pm": 14,
+  "hint_cmax": 1248.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique]"
+ },
+ "HurinkEdata32|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1200,
+  "bound": 723.0,
+  "time": 750.116389,
+  "S": [
+   7,
+   7,
+   7,
+   9,
+   7,
+   7,
+   5,
+   7,
+   7,
+   5
+  ],
+  "pm": 56,
+  "hint_cmax": 1237.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata33|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1308,
+  "bound": 726.0,
+  "time": 750.0942548,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   5,
+   5,
+   7,
+   7,
+   7,
+   7
+  ],
+  "pm": 44,
+  "hint_cmax": 1322.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata34|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1631,
+  "bound": 717.0,
+  "time": 750.2600735,
+  "S": [
+   7,
+   7,
+   7,
+   9,
+   7,
+   5,
+   7,
+   7,
+   7,
+   5
+  ],
+  "pm": 13,
+  "hint_cmax": 1631.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata35|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1766,
+  "bound": 756.0,
+  "time": 750.1536407000001,
+  "S": [
+   5,
+   7,
+   7,
+   7,
+   5,
+   5,
+   7,
+   7,
+   7,
+   5
+  ],
+  "pm": 13,
+  "hint_cmax": 1766.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata36|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1647,
+  "bound": 723.0,
+  "time": 750.1746524000001,
+  "S": [
+   5,
+   7,
+   7,
+   9,
+   5,
+   5,
+   7,
+   7,
+   7,
+   5
+  ],
+  "pm": 12,
+  "hint_cmax": 1647.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata37|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1715,
+  "bound": 656.0,
+  "time": 750.1931094,
+  "S": [
+   5,
+   7,
+   7,
+   7,
+   7,
+   5,
+   7,
+   7,
+   7,
+   5
+  ],
+  "pm": 14,
+  "hint_cmax": 1715.0,
+  "hint_source": "Recherche tabou [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata38|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1840,
+  "bound": 647.0,
+  "time": 750.2081017,
+  "S": [
+   7,
+   7,
+   7,
+   7,
+   5,
+   5,
+   7,
+   7,
+   5,
+   5
+  ],
+  "pm": 15,
+  "hint_cmax": 1840.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata39|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1241,
+  "bound": 948.0,
+  "time": 750.1962425,
+  "S": [
+   5,
+   7,
+   9,
+   7,
+   7,
+   7,
+   5,
+   7,
+   7,
+   5,
+   7,
+   7,
+   7,
+   7,
+   5
+  ],
+  "pm": 65,
+  "hint_cmax": 1248.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata43|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1220,
+  "bound": 955.0,
+  "time": 750.1691875,
+  "S": [
+   5,
+   7,
+   9,
+   7,
+   5,
+   5,
+   5,
+   7,
+   7,
+   7,
+   7,
+   9,
+   7,
+   7,
+   7
+  ],
+  "pm": 74,
+  "hint_cmax": 1240.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata40|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1509,
+  "bound": 986.0,
+  "time": 748.9258333,
+  "S": [
+   5,
+   7,
+   9,
+   7,
+   7,
+   5,
+   7,
+   5,
+   7,
+   5,
+   5,
+   7,
+   7,
+   7,
+   5
+  ],
+  "pm": 19,
+  "hint_cmax": 1521.0,
+  "hint_source": "Recherche tabou [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata42|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1275,
+  "bound": 922.0,
+  "time": 750.1098449000001,
+  "S": [
+   7,
+   7,
+   9,
+   7,
+   5,
+   7,
+   5,
+   7,
+   7,
+   5,
+   5,
+   5,
+   7,
+   7,
+   7
+  ],
+  "pm": 69,
+  "hint_cmax": 1290.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata41|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1214,
+  "bound": 943.0,
+  "time": 750.1105210000001,
+  "S": [
+   5,
+   5,
+   9,
+   7,
+   7,
+   5,
+   7,
+   7,
+   7,
+   7,
+   5,
+   7,
+   7,
+   7,
+   5
+  ],
+  "pm": 76,
+  "hint_cmax": 1262.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata4|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 667,
+  "bound": 413.0,
+  "time": 750.1607874,
+  "S": [
+   9,
+   11,
+   11,
+   11,
+   11
+  ],
+  "pm": 8,
+  "hint_cmax": 668.0,
+  "hint_source": "RL:imit-ft [faisceau=20,k=2]"
+ },
+ "HurinkRdata6|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 557,
+  "bound": 349.0,
+  "time": 750.2362726,
+  "S": [
+   11,
+   13,
+   11,
+   11,
+   9
+  ],
+  "pm": 26,
+  "hint_cmax": 560.0,
+  "hint_source": "Recuit simul\u00e9 [budget=5s,depart=heuristique]"
+ },
+ "HurinkRdata5|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 623,
+  "bound": 394.0,
+  "time": 750.0971106,
+  "S": [
+   11,
+   9,
+   11,
+   11,
+   9
+  ],
+  "pm": 18,
+  "hint_cmax": 625.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata7|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 586,
+  "bound": 369.0,
+  "time": 750.1809668000001,
+  "S": [
+   11,
+   11,
+   13,
+   11,
+   9
+  ],
+  "pm": 9,
+  "hint_cmax": 587.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata8|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 532,
+  "bound": 380.0,
+  "time": 750.1421933,
+  "S": [
+   11,
+   11,
+   13,
+   11,
+   9
+  ],
+  "pm": 29,
+  "hint_cmax": 537.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata9|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 884,
+  "bound": 413.0,
+  "time": 750.2506139000001,
+  "S": [
+   9,
+   11,
+   11,
+   11,
+   9
+  ],
+  "pm": 8,
+  "hint_cmax": 884.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata10|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 830,
+  "bound": 376.0,
+  "time": 750.1701662,
+  "S": [
+   11,
+   11,
+   11,
+   11,
+   9
+  ],
+  "pm": 46,
+  "hint_cmax": 832.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=4]"
+ },
+ "HurinkRdata11|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 848,
+  "bound": 369.0,
+  "time": 750.2334091,
+  "S": [
+   9,
+   11,
+   13,
+   11,
+   9
+  ],
+  "pm": 8,
+  "hint_cmax": 848.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata12|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 947,
+  "bound": 382.0,
+  "time": 750.1292216,
+  "S": [
+   9,
+   11,
+   11,
+   11,
+   9
+  ],
+  "pm": 8,
+  "hint_cmax": 947.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata13|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 891,
+  "bound": 443.0,
+  "time": 750.5131180000001,
+  "S": [
+   9,
+   13,
+   13,
+   9,
+   9
+  ],
+  "pm": 8,
+  "hint_cmax": 892.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata15|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1012,
+  "bound": 408.0,
+  "time": 750.1130788,
+  "S": [
+   9,
+   11,
+   13,
+   9,
+   9
+  ],
+  "pm": 8,
+  "hint_cmax": 1012.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata14|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1158,
+  "bound": 413.0,
+  "time": 750.2035638,
+  "S": [
+   11,
+   11,
+   11,
+   13,
+   9
+  ],
+  "pm": 8,
+  "hint_cmax": 1158.0,
+  "hint_source": "Recuit simul\u00e9 [evals=20000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata16|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1122,
+  "bound": 382.0,
+  "time": 750.4013768000001,
+  "S": [
+   11,
+   11,
+   11,
+   11,
+   9
+  ],
+  "pm": 8,
+  "hint_cmax": 1122.0,
+  "hint_source": "Recuit simul\u00e9 [budget=5s,depart=heuristique]"
+ },
+ "HurinkRdata17|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1154,
+  "bound": 443.0,
+  "time": 750.2204816000001,
+  "S": [
+   9,
+   11,
+   11,
+   11,
+   9
+  ],
+  "pm": 36,
+  "hint_cmax": 1155.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata18|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1177,
+  "bound": 378.0,
+  "time": 750.190859,
+  "S": [
+   11,
+   11,
+   11,
+   11,
+   9
+  ],
+  "pm": 8,
+  "hint_cmax": 1177.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata19|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 762,
+  "bound": 717.0,
+  "time": 750.1713360000001,
+  "S": [
+   11,
+   11,
+   15,
+   11,
+   11,
+   9,
+   9,
+   7,
+   9,
+   11
+  ],
+  "pm": 25,
+  "hint_cmax": 767.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata20|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 654,
+  "bound": 654.0,
+  "time": 518.9707223,
+  "S": [
+   11,
+   13,
+   13,
+   11,
+   9,
+   9,
+   7,
+   9,
+   9,
+   7
+  ],
+  "pm": 86,
+  "hint_cmax": 678.0,
+  "hint_source": "Recherche tabou [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata21|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 706,
+  "bound": 663.0,
+  "time": 750.2356371000001,
+  "S": [
+   9,
+   11,
+   15,
+   13,
+   9,
+   9,
+   9,
+   9,
+   9,
+   7
+  ],
+  "pm": 56,
+  "hint_cmax": 729.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique]"
+ },
+ "HurinkRdata22|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 747,
+  "bound": 617.0,
+  "time": 750.1889219000001,
+  "S": [
+   11,
+   13,
+   11,
+   11,
+   7,
+   9,
+   11,
+   9,
+   9,
+   7
+  ],
+  "pm": 64,
+  "hint_cmax": 768.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata23|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 774,
+  "bound": 756.0,
+  "time": 750.2137399000001,
+  "S": [
+   9,
+   13,
+   13,
+   13,
+   11,
+   7,
+   9,
+   7,
+   9,
+   9
+  ],
+  "pm": 90,
+  "hint_cmax": 800.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata24|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 934,
+  "bound": 717.0,
+  "time": 750.4811178,
+  "S": [
+   11,
+   11,
+   11,
+   11,
+   9,
+   7,
+   9,
+   9,
+   9,
+   11
+  ],
+  "pm": 13,
+  "hint_cmax": 936.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata25|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 850,
+  "bound": 619.0,
+  "time": 750.3888894,
+  "S": [
+   11,
+   11,
+   13,
+   13,
+   11,
+   9,
+   9,
+   9,
+   9,
+   9
+  ],
+  "pm": 60,
+  "hint_cmax": 863.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata26|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 936,
+  "bound": 640.0,
+  "time": 750.3135266,
+  "S": [
+   11,
+   11,
+   13,
+   11,
+   9,
+   7,
+   11,
+   11,
+   11,
+   9
+  ],
+  "pm": 16,
+  "hint_cmax": 941.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata27|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 899,
+  "bound": 704.0,
+  "time": 750.2454916,
+  "S": [
+   9,
+   11,
+   15,
+   11,
+   9,
+   9,
+   9,
+   9,
+   9,
+   11
+  ],
+  "pm": 12,
+  "hint_cmax": 899.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata28|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 877,
+  "bound": 723.0,
+  "time": 750.5868226,
+  "S": [
+   13,
+   11,
+   11,
+   11,
+   11,
+   9,
+   7,
+   9,
+   11,
+   9
+  ],
+  "pm": 55,
+  "hint_cmax": 883.0,
+  "hint_source": "Recherche tabou [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata29|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1144,
+  "bound": 717.0,
+  "time": 750.4669534,
+  "S": [
+   11,
+   11,
+   13,
+   11,
+   11,
+   7,
+   9,
+   9,
+   9,
+   9
+  ],
+  "pm": 13,
+  "hint_cmax": 1144.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata30|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1177,
+  "bound": 686.0,
+  "time": 750.5669872000001,
+  "S": [
+   11,
+   11,
+   11,
+   11,
+   9,
+   9,
+   9,
+   9,
+   11,
+   7
+  ],
+  "pm": 13,
+  "hint_cmax": 1177.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata31|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1163,
+  "bound": 756.0,
+  "time": 750.36102,
+  "S": [
+   11,
+   13,
+   11,
+   11,
+   11,
+   7,
+   9,
+   9,
+   11,
+   9
+  ],
+  "pm": 13,
+  "hint_cmax": 1163.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata32|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1077,
+  "bound": 723.0,
+  "time": 750.5605821,
+  "S": [
+   11,
+   11,
+   11,
+   11,
+   9,
+   9,
+   9,
+   11,
+   11,
+   9
+  ],
+  "pm": 56,
+  "hint_cmax": 1080.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata33|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1162,
+  "bound": 726.0,
+  "time": 750.3340320000001,
+  "S": [
+   11,
+   11,
+   9,
+   11,
+   9,
+   9,
+   9,
+   9,
+   11,
+   9
+  ],
+  "pm": 13,
+  "hint_cmax": 1162.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata35|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1734,
+  "bound": 756.0,
+  "time": 750.2250963,
+  "S": [
+   9,
+   11,
+   11,
+   11,
+   11,
+   7,
+   9,
+   9,
+   11,
+   7
+  ],
+  "pm": 82,
+  "hint_cmax": 1735.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata34|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1591,
+  "bound": 717.0,
+  "time": 750.1153329000001,
+  "S": [
+   11,
+   9,
+   11,
+   13,
+   9,
+   9,
+   9,
+   9,
+   9,
+   7
+  ],
+  "pm": 13,
+  "hint_cmax": 1591.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata36|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1567,
+  "bound": 723.0,
+  "time": 750.1988679,
+  "S": [
+   11,
+   9,
+   11,
+   11,
+   11,
+   7,
+   9,
+   9,
+   9,
+   9
+  ],
+  "pm": 13,
+  "hint_cmax": 1567.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata37|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1605,
+  "bound": 656.0,
+  "time": 750.1271777000001,
+  "S": [
+   9,
+   11,
+   11,
+   11,
+   9,
+   7,
+   9,
+   9,
+   9,
+   9
+  ],
+  "pm": 13,
+  "hint_cmax": 1605.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata38|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1624,
+  "bound": 647.0,
+  "time": 750.1517883000001,
+  "S": [
+   9,
+   11,
+   11,
+   13,
+   9,
+   9,
+   9,
+   9,
+   9,
+   9
+  ],
+  "pm": 13,
+  "hint_cmax": 1624.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata39|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1109,
+  "bound": 948.0,
+  "time": 750.5281129,
+  "S": [
+   9,
+   11,
+   13,
+   11,
+   11,
+   9,
+   7,
+   9,
+   9,
+   7,
+   11,
+   11,
+   7,
+   13,
+   9
+  ],
+  "pm": 43,
+  "hint_cmax": 1116.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata40|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1172,
+  "bound": 986.0,
+  "time": 750.5788003,
+  "S": [
+   7,
+   11,
+   11,
+   11,
+   11,
+   11,
+   9,
+   9,
+   9,
+   7,
+   9,
+   11,
+   9,
+   13,
+   9
+  ],
+  "pm": 20,
+  "hint_cmax": 1175.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata41|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1058,
+  "bound": 943.0,
+  "time": 750.5307483,
+  "S": [
+   9,
+   11,
+   13,
+   11,
+   13,
+   9,
+   9,
+   9,
+   9,
+   7,
+   9,
+   9,
+   9,
+   11,
+   7
+  ],
+  "pm": 21,
+  "hint_cmax": 1063.0,
+  "hint_source": "Recherche tabou [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata42|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1107,
+  "bound": 922.0,
+  "time": 750.5466775,
+  "S": [
+   9,
+   11,
+   11,
+   13,
+   11,
+   9,
+   7,
+   9,
+   9,
+   9,
+   9,
+   7,
+   9,
+   11,
+   9
+  ],
+  "pm": 31,
+  "hint_cmax": 1116.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata43|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1042,
+  "bound": 955.0,
+  "time": 750.3650118,
+  "S": [
+   9,
+   11,
+   11,
+   11,
+   9,
+   9,
+   9,
+   9,
+   9,
+   7,
+   9,
+   11,
+   11,
+   11,
+   9
+  ],
+  "pm": 111,
+  "hint_cmax": 1061.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata4|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 663,
+  "bound": 413.0,
+  "time": 750.2360380000001,
+  "S": [
+   13,
+   13,
+   15,
+   15,
+   13
+  ],
+  "pm": 8,
+  "hint_cmax": 666.0,
+  "hint_source": "Recuit simul\u00e9 [evals=20000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata6|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 557,
+  "bound": 349.0,
+  "time": 750.2534436000001,
+  "S": [
+   11,
+   15,
+   17,
+   15,
+   9
+  ],
+  "pm": 32,
+  "hint_cmax": 558.0,
+  "hint_source": "RL:aleatoire-g0 [faisceau=50,k=5]"
+ },
+ "HurinkVdata5|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 615,
+  "bound": 394.0,
+  "time": 750.1577183,
+  "S": [
+   13,
+   11,
+   13,
+   15,
+   11
+  ],
+  "pm": 11,
+  "hint_cmax": 616.0,
+  "hint_source": "RL:imit-ft [faisceau=200,k=4]"
+ },
+ "HurinkVdata7|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 584,
+  "bound": 369.0,
+  "time": 750.3399086000001,
+  "S": [
+   11,
+   11,
+   13,
+   13,
+   11
+  ],
+  "pm": 13,
+  "hint_cmax": 585.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata8|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 535,
+  "bound": 380.0,
+  "time": 750.2409785,
+  "S": [
+   13,
+   13,
+   13,
+   15,
+   13
+  ],
+  "pm": 10,
+  "hint_cmax": 539.0,
+  "hint_source": "RL:imit-ft [faisceau=20,k=2]"
+ },
+ "HurinkVdata9|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 885,
+  "bound": 413.0,
+  "time": 750.1647009000001,
+  "S": [
+   13,
+   13,
+   11,
+   13,
+   13
+  ],
+  "pm": 8,
+  "hint_cmax": 885.0,
+  "hint_source": "Faisceau:regle [faisceau=100,k=0]"
+ },
+ "HurinkVdata11|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 848,
+  "bound": 369.0,
+  "time": 750.2206588,
+  "S": [
+   11,
+   15,
+   15,
+   15,
+   11
+  ],
+  "pm": 8,
+  "hint_cmax": 848.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata10|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 831,
+  "bound": 376.0,
+  "time": 750.1753610000001,
+  "S": [
+   13,
+   13,
+   11,
+   15,
+   11
+  ],
+  "pm": 8,
+  "hint_cmax": 831.0,
+  "hint_source": "RL:imit-ft [faisceau=100,k=4]"
+ },
+ "HurinkVdata12|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 945,
+  "bound": 382.0,
+  "time": 750.2355829,
+  "S": [
+   13,
+   13,
+   15,
+   13,
+   11
+  ],
+  "pm": 8,
+  "hint_cmax": 945.0,
+  "hint_source": "RL:imit-ft [faisceau=20,k=4]"
+ },
+ "HurinkVdata13|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 891,
+  "bound": 443.0,
+  "time": 750.1824547,
+  "S": [
+   11,
+   15,
+   13,
+   15,
+   11
+  ],
+  "pm": 8,
+  "hint_cmax": 891.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata14|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1158,
+  "bound": 413.0,
+  "time": 750.0940024,
+  "S": [
+   11,
+   13,
+   13,
+   15,
+   13
+  ],
+  "pm": 8,
+  "hint_cmax": 1158.0,
+  "hint_source": "Recuit simul\u00e9 [evals=100000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata15|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1011,
+  "bound": 408.0,
+  "time": 750.2915683,
+  "S": [
+   11,
+   13,
+   13,
+   15,
+   11
+  ],
+  "pm": 8,
+  "hint_cmax": 1011.0,
+  "hint_source": "Recuit simul\u00e9 [evals=200000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata19|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 717,
+  "bound": 717.0,
+  "time": 207.06022760000002,
+  "S": [
+   19,
+   23,
+   27,
+   29,
+   15,
+   15,
+   19,
+   21,
+   19,
+   19
+  ],
+  "pm": 14,
+  "hint_cmax": 717.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata20|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 646,
+  "bound": 646.0,
+  "time": 208.3363007,
+  "S": [
+   21,
+   23,
+   29,
+   25,
+   21,
+   19,
+   21,
+   21,
+   19,
+   15
+  ],
+  "pm": 13,
+  "hint_cmax": 646.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata16|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1121,
+  "bound": 382.0,
+  "time": 750.0475318000001,
+  "S": [
+   11,
+   13,
+   13,
+   13,
+   11
+  ],
+  "pm": 8,
+  "hint_cmax": 1121.0,
+  "hint_source": "RL:aleatoire-g0 [faisceau=50,k=5]"
+ },
+ "HurinkVdata21|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 663,
+  "bound": 663.0,
+  "time": 214.1070845,
+  "S": [
+   21,
+   21,
+   27,
+   25,
+   21,
+   21,
+   21,
+   21,
+   21,
+   15
+  ],
+  "pm": 13,
+  "hint_cmax": 663.0,
+  "hint_source": "Faisceau:regle [faisceau=200,k=0]"
+ },
+ "HurinkVdata17|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1154,
+  "bound": 443.0,
+  "time": 750.3334659000001,
+  "S": [
+   11,
+   15,
+   15,
+   15,
+   11
+  ],
+  "pm": 8,
+  "hint_cmax": 1154.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=4]"
+ },
+ "HurinkVdata18|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1176,
+  "bound": 378.0,
+  "time": 750.7640832,
+  "S": [
+   13,
+   13,
+   13,
+   17,
+   11
+  ],
+  "pm": 8,
+  "hint_cmax": 1176.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=2]"
+ },
+ "HurinkVdata23|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 756,
+  "bound": 756.0,
+  "time": 229.95765169999999,
+  "S": [
+   15,
+   23,
+   27,
+   23,
+   21,
+   23,
+   21,
+   21,
+   23,
+   19
+  ],
+  "pm": 14,
+  "hint_cmax": 756.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata22|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 645,
+  "bound": 617.0,
+  "time": 750.3809505,
+  "S": [
+   17,
+   25,
+   27,
+   25,
+   19,
+   23,
+   19,
+   19,
+   21,
+   17
+  ],
+  "pm": 54,
+  "hint_cmax": 652.0,
+  "hint_source": "RL:aleatoire-g0 [faisceau=50,k=5]"
+ },
+ "HurinkVdata24|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 875,
+  "bound": 717.0,
+  "time": 722.5584615,
+  "S": [
+   17,
+   25,
+   25,
+   27,
+   19,
+   21,
+   19,
+   19,
+   19,
+   19
+  ],
+  "pm": 13,
+  "hint_cmax": 875.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata25|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 806,
+  "bound": 619.0,
+  "time": 751.3345988000001,
+  "S": [
+   19,
+   21,
+   27,
+   25,
+   19,
+   19,
+   19,
+   19,
+   19,
+   19
+  ],
+  "pm": 13,
+  "hint_cmax": 808.0,
+  "hint_source": "RL:aleatoire-g0 [faisceau=50,k=5]"
+ },
+ "HurinkVdata26|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 886,
+  "bound": 640.0,
+  "time": 750.2111318,
+  "S": [
+   19,
+   23,
+   25,
+   23,
+   19,
+   17,
+   19,
+   19,
+   19,
+   19
+  ],
+  "pm": 118,
+  "hint_cmax": 890.0,
+  "hint_source": "RL:imit-ft [faisceau=200,k=4]"
+ },
+ "HurinkVdata27|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 846,
+  "bound": 704.0,
+  "time": 727.5654643,
+  "S": [
+   21,
+   25,
+   21,
+   23,
+   17,
+   21,
+   21,
+   21,
+   23,
+   19
+  ],
+  "pm": 82,
+  "hint_cmax": 847.0,
+  "hint_source": "RL:imit-ft [faisceau=100,k=5]"
+ },
+ "HurinkVdata28|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 823,
+  "bound": 723.0,
+  "time": 720.2085098000001,
+  "S": [
+   19,
+   23,
+   25,
+   23,
+   19,
+   19,
+   19,
+   23,
+   21,
+   17
+  ],
+  "pm": 17,
+  "hint_cmax": 825.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=2]"
+ },
+ "HurinkVdata29|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1123,
+  "bound": 717.0,
+  "time": 729.0237416,
+  "S": [
+   17,
+   21,
+   23,
+   25,
+   17,
+   19,
+   21,
+   17,
+   21,
+   19
+  ],
+  "pm": 13,
+  "hint_cmax": 1123.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=2]"
+ },
+ "HurinkVdata30|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1157,
+  "bound": 686.0,
+  "time": 745.3065843,
+  "S": [
+   17,
+   21,
+   23,
+   27,
+   15,
+   21,
+   19,
+   19,
+   21,
+   19
+  ],
+  "pm": 13,
+  "hint_cmax": 1157.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata31|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1142,
+  "bound": 756.0,
+  "time": 678.8083666,
+  "S": [
+   19,
+   23,
+   23,
+   25,
+   19,
+   19,
+   17,
+   19,
+   19,
+   17
+  ],
+  "pm": 13,
+  "hint_cmax": 1142.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata34|1|temps=600,segments=valide": {
+  "status": "UNKNOWN",
+  "cmax": null,
+  "bound": 0.0,
+  "time": 462.88497320000005,
+  "S": [
+   19,
+   23,
+   27,
+   25,
+   19,
+   19,
+   21,
+   21,
+   19,
+   19
+  ],
+  "hint_cmax": 1587.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata32|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1062,
+  "bound": 723.0,
+  "time": 714.2919142000001,
+  "S": [
+   19,
+   23,
+   23,
+   25,
+   17,
+   17,
+   17,
+   21,
+   19,
+   17
+  ],
+  "pm": 13,
+  "hint_cmax": 1062.0,
+  "hint_source": "RL:imit-ft [faisceau=20,k=2]"
+ },
+ "HurinkVdata33|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1140,
+  "bound": 726.0,
+  "time": 743.537554,
+  "S": [
+   23,
+   19,
+   23,
+   25,
+   17,
+   19,
+   21,
+   21,
+   19,
+   17
+  ],
+  "pm": 13,
+  "hint_cmax": 1141.0,
+  "hint_source": "RL:imit-ft [faisceau=100,k=4]"
+ },
+ "HurinkVdata36|1|temps=600,segments=valide": {
+  "status": "UNKNOWN",
+  "cmax": null,
+  "bound": 0.0,
+  "time": 459.9742168,
+  "S": [
+   19,
+   21,
+   25,
+   25,
+   21,
+   19,
+   21,
+   19,
+   19,
+   17
+  ],
+  "hint_cmax": 1564.0,
+  "hint_source": "RL:imit-ft [faisceau=100,k=4]"
+ },
+ "HurinkVdata35|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1730,
+  "bound": 756.0,
+  "time": 728.8875499000001,
+  "S": [
+   17,
+   21,
+   25,
+   25,
+   19,
+   19,
+   21,
+   17,
+   19,
+   17
+  ],
+  "pm": 14,
+  "hint_cmax": 1730.0,
+  "hint_source": "RL:imit-ft [faisceau=200,k=4]"
+ },
+ "HurinkVdata37|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1602,
+  "bound": 656.0,
+  "time": 721.1853194,
+  "S": [
+   17,
+   23,
+   25,
+   27,
+   19,
+   17,
+   19,
+   19,
+   19,
+   19
+  ],
+  "pm": 13,
+  "hint_cmax": 1602.0,
+  "hint_source": "RL:imit-ft [faisceau=100,k=4]"
+ },
+ "HurinkVdata38|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1618,
+  "bound": 647.0,
+  "time": 722.6344601000001,
+  "S": [
+   19,
+   21,
+   25,
+   29,
+   19,
+   19,
+   21,
+   21,
+   21,
+   19
+  ],
+  "pm": 13,
+  "hint_cmax": 1618.0,
+  "hint_source": "RL:imit-ft [faisceau=20,k=4]"
+ },
+ "HurinkVdata39|1|temps=600,segments=valide": {
+  "status": "UNKNOWN",
+  "cmax": null,
+  "bound": 0.0,
+  "time": 526.2274679000001,
+  "S": [
+   25,
+   29,
+   35,
+   37,
+   29,
+   29,
+   27,
+   29,
+   27,
+   23,
+   23,
+   31,
+   27,
+   35,
+   27
+  ],
+  "hint_cmax": 948.0,
+  "hint_source": "RL:imit-ft [faisceau=100,k=5]"
+ },
+ "HurinkVdata40|1|temps=600,segments=valide": {
+  "status": "UNKNOWN",
+  "cmax": null,
+  "bound": 0.0,
+  "time": 498.1433349,
+  "S": [
+   29,
+   31,
+   37,
+   31,
+   23,
+   23,
+   25,
+   25,
+   29,
+   27,
+   29,
+   35,
+   23,
+   31,
+   27
+  ],
+  "hint_cmax": 987.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "Kacem2|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 11,
+  "bound": 11.0,
+  "time": 11.5095816,
+  "S": [
+   25,
+   23,
+   17,
+   9,
+   29,
+   23,
+   23
+  ],
+  "pm": 0,
+  "hint_cmax": 11.0,
+  "hint_source": "MOR+EFT []"
+ },
+ "Kacem3|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 7,
+  "bound": 7.0,
+  "time": 25.4551705,
+  "S": [
+   30,
+   29,
+   27,
+   30,
+   30,
+   23,
+   27,
+   30,
+   25,
+   19
+  ],
+  "pm": 0,
+  "hint_cmax": 7.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata42|1|temps=600,segments=valide": {
+  "status": "UNKNOWN",
+  "cmax": null,
+  "bound": 0.0,
+  "time": 492.31100680000003,
+  "S": [
+   29,
+   35,
+   35,
+   37,
+   25,
+   23,
+   25,
+   27,
+   25,
+   23,
+   27,
+   31,
+   23,
+   39,
+   25
+  ],
+  "hint_cmax": 935.0,
+  "hint_source": "RL:imit-ft [faisceau=200,k=4]"
+ },
+ "HurinkVdata41|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 943,
+  "bound": 943.0,
+  "time": 629.3582064000001,
+  "S": [
+   29,
+   31,
+   37,
+   29,
+   25,
+   25,
+   27,
+   27,
+   33,
+   27,
+   29,
+   37,
+   25,
+   35,
+   25
+  ],
+  "pm": 24,
+  "hint_cmax": 943.0,
+  "hint_source": "Faisceau:regle [faisceau=5,k=0]"
+ },
+ "HurinkVdata43|1|temps=600,segments=valide": {
+  "status": "UNKNOWN",
+  "cmax": null,
+  "bound": 0.0,
+  "time": 517.4920781000001,
+  "S": [
+   27,
+   29,
+   35,
+   33,
+   23,
+   23,
+   25,
+   27,
+   29,
+   23,
+   23,
+   31,
+   25,
+   35,
+   29
+  ],
+  "hint_cmax": 955.0,
+  "hint_source": "Faisceau:regle [faisceau=200,k=0]"
+ },
+ "Kacem4|1|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 11,
+  "bound": 10.0,
+  "time": 616.4519031000001,
+  "S": [
+   31,
+   23,
+   17,
+   29,
+   15,
+   13,
+   15,
+   11,
+   15,
+   23
+  ],
+  "pm": 0,
+  "hint_cmax": 11.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "Kacem1|1|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 11,
+  "bound": 11.0,
+  "time": 0.4265952,
+  "S": [
+   12,
+   12,
+   12,
+   5,
+   12
+  ],
+  "pm": 0,
+  "hint_cmax": 11.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "BrandimarteMk1|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 40,
+  "bound": 40.0,
+  "time": 0.9777083000000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 40.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "BrandimarteMk4|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 60,
+  "bound": 60.0,
+  "time": 31.811354100000003,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 67.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "BrandimarteMk3|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 204,
+  "bound": 63.0,
+  "time": 609.3881328,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 204.0,
+  "hint_source": "MWKR+EFT []"
+ },
+ "BrandimarteMk5|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 173,
+  "bound": 59.0,
+  "time": 750.0472484000001,
+  "S": [
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 5,
+  "hint_cmax": 175.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "BrandimarteMk2|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 27,
+  "bound": 25.0,
+  "time": 750.0503697,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 7,
+  "hint_cmax": 28.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "BrandimarteMk6|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 61,
+  "bound": 33.0,
+  "time": 750.0760693,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 18,
+  "hint_cmax": 66.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "BrandimarteMk8|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 523,
+  "bound": 162.0,
+  "time": 601.6074420000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   1,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 523.0,
+  "hint_source": "MWKR+EFT []"
+ },
+ "HurinkEdata4|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 609,
+  "bound": 609.0,
+  "time": 0.5178539,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 609.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata5|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 655,
+  "bound": 655.0,
+  "time": 1.4081346000000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 655.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "BrandimarteMk7|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 144,
+  "bound": 44.0,
+  "time": 750.05772,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 2,
+  "hint_cmax": 145.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata6|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 550,
+  "bound": 550.0,
+  "time": 3.41801,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 561.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata7|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 568,
+  "bound": 568.0,
+  "time": 2.1656965,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 568.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata8|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 503,
+  "bound": 503.0,
+  "time": 0.4359469,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 503.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata9|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 833,
+  "bound": 833.0,
+  "time": 9.0347,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 833.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata11|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 845,
+  "bound": 845.0,
+  "time": 53.45404400000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 845.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "BrandimarteMk9|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 307,
+  "bound": 130.0,
+  "time": 750.1231212,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 307.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "BrandimarteMk10|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 210,
+  "bound": 113.0,
+  "time": 750.1501963000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1,
+   1,
+   3,
+   1,
+   1
+  ],
+  "pm": 20,
+  "hint_cmax": 214.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkEdata13|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 866,
+  "bound": 866.0,
+  "time": 3.0506638,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 866.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata10|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 762,
+  "bound": 376.0,
+  "time": 600.4256592,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 778.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata12|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 878,
+  "bound": 382.0,
+  "time": 600.4405168000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 878.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata14|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1103,
+  "bound": 413.0,
+  "time": 600.599094,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1106.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata15|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 960,
+  "bound": 408.0,
+  "time": 600.4335235000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 960.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata19|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 892,
+  "bound": 892.0,
+  "time": 105.09446270000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 899.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata20|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 707,
+  "bound": 707.0,
+  "time": 3.6508816,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 707.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata16|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1053,
+  "bound": 382.0,
+  "time": 600.6676641,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1053.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata17|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1123,
+  "bound": 443.0,
+  "time": 600.3975437000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1123.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata18|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1111,
+  "bound": 378.0,
+  "time": 750.0274914000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1111.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata21|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 842,
+  "bound": 712.0,
+  "time": 701.5509547,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 843.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata22|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 796,
+  "bound": 617.0,
+  "time": 662.2502032000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 801.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata23|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 857,
+  "bound": 756.0,
+  "time": 637.7296426,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 864.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata24|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1027,
+  "bound": 717.0,
+  "time": 750.0648167,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 12,
+  "hint_cmax": 1055.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata25|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 882,
+  "bound": 619.0,
+  "time": 750.0397652,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 18,
+  "hint_cmax": 899.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata26|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 950,
+  "bound": 950.0,
+  "time": 571.0135939,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 18,
+  "hint_cmax": 980.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata27|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 923,
+  "bound": 704.0,
+  "time": 750.0551383000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 16,
+  "hint_cmax": 943.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata28|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 941,
+  "bound": 723.0,
+  "time": 750.1113044000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 20,
+  "hint_cmax": 963.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata29|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1148,
+  "bound": 717.0,
+  "time": 750.0852322000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1148.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata30|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1193,
+  "bound": 686.0,
+  "time": 750.0484808000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 12,
+  "hint_cmax": 1228.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata31|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1156,
+  "bound": 756.0,
+  "time": 750.0496329,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 17,
+  "hint_cmax": 1180.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata32|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1150,
+  "bound": 723.0,
+  "time": 750.0868761,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 20,
+  "hint_cmax": 1169.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata33|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1238,
+  "bound": 726.0,
+  "time": 750.0683632,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 20,
+  "hint_cmax": 1259.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata34|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1578,
+  "bound": 717.0,
+  "time": 750.0878866,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 15,
+  "hint_cmax": 1587.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata35|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1698,
+  "bound": 756.0,
+  "time": 602.9835115000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1728.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata36|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1547,
+  "bound": 723.0,
+  "time": 750.0733740000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 13,
+  "hint_cmax": 1575.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata38|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1736,
+  "bound": 647.0,
+  "time": 601.720096,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1736.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata40|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 1397,
+  "bound": 1397.0,
+  "time": 48.608102699999996,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1409.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata37|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1645,
+  "bound": 656.0,
+  "time": 750.0759752,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 7,
+  "hint_cmax": 1648.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata39|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1160,
+  "bound": 948.0,
+  "time": 750.112831,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 25,
+  "hint_cmax": 1187.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata41|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1146,
+  "bound": 943.0,
+  "time": 750.0422285,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 15,
+  "hint_cmax": 1218.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata42|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1187,
+  "bound": 922.0,
+  "time": 750.0574012000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 14,
+  "hint_cmax": 1209.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkEdata43|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1148,
+  "bound": 955.0,
+  "time": 750.0494205,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 30,
+  "hint_cmax": 1186.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata4|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 571,
+  "bound": 413.0,
+  "time": 726.2556461,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 574.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata5|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 530,
+  "bound": 394.0,
+  "time": 603.0709190000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 534.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata7|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 504,
+  "bound": 369.0,
+  "time": 600.4074459,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 506.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata6|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 478,
+  "bound": 349.0,
+  "time": 727.5643795000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 483.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata8|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 458,
+  "bound": 380.0,
+  "time": 604.0653068,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 461.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata9|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 799,
+  "bound": 413.0,
+  "time": 750.0349002,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 9,
+  "hint_cmax": 802.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata10|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 750,
+  "bound": 376.0,
+  "time": 750.0371360000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 750.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkRdata12|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 854,
+  "bound": 382.0,
+  "time": 601.2118429,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 856.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata11|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 766,
+  "bound": 369.0,
+  "time": 680.270346,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 768.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata13|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 805,
+  "bound": 443.0,
+  "time": 750.0610624000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 806.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata14|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1071,
+  "bound": 413.0,
+  "time": 750.0452979000002,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1072.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata15|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 936,
+  "bound": 408.0,
+  "time": 750.0325799000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 937.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata16|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1038,
+  "bound": 382.0,
+  "time": 750.0742354,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1038.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkRdata20|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 646,
+  "bound": 646.0,
+  "time": 1.4317046000000002,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 646.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata21|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 666,
+  "bound": 666.0,
+  "time": 2.5458595,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 669.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata19|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 717,
+  "bound": 717.0,
+  "time": 29.4315824,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 717.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata23|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 756,
+  "bound": 756.0,
+  "time": 1.4443237,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 756.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata22|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 700,
+  "bound": 700.0,
+  "time": 61.7207278,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 719.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata17|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1070,
+  "bound": 443.0,
+  "time": 750.0617751000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 10,
+  "hint_cmax": 1072.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata18|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1090,
+  "bound": 378.0,
+  "time": 750.0572264000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1091.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata24|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 857,
+  "bound": 717.0,
+  "time": 750.0502876,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 16,
+  "hint_cmax": 877.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata25|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 776,
+  "bound": 619.0,
+  "time": 750.0688103000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 17,
+  "hint_cmax": 801.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata26|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 863,
+  "bound": 640.0,
+  "time": 750.0449461000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 20,
+  "hint_cmax": 880.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata27|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 816,
+  "bound": 704.0,
+  "time": 750.0497266,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 18,
+  "hint_cmax": 839.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata28|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 798,
+  "bound": 723.0,
+  "time": 750.0590064,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 19,
+  "hint_cmax": 824.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata29|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1076,
+  "bound": 717.0,
+  "time": 750.0628838,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 20,
+  "hint_cmax": 1080.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata30|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1111,
+  "bound": 686.0,
+  "time": 750.0744277,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 19,
+  "hint_cmax": 1112.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata31|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1089,
+  "bound": 756.0,
+  "time": 750.0928824,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 17,
+  "hint_cmax": 1101.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata32|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1002,
+  "bound": 723.0,
+  "time": 750.0699121,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 20,
+  "hint_cmax": 1018.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata33|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1094,
+  "bound": 726.0,
+  "time": 750.0661249,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 20,
+  "hint_cmax": 1112.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata34|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1531,
+  "bound": 717.0,
+  "time": 750.1648194,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1531.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata35|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1667,
+  "bound": 756.0,
+  "time": 750.1793565,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1669.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata36|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1507,
+  "bound": 723.0,
+  "time": 750.2359129000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 13,
+  "hint_cmax": 1515.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata37|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1546,
+  "bound": 656.0,
+  "time": 750.2229892,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1546.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata38|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1556,
+  "bound": 647.0,
+  "time": 750.1226258,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1556.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata39|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1028,
+  "bound": 1016.0,
+  "time": 745.1862494000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1076.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata40|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1084,
+  "bound": 986.0,
+  "time": 750.0752831,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 27,
+  "hint_cmax": 1133.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata41|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 963,
+  "bound": 943.0,
+  "time": 750.0853357999999,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 29,
+  "hint_cmax": 1014.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata42|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1036,
+  "bound": 922.0,
+  "time": 664.8851330000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1075.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkRdata43|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 978,
+  "bound": 955.0,
+  "time": 750.1275769000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 29,
+  "hint_cmax": 1017.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata5|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 529,
+  "bound": 394.0,
+  "time": 630.6585392,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 530.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata4|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 571,
+  "bound": 413.0,
+  "time": 750.0299651,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 9,
+  "hint_cmax": 572.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata6|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 478,
+  "bound": 349.0,
+  "time": 615.4382548000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 479.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata8|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 458,
+  "bound": 380.0,
+  "time": 600.5109255000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 462.0,
+  "hint_source": "RL:imit-ft [faisceau=5,k=4]"
+ },
+ "HurinkVdata7|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 502,
+  "bound": 369.0,
+  "time": 604.6994268,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 503.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata9|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 799,
+  "bound": 413.0,
+  "time": 750.0359879,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 799.0,
+  "hint_source": "RL:imit-ft [faisceau=5,k=4]"
+ },
+ "HurinkVdata10|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 750,
+  "bound": 376.0,
+  "time": 750.0323370000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 752.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata11|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 766,
+  "bound": 369.0,
+  "time": 750.0496332,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 766.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata12|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 853,
+  "bound": 382.0,
+  "time": 750.0354306,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 5,
+  "hint_cmax": 856.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata13|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 805,
+  "bound": 443.0,
+  "time": 600.7836048,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 805.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata16|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1038,
+  "bound": 382.0,
+  "time": 604.8897394,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1039.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata14|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1071,
+  "bound": 413.0,
+  "time": 750.1496434000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 9,
+  "hint_cmax": 1073.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata19|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 717,
+  "bound": 717.0,
+  "time": 5.365588000000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 717.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata20|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 646,
+  "bound": 646.0,
+  "time": 5.295661300000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 646.0,
+  "hint_source": "LOR+EFT []"
+ },
+ "HurinkVdata21|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 663,
+  "bound": 663.0,
+  "time": 5.4852401,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 663.0,
+  "hint_source": "LPT+EFT []"
+ },
+ "HurinkVdata22|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 617,
+  "bound": 617.0,
+  "time": 6.0183663,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 617.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata23|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 756,
+  "bound": 756.0,
+  "time": 5.4831342,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 756.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata15|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 936,
+  "bound": 408.0,
+  "time": 750.0744178,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 8,
+  "hint_cmax": 938.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata17|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1070,
+  "bound": 443.0,
+  "time": 750.0690983000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 7,
+  "hint_cmax": 1071.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata18|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1090,
+  "bound": 378.0,
+  "time": 750.0597878,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1090.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata24|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 807,
+  "bound": 717.0,
+  "time": 750.167178,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 20,
+  "hint_cmax": 809.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata25|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 738,
+  "bound": 619.0,
+  "time": 750.1366023,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 740.0,
+  "hint_source": "RL:imit-ft [faisceau=5,k=4]"
+ },
+ "HurinkVdata26|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 811,
+  "bound": 640.0,
+  "time": 750.2314997000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 814.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata27|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 778,
+  "bound": 704.0,
+  "time": 750.1620008,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 778.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata28|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 758,
+  "bound": 723.0,
+  "time": 750.1701886000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 16,
+  "hint_cmax": 759.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata29|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1055,
+  "bound": 717.0,
+  "time": 750.2505076,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1055.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata30|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1086,
+  "bound": 686.0,
+  "time": 750.2109789000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1086.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata31|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1070,
+  "bound": 756.0,
+  "time": 750.2581514000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 15,
+  "hint_cmax": 1071.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata32|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 996,
+  "bound": 723.0,
+  "time": 750.2305664,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 996.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata33|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1072,
+  "bound": 726.0,
+  "time": 750.3091027,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 13,
+  "hint_cmax": 1073.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata34|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1521,
+  "bound": 717.0,
+  "time": 750.6480375000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1521.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata35|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1660,
+  "bound": 756.0,
+  "time": 612.6459388000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1660.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata39|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 948,
+  "bound": 948.0,
+  "time": 32.051040400000005,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 948.0,
+  "hint_source": "RL:imit-ft [faisceau=5,k=4]"
+ },
+ "HurinkVdata40|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 986,
+  "bound": 986.0,
+  "time": 33.538770500000005,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 986.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata41|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 943,
+  "bound": 943.0,
+  "time": 29.836152400000003,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 943.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata42|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 922,
+  "bound": 922.0,
+  "time": 30.684428699999998,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 922.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata43|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 955,
+  "bound": 955.0,
+  "time": 36.349618,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 955.0,
+  "hint_source": "Recherche tabou [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "Kacem1|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 11,
+  "bound": 11.0,
+  "time": 0.29322980000000004,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 11.0,
+  "hint_source": "LPT+EFT []"
+ },
+ "Kacem2|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 11,
+  "bound": 11.0,
+  "time": 1.4760176,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 11.0,
+  "hint_source": "MOR+EFT []"
+ },
+ "Kacem3|1000|temps=600,segments=valide": {
+  "status": "OPTIMAL",
+  "cmax": 7,
+  "bound": 7.0,
+  "time": 1.8564565000000002,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 7.0,
+  "hint_source": "Recuit simul\u00e9 [evals=50000,depart=heuristique,params=taguchi]"
+ },
+ "HurinkVdata38|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1551,
+  "bound": 647.0,
+  "time": 615.9157761,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1552.0,
+  "hint_source": "RL:imit-ft [faisceau=50,k=5]"
+ },
+ "HurinkVdata36|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1499,
+  "bound": 723.0,
+  "time": 750.4761804000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 1499.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "HurinkVdata37|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 1536,
+  "bound": 656.0,
+  "time": 750.4696250000001,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 18,
+  "hint_cmax": 1537.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ },
+ "Kacem4|1000|temps=600,segments=valide": {
+  "status": "FEASIBLE",
+  "cmax": 11,
+  "bound": 10.0,
+  "time": 605.4345617,
+  "S": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pm": 0,
+  "hint_cmax": 11.0,
+  "hint_source": "Faisceau:regle [faisceau=50,k=0]"
+ }
+}

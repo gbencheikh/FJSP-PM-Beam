@@ -1,0 +1,358 @@
+
+### 2026-10-08T08:01:27 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe cpsat_article1.py --familles Brandimarte HurinkLa Kacem --temps 600 --workers 2 --instances-paralleles 4
+134 instances, 600 s chacune, 2 fils, 4 en parallèle
+BrandimarteMk2 : OPTIMAL C_max 31 borne 31.0 (départ 31.0) 208 s
+BrandimarteMk1 : OPTIMAL C_max 50 borne 50.0 (départ 51.0) 556 s
+BrandimarteMk4 : FEASIBLE C_max 72 borne 35.0 (départ 72.0) 750 s
+BrandimarteMk3 : FEASIBLE C_max 219 borne 63.0 (départ 219.0) 750 s
+BrandimarteMk5 : FEASIBLE C_max 184 borne 59.0 (départ 185.0) 750 s
+BrandimarteMk6 : FEASIBLE C_max 68 borne 33.0 (départ 68.0) 727 s
+BrandimarteMk7 : FEASIBLE C_max 153 borne 44.0 (départ 156.0) 750 s
+BrandimarteMk8 : FEASIBLE C_max 556 borne 162.0 (départ 556.0) 750 s
+HurinkEdata4 : OPTIMAL C_max 723 borne 723.0 (départ 723.0) 20 s
+HurinkEdata6 : OPTIMAL C_max 645 borne 645.0 (départ 645.0) 97 s
+HurinkEdata5 : OPTIMAL C_max 814 borne 814.0 (départ 814.0) 121 s
+HurinkEdata7 : OPTIMAL C_max 675 borne 675.0 (départ 675.0) 14 s
+HurinkEdata8 : OPTIMAL C_max 595 borne 595.0 (départ 595.0) 47 s
+BrandimarteMk9 : FEASIBLE C_max 325 borne 130.0 (départ 325.0) 750 s
+BrandimarteMk10 : FEASIBLE C_max 235 borne 113.0 (départ 235.0) 684 s
+HurinkEdata9 : FEASIBLE C_max 902 borne 413.0 (départ 902.0) 750 s
+HurinkEdata10 : FEASIBLE C_max 852 borne 376.0 (départ 859.0) 750 s
+HurinkEdata11 : FEASIBLE C_max 905 borne 369.0 (départ 905.0) 750 s
+HurinkEdata12 : FEASIBLE C_max 972 borne 382.0 (départ 972.0) 750 s
+HurinkEdata13 : FEASIBLE C_max 974 borne 443.0 (départ 974.0) 605 s
+HurinkEdata14 : FEASIBLE C_max 1181 borne 413.0 (départ 1181.0) 750 s
+HurinkEdata15 : FEASIBLE C_max 1054 borne 408.0 (départ 1054.0) 750 s
+HurinkEdata16 : FEASIBLE C_max 1135 borne 382.0 (départ 1135.0) 750 s
+HurinkEdata17 : FEASIBLE C_max 1208 borne 443.0 (départ 1208.0) 750 s
+HurinkEdata18 : FEASIBLE C_max 1219 borne 378.0 (départ 1219.0) 740 s
+HurinkEdata19 : FEASIBLE C_max 989 borne 717.0 (départ 1013.0) 750 s
+HurinkEdata20 : FEASIBLE C_max 777 borne 646.0 (départ 814.0) 750 s
+HurinkEdata21 : FEASIBLE C_max 919 borne 736.0 (départ 944.0) 661 s
+HurinkEdata22 : FEASIBLE C_max 844 borne 617.0 (départ 874.0) 750 s
+HurinkEdata23 : FEASIBLE C_max 925 borne 756.0 (départ 944.0) 750 s
+HurinkEdata24 : FEASIBLE C_max 1095 borne 717.0 (départ 1113.0) 750 s
+HurinkEdata25 : FEASIBLE C_max 937 borne 619.0 (départ 937.0) 750 s
+HurinkEdata26 : FEASIBLE C_max 1058 borne 640.0 (départ 1058.0) 750 s
+HurinkEdata27 : FEASIBLE C_max 1016 borne 704.0 (départ 1016.0) 750 s
+HurinkEdata28 : FEASIBLE C_max 993 borne 723.0 (départ 1004.0) 750 s
+HurinkEdata29 : FEASIBLE C_max 1207 borne 717.0 (départ 1209.0) 750 s
+HurinkEdata30 : FEASIBLE C_max 1289 borne 686.0 (départ 1289.0) 750 s
+HurinkEdata31 : FEASIBLE C_max 1248 borne 756.0 (départ 1248.0) 750 s
+HurinkEdata32 : FEASIBLE C_max 1200 borne 723.0 (départ 1237.0) 750 s
+HurinkEdata33 : FEASIBLE C_max 1308 borne 726.0 (départ 1322.0) 750 s
+HurinkEdata34 : FEASIBLE C_max 1631 borne 717.0 (départ 1631.0) 750 s
+HurinkEdata35 : FEASIBLE C_max 1766 borne 756.0 (départ 1766.0) 750 s
+HurinkEdata36 : FEASIBLE C_max 1647 borne 723.0 (départ 1647.0) 750 s
+HurinkEdata37 : FEASIBLE C_max 1715 borne 656.0 (départ 1715.0) 750 s
+HurinkEdata38 : FEASIBLE C_max 1840 borne 647.0 (départ 1840.0) 750 s
+HurinkEdata39 : FEASIBLE C_max 1241 borne 948.0 (départ 1248.0) 750 s
+
+### 2026-10-08T16:05:54 C:\msys64\ucrt64\bin\python.exe cpsat_article1.py --familles Brandimarte HurinkLa Kacem --temps 600 --workers 2 --instances-paralleles 4
+Traceback (most recent call last):
+  File "D:\Workspace\RL_FJSSP_PM\jssp_pm\jssp_pm\cpsat_article1.py", line 20, in <module>
+    from jssp_pm.fjsp_cpsat import solve, check
+  File "D:\Workspace\RL_FJSSP_PM\jssp_pm\jssp_pm\jssp_pm\fjsp_cpsat.py", line 10, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+### 2026-10-08T16:06:57 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe cpsat_article1.py --familles Brandimarte HurinkLa Kacem --temps 600 --workers 2 --instances-paralleles 4
+88 instances, 600 s chacune, 2 fils, 4 en parallèle
+HurinkEdata43 : FEASIBLE C_max 1220 borne 955.0 (départ 1240.0) 750 s
+HurinkEdata40 : FEASIBLE C_max 1509 borne 986.0 (départ 1521.0) 749 s
+HurinkEdata42 : FEASIBLE C_max 1275 borne 922.0 (départ 1290.0) 750 s
+HurinkEdata41 : FEASIBLE C_max 1214 borne 943.0 (départ 1262.0) 750 s
+HurinkRdata4 : FEASIBLE C_max 667 borne 413.0 (départ 668.0) 750 s
+HurinkRdata6 : FEASIBLE C_max 557 borne 349.0 (départ 560.0) 750 s
+HurinkRdata5 : FEASIBLE C_max 623 borne 394.0 (départ 625.0) 750 s
+HurinkRdata7 : FEASIBLE C_max 586 borne 369.0 (départ 587.0) 750 s
+HurinkRdata8 : FEASIBLE C_max 532 borne 380.0 (départ 537.0) 750 s
+HurinkRdata9 : FEASIBLE C_max 884 borne 413.0 (départ 884.0) 750 s
+HurinkRdata10 : FEASIBLE C_max 830 borne 376.0 (départ 832.0) 750 s
+HurinkRdata11 : FEASIBLE C_max 848 borne 369.0 (départ 848.0) 750 s
+HurinkRdata12 : FEASIBLE C_max 947 borne 382.0 (départ 947.0) 750 s
+HurinkRdata13 : FEASIBLE C_max 891 borne 443.0 (départ 892.0) 751 s
+HurinkRdata15 : FEASIBLE C_max 1012 borne 408.0 (départ 1012.0) 750 s
+HurinkRdata14 : FEASIBLE C_max 1158 borne 413.0 (départ 1158.0) 750 s
+HurinkRdata16 : FEASIBLE C_max 1122 borne 382.0 (départ 1122.0) 750 s
+HurinkRdata17 : FEASIBLE C_max 1154 borne 443.0 (départ 1155.0) 750 s
+HurinkRdata18 : FEASIBLE C_max 1177 borne 378.0 (départ 1177.0) 750 s
+HurinkRdata19 : FEASIBLE C_max 762 borne 717.0 (départ 767.0) 750 s
+HurinkRdata20 : OPTIMAL C_max 654 borne 654.0 (départ 678.0) 519 s
+HurinkRdata21 : FEASIBLE C_max 706 borne 663.0 (départ 729.0) 750 s
+HurinkRdata22 : FEASIBLE C_max 747 borne 617.0 (départ 768.0) 750 s
+HurinkRdata23 : FEASIBLE C_max 774 borne 756.0 (départ 800.0) 750 s
+HurinkRdata24 : FEASIBLE C_max 934 borne 717.0 (départ 936.0) 750 s
+HurinkRdata25 : FEASIBLE C_max 850 borne 619.0 (départ 863.0) 750 s
+HurinkRdata26 : FEASIBLE C_max 936 borne 640.0 (départ 941.0) 750 s
+HurinkRdata27 : FEASIBLE C_max 899 borne 704.0 (départ 899.0) 750 s
+HurinkRdata28 : FEASIBLE C_max 877 borne 723.0 (départ 883.0) 751 s
+HurinkRdata29 : FEASIBLE C_max 1144 borne 717.0 (départ 1144.0) 750 s
+HurinkRdata30 : FEASIBLE C_max 1177 borne 686.0 (départ 1177.0) 751 s
+HurinkRdata31 : FEASIBLE C_max 1163 borne 756.0 (départ 1163.0) 750 s
+HurinkRdata32 : FEASIBLE C_max 1077 borne 723.0 (départ 1080.0) 751 s
+HurinkRdata33 : FEASIBLE C_max 1162 borne 726.0 (départ 1162.0) 750 s
+HurinkRdata35 : FEASIBLE C_max 1734 borne 756.0 (départ 1735.0) 750 s
+HurinkRdata34 : FEASIBLE C_max 1591 borne 717.0 (départ 1591.0) 750 s
+HurinkRdata36 : FEASIBLE C_max 1567 borne 723.0 (départ 1567.0) 750 s
+HurinkRdata37 : FEASIBLE C_max 1605 borne 656.0 (départ 1605.0) 750 s
+HurinkRdata38 : FEASIBLE C_max 1624 borne 647.0 (départ 1624.0) 750 s
+HurinkRdata39 : FEASIBLE C_max 1109 borne 948.0 (départ 1116.0) 751 s
+HurinkRdata40 : FEASIBLE C_max 1172 borne 986.0 (départ 1175.0) 751 s
+HurinkRdata41 : FEASIBLE C_max 1058 borne 943.0 (départ 1063.0) 751 s
+HurinkRdata42 : FEASIBLE C_max 1107 borne 922.0 (départ 1116.0) 751 s
+HurinkRdata43 : FEASIBLE C_max 1042 borne 955.0 (départ 1061.0) 750 s
+HurinkVdata4 : FEASIBLE C_max 663 borne 413.0 (départ 666.0) 750 s
+HurinkVdata6 : FEASIBLE C_max 557 borne 349.0 (départ 558.0) 750 s
+HurinkVdata5 : FEASIBLE C_max 615 borne 394.0 (départ 616.0) 750 s
+HurinkVdata7 : FEASIBLE C_max 584 borne 369.0 (départ 585.0) 750 s
+HurinkVdata8 : FEASIBLE C_max 535 borne 380.0 (départ 539.0) 750 s
+HurinkVdata9 : FEASIBLE C_max 885 borne 413.0 (départ 885.0) 750 s
+HurinkVdata11 : FEASIBLE C_max 848 borne 369.0 (départ 848.0) 750 s
+HurinkVdata10 : FEASIBLE C_max 831 borne 376.0 (départ 831.0) 750 s
+HurinkVdata12 : FEASIBLE C_max 945 borne 382.0 (départ 945.0) 750 s
+HurinkVdata13 : FEASIBLE C_max 891 borne 443.0 (départ 891.0) 750 s
+HurinkVdata14 : FEASIBLE C_max 1158 borne 413.0 (départ 1158.0) 750 s
+HurinkVdata15 : FEASIBLE C_max 1011 borne 408.0 (départ 1011.0) 750 s
+HurinkVdata19 : OPTIMAL C_max 717 borne 717.0 (départ 717.0) 207 s
+HurinkVdata20 : OPTIMAL C_max 646 borne 646.0 (départ 646.0) 208 s
+HurinkVdata16 : FEASIBLE C_max 1121 borne 382.0 (départ 1121.0) 750 s
+HurinkVdata21 : OPTIMAL C_max 663 borne 663.0 (départ 663.0) 214 s
+HurinkVdata17 : FEASIBLE C_max 1154 borne 443.0 (départ 1154.0) 750 s
+HurinkVdata18 : FEASIBLE C_max 1176 borne 378.0 (départ 1176.0) 751 s
+HurinkVdata23 : OPTIMAL C_max 756 borne 756.0 (départ 756.0) 230 s
+HurinkVdata22 : FEASIBLE C_max 645 borne 617.0 (départ 652.0) 750 s
+HurinkVdata24 : FEASIBLE C_max 875 borne 717.0 (départ 875.0) 723 s
+HurinkVdata25 : FEASIBLE C_max 806 borne 619.0 (départ 808.0) 751 s
+HurinkVdata26 : FEASIBLE C_max 886 borne 640.0 (départ 890.0) 750 s
+HurinkVdata27 : FEASIBLE C_max 846 borne 704.0 (départ 847.0) 728 s
+HurinkVdata28 : FEASIBLE C_max 823 borne 723.0 (départ 825.0) 720 s
+HurinkVdata29 : FEASIBLE C_max 1123 borne 717.0 (départ 1123.0) 729 s
+HurinkVdata30 : FEASIBLE C_max 1157 borne 686.0 (départ 1157.0) 745 s
+HurinkVdata31 : FEASIBLE C_max 1142 borne 756.0 (départ 1142.0) 679 s
+HurinkVdata34 : UNKNOWN C_max None borne 0.0 (départ 1587.0) 463 s
+HurinkVdata32 : FEASIBLE C_max 1062 borne 723.0 (départ 1062.0) 714 s
+HurinkVdata33 : FEASIBLE C_max 1140 borne 726.0 (départ 1141.0) 744 s
+HurinkVdata36 : UNKNOWN C_max None borne 0.0 (départ 1564.0) 460 s
+HurinkVdata35 : FEASIBLE C_max 1730 borne 756.0 (départ 1730.0) 729 s
+HurinkVdata37 : FEASIBLE C_max 1602 borne 656.0 (départ 1602.0) 721 s
+HurinkVdata38 : FEASIBLE C_max 1618 borne 647.0 (départ 1618.0) 723 s
+HurinkVdata39 : UNKNOWN C_max None borne 0.0 (départ 948.0) 526 s
+HurinkVdata40 : UNKNOWN C_max None borne 0.0 (départ 987.0) 498 s
+Check failed: heuristics.fixed_search != nullptr 
+*** Check failure stack trace: ***
+    @   00007FFF261DF7EC  (unknown)
+    @   00007FFF260FFFE4  (unknown)
+    @   00007FFF260D5035  (unknown)
+    @   00007FFF26361BAF  (unknown)
+    @   00007FFF25B3A329  (unknown)
+    @   00007FFFF6A037B0  (unknown)
+    @   00007FFFF718E8D7  (unknown)
+    @   00007FFFF8EEC53C  (unknown)
+Kacem2 : OPTIMAL C_max 11 borne 11.0 (départ 11.0) 12 s
+Kacem3 : OPTIMAL C_max 7 borne 7.0 (départ 7.0) 25 s
+HurinkVdata42 : UNKNOWN C_max None borne 0.0 (départ 935.0) 492 s
+HurinkVdata41 : OPTIMAL C_max 943 borne 943.0 (départ 943.0) 629 s
+HurinkVdata43 : UNKNOWN C_max None borne 0.0 (départ 955.0) 517 s
+Kacem4 : FEASIBLE C_max 11 borne 10.0 (départ 11.0) 616 s
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "D:\programmes\Python311\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programmes\Python311\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Accès refusé
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "D:\programmes\Python311\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programmes\Python311\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Accès refusé
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "D:\programmes\Python311\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programmes\Python311\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Accès refusé
+
+### 2026-10-09T09:12:50 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe cpsat_article1.py --familles Brandimarte HurinkLa Kacem --temps 600 --workers 2 --instances-paralleles 4
+1 instances, 600 s chacune, 2 fils, 4 en parallèle
+Kacem1 : OPTIMAL C_max 11 borne 11.0 (départ 11.0) 0 s
+
+### 2026-10-09T09:12:53 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe cpsat_article1.py --familles Brandimarte HurinkLa Kacem --facteur-seuil 1000 --temps 600 --workers 2 --instances-paralleles 4
+134 instances, 600 s chacune, 2 fils, 4 en parallèle
+BrandimarteMk1 : OPTIMAL C_max 40 borne 40.0 (départ 40.0) 1 s
+BrandimarteMk4 : OPTIMAL C_max 60 borne 60.0 (départ 67.0) 32 s
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "D:\programmes\Python311\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programmes\Python311\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Accès refusé
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "D:\programmes\Python311\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programmes\Python311\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Accès refusé
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "D:\programmes\Python311\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programmes\Python311\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Accès refusé
+
+### 2026-10-09T09:16:45 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe cpsat_article1.py --familles Brandimarte HurinkLa Kacem --temps 600 --workers 2 --instances-paralleles 4
+0 instances, 600 s chacune, 2 fils, 4 en parallèle
+
+### 2026-10-09T09:16:46 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe cpsat_article1.py --familles Brandimarte HurinkLa Kacem --facteur-seuil 1000 --temps 600 --workers 2 --instances-paralleles 4
+132 instances, 600 s chacune, 2 fils, 4 en parallèle
+BrandimarteMk3 : FEASIBLE C_max 204 borne 63.0 (départ 204.0) 609 s
+BrandimarteMk5 : FEASIBLE C_max 173 borne 59.0 (départ 175.0) 750 s
+BrandimarteMk2 : FEASIBLE C_max 27 borne 25.0 (départ 28.0) 750 s
+BrandimarteMk6 : FEASIBLE C_max 61 borne 33.0 (départ 66.0) 750 s
+BrandimarteMk8 : FEASIBLE C_max 523 borne 162.0 (départ 523.0) 602 s
+HurinkEdata4 : OPTIMAL C_max 609 borne 609.0 (départ 609.0) 1 s
+HurinkEdata5 : OPTIMAL C_max 655 borne 655.0 (départ 655.0) 1 s
+BrandimarteMk7 : FEASIBLE C_max 144 borne 44.0 (départ 145.0) 750 s
+HurinkEdata6 : OPTIMAL C_max 550 borne 550.0 (départ 561.0) 3 s
+HurinkEdata7 : OPTIMAL C_max 568 borne 568.0 (départ 568.0) 2 s
+HurinkEdata8 : OPTIMAL C_max 503 borne 503.0 (départ 503.0) 0 s
+HurinkEdata9 : OPTIMAL C_max 833 borne 833.0 (départ 833.0) 9 s
+HurinkEdata11 : OPTIMAL C_max 845 borne 845.0 (départ 845.0) 53 s
+BrandimarteMk9 : FEASIBLE C_max 307 borne 130.0 (départ 307.0) 750 s
+BrandimarteMk10 : FEASIBLE C_max 210 borne 113.0 (départ 214.0) 750 s
+HurinkEdata13 : OPTIMAL C_max 866 borne 866.0 (départ 866.0) 3 s
+HurinkEdata10 : FEASIBLE C_max 762 borne 376.0 (départ 778.0) 600 s
+HurinkEdata12 : FEASIBLE C_max 878 borne 382.0 (départ 878.0) 600 s
+HurinkEdata14 : FEASIBLE C_max 1103 borne 413.0 (départ 1106.0) 601 s
+HurinkEdata15 : FEASIBLE C_max 960 borne 408.0 (départ 960.0) 600 s
+HurinkEdata19 : OPTIMAL C_max 892 borne 892.0 (départ 899.0) 105 s
+HurinkEdata20 : OPTIMAL C_max 707 borne 707.0 (départ 707.0) 4 s
+HurinkEdata16 : FEASIBLE C_max 1053 borne 382.0 (départ 1053.0) 601 s
+HurinkEdata17 : FEASIBLE C_max 1123 borne 443.0 (départ 1123.0) 600 s
+HurinkEdata18 : FEASIBLE C_max 1111 borne 378.0 (départ 1111.0) 750 s
+HurinkEdata21 : FEASIBLE C_max 842 borne 712.0 (départ 843.0) 702 s
+HurinkEdata22 : FEASIBLE C_max 796 borne 617.0 (départ 801.0) 662 s
+HurinkEdata23 : FEASIBLE C_max 857 borne 756.0 (départ 864.0) 638 s
+HurinkEdata24 : FEASIBLE C_max 1027 borne 717.0 (départ 1055.0) 750 s
+HurinkEdata25 : FEASIBLE C_max 882 borne 619.0 (départ 899.0) 750 s
+HurinkEdata26 : OPTIMAL C_max 950 borne 950.0 (départ 980.0) 571 s
+HurinkEdata27 : FEASIBLE C_max 923 borne 704.0 (départ 943.0) 750 s
+HurinkEdata28 : FEASIBLE C_max 941 borne 723.0 (départ 963.0) 750 s
+HurinkEdata29 : FEASIBLE C_max 1148 borne 717.0 (départ 1148.0) 750 s
+HurinkEdata30 : FEASIBLE C_max 1193 borne 686.0 (départ 1228.0) 750 s
+HurinkEdata31 : FEASIBLE C_max 1156 borne 756.0 (départ 1180.0) 750 s
+HurinkEdata32 : FEASIBLE C_max 1150 borne 723.0 (départ 1169.0) 750 s
+HurinkEdata33 : FEASIBLE C_max 1238 borne 726.0 (départ 1259.0) 750 s
+HurinkEdata34 : FEASIBLE C_max 1578 borne 717.0 (départ 1587.0) 750 s
+HurinkEdata35 : FEASIBLE C_max 1698 borne 756.0 (départ 1728.0) 603 s
+HurinkEdata36 : FEASIBLE C_max 1547 borne 723.0 (départ 1575.0) 750 s
+HurinkEdata38 : FEASIBLE C_max 1736 borne 647.0 (départ 1736.0) 602 s
+HurinkEdata40 : OPTIMAL C_max 1397 borne 1397.0 (départ 1409.0) 49 s
+HurinkEdata37 : FEASIBLE C_max 1645 borne 656.0 (départ 1648.0) 750 s
+HurinkEdata39 : FEASIBLE C_max 1160 borne 948.0 (départ 1187.0) 750 s
+HurinkEdata41 : FEASIBLE C_max 1146 borne 943.0 (départ 1218.0) 750 s
+HurinkEdata42 : FEASIBLE C_max 1187 borne 922.0 (départ 1209.0) 750 s
+HurinkEdata43 : FEASIBLE C_max 1148 borne 955.0 (départ 1186.0) 750 s
+HurinkRdata4 : FEASIBLE C_max 571 borne 413.0 (départ 574.0) 726 s
+HurinkRdata5 : FEASIBLE C_max 530 borne 394.0 (départ 534.0) 603 s
+HurinkRdata7 : FEASIBLE C_max 504 borne 369.0 (départ 506.0) 600 s
+HurinkRdata6 : FEASIBLE C_max 478 borne 349.0 (départ 483.0) 728 s
+HurinkRdata8 : FEASIBLE C_max 458 borne 380.0 (départ 461.0) 604 s
+HurinkRdata9 : FEASIBLE C_max 799 borne 413.0 (départ 802.0) 750 s
+HurinkRdata10 : FEASIBLE C_max 750 borne 376.0 (départ 750.0) 750 s
+HurinkRdata12 : FEASIBLE C_max 854 borne 382.0 (départ 856.0) 601 s
+HurinkRdata11 : FEASIBLE C_max 766 borne 369.0 (départ 768.0) 680 s
+HurinkRdata13 : FEASIBLE C_max 805 borne 443.0 (départ 806.0) 750 s
+HurinkRdata14 : FEASIBLE C_max 1071 borne 413.0 (départ 1072.0) 750 s
+HurinkRdata15 : FEASIBLE C_max 936 borne 408.0 (départ 937.0) 750 s
+HurinkRdata16 : FEASIBLE C_max 1038 borne 382.0 (départ 1038.0) 750 s
+HurinkRdata20 : OPTIMAL C_max 646 borne 646.0 (départ 646.0) 1 s
+HurinkRdata21 : OPTIMAL C_max 666 borne 666.0 (départ 669.0) 3 s
+HurinkRdata19 : OPTIMAL C_max 717 borne 717.0 (départ 717.0) 29 s
+HurinkRdata23 : OPTIMAL C_max 756 borne 756.0 (départ 756.0) 1 s
+HurinkRdata22 : OPTIMAL C_max 700 borne 700.0 (départ 719.0) 62 s
+HurinkRdata17 : FEASIBLE C_max 1070 borne 443.0 (départ 1072.0) 750 s
+HurinkRdata18 : FEASIBLE C_max 1090 borne 378.0 (départ 1091.0) 750 s
+HurinkRdata24 : FEASIBLE C_max 857 borne 717.0 (départ 877.0) 750 s
+HurinkRdata25 : FEASIBLE C_max 776 borne 619.0 (départ 801.0) 750 s
+HurinkRdata26 : FEASIBLE C_max 863 borne 640.0 (départ 880.0) 750 s
+HurinkRdata27 : FEASIBLE C_max 816 borne 704.0 (départ 839.0) 750 s
+HurinkRdata28 : FEASIBLE C_max 798 borne 723.0 (départ 824.0) 750 s
+HurinkRdata29 : FEASIBLE C_max 1076 borne 717.0 (départ 1080.0) 750 s
+HurinkRdata30 : FEASIBLE C_max 1111 borne 686.0 (départ 1112.0) 750 s
+HurinkRdata31 : FEASIBLE C_max 1089 borne 756.0 (départ 1101.0) 750 s
+HurinkRdata32 : FEASIBLE C_max 1002 borne 723.0 (départ 1018.0) 750 s
+HurinkRdata33 : FEASIBLE C_max 1094 borne 726.0 (départ 1112.0) 750 s
+HurinkRdata34 : FEASIBLE C_max 1531 borne 717.0 (départ 1531.0) 750 s
+HurinkRdata35 : FEASIBLE C_max 1667 borne 756.0 (départ 1669.0) 750 s
+HurinkRdata36 : FEASIBLE C_max 1507 borne 723.0 (départ 1515.0) 750 s
+HurinkRdata37 : FEASIBLE C_max 1546 borne 656.0 (départ 1546.0) 750 s
+HurinkRdata38 : FEASIBLE C_max 1556 borne 647.0 (départ 1556.0) 750 s
+HurinkRdata39 : FEASIBLE C_max 1028 borne 1016.0 (départ 1076.0) 745 s
+HurinkRdata40 : FEASIBLE C_max 1084 borne 986.0 (départ 1133.0) 750 s
+HurinkRdata41 : FEASIBLE C_max 963 borne 943.0 (départ 1014.0) 750 s
+HurinkRdata42 : FEASIBLE C_max 1036 borne 922.0 (départ 1075.0) 665 s
+HurinkRdata43 : FEASIBLE C_max 978 borne 955.0 (départ 1017.0) 750 s
+HurinkVdata5 : FEASIBLE C_max 529 borne 394.0 (départ 530.0) 631 s
+HurinkVdata4 : FEASIBLE C_max 571 borne 413.0 (départ 572.0) 750 s
+HurinkVdata6 : FEASIBLE C_max 478 borne 349.0 (départ 479.0) 615 s
+HurinkVdata8 : FEASIBLE C_max 458 borne 380.0 (départ 462.0) 601 s
+HurinkVdata7 : FEASIBLE C_max 502 borne 369.0 (départ 503.0) 605 s
+HurinkVdata9 : FEASIBLE C_max 799 borne 413.0 (départ 799.0) 750 s
+HurinkVdata10 : FEASIBLE C_max 750 borne 376.0 (départ 752.0) 750 s
+HurinkVdata11 : FEASIBLE C_max 766 borne 369.0 (départ 766.0) 750 s
+HurinkVdata12 : FEASIBLE C_max 853 borne 382.0 (départ 856.0) 750 s
+HurinkVdata13 : FEASIBLE C_max 805 borne 443.0 (départ 805.0) 601 s
+HurinkVdata16 : FEASIBLE C_max 1038 borne 382.0 (départ 1039.0) 605 s
+HurinkVdata14 : FEASIBLE C_max 1071 borne 413.0 (départ 1073.0) 750 s
+HurinkVdata19 : OPTIMAL C_max 717 borne 717.0 (départ 717.0) 5 s
+HurinkVdata20 : OPTIMAL C_max 646 borne 646.0 (départ 646.0) 5 s
+HurinkVdata21 : OPTIMAL C_max 663 borne 663.0 (départ 663.0) 5 s
+HurinkVdata22 : OPTIMAL C_max 617 borne 617.0 (départ 617.0) 6 s
+HurinkVdata23 : OPTIMAL C_max 756 borne 756.0 (départ 756.0) 5 s
+HurinkVdata15 : FEASIBLE C_max 936 borne 408.0 (départ 938.0) 750 s
+HurinkVdata17 : FEASIBLE C_max 1070 borne 443.0 (départ 1071.0) 750 s
+HurinkVdata18 : FEASIBLE C_max 1090 borne 378.0 (départ 1090.0) 750 s
+HurinkVdata24 : FEASIBLE C_max 807 borne 717.0 (départ 809.0) 750 s
+HurinkVdata25 : FEASIBLE C_max 738 borne 619.0 (départ 740.0) 750 s
+HurinkVdata26 : FEASIBLE C_max 811 borne 640.0 (départ 814.0) 750 s
+HurinkVdata27 : FEASIBLE C_max 778 borne 704.0 (départ 778.0) 750 s
+HurinkVdata28 : FEASIBLE C_max 758 borne 723.0 (départ 759.0) 750 s
+HurinkVdata29 : FEASIBLE C_max 1055 borne 717.0 (départ 1055.0) 750 s
+HurinkVdata30 : FEASIBLE C_max 1086 borne 686.0 (départ 1086.0) 750 s
+HurinkVdata31 : FEASIBLE C_max 1070 borne 756.0 (départ 1071.0) 750 s
+HurinkVdata32 : FEASIBLE C_max 996 borne 723.0 (départ 996.0) 750 s
+HurinkVdata33 : FEASIBLE C_max 1072 borne 726.0 (départ 1073.0) 750 s
+HurinkVdata34 : FEASIBLE C_max 1521 borne 717.0 (départ 1521.0) 751 s
+HurinkVdata35 : FEASIBLE C_max 1660 borne 756.0 (départ 1660.0) 613 s
+HurinkVdata39 : OPTIMAL C_max 948 borne 948.0 (départ 948.0) 32 s
+HurinkVdata40 : OPTIMAL C_max 986 borne 986.0 (départ 986.0) 34 s
+HurinkVdata41 : OPTIMAL C_max 943 borne 943.0 (départ 943.0) 30 s
+HurinkVdata42 : OPTIMAL C_max 922 borne 922.0 (départ 922.0) 31 s
+HurinkVdata43 : OPTIMAL C_max 955 borne 955.0 (départ 955.0) 36 s
+Kacem1 : OPTIMAL C_max 11 borne 11.0 (départ 11.0) 0 s
+Kacem2 : OPTIMAL C_max 11 borne 11.0 (départ 11.0) 1 s
+Kacem3 : OPTIMAL C_max 7 borne 7.0 (départ 7.0) 2 s
+HurinkVdata38 : FEASIBLE C_max 1551 borne 647.0 (départ 1552.0) 616 s
+HurinkVdata36 : FEASIBLE C_max 1499 borne 723.0 (départ 1499.0) 750 s
+HurinkVdata37 : FEASIBLE C_max 1536 borne 656.0 (départ 1537.0) 750 s
+Kacem4 : FEASIBLE C_max 11 borne 10.0 (départ 11.0) 605 s

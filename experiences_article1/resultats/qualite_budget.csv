@@ -1,0 +1,35 @@
+serie,config,plannings_evalues_moyens,ecart_moyen_pct,instances
+Policy-guided beam,"faisceau=1,k=2",401.1,1.773,127
+Policy-guided beam,"faisceau=1,k=4",707.6,1.486,127
+Policy-guided beam,"faisceau=10,k=4",7161.5,0.343,127
+Policy-guided beam,"faisceau=100,k=4",70820.7,-0.203,127
+Policy-guided beam,"faisceau=100,k=5",83018.7,-0.149,127
+Policy-guided beam,"faisceau=20,k=2",7864.0,0.634,127
+Policy-guided beam,"faisceau=20,k=4",14240.4,0.274,127
+Policy-guided beam,"faisceau=200,k=4",139381.6,-0.468,127
+Policy-guided beam,"faisceau=5,k=2",1994.1,1.381,127
+Policy-guided beam,"faisceau=5,k=4",3580.3,0.765,127
+Policy-guided beam,"faisceau=50,k=2",19405.6,0.387,127
+Policy-guided beam,"faisceau=50,k=4",34962.0,-0.128,127
+Policy-guided beam,"faisceau=50,k=5",41326.2,0.05,127
+Rule-only beam (no network),"faisceau=100,k=0",126089.5,0.155,127
+Rule-only beam (no network),"faisceau=20,k=0",24748.4,0.661,127
+Rule-only beam (no network),"faisceau=200,k=0",248089.1,0.015,127
+Rule-only beam (no network),"faisceau=5,k=0",5856.5,1.014,127
+Rule-only beam (no network),"faisceau=50,k=0",62100.3,0.365,127
+Simulated annealing,"evals=10000,depart=heuristique,params=taguchi",10000.0,3.549,127
+Simulated annealing,"evals=100000,depart=heuristique,params=taguchi",100000.0,-0.934,127
+Simulated annealing,"evals=2000,depart=heuristique,params=taguchi",2000.0,7.636,127
+Simulated annealing,"evals=20000,depart=heuristique,params=taguchi",20000.0,1.66,127
+Simulated annealing,"evals=200000,depart=heuristique,params=taguchi",200000.0,-1.466,127
+Simulated annealing,"evals=5000,depart=heuristique,params=taguchi",5000.0,5.421,127
+Simulated annealing,"evals=50000,depart=heuristique,params=taguchi",50000.0,0.0,127
+Tabu search,"evals=10000,depart=heuristique,params=taguchi",10000.0,2.853,127
+Tabu search,"evals=100000,depart=heuristique,params=taguchi",100000.0,-0.097,127
+Tabu search,"evals=2000,depart=heuristique,params=taguchi",2000.0,5.73,127
+Tabu search,"evals=20000,depart=heuristique,params=taguchi",20000.0,1.758,127
+Tabu search,"evals=200000,depart=heuristique,params=taguchi",200000.0,-0.783,127
+Tabu search,"evals=5000,depart=heuristique,params=taguchi",5000.0,4.027,127
+Tabu search,"evals=50000,depart=heuristique,params=taguchi",50000.0,0.658,127
+Untrained-network beam,"faisceau=5,k=4",2785.9,3.016,127
+Untrained-network beam,"faisceau=50,k=5",38812.3,1.368,127

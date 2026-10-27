@@ -1,0 +1,4 @@
+
+### 2026-10-06T13:40:42 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe -m pytest -q tests/test_moteur.py tests/test_anticipation.py tests/test_fjsp.py
+.........                                                                [100%]
+9 passed in 60.81s (0:01:00)

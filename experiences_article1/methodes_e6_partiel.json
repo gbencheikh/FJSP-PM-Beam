@@ -1,0 +1,15 @@
+[
+ {"label": "MWKR+EFT", "methode": "MWKR+EFT", "config": ""},
+ {"label": "TS (50k)", "methode": "Recherche tabou", "config": "evals=50000,depart=heuristique,params=taguchi"},
+ {"label": "Policy, greedy", "methode": "RL:imit-ft", "config": "glouton"},
+ {"label": "Policy, 100 samples x5", "methode": "RL:imit-ft", "config": "echantillons=100"},
+ {"label": "Rule beam B=5", "methode": "Faisceau:regle", "config": "faisceau=5,k=0"},
+ {"label": "Rule beam B=20", "methode": "Faisceau:regle", "config": "faisceau=20,k=0"},
+ {"label": "Rule beam B=50", "methode": "Faisceau:regle", "config": "faisceau=50,k=0"},
+ {"label": "Rule beam B=100", "methode": "Faisceau:regle", "config": "faisceau=100,k=0"},
+ {"label": "Rule beam B=200", "methode": "Faisceau:regle", "config": "faisceau=200,k=0"},
+ {"label": "Untrained net 5x4", "methode": "RL:aleatoire-g0", "config": "faisceau=5,k=4"},
+ {"label": "Untrained net 50x5", "methode": "RL:aleatoire-g0", "config": "faisceau=50,k=5"},
+ {"label": "Policy 5x4 no pruning", "methode": "RL:imit-ft", "config": "faisceau=5,k=4,sans_elagage"},
+ {"label": "Policy 5x4 no dedup", "methode": "RL:imit-ft", "config": "faisceau=5,k=4,sans_doublons"}
+]

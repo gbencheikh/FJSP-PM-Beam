@@ -1,0 +1,37 @@
+[
+ {
+  "label": "MWKR+EFT",
+  "methode": "MWKR+EFT",
+  "config": ""
+ },
+ {
+  "label": "GA (50k)",
+  "methode": "Algorithme génétique",
+  "config": "evals=50000,depart=heuristique,params=taguchi"
+ },
+ {
+  "label": "TS (50k)",
+  "methode": "Recherche tabou",
+  "config": "evals=50000,depart=heuristique,params=taguchi"
+ },
+ {
+  "label": "Policy, greedy",
+  "methode": "RL:imit-ft",
+  "config": "glouton"
+ },
+ {
+  "label": "Policy, 100 samples x 5 seeds",
+  "methode": "RL:imit-ft",
+  "config": "echantillons=100"
+ },
+ {
+  "label": "Policy + beam 5x4",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=5,k=4"
+ },
+ {
+  "label": "Policy + beam 50x5",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=50,k=5"
+ }
+]

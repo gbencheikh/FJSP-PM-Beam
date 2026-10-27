@@ -1,0 +1,11 @@
+[
+ {"label": "Policy seed 0, greedy", "methode": "RL:imit-ft", "config": "glouton"},
+ {"label": "Policy seed 1, greedy", "methode": "RL:imit-ft-g1", "config": "glouton"},
+ {"label": "Policy seed 2, greedy", "methode": "RL:imit-ft-g2", "config": "glouton"},
+ {"label": "Policy seed 0 + beam 5x4", "methode": "RL:imit-ft", "config": "faisceau=5,k=4"},
+ {"label": "Policy seed 1 + beam 5x4", "methode": "RL:imit-ft-g1", "config": "faisceau=5,k=4"},
+ {"label": "Policy seed 2 + beam 5x4", "methode": "RL:imit-ft-g2", "config": "faisceau=5,k=4"},
+ {"label": "Policy seed 0 + beam 50x5", "methode": "RL:imit-ft", "config": "faisceau=50,k=5"},
+ {"label": "Policy seed 1 + beam 50x5", "methode": "RL:imit-ft-g1", "config": "faisceau=50,k=5"},
+ {"label": "Policy seed 2 + beam 50x5", "methode": "RL:imit-ft-g2", "config": "faisceau=50,k=5"}
+]

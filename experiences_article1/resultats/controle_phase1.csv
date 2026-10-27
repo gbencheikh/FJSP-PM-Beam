@@ -1,0 +1,211 @@
+label,methode,config,instance,famille,valeur,reference,ecart_pct,graines
+MWKR+EFT,MWKR+EFT,,BrandimarteMk1,Brandimarte,55.0,51.0,7.8431,1
+MWKR+EFT,MWKR+EFT,,BrandimarteMk2,Brandimarte,36.0,32.666666666666664,10.2041,1
+MWKR+EFT,MWKR+EFT,,BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+MWKR+EFT,MWKR+EFT,,BrandimarteMk4,Brandimarte,102.0,79.0,29.1139,1
+MWKR+EFT,MWKR+EFT,,BrandimarteMk5,Brandimarte,193.0,190.33333333333334,1.4011,1
+MWKR+EFT,MWKR+EFT,,BrandimarteMk6,Brandimarte,94.0,73.33333333333333,28.1818,1
+MWKR+EFT,MWKR+EFT,,BrandimarteMk7,Brandimarte,183.0,163.0,12.2699,1
+MWKR+EFT,MWKR+EFT,,BrandimarteMk8,Brandimarte,567.0,563.3333333333334,0.6509,1
+MWKR+EFT,MWKR+EFT,,BrandimarteMk9,Brandimarte,342.0,329.0,3.9514,1
+MWKR+EFT,MWKR+EFT,,BrandimarteMk10,Brandimarte,280.0,257.0,8.9494,1
+MWKR+EFT,MWKR+EFT,,HurinkEdata1,Hurink edata,78.0,65.33333333333333,19.3878,1
+MWKR+EFT,MWKR+EFT,,HurinkEdata6,Hurink edata,753.0,657.0,14.6119,1
+MWKR+EFT,MWKR+EFT,,HurinkEdata11,Hurink edata,1005.0,923.0,8.8841,1
+MWKR+EFT,MWKR+EFT,,HurinkEdata16,Hurink edata,1356.0,1135.6666666666667,19.4012,1
+MWKR+EFT,MWKR+EFT,,HurinkEdata21,Hurink edata,1130.0,956.6666666666666,18.1185,1
+MWKR+EFT,MWKR+EFT,,HurinkEdata26,Hurink edata,1259.0,1091.6666666666667,15.3282,1
+MWKR+EFT,MWKR+EFT,,HurinkEdata31,Hurink edata,1546.0,1267.6666666666667,21.9564,1
+MWKR+EFT,MWKR+EFT,,HurinkEdata36,Hurink edata,1867.0,1656.3333333333333,12.7189,1
+MWKR+EFT,MWKR+EFT,,HurinkEdata41,Hurink edata,1591.0,1309.6666666666667,21.4813,1
+MWKR+EFT,MWKR+EFT,,HurinkEdata46,Hurink edata,803.0,697.0,15.208,1
+MWKR+EFT,MWKR+EFT,,HurinkRdata1,Hurink rdata,63.0,54.666666666666664,15.2439,1
+MWKR+EFT,MWKR+EFT,,HurinkRdata6,Hurink rdata,603.0,571.0,5.6042,1
+MWKR+EFT,MWKR+EFT,,HurinkRdata11,Hurink rdata,931.0,850.6666666666666,9.4436,1
+MWKR+EFT,MWKR+EFT,,HurinkRdata16,Hurink rdata,1153.0,1124.6666666666667,2.5193,1
+MWKR+EFT,MWKR+EFT,,HurinkRdata21,Hurink rdata,905.0,743.6666666666666,21.6943,1
+MWKR+EFT,MWKR+EFT,,HurinkRdata26,Hurink rdata,1182.0,984.3333333333334,20.0813,1
+MWKR+EFT,MWKR+EFT,,HurinkRdata31,Hurink rdata,1324.0,1195.0,10.795,1
+MWKR+EFT,MWKR+EFT,,HurinkRdata36,Hurink rdata,1687.0,1586.0,6.3682,1
+MWKR+EFT,MWKR+EFT,,HurinkRdata41,Hurink rdata,1223.0,1135.6666666666667,7.69,1
+MWKR+EFT,MWKR+EFT,,HurinkRdata46,Hurink rdata,679.0,628.0,8.121,1
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk2,Brandimarte,34.0,32.666666666666664,4.0816,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk4,Brandimarte,80.0,79.0,1.2658,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk5,Brandimarte,188.33333333333334,190.33333333333334,-1.0508,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk6,Brandimarte,86.66666666666667,73.33333333333333,18.1818,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk7,Brandimarte,170.33333333333334,163.0,4.499,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk8,Brandimarte,567.0,563.3333333333334,0.6509,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk9,Brandimarte,340.3333333333333,329.0,3.4448,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk10,Brandimarte,276.3333333333333,257.0,7.5227,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata1,Hurink edata,68.0,65.33333333333333,4.0816,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata6,Hurink edata,664.6666666666666,657.0,1.1669,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata11,Hurink edata,957.6666666666666,923.0,3.7559,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata16,Hurink edata,1167.0,1135.6666666666667,2.759,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata21,Hurink edata,1022.0,956.6666666666666,6.8293,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata26,Hurink edata,1154.3333333333333,1091.6666666666667,5.7405,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata31,Hurink edata,1424.0,1267.6666666666667,12.3324,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata36,Hurink edata,1804.3333333333333,1656.3333333333333,8.9354,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata41,Hurink edata,1363.6666666666667,1309.6666666666667,4.1232,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata46,Hurink edata,774.6666666666666,697.0,11.143,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata1,Hurink rdata,55.666666666666664,54.666666666666664,1.8293,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata6,Hurink rdata,578.0,571.0,1.2259,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata11,Hurink rdata,868.0,850.6666666666666,2.0376,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata16,Hurink rdata,1137.3333333333333,1124.6666666666667,1.1263,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata21,Hurink rdata,799.0,743.6666666666666,7.4406,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata26,Hurink rdata,1094.0,984.3333333333334,11.1412,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata31,Hurink rdata,1289.6666666666667,1195.0,7.9219,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata36,Hurink rdata,1679.0,1586.0,5.8638,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata41,Hurink rdata,1178.6666666666667,1135.6666666666667,3.7863,3
+"GA (Taguchi, 50k)",Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata46,Hurink rdata,661.6666666666666,628.0,5.3609,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk2,Brandimarte,33.0,32.666666666666664,1.0204,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk4,Brandimarte,78.33333333333333,79.0,-0.8439,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk5,Brandimarte,189.33333333333334,190.33333333333334,-0.5254,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk6,Brandimarte,73.0,73.33333333333333,-0.4545,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk7,Brandimarte,164.33333333333334,163.0,0.818,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk8,Brandimarte,567.0,563.3333333333334,0.6509,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk9,Brandimarte,329.0,329.0,0.0,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk10,Brandimarte,252.66666666666666,257.0,-1.6861,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata1,Hurink edata,65.66666666666667,65.33333333333333,0.5102,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata6,Hurink edata,661.3333333333334,657.0,0.6596,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata11,Hurink edata,947.0,923.0,2.6002,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata16,Hurink edata,1142.0,1135.6666666666667,0.5577,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata21,Hurink edata,976.3333333333334,956.6666666666666,2.0557,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata26,Hurink edata,1140.0,1091.6666666666667,4.4275,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata31,Hurink edata,1336.0,1267.6666666666667,5.3905,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata36,Hurink edata,1666.3333333333333,1656.3333333333333,0.6037,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata41,Hurink edata,1317.6666666666667,1309.6666666666667,0.6108,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata46,Hurink edata,734.3333333333334,697.0,5.3563,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata1,Hurink rdata,55.0,54.666666666666664,0.6098,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata6,Hurink rdata,578.0,571.0,1.2259,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata11,Hurink rdata,851.6666666666666,850.6666666666666,0.1176,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata16,Hurink rdata,1125.0,1124.6666666666667,0.0296,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata21,Hurink rdata,765.0,743.6666666666666,2.8687,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata26,Hurink rdata,989.6666666666666,984.3333333333334,0.5418,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata31,Hurink rdata,1198.6666666666667,1195.0,0.3068,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata36,Hurink rdata,1604.6666666666667,1586.0,1.177,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata41,Hurink rdata,1106.6666666666667,1135.6666666666667,-2.5536,3
+"Tabu (Taguchi, 50k)",Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata46,Hurink rdata,631.6666666666666,628.0,0.5839,3
+Agent greedy,RL:imit-ft,glouton,BrandimarteMk1,Brandimarte,52.0,51.0,1.9608,1
+Agent greedy,RL:imit-ft,glouton,BrandimarteMk2,Brandimarte,35.0,32.666666666666664,7.1429,1
+Agent greedy,RL:imit-ft,glouton,BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Agent greedy,RL:imit-ft,glouton,BrandimarteMk4,Brandimarte,82.0,79.0,3.7975,1
+Agent greedy,RL:imit-ft,glouton,BrandimarteMk5,Brandimarte,192.0,190.33333333333334,0.8757,1
+Agent greedy,RL:imit-ft,glouton,BrandimarteMk6,Brandimarte,78.0,73.33333333333333,6.3636,1
+Agent greedy,RL:imit-ft,glouton,BrandimarteMk7,Brandimarte,171.0,163.0,4.908,1
+Agent greedy,RL:imit-ft,glouton,BrandimarteMk8,Brandimarte,567.0,563.3333333333334,0.6509,1
+Agent greedy,RL:imit-ft,glouton,BrandimarteMk9,Brandimarte,347.0,329.0,5.4711,1
+Agent greedy,RL:imit-ft,glouton,BrandimarteMk10,Brandimarte,251.0,257.0,-2.3346,1
+Agent greedy,RL:imit-ft,glouton,HurinkEdata1,Hurink edata,70.0,65.33333333333333,7.1429,1
+Agent greedy,RL:imit-ft,glouton,HurinkEdata6,Hurink edata,783.0,657.0,19.1781,1
+Agent greedy,RL:imit-ft,glouton,HurinkEdata11,Hurink edata,994.0,923.0,7.6923,1
+Agent greedy,RL:imit-ft,glouton,HurinkEdata16,Hurink edata,1254.0,1135.6666666666667,10.4197,1
+Agent greedy,RL:imit-ft,glouton,HurinkEdata21,Hurink edata,1148.0,956.6666666666666,20.0,1
+Agent greedy,RL:imit-ft,glouton,HurinkEdata26,Hurink edata,1215.0,1091.6666666666667,11.2977,1
+Agent greedy,RL:imit-ft,glouton,HurinkEdata31,Hurink edata,1458.0,1267.6666666666667,15.0145,1
+Agent greedy,RL:imit-ft,glouton,HurinkEdata36,Hurink edata,1810.0,1656.3333333333333,9.2775,1
+Agent greedy,RL:imit-ft,glouton,HurinkEdata41,Hurink edata,1585.0,1309.6666666666667,21.0232,1
+Agent greedy,RL:imit-ft,glouton,HurinkEdata46,Hurink edata,751.0,697.0,7.7475,1
+Agent greedy,RL:imit-ft,glouton,HurinkRdata1,Hurink rdata,62.0,54.666666666666664,13.4146,1
+Agent greedy,RL:imit-ft,glouton,HurinkRdata6,Hurink rdata,646.0,571.0,13.1349,1
+Agent greedy,RL:imit-ft,glouton,HurinkRdata11,Hurink rdata,918.0,850.6666666666666,7.9154,1
+Agent greedy,RL:imit-ft,glouton,HurinkRdata16,Hurink rdata,1167.0,1124.6666666666667,3.7641,1
+Agent greedy,RL:imit-ft,glouton,HurinkRdata21,Hurink rdata,1003.0,743.6666666666666,34.8723,1
+Agent greedy,RL:imit-ft,glouton,HurinkRdata26,Hurink rdata,1047.0,984.3333333333334,6.3664,1
+Agent greedy,RL:imit-ft,glouton,HurinkRdata31,Hurink rdata,1331.0,1195.0,11.3808,1
+Agent greedy,RL:imit-ft,glouton,HurinkRdata36,Hurink rdata,1692.0,1586.0,6.6835,1
+Agent greedy,RL:imit-ft,glouton,HurinkRdata41,Hurink rdata,1255.0,1135.6666666666667,10.5078,1
+Agent greedy,RL:imit-ft,glouton,HurinkRdata46,Hurink rdata,660.0,628.0,5.0955,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,BrandimarteMk2,Brandimarte,33.0,32.666666666666664,1.0204,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,BrandimarteMk4,Brandimarte,79.0,79.0,0.0,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,BrandimarteMk5,Brandimarte,186.0,190.33333333333334,-2.2767,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,BrandimarteMk6,Brandimarte,75.0,73.33333333333333,2.2727,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,BrandimarteMk7,Brandimarte,162.0,163.0,-0.6135,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,BrandimarteMk8,Brandimarte,567.0,563.3333333333334,0.6509,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,BrandimarteMk9,Brandimarte,330.0,329.0,0.304,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,BrandimarteMk10,Brandimarte,240.0,257.0,-6.6148,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkEdata1,Hurink edata,66.0,65.33333333333333,1.0204,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkEdata6,Hurink edata,674.0,657.0,2.5875,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkEdata11,Hurink edata,962.0,923.0,4.2254,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkEdata16,Hurink edata,1198.0,1135.6666666666667,5.4887,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkEdata21,Hurink edata,986.0,956.6666666666666,3.0662,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkEdata26,Hurink edata,1147.0,1091.6666666666667,5.0687,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkEdata31,Hurink edata,1385.0,1267.6666666666667,9.2559,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkEdata36,Hurink edata,1747.0,1656.3333333333333,5.4739,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkEdata41,Hurink edata,1442.0,1309.6666666666667,10.1044,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkEdata46,Hurink edata,739.0,697.0,6.0258,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkRdata1,Hurink rdata,55.0,54.666666666666664,0.6098,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkRdata6,Hurink rdata,578.0,571.0,1.2259,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkRdata11,Hurink rdata,862.0,850.6666666666666,1.3323,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkRdata16,Hurink rdata,1129.0,1124.6666666666667,0.3853,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkRdata21,Hurink rdata,803.0,743.6666666666666,7.9785,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkRdata26,Hurink rdata,993.0,984.3333333333334,0.8805,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkRdata31,Hurink rdata,1224.0,1195.0,2.4268,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkRdata36,Hurink rdata,1617.0,1586.0,1.9546,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkRdata41,Hurink rdata,1179.0,1135.6666666666667,3.8157,1
+Agent best of 100,RL:imit-ft,meilleur_de_k=100,HurinkRdata46,Hurink rdata,642.0,628.0,2.2293,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk2,Brandimarte,33.0,32.666666666666664,1.0204,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk4,Brandimarte,79.0,79.0,0.0,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk5,Brandimarte,187.0,190.33333333333334,-1.7513,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk6,Brandimarte,73.0,73.33333333333333,-0.4545,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk7,Brandimarte,159.0,163.0,-2.454,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk8,Brandimarte,567.0,563.3333333333334,0.6509,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk9,Brandimarte,325.0,329.0,-1.2158,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk10,Brandimarte,242.0,257.0,-5.8366,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata1,Hurink edata,67.0,65.33333333333333,2.551,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata6,Hurink edata,649.0,657.0,-1.2177,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata11,Hurink edata,959.0,923.0,3.9003,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata16,Hurink edata,1180.0,1135.6666666666667,3.9037,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata21,Hurink edata,1002.0,956.6666666666666,4.7387,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata26,Hurink edata,1151.0,1091.6666666666667,5.4351,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata31,Hurink edata,1368.0,1267.6666666666667,7.9148,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata36,Hurink edata,1714.0,1656.3333333333333,3.4816,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata41,Hurink edata,1396.0,1309.6666666666667,6.592,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata46,Hurink edata,734.0,697.0,5.3085,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata1,Hurink rdata,55.0,54.666666666666664,0.6098,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata6,Hurink rdata,566.0,571.0,-0.8757,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata11,Hurink rdata,857.0,850.6666666666666,0.7445,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata16,Hurink rdata,1124.0,1124.6666666666667,-0.0593,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata21,Hurink rdata,771.0,743.6666666666666,3.6755,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata26,Hurink rdata,980.0,984.3333333333334,-0.4402,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata31,Hurink rdata,1215.0,1195.0,1.6736,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata36,Hurink rdata,1605.0,1586.0,1.198,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata41,Hurink rdata,1144.0,1135.6666666666667,0.7338,1
+Agent + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata46,Hurink rdata,619.0,628.0,-1.4331,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk2,Brandimarte,33.0,32.666666666666664,1.0204,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk4,Brandimarte,79.0,79.0,0.0,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk5,Brandimarte,190.0,190.33333333333334,-0.1751,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk6,Brandimarte,74.0,73.33333333333333,0.9091,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk7,Brandimarte,158.0,163.0,-3.0675,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk8,Brandimarte,567.0,563.3333333333334,0.6509,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk9,Brandimarte,327.0,329.0,-0.6079,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk10,Brandimarte,235.0,257.0,-8.5603,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata1,Hurink edata,65.0,65.33333333333333,-0.5102,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata6,Hurink edata,669.0,657.0,1.8265,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata11,Hurink edata,949.0,923.0,2.8169,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata16,Hurink edata,1135.0,1135.6666666666667,-0.0587,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata21,Hurink edata,986.0,956.6666666666666,3.0662,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata26,Hurink edata,1152.0,1091.6666666666667,5.5267,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata31,Hurink edata,1364.0,1267.6666666666667,7.5993,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata36,Hurink edata,1720.0,1656.3333333333333,3.8438,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata41,Hurink edata,1370.0,1309.6666666666667,4.6068,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata46,Hurink edata,728.0,697.0,4.4476,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata1,Hurink rdata,53.0,54.666666666666664,-3.0488,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata6,Hurink rdata,560.0,571.0,-1.9264,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata11,Hurink rdata,854.0,850.6666666666666,0.3918,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata16,Hurink rdata,1123.0,1124.6666666666667,-0.1482,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata21,Hurink rdata,776.0,743.6666666666666,4.3478,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata26,Hurink rdata,976.0,984.3333333333334,-0.8466,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata31,Hurink rdata,1213.0,1195.0,1.5063,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata36,Hurink rdata,1603.0,1586.0,1.0719,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata41,Hurink rdata,1127.0,1135.6666666666667,-0.7631,1
+Agent + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata46,Hurink rdata,621.0,628.0,-1.1146,1

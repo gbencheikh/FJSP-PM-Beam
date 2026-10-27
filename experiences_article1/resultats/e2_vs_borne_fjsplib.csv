@@ -1,0 +1,382 @@
+label,methode,config,instance,famille,valeur,reference,ecart_pct,graines
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk1,Brandimarte,51.0,40.0,27.5,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk2,Brandimarte,34.0,26.0,30.7692,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk3,Brandimarte,219.0,204.0,7.3529,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk4,Brandimarte,81.0,60.0,35.0,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk5,Brandimarte,188.6,172.0,9.6512,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk6,Brandimarte,86.6,57.0,51.9298,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk7,Brandimarte,171.2,139.0,23.1655,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk8,Brandimarte,567.0,523.0,8.413,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk9,Brandimarte,340.6,307.0,10.9446,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk10,Brandimarte,275.4,189.0,45.7143,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata4,Hurink edata,735.0,609.0,20.6897,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata5,Hurink edata,821.4,655.0,25.4046,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata6,Hurink edata,669.6,550.0,21.7455,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata7,Hurink edata,717.2,568.0,26.2676,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata8,Hurink edata,626.6,503.0,24.5726,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata9,Hurink edata,957.6,833.0,14.958,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata10,Hurink edata,884.8,762.0,16.1155,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata11,Hurink edata,957.2,845.0,13.2781,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata12,Hurink edata,1017.8,878.0,15.9226,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata14,Hurink edata,1246.6,1103.0,13.019,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata15,Hurink edata,1078.0,960.0,12.2917,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata16,Hurink edata,1163.6,1053.0,10.5033,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata17,Hurink edata,1224.8,1123.0,9.065,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata18,Hurink edata,1266.4,1111.0,13.9874,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata19,Hurink edata,1123.4,892.0,25.9417,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata20,Hurink edata,879.6,707.0,24.413,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata21,Hurink edata,1022.0,842.0,21.3777,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata22,Hurink edata,928.8,796.0,16.6834,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata24,Hurink edata,1215.4,1009.0,20.4559,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata25,Hurink edata,1052.0,880.0,19.5455,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata26,Hurink edata,1162.6,950.0,22.3789,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata27,Hurink edata,1083.4,908.0,19.3172,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata28,Hurink edata,1139.8,936.0,21.7735,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata29,Hurink edata,1333.0,1106.0,20.5244,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata30,Hurink edata,1495.6,1181.0,26.6384,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata31,Hurink edata,1433.6,1142.0,25.5342,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata32,Hurink edata,1402.2,1107.0,26.6667,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata34,Hurink edata,1800.4,1532.0,17.5196,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata35,Hurink edata,1930.6,1698.0,13.6985,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata36,Hurink edata,1804.2,1547.0,16.6257,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata37,Hurink edata,1897.4,1599.0,18.6617,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata38,Hurink edata,1955.2,1736.0,12.6267,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata39,Hurink edata,1379.4,1160.0,18.9138,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata40,Hurink edata,1638.4,1397.0,17.2799,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata41,Hurink edata,1372.2,1141.0,20.2629,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata42,Hurink edata,1425.8,1184.0,20.4223,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata43,Hurink edata,1393.0,1144.0,21.7657,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata4,Hurink rdata,684.2,570.0,20.0351,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata5,Hurink rdata,649.2,529.0,22.7221,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata6,Hurink rdata,576.8,477.0,20.9224,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata7,Hurink rdata,611.8,502.0,21.8725,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata9,Hurink rdata,899.0,799.0,12.5156,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata10,Hurink rdata,846.2,749.0,12.9773,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata11,Hurink rdata,864.4,765.0,12.9935,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata12,Hurink rdata,961.4,853.0,12.7081,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata13,Hurink rdata,901.6,804.0,12.1393,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata14,Hurink rdata,1173.0,1071.0,9.5238,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata15,Hurink rdata,1040.2,936.0,11.1325,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata16,Hurink rdata,1137.0,1038.0,9.5376,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata17,Hurink rdata,1166.4,1070.0,9.0093,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata19,Hurink rdata,932.0,717.0,29.9861,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata20,Hurink rdata,780.2,646.0,20.774,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata21,Hurink rdata,806.0,666.0,21.021,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata22,Hurink rdata,922.0,700.0,31.7143,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata23,Hurink rdata,887.4,756.0,17.381,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata24,Hurink rdata,1110.6,809.0,37.2806,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata25,Hurink rdata,994.6,745.0,33.5034,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata26,Hurink rdata,1094.0,820.0,33.4146,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata27,Hurink rdata,1026.4,780.0,31.5897,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata29,Hurink rdata,1281.0,1056.0,21.3068,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata30,Hurink rdata,1322.0,1085.0,21.8433,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata31,Hurink rdata,1290.0,1075.0,20.0,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata32,Hurink rdata,1197.2,993.0,20.5639,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata33,Hurink rdata,1316.8,1068.0,23.2959,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata34,Hurink rdata,1681.2,1520.0,10.6053,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata35,Hurink rdata,1821.0,1657.0,9.8974,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata36,Hurink rdata,1676.2,1497.0,11.9706,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata37,Hurink rdata,1706.0,1535.0,11.1401,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata39,Hurink rdata,1351.6,1023.0,32.1212,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata40,Hurink rdata,1382.0,1062.0,30.1318,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata41,Hurink rdata,1175.4,954.0,23.2075,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata42,Hurink rdata,1292.2,1011.0,27.814,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata43,Hurink rdata,1275.4,955.0,33.5497,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata4,Hurink vdata,683.0,570.0,19.8246,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata5,Hurink vdata,637.2,529.0,20.4537,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata6,Hurink vdata,574.8,477.0,20.5031,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata7,Hurink vdata,605.0,502.0,20.5179,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata8,Hurink vdata,550.8,457.0,20.5252,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata9,Hurink vdata,898.0,799.0,12.3905,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata10,Hurink vdata,848.8,749.0,13.3244,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata11,Hurink vdata,870.2,765.0,13.7516,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata12,Hurink vdata,951.0,853.0,11.4889,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata13,Hurink vdata,904.0,804.0,12.4378,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata14,Hurink vdata,1173.6,1071.0,9.5798,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata15,Hurink vdata,1025.0,936.0,9.5085,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata16,Hurink vdata,1129.6,1038.0,8.8247,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata17,Hurink vdata,1169.2,1070.0,9.271,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata18,Hurink vdata,1183.0,1089.0,8.6318,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata19,Hurink vdata,869.8,717.0,21.311,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata20,Hurink vdata,701.4,646.0,8.5759,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata21,Hurink vdata,756.4,663.0,14.0875,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata22,Hurink vdata,814.8,617.0,32.0583,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata23,Hurink vdata,810.6,756.0,7.2222,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata24,Hurink vdata,980.2,800.0,22.525,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata25,Hurink vdata,909.2,733.0,24.0382,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata26,Hurink vdata,1037.4,809.0,28.2324,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata27,Hurink vdata,990.4,773.0,28.1242,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata28,Hurink vdata,993.4,751.0,32.277,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata29,Hurink vdata,1207.8,1052.0,14.8099,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata30,Hurink vdata,1320.2,1084.0,21.7897,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata31,Hurink vdata,1216.6,1069.0,13.8073,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata32,Hurink vdata,1177.6,993.0,18.5901,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata33,Hurink vdata,1283.6,1068.0,20.1873,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata34,Hurink vdata,1668.4,1520.0,9.7632,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata35,Hurink vdata,1821.0,1657.0,9.8974,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata36,Hurink vdata,1640.0,1497.0,9.5524,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata37,Hurink vdata,1681.6,1535.0,9.5505,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata38,Hurink vdata,1724.0,1549.0,11.2976,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata39,Hurink vdata,1280.2,948.0,35.0422,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata40,Hurink vdata,1326.6,986.0,34.5436,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata41,Hurink vdata,1171.0,943.0,24.1782,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata42,Hurink vdata,1195.0,922.0,29.6095,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata43,Hurink vdata,1222.4,955.0,28.0,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",Kacem1,Kacem,12.0,11.0,9.0909,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",Kacem2,Kacem,13.0,11.0,18.1818,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",Kacem3,Kacem,7.6,7.0,8.5714,5
+GA (50k),Algorithme génétique,"evals=50000,depart=heuristique,params=taguchi",Kacem4,Kacem,12.6,11.0,14.5455,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk1,Brandimarte,51.0,40.0,27.5,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk2,Brandimarte,33.0,26.0,26.9231,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk3,Brandimarte,219.0,204.0,7.3529,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk4,Brandimarte,78.6,60.0,31.0,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk5,Brandimarte,189.6,172.0,10.2326,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk6,Brandimarte,73.4,57.0,28.7719,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk7,Brandimarte,164.2,139.0,18.1295,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk8,Brandimarte,567.0,523.0,8.413,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk9,Brandimarte,329.0,307.0,7.1661,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk10,Brandimarte,252.6,189.0,33.6508,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata4,Hurink edata,723.0,609.0,18.7192,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata5,Hurink edata,814.2,655.0,24.3053,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata6,Hurink edata,659.2,550.0,19.8545,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata7,Hurink edata,703.2,568.0,23.8028,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata8,Hurink edata,595.0,503.0,18.2903,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata9,Hurink edata,928.4,833.0,11.4526,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata10,Hurink edata,878.0,762.0,15.2231,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata11,Hurink edata,947.0,845.0,12.071,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata12,Hurink edata,981.2,878.0,11.754,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata14,Hurink edata,1217.2,1103.0,10.3536,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata15,Hurink edata,1073.0,960.0,11.7708,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata16,Hurink edata,1139.2,1053.0,8.1861,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata17,Hurink edata,1223.6,1123.0,8.9581,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata18,Hurink edata,1245.0,1111.0,12.0612,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata19,Hurink edata,1073.8,892.0,20.3812,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata20,Hurink edata,846.2,707.0,19.6888,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata21,Hurink edata,971.6,842.0,15.3919,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata22,Hurink edata,896.2,796.0,12.5879,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata24,Hurink edata,1160.4,1009.0,15.005,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata25,Hurink edata,998.8,880.0,13.5,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata26,Hurink edata,1140.0,950.0,20.0,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata27,Hurink edata,1051.4,908.0,15.793,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata28,Hurink edata,1120.2,936.0,19.6795,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata29,Hurink edata,1276.0,1106.0,15.3707,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata30,Hurink edata,1363.8,1181.0,15.4784,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata31,Hurink edata,1330.4,1142.0,16.4974,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata32,Hurink edata,1314.8,1107.0,18.7715,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata34,Hurink edata,1716.6,1532.0,12.0496,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata35,Hurink edata,1876.8,1698.0,10.53,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata36,Hurink edata,1679.0,1547.0,8.5326,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata37,Hurink edata,1769.8,1599.0,10.6817,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata38,Hurink edata,1882.0,1736.0,8.4101,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata39,Hurink edata,1306.8,1160.0,12.6552,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata40,Hurink edata,1564.2,1397.0,11.9685,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata41,Hurink edata,1321.6,1141.0,15.8282,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata42,Hurink edata,1348.4,1184.0,13.8851,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata43,Hurink edata,1303.6,1144.0,13.951,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata4,Hurink rdata,680.0,570.0,19.2982,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata5,Hurink rdata,640.8,529.0,21.1342,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata6,Hurink rdata,577.6,477.0,21.0901,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata7,Hurink rdata,603.6,502.0,20.239,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata9,Hurink rdata,890.4,799.0,11.4393,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata10,Hurink rdata,836.8,749.0,11.7223,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata11,Hurink rdata,852.6,765.0,11.451,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata12,Hurink rdata,950.6,853.0,11.442,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata13,Hurink rdata,900.8,804.0,12.0398,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata14,Hurink rdata,1159.8,1071.0,8.2913,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata15,Hurink rdata,1014.4,936.0,8.3761,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata16,Hurink rdata,1125.0,1038.0,8.3815,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata17,Hurink rdata,1160.4,1070.0,8.4486,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata19,Hurink rdata,824.6,717.0,15.007,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata20,Hurink rdata,726.2,646.0,12.4149,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata21,Hurink rdata,770.8,666.0,15.7357,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata22,Hurink rdata,858.2,700.0,22.6,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata23,Hurink rdata,856.0,756.0,13.2275,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata24,Hurink rdata,1000.8,809.0,23.7083,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata25,Hurink rdata,908.4,745.0,21.9329,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata26,Hurink rdata,990.6,820.0,20.8049,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata27,Hurink rdata,932.6,780.0,19.5641,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata29,Hurink rdata,1194.4,1056.0,13.1061,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata30,Hurink rdata,1233.0,1085.0,13.6406,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata31,Hurink rdata,1201.2,1075.0,11.7395,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata32,Hurink rdata,1114.8,993.0,12.2659,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata33,Hurink rdata,1209.4,1068.0,13.2397,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata34,Hurink rdata,1617.8,1520.0,6.4342,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata35,Hurink rdata,1767.6,1657.0,6.6747,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata36,Hurink rdata,1603.0,1497.0,7.0808,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata37,Hurink rdata,1625.0,1535.0,5.8632,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata39,Hurink rdata,1210.2,1023.0,18.2991,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata40,Hurink rdata,1254.6,1062.0,18.1356,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata41,Hurink rdata,1108.8,954.0,16.2264,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata42,Hurink rdata,1150.8,1011.0,13.8279,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata43,Hurink rdata,1137.4,955.0,19.0995,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata4,Hurink vdata,672.2,570.0,17.9298,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata5,Hurink vdata,623.0,529.0,17.7694,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata6,Hurink vdata,570.6,477.0,19.6226,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata7,Hurink vdata,600.8,502.0,19.6813,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata8,Hurink vdata,548.2,457.0,19.9562,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata9,Hurink vdata,889.8,799.0,11.3642,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata10,Hurink vdata,838.0,749.0,11.8825,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata11,Hurink vdata,849.0,765.0,10.9804,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata12,Hurink vdata,947.4,853.0,11.0668,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata13,Hurink vdata,895.6,804.0,11.393,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata14,Hurink vdata,1163.0,1071.0,8.5901,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata15,Hurink vdata,1013.4,936.0,8.2692,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata16,Hurink vdata,1126.4,1038.0,8.5164,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata17,Hurink vdata,1156.8,1070.0,8.1121,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata18,Hurink vdata,1179.2,1089.0,8.2828,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata19,Hurink vdata,746.2,717.0,4.0725,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata20,Hurink vdata,671.0,646.0,3.87,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata21,Hurink vdata,699.2,663.0,5.46,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata22,Hurink vdata,700.2,617.0,13.4846,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata23,Hurink vdata,763.4,756.0,0.9788,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata24,Hurink vdata,912.6,800.0,14.075,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata25,Hurink vdata,833.8,733.0,13.7517,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata26,Hurink vdata,926.0,809.0,14.4623,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata27,Hurink vdata,885.8,773.0,14.5925,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata28,Hurink vdata,858.0,751.0,14.2477,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata29,Hurink vdata,1141.2,1052.0,8.4791,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata30,Hurink vdata,1178.2,1084.0,8.69,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata31,Hurink vdata,1157.2,1069.0,8.2507,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata32,Hurink vdata,1081.8,993.0,8.9426,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata33,Hurink vdata,1162.2,1068.0,8.8202,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata34,Hurink vdata,1598.6,1520.0,5.1711,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata35,Hurink vdata,1737.0,1657.0,4.828,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata36,Hurink vdata,1572.0,1497.0,5.01,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata37,Hurink vdata,1611.0,1535.0,4.9511,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata38,Hurink vdata,1628.0,1549.0,5.1001,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata39,Hurink vdata,1016.4,948.0,7.2152,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata40,Hurink vdata,1086.8,986.0,10.2231,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata41,Hurink vdata,993.2,943.0,5.3234,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata42,Hurink vdata,1010.8,922.0,9.6312,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata43,Hurink vdata,1021.4,955.0,6.9529,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",Kacem1,Kacem,11.2,11.0,1.8182,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",Kacem2,Kacem,12.6,11.0,14.5455,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",Kacem3,Kacem,7.8,7.0,11.4286,5
+TS (50k),Recherche tabou,"evals=50000,depart=heuristique,params=taguchi",Kacem4,Kacem,12.6,11.0,14.5455,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk1,Brandimarte,51.0,40.0,27.5,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk2,Brandimarte,32.6,26.0,25.3846,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk3,Brandimarte,219.0,204.0,7.3529,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk4,Brandimarte,77.6,60.0,29.3333,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk5,Brandimarte,190.8,172.0,10.9302,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk6,Brandimarte,73.4,57.0,28.7719,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk7,Brandimarte,163.8,139.0,17.8417,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk8,Brandimarte,562.6,523.0,7.5717,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk9,Brandimarte,330.0,307.0,7.4919,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",BrandimarteMk10,Brandimarte,257.4,189.0,36.1905,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata4,Hurink edata,723.0,609.0,18.7192,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata5,Hurink edata,814.0,655.0,24.2748,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata6,Hurink edata,655.8,550.0,19.2364,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata7,Hurink edata,690.8,568.0,21.6197,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata8,Hurink edata,599.2,503.0,19.1252,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata9,Hurink edata,921.2,833.0,10.5882,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata10,Hurink edata,878.0,762.0,15.2231,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata11,Hurink edata,925.4,845.0,9.5148,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata12,Hurink edata,977.8,878.0,11.3667,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata14,Hurink edata,1204.8,1103.0,9.2294,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata15,Hurink edata,1070.2,960.0,11.4792,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata16,Hurink edata,1139.8,1053.0,8.2431,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata17,Hurink edata,1216.0,1123.0,8.2814,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata18,Hurink edata,1219.0,1111.0,9.721,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata19,Hurink edata,1020.8,892.0,14.4395,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata20,Hurink edata,828.4,707.0,17.1711,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata21,Hurink edata,960.0,842.0,14.0143,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata22,Hurink edata,902.4,796.0,13.3668,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata24,Hurink edata,1149.2,1009.0,13.8949,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata25,Hurink edata,967.0,880.0,9.8864,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata26,Hurink edata,1095.6,950.0,15.3263,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata27,Hurink edata,1039.4,908.0,14.4714,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata28,Hurink edata,1049.0,936.0,12.0726,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata29,Hurink edata,1258.0,1106.0,13.7432,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata30,Hurink edata,1331.8,1181.0,12.7688,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata31,Hurink edata,1270.6,1142.0,11.2609,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata32,Hurink edata,1292.2,1107.0,16.7299,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata34,Hurink edata,1680.0,1532.0,9.6606,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata35,Hurink edata,1804.4,1698.0,6.2662,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata36,Hurink edata,1656.8,1547.0,7.0976,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata37,Hurink edata,1752.4,1599.0,9.5935,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata38,Hurink edata,1842.6,1736.0,6.1406,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata39,Hurink edata,1303.0,1160.0,12.3276,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata40,Hurink edata,1559.2,1397.0,11.6106,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata41,Hurink edata,1309.2,1141.0,14.7415,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata42,Hurink edata,1370.8,1184.0,15.777,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkEdata43,Hurink edata,1265.8,1144.0,10.6469,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata4,Hurink rdata,681.2,570.0,19.5088,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata5,Hurink rdata,635.2,529.0,20.0756,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata6,Hurink rdata,570.8,477.0,19.6646,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata7,Hurink rdata,597.8,502.0,19.0837,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata9,Hurink rdata,888.0,799.0,11.1389,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata10,Hurink rdata,835.6,749.0,11.5621,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata11,Hurink rdata,853.4,765.0,11.5556,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata12,Hurink rdata,951.4,853.0,11.5358,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata13,Hurink rdata,899.6,804.0,11.8905,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata14,Hurink rdata,1162.0,1071.0,8.4967,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata15,Hurink rdata,1013.2,936.0,8.2479,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata16,Hurink rdata,1125.2,1038.0,8.4008,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata17,Hurink rdata,1156.8,1070.0,8.1121,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata19,Hurink rdata,794.0,717.0,10.7392,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata20,Hurink rdata,694.4,646.0,7.4923,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata21,Hurink rdata,757.0,666.0,13.6637,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata22,Hurink rdata,805.8,700.0,15.1143,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata23,Hurink rdata,827.8,756.0,9.4974,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata24,Hurink rdata,966.0,809.0,19.4067,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata25,Hurink rdata,885.2,745.0,18.8188,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata26,Hurink rdata,991.0,820.0,20.8537,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata27,Hurink rdata,946.4,780.0,21.3333,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata29,Hurink rdata,1168.8,1056.0,10.6818,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata30,Hurink rdata,1213.6,1085.0,11.8525,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata31,Hurink rdata,1193.2,1075.0,10.9953,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata32,Hurink rdata,1105.8,993.0,11.3595,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata33,Hurink rdata,1205.6,1068.0,12.8839,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata34,Hurink rdata,1601.6,1520.0,5.3684,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata35,Hurink rdata,1745.2,1657.0,5.3229,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata36,Hurink rdata,1581.6,1497.0,5.6513,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata37,Hurink rdata,1614.6,1535.0,5.1857,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata39,Hurink rdata,1177.2,1023.0,15.0733,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata40,Hurink rdata,1252.2,1062.0,17.9096,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata41,Hurink rdata,1125.0,954.0,17.9245,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata42,Hurink rdata,1169.2,1011.0,15.6479,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkRdata43,Hurink rdata,1110.8,955.0,16.3141,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata4,Hurink vdata,675.6,570.0,18.5263,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata5,Hurink vdata,624.0,529.0,17.9584,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata6,Hurink vdata,567.2,477.0,18.9099,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata7,Hurink vdata,589.2,502.0,17.3705,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata8,Hurink vdata,546.6,457.0,19.6061,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata9,Hurink vdata,889.0,799.0,11.2641,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata10,Hurink vdata,836.8,749.0,11.7223,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata11,Hurink vdata,849.4,765.0,11.0327,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata12,Hurink vdata,950.4,853.0,11.4185,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata13,Hurink vdata,893.8,804.0,11.1692,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata14,Hurink vdata,1159.8,1071.0,8.2913,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata15,Hurink vdata,1013.4,936.0,8.2692,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata16,Hurink vdata,1125.2,1038.0,8.4008,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata17,Hurink vdata,1158.2,1070.0,8.243,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata18,Hurink vdata,1178.2,1089.0,8.191,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata19,Hurink vdata,732.2,717.0,2.1199,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata20,Hurink vdata,647.6,646.0,0.2477,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata21,Hurink vdata,702.4,663.0,5.9427,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata22,Hurink vdata,722.6,617.0,17.1151,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata23,Hurink vdata,763.4,756.0,0.9788,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata24,Hurink vdata,935.4,800.0,16.925,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata25,Hurink vdata,847.6,733.0,15.6344,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata26,Hurink vdata,930.8,809.0,15.0556,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata27,Hurink vdata,889.6,773.0,15.0841,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata28,Hurink vdata,866.0,751.0,15.3129,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata29,Hurink vdata,1146.0,1052.0,8.9354,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata30,Hurink vdata,1178.2,1084.0,8.69,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata31,Hurink vdata,1164.0,1069.0,8.8868,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata32,Hurink vdata,1085.4,993.0,9.3051,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata33,Hurink vdata,1164.6,1068.0,9.0449,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata34,Hurink vdata,1598.4,1520.0,5.1579,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata35,Hurink vdata,1740.0,1657.0,5.0091,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata36,Hurink vdata,1572.4,1497.0,5.0367,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata37,Hurink vdata,1610.4,1535.0,4.9121,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata38,Hurink vdata,1625.8,1549.0,4.958,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata39,Hurink vdata,1070.8,948.0,12.9536,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata40,Hurink vdata,1138.6,986.0,15.4767,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata41,Hurink vdata,1014.2,943.0,7.5504,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata42,Hurink vdata,1058.2,922.0,14.7722,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",HurinkVdata43,Hurink vdata,1062.6,955.0,11.267,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",Kacem1,Kacem,11.0,11.0,0.0,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",Kacem2,Kacem,11.8,11.0,7.2727,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",Kacem3,Kacem,7.6,7.0,8.5714,5
+SA (50k),Recuit simulé,"evals=50000,depart=heuristique,params=taguchi",Kacem4,Kacem,13.0,11.0,18.1818,5

@@ -1,0 +1,6 @@
+# Environnement séparé conseillé pour le code de Song et al. (gym n'est pas nécessaire : voir evaluer_song.py)
+# python -m venv venv_song ; venv_song\Scripts\activate ; pip install -r requirements_song.txt
+torch>=1.8.1
+numpy
+pandas
+matplotlib

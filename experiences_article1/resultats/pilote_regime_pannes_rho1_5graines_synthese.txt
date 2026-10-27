@@ -1,0 +1,5 @@
+BrandimarteMk1: θ=1 J=51.0±0.0 (min 51) | meilleur θ=2.0 J=50.8±0.4 (min 50) | écart moyen -0.39 % | Mann-Whitney unilatéral p=0.212
+BrandimarteMk10: θ=1 J=254.0±0.0 (min 254) | meilleur θ=2.0 J=250.8±0.4 (min 250) | écart moyen -1.26 % | Mann-Whitney unilatéral p=0.003
+BrandimarteMk4: θ=1 J=81.0±4.2 (min 77) | meilleur θ=1.25 J=79.0±0.0 (min 79) | écart moyen -2.47 % | Mann-Whitney unilatéral p=0.547
+BrandimarteMk7: θ=1 J=169.4±5.1 (min 164) | meilleur θ=2.0 J=162.4±3.8 (min 156) | écart moyen -4.13 % | Mann-Whitney unilatéral p=0.028
+HurinkVdata4: θ=1 J=676.6±5.3 (min 671) | meilleur θ=1.25 J=672.4±6.4 (min 667) | écart moyen -0.62 % | Mann-Whitney unilatéral p=0.155

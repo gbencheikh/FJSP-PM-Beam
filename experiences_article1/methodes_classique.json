@@ -1,0 +1,11 @@
+[
+ {"label": "MWKR+EFT", "methode": "MWKR+EFT", "config": ""},
+ {"label": "TS (50k)", "methode": "Recherche tabou", "config": "evals=50000,depart=heuristique,params=taguchi"},
+ {"label": "Song et al. greedy", "methode": "Song et al. (2023)", "config": "glouton"},
+ {"label": "Song et al. 100 samples", "methode": "Song et al. (2023)", "config": "echantillons=100"},
+ {"label": "Policy, greedy", "methode": "RL:imit-ft", "config": "glouton"},
+ {"label": "Policy, 100 samples", "methode": "RL:imit-ft", "config": "echantillons=100"},
+ {"label": "Rule beam B=50", "methode": "Faisceau:regle", "config": "faisceau=50,k=0"},
+ {"label": "Policy + beam 5x4", "methode": "RL:imit-ft", "config": "faisceau=5,k=4"},
+ {"label": "Policy + beam 50x5", "methode": "RL:imit-ft", "config": "faisceau=50,k=5"}
+]

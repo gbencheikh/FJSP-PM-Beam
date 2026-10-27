@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or its data, please cite the article below."
+title: "Learned action filtering for decision-time search in flexible job shop scheduling with preventive maintenance: code and data"
+authors:
+  - family-names: Bencheikh
+    given-names: Ghita
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-27"
+preferred-citation:
+  type: article
+  title: "Learned action filtering for decision-time search in flexible job shop scheduling with preventive maintenance"
+  authors:
+    - family-names: Bencheikh
+      given-names: Ghita
+  journal: "Computers & Operations Research"
+  year: 2026
+  notes: "Submitted. Co-authors, volume and DOI to be completed."

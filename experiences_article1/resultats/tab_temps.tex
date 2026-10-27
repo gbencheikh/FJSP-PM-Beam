@@ -1,0 +1,35 @@
+% Produit par experiences_article1/tableaux_article.py — sources : resultats/tests_qualite_temps.md (E10, 54 instances),
+% resultats/tests_qualite_temps_E10b.md (E10b, 36 instances) ; Holm sur 12 tests par sous-ensemble
+\begin{tabular}{llrrrrrr}
+\toprule
+Method & Budget (s) & Beam (mean time, s) & Gap beam & Gap method & Difference & W/T/L & $p_{\mathrm{Holm}}$ \\
+\midrule
+\multicolumn{8}{l}{\emph{Brandimarte, Kacem, Hurink vdata (54 instances)}} \\
+SA & 1 & 5$\times$4 (0.90) & -2.44 & +4.32 & -6.25 & 43/6/5 & $1.6 \times 10^{-7}$ \\
+SA & 2 & 10$\times$4 (1.76) & -2.58 & +2.49 & -4.81 & 46/3/5 & $2.1 \times 10^{-7}$ \\
+SA & 5 & 20$\times$4 (3.28) & -2.66 & +0.34 & -2.95 & 43/7/4 & $2.6 \times 10^{-7}$ \\
+SA & 10 & 50$\times$5 (8.77) & -2.74 & -0.63 & -2.11 & 42/5/7 & $7.9 \times 10^{-7}$ \\
+SA & 20 & 50$\times$5 (8.77) & -2.74 & -1.57 & -1.19 & 35/10/9 & $4.9 \times 10^{-5}$ \\
+SA & 40 & 50$\times$5 (8.77) & -2.74 & -2.15 & -0.60 & 33/9/12 & $3.4 \times 10^{-3}$ \\
+TS & 1 & 5$\times$4 (0.90) & -2.44 & +1.63 & -3.96 & 45/5/4 & $1.8 \times 10^{-7}$ \\
+TS & 2 & 10$\times$4 (1.76) & -2.58 & +0.66 & -3.21 & 45/5/4 & $1.6 \times 10^{-7}$ \\
+TS & 5 & 20$\times$4 (3.28) & -2.66 & -0.33 & -2.36 & 45/5/4 & $4.1 \times 10^{-8}$ \\
+TS & 10 & 50$\times$5 (8.77) & -2.74 & -1.02 & -1.76 & 43/5/6 & $2.6 \times 10^{-7}$ \\
+TS & 20 & 50$\times$5 (8.77) & -2.74 & -1.47 & -1.29 & 41/6/7 & $6.9 \times 10^{-7}$ \\
+TS & 40 & 50$\times$5 (8.77) & -2.74 & -1.83 & -0.93 & 40/7/7 & $1.2 \times 10^{-6}$ \\
+\midrule
+\multicolumn{8}{l}{\emph{Hurink edata and rdata (36 instances)}} \\
+SA & 1 & 1$\times$4 (0.32) & +3.89 & +3.55 & +0.45 & 15/0/21 & 1 \\
+SA & 2 & 5$\times$4 (1.12) & +3.09 & +2.07 & +1.05 & 13/0/23 & 1 \\
+SA & 5 & 20$\times$4 (4.06) & +2.60 & +0.50 & +2.10 & 10/0/26 & $2.8 \times 10^{-3}$ \\
+SA & 10 & 20$\times$4 (4.06) & +2.60 & -0.41 & +3.02 & 6/0/30 & $2.2 \times 10^{-7}$ \\
+SA & 20 & 50$\times$5 (10.29) & +1.88 & -1.05 & +2.98 & 3/2/31 & $8.1 \times 10^{-6}$ \\
+SA & 40 & 50$\times$5 (10.29) & +1.88 & -1.83 & +3.82 & 3/1/32 & $7.0 \times 10^{-6}$ \\
+TS & 1 & 1$\times$4 (0.32) & +3.89 & +3.96 & -0.00 & 18/0/18 & 1 \\
+TS & 2 & 5$\times$4 (1.12) & +3.09 & +2.95 & +0.17 & 19/0/17 & 1 \\
+TS & 5 & 20$\times$4 (4.06) & +2.60 & +1.65 & +0.95 & 15/0/21 & 0.34 \\
+TS & 10 & 20$\times$4 (4.06) & +2.60 & +0.75 & +1.85 & 9/0/27 & $1.1 \times 10^{-3}$ \\
+TS & 20 & 50$\times$5 (10.29) & +1.88 & -0.22 & +2.12 & 8/0/28 & $3.8 \times 10^{-4}$ \\
+TS & 40 & 50$\times$5 (10.29) & +1.88 & -0.83 & +2.76 & 7/0/29 & $9.1 \times 10^{-5}$ \\
+\bottomrule
+\end{tabular}

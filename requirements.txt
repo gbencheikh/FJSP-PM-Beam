@@ -1,0 +1,9 @@
+# Tested with Python 3.11.9 (versions used for the article in brackets).
+# Install PyTorch CPU first:  pip install torch --index-url https://download.pytorch.org/whl/cpu   [2.14.0]
+torch>=2.2
+numpy>=1.26        # [2.4.6]
+scipy>=1.11        # [1.17.1]
+numba>=0.59        # [0.68.0]
+ortools>=9.10      # [9.15.6755]
+matplotlib>=3.8
+pytest>=8

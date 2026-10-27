@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+desktop.ini
+Thumbs.db
+# decompressed automatically from solutions.jsonl.gz on first import (≈ 96 MB)
+banque_resultats/solutions.jsonl
+# external repository of Song et al. (to be cloned, see README)
+externe/fjsp-drl/
+*.tmp
+_test_cloud.tgz
+_fig.py

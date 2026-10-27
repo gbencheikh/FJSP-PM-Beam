@@ -1,0 +1,18 @@
+% Produit par experiences_article1/statistiques.py — ne pas modifier à la main
+% 127 instances communes sur 127 de test
+% source : banque_resultats/resultats.csv ; référence Recuit simulé [evals=50000,depart=heuristique,params=taguchi]
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+Method & Brandimarte & Hurink edata & Hurink rdata & Hurink vdata & Kacem & All & 95\% CI & W/T/L & $n_{\mathrm{eff}}$ & $p_{\mathrm{Holm}}$ \\
+\midrule
+\emph{Flexibility} & 0.36 & 0.15 & 0.26 & 0.48 & 1.00 & 0.33 & & & & \\
+\midrule
+MWKR+EFT & +10.39 & +16.92 & +15.38 & +12.68 & +8.25 & +14.36 & [+12.76, +16.03] & 0/2/125 & 125 & 2.1e-21 \\
+GA (50k) & +4.10 & +5.47 & +6.69 & +6.64 & +4.05 & +6.03 & [+5.17, +6.89] & 2/3/122 & 124 & 3.2e-21 \\
+TS (50k) & +0.07 & +1.54 & +1.13 & -0.57 & +2.04 & +0.66 & [+0.32, +1.00] & 40/8/79 & 119 & 0.00017 \\
+Policy, greedy & +2.97 & +12.32 & +9.44 & +1.66 & +9.42 & +7.32 & [+6.18, +8.47] & 10/3/114 & 124 & 1e-17 \\
+Policy, 100 samples x 5 seeds & -0.42 & +4.70 & +3.92 & -0.74 & +0.28 & +2.22 & [+1.57, +2.84] & 21/4/102 & 123 & 1e-11 \\
+Policy + beam 5x4 & -0.96 & +4.24 & +2.00 & -2.31 & -7.51 & +0.76 & [-0.01, +1.49] & 47/3/77 & 124 & 0.00034 \\
+Policy + beam 50x5 & -0.84 & +3.17 & +1.02 & -2.73 & -7.51 & +0.05 & [-0.65, +0.71] & 58/4/65 & 123 & 0.057 \\
+\bottomrule
+\end{tabular}

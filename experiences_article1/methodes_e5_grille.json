@@ -1,0 +1,97 @@
+[
+ {
+  "label": "Policy beam 1x2",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=1,k=2"
+ },
+ {
+  "label": "Policy beam 1x4",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=1,k=4"
+ },
+ {
+  "label": "Policy beam 5x2",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=5,k=2"
+ },
+ {
+  "label": "Policy beam 5x4",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=5,k=4"
+ },
+ {
+  "label": "Policy beam 10x4",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=10,k=4"
+ },
+ {
+  "label": "Policy beam 20x2",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=20,k=2"
+ },
+ {
+  "label": "Policy beam 20x4",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=20,k=4"
+ },
+ {
+  "label": "Policy beam 50x2",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=50,k=2"
+ },
+ {
+  "label": "Policy beam 50x4",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=50,k=4"
+ },
+ {
+  "label": "Policy beam 50x5",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=50,k=5"
+ },
+ {
+  "label": "Policy beam 100x4",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=100,k=4"
+ },
+ {
+  "label": "Policy beam 100x5",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=100,k=5"
+ },
+ {
+  "label": "Policy beam 200x4",
+  "methode": "RL:imit-ft",
+  "config": "faisceau=200,k=4"
+ },
+ {
+  "label": "Rule beam B=5",
+  "methode": "Faisceau:regle",
+  "config": "faisceau=5,k=0"
+ },
+ {
+  "label": "Rule beam B=20",
+  "methode": "Faisceau:regle",
+  "config": "faisceau=20,k=0"
+ },
+ {
+  "label": "Rule beam B=50",
+  "methode": "Faisceau:regle",
+  "config": "faisceau=50,k=0"
+ },
+ {
+  "label": "Rule beam B=100",
+  "methode": "Faisceau:regle",
+  "config": "faisceau=100,k=0"
+ },
+ {
+  "label": "Rule beam B=200",
+  "methode": "Faisceau:regle",
+  "config": "faisceau=200,k=0"
+ },
+ {
+  "label": "TS (50k)",
+  "methode": "Recherche tabou",
+  "config": "evals=50000,depart=heuristique,params=taguchi"
+ }
+]

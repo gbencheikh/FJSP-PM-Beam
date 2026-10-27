@@ -1,0 +1,277 @@
+# Meilleurs plannings connus et bornes inférieures, avec provenance
+
+Généré par `outils/table_meilleurs_connus.py` depuis la banque, `cpsat_bornes.json` et `meilleurs_connus.csv` (FJSPLib). Régime A = avec maintenance (s = 1) ; classique = s = 1000.
+
+- A : 127 instances de test ; optimum prouvé 19, ouvertes 108 ; meilleur connu produit par : {'CP-SAT': 50, 'Recuit simulé': 40, 'RL:imit-ft': 19, 'Faisceau:regle': 8, 'Recherche tabou': 7, 'MWKR+EFT': 1} ; plus bas que FJSPLib : 0
+- classique : 127 instances de test ; optimum prouvé 118, ouvertes 9 ; meilleur connu produit par : {'FJSPLib (OptalCP, 2026-01-01)': 45, 'CP-SAT': 25, 'Recuit simulé': 19, 'FJSPLib (Quintiq, 2026-01-01)': 14, 'RL:imit-ft': 5, 'Recherche tabou': 4} ; plus bas que FJSPLib : 0
+
+| Instance | Test | Régime | Meilleur C_max | Source | Borne inf. | Source de la borne | Statut | Note |
+|---|---|---|---|---|---|---|---|---|
+| BrandimarteMk1 | oui | A | 50 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 50 | CP-SAT régime A (E9, 600 s) | optimum prouvé |  |
+| BrandimarteMk1 | oui | classique | 40 | Recherche tabou [evals=50000,depart=heuristique,params=taguchi] graine 2 (2026-10-07) | 40 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| BrandimarteMk2 | oui | A | 31 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 1 (2026-10-06) | 31 | CP-SAT régime A (E9, 600 s) | optimum prouvé |  |
+| BrandimarteMk2 | oui | classique | 26 | FJSPLib (OptalCP, 2026-01-01) | 26 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| BrandimarteMk3 | oui | A | 219 | MWKR+EFT [] graine 0 (2026-09-30) | 204 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.4 %) |  |
+| BrandimarteMk3 | oui | classique | 204 | MWKR+EFT [] graine 0 (2026-10-07) | 204 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| BrandimarteMk4 | oui | A | 72 | Recuit simulé [budget=5s,depart=heuristique] graine 2 (2026-09-30) | 60 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 20.0 %) |  |
+| BrandimarteMk4 | oui | classique | 60 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 60 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| BrandimarteMk5 | oui | A | 184 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 172 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.0 %) |  |
+| BrandimarteMk5 | oui | classique | 172 | FJSPLib (OptalCP, 2026-01-01) | 172 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| BrandimarteMk6 | oui | A | 68 | RL:imit-ft [faisceau=100,k=4] graine 0 (2026-10-06) | 57 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 19.3 %) |  |
+| BrandimarteMk6 | oui | classique | 57 | FJSPLib (OptalCP, 2026-01-01) | 57 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| BrandimarteMk7 | oui | A | 153 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 139 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.1 %) |  |
+| BrandimarteMk7 | oui | classique | 139 | FJSPLib (OptalCP, 2026-01-01) | 139 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| BrandimarteMk8 | oui | A | 556 | Recuit simulé [budget=5s,depart=heuristique] graine 0 (2026-09-30) | 523 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.3 %) |  |
+| BrandimarteMk8 | oui | classique | 523 | MWKR+EFT [] graine 0 (2026-10-07) | 523 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| BrandimarteMk9 | oui | A | 325 | RL:imit-ft [faisceau=1,k=4] graine 0 (2026-10-06) | 307 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 5.9 %) |  |
+| BrandimarteMk9 | oui | classique | 307 | Recherche tabou [evals=50000,depart=heuristique,params=taguchi] graine 4 (2026-10-07) | 307 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| BrandimarteMk10 | oui | A | 235 | RL:imit-ft [faisceau=10,k=4] graine 0 (2026-10-06) | 189 | FJSPLib (DOFP2026a, 2026-08-01) | ouvert (écart 24.3 %) |  |
+| BrandimarteMk10 | oui | classique | 193 | FJSPLib (Quintiq, 2026-01-01) | 189 | FJSPLib (DOFP2026a, 2026-08-01) | ouvert (écart 2.1 %) |  |
+| HurinkEdata4 | oui | A | 723 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 723 | CP-SAT régime A (E9, 600 s) | optimum prouvé |  |
+| HurinkEdata4 | oui | classique | 609 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 609 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata5 | oui | A | 814 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 814 | CP-SAT régime A (E9, 600 s) | optimum prouvé |  |
+| HurinkEdata5 | oui | classique | 655 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 3 (2026-10-07) | 655 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata6 | oui | A | 645 | Recherche tabou [budget=5s,depart=heuristique] graine 2 (2026-09-30) | 645 | CP-SAT régime A (E9, 600 s) | optimum prouvé |  |
+| HurinkEdata6 | oui | classique | 550 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 550 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata7 | oui | A | 675 | Recuit simulé [evals=10000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 675 | CP-SAT régime A (E9, 600 s) | optimum prouvé |  |
+| HurinkEdata7 | oui | classique | 568 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 568 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata8 | oui | A | 595 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 595 | CP-SAT régime A (E9, 600 s) | optimum prouvé |  |
+| HurinkEdata8 | oui | classique | 503 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 503 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata9 | oui | A | 902 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 833 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.3 %) |  |
+| HurinkEdata9 | oui | classique | 833 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 833 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata10 | oui | A | 852 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 762 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 11.8 %) |  |
+| HurinkEdata10 | oui | classique | 762 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 762 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata11 | oui | A | 905 | Recuit simulé [evals=10000,depart=heuristique,params=taguchi] graine 1 (2026-10-06) | 845 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.1 %) |  |
+| HurinkEdata11 | oui | classique | 845 | Recherche tabou [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 845 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata12 | oui | A | 972 | Recherche tabou [evals=50000,depart=heuristique,params=taguchi] graine 2 (2026-10-06) | 878 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.7 %) |  |
+| HurinkEdata12 | oui | classique | 878 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 2 (2026-10-07) | 878 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata13 | non | A | 974 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 866 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 12.5 %) |  |
+| HurinkEdata13 | non | classique | 866 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 866 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata14 | oui | A | 1181 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 2 (2026-10-06) | 1103 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.1 %) |  |
+| HurinkEdata14 | oui | classique | 1103 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 1103 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata15 | oui | A | 1054 | RL:imit-ft [echantillons=100] graine 0 (2026-10-06) | 960 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.8 %) |  |
+| HurinkEdata15 | oui | classique | 960 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 960 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata16 | oui | A | 1135 | Recherche tabou [budget=5s,depart=heuristique] graine 1 (2026-09-30) | 1053 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.8 %) |  |
+| HurinkEdata16 | oui | classique | 1053 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 1053 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata17 | oui | A | 1208 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 2 (2026-10-06) | 1123 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.6 %) |  |
+| HurinkEdata17 | oui | classique | 1123 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 1123 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata18 | oui | A | 1219 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 1 (2026-10-06) | 1111 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.7 %) |  |
+| HurinkEdata18 | oui | classique | 1111 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 1111 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata19 | oui | A | 989 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 892 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.9 %) |  |
+| HurinkEdata19 | oui | classique | 892 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 892 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata20 | oui | A | 777 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 707 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.9 %) |  |
+| HurinkEdata20 | oui | classique | 707 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 4 (2026-10-07) | 707 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata21 | oui | A | 919 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 842 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.1 %) |  |
+| HurinkEdata21 | oui | classique | 842 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 842 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata22 | oui | A | 844 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 796 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.0 %) |  |
+| HurinkEdata22 | oui | classique | 796 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 796 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata23 | non | A | 925 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 857 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.9 %) |  |
+| HurinkEdata23 | non | classique | 857 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 857 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata24 | oui | A | 1095 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1009 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.5 %) |  |
+| HurinkEdata24 | oui | classique | 1009 | FJSPLib (OptalCP, 2026-01-01) | 1009 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata25 | oui | A | 937 | Recherche tabou [evals=200000,depart=heuristique,params=taguchi] graine 2 (2026-10-07) | 880 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.5 %) |  |
+| HurinkEdata25 | oui | classique | 880 | FJSPLib (OptalCP, 2026-01-01) | 880 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata26 | oui | A | 1058 | Recuit simulé [evals=100000,depart=heuristique,params=taguchi] graine 1 (2026-10-06) | 950 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 11.4 %) |  |
+| HurinkEdata26 | oui | classique | 950 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 950 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata27 | oui | A | 1016 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 908 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 11.9 %) |  |
+| HurinkEdata27 | oui | classique | 908 | FJSPLib (OptalCP, 2026-01-01) | 908 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata28 | oui | A | 993 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 936 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.1 %) |  |
+| HurinkEdata28 | oui | classique | 936 | FJSPLib (OptalCP, 2026-01-01) | 936 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata29 | oui | A | 1207 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1106 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.1 %) |  |
+| HurinkEdata29 | oui | classique | 1106 | FJSPLib (OptalCP, 2026-01-01) | 1106 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata30 | oui | A | 1289 | Recuit simulé [evals=100000,depart=heuristique,params=taguchi] graine 1 (2026-10-06) | 1181 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.1 %) |  |
+| HurinkEdata30 | oui | classique | 1181 | FJSPLib (OptalCP, 2026-01-01) | 1181 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata31 | oui | A | 1248 | Recuit simulé [evals=50000,depart=heuristique] graine 0 (2026-09-30) | 1142 | FJSPLib (CPO2013, 2013-11-22) | ouvert (écart 9.3 %) |  |
+| HurinkEdata31 | oui | classique | 1142 | FJSPLib (CPO2013, 2013-11-22) | 1142 | FJSPLib (CPO2013, 2013-11-22) | optimum prouvé |  |
+| HurinkEdata32 | oui | A | 1200 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1107 | FJSPLib (CPO2013, 2013-11-22) | ouvert (écart 8.4 %) |  |
+| HurinkEdata32 | oui | classique | 1107 | FJSPLib (CPO2013, 2013-11-22) | 1107 | FJSPLib (CPO2013, 2013-11-22) | optimum prouvé |  |
+| HurinkEdata33 | non | A | 1308 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1188 | FJSPLib (CPO2013, 2013-11-22) | ouvert (écart 10.1 %) |  |
+| HurinkEdata33 | non | classique | 1188 | FJSPLib (CPO2013, 2013-11-22) | 1188 | FJSPLib (CPO2013, 2013-11-22) | optimum prouvé |  |
+| HurinkEdata34 | oui | A | 1631 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 1532 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.5 %) |  |
+| HurinkEdata34 | oui | classique | 1532 | FJSPLib (OptalCP, 2026-01-01) | 1532 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata35 | oui | A | 1766 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 1698 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.0 %) |  |
+| HurinkEdata35 | oui | classique | 1698 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 1698 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata36 | oui | A | 1647 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-09-30) | 1547 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.5 %) |  |
+| HurinkEdata36 | oui | classique | 1547 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 1547 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata37 | oui | A | 1715 | Recherche tabou [evals=200000,depart=heuristique,params=taguchi] graine 2 (2026-10-07) | 1599 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.3 %) |  |
+| HurinkEdata37 | oui | classique | 1599 | FJSPLib (OptalCP, 2026-01-01) | 1599 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata38 | oui | A | 1840 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 1736 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.0 %) |  |
+| HurinkEdata38 | oui | classique | 1736 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 3 (2026-10-07) | 1736 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata39 | oui | A | 1241 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1160 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.0 %) |  |
+| HurinkEdata39 | oui | classique | 1160 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 1160 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata40 | oui | A | 1509 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1397 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.0 %) |  |
+| HurinkEdata40 | oui | classique | 1397 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 1397 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata41 | oui | A | 1214 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1141 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.4 %) |  |
+| HurinkEdata41 | oui | classique | 1141 | FJSPLib (OptalCP, 2026-01-01) | 1141 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata42 | oui | A | 1275 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1184 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.7 %) |  |
+| HurinkEdata42 | oui | classique | 1184 | FJSPLib (OptalCP, 2026-01-01) | 1184 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkEdata43 | oui | A | 1220 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1144 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.6 %) |  |
+| HurinkEdata43 | oui | classique | 1144 | FJSPLib (OptalCP, 2026-01-01) | 1144 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata4 | oui | A | 667 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 570 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 17.0 %) |  |
+| HurinkRdata4 | oui | classique | 570 | FJSPLib (OptalCP, 2026-01-01) | 570 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata5 | oui | A | 623 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 529 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 17.8 %) |  |
+| HurinkRdata5 | oui | classique | 529 | FJSPLib (OptalCP, 2026-01-01) | 529 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata6 | oui | A | 557 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 477 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 16.8 %) |  |
+| HurinkRdata6 | oui | classique | 477 | FJSPLib (OptalCP, 2026-01-01) | 477 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata7 | oui | A | 586 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 502 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 16.7 %) |  |
+| HurinkRdata7 | oui | classique | 502 | FJSPLib (OptalCP, 2026-01-01) | 502 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata8 | non | A | 532 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 457 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 16.4 %) |  |
+| HurinkRdata8 | non | classique | 457 | FJSPLib (OptalCP, 2026-01-01) | 457 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata9 | oui | A | 884 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 3 (2026-10-06) | 799 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.6 %) |  |
+| HurinkRdata9 | oui | classique | 799 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 799 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata10 | oui | A | 830 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 749 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.8 %) |  |
+| HurinkRdata10 | oui | classique | 749 | FJSPLib (OptalCP, 2026-01-01) | 749 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata11 | oui | A | 848 | Recherche tabou [evals=50000,depart=heuristique,params=taguchi] graine 4 (2026-10-06) | 765 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.8 %) |  |
+| HurinkRdata11 | oui | classique | 765 | FJSPLib (OptalCP, 2026-01-01) | 765 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata12 | oui | A | 947 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 4 (2026-10-06) | 853 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 11.0 %) |  |
+| HurinkRdata12 | oui | classique | 853 | FJSPLib (OptalCP, 2026-01-01) | 853 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata13 | oui | A | 891 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 804 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.8 %) |  |
+| HurinkRdata13 | oui | classique | 804 | FJSPLib (OptalCP, 2026-01-01) | 804 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata14 | oui | A | 1158 | Recuit simulé [evals=20000,depart=heuristique,params=taguchi] graine 2 (2026-10-06) | 1071 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.1 %) |  |
+| HurinkRdata14 | oui | classique | 1071 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 1071 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata15 | oui | A | 1012 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 1 (2026-10-06) | 936 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.1 %) |  |
+| HurinkRdata15 | oui | classique | 936 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 936 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata16 | oui | A | 1122 | Recuit simulé [budget=5s,depart=heuristique] graine 1 (2026-09-30) | 1038 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.1 %) |  |
+| HurinkRdata16 | oui | classique | 1038 | Faisceau:regle [faisceau=50,k=0] graine 0 (2026-10-07) | 1038 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata17 | oui | A | 1154 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1070 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.9 %) |  |
+| HurinkRdata17 | oui | classique | 1070 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 1070 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata18 | non | A | 1177 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 1089 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.1 %) |  |
+| HurinkRdata18 | non | classique | 1089 | FJSPLib (OptalCP, 2026-01-01) | 1089 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata19 | oui | A | 762 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 717 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.3 %) |  |
+| HurinkRdata19 | oui | classique | 717 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 717 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata20 | oui | A | 654 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 654 | CP-SAT régime A (E9, 600 s) | optimum prouvé |  |
+| HurinkRdata20 | oui | classique | 646 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 646 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata21 | oui | A | 706 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 666 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.0 %) |  |
+| HurinkRdata21 | oui | classique | 666 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 666 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata22 | oui | A | 747 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 700 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.7 %) |  |
+| HurinkRdata22 | oui | classique | 700 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 700 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata23 | oui | A | 774 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 756 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 2.4 %) |  |
+| HurinkRdata23 | oui | classique | 756 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 756 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata24 | oui | A | 934 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 809 | FJSPLib (CdGKGC2025, 2025-01-01) | ouvert (écart 15.5 %) |  |
+| HurinkRdata24 | oui | classique | 825 | FJSPLib (Quintiq, 2026-01-01) | 809 | FJSPLib (CdGKGC2025, 2025-01-01) | ouvert (écart 2.0 %) |  |
+| HurinkRdata25 | oui | A | 850 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 745 | FJSPLib (CdGKGC2025, 2025-01-01) | ouvert (écart 14.1 %) |  |
+| HurinkRdata25 | oui | classique | 753 | FJSPLib (DLLSXG2019, 2019-01-01) | 745 | FJSPLib (CdGKGC2025, 2025-01-01) | ouvert (écart 1.1 %) |  |
+| HurinkRdata26 | oui | A | 936 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 820 | FJSPLib (CdGKGC2025, 2025-01-01) | ouvert (écart 14.1 %) |  |
+| HurinkRdata26 | oui | classique | 831 | FJSPLib (DLLSXG2019, 2019-01-01) | 820 | FJSPLib (CdGKGC2025, 2025-01-01) | ouvert (écart 1.3 %) |  |
+| HurinkRdata27 | oui | A | 899 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 780 | FJSPLib (CdGKGC2025, 2025-01-01) | ouvert (écart 15.3 %) |  |
+| HurinkRdata27 | oui | classique | 795 | FJSPLib (DLLSXG2019, 2019-01-01) | 780 | FJSPLib (CdGKGC2025, 2025-01-01) | ouvert (écart 1.9 %) |  |
+| HurinkRdata28 | non | A | 877 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 771 | FJSPLib (CdGKGC2025, 2025-01-01) | ouvert (écart 13.7 %) |  |
+| HurinkRdata28 | non | classique | 779 | FJSPLib (DLLSXG2019, 2019-01-01) | 771 | FJSPLib (CdGKGC2025, 2025-01-01) | ouvert (écart 1.0 %) |  |
+| HurinkRdata29 | oui | A | 1144 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 1056 | FJSPLib (DOFP2026a, 2026-08-01) | ouvert (écart 8.3 %) |  |
+| HurinkRdata29 | oui | classique | 1057 | FJSPLib (Quintiq, 2026-01-01) | 1056 | FJSPLib (DOFP2026a, 2026-08-01) | ouvert (écart 0.1 %) |  |
+| HurinkRdata30 | oui | A | 1177 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 1085 | FJSPLib (DOFP2026a, 2026-08-01) | ouvert (écart 8.5 %) |  |
+| HurinkRdata30 | oui | classique | 1085 | FJSPLib (Quintiq, 2026-01-01) | 1085 | FJSPLib (DOFP2026a, 2026-08-01) | optimum prouvé |  |
+| HurinkRdata31 | oui | A | 1163 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 1075 | FJSPLib (DOFP2026a, 2026-08-01) | ouvert (écart 8.2 %) |  |
+| HurinkRdata31 | oui | classique | 1076 | FJSPLib (Quintiq, 2026-01-01) | 1075 | FJSPLib (DOFP2026a, 2026-08-01) | ouvert (écart 0.1 %) |  |
+| HurinkRdata32 | oui | A | 1077 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 993 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.5 %) |  |
+| HurinkRdata32 | oui | classique | 994 | FJSPLib (Quintiq, 2026-01-01) | 993 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 0.1 %) |  |
+| HurinkRdata33 | oui | A | 1162 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 1068 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.8 %) |  |
+| HurinkRdata33 | oui | classique | 1071 | FJSPLib (Quintiq, 2026-01-01) | 1068 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 0.3 %) |  |
+| HurinkRdata34 | oui | A | 1591 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 1520 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.7 %) |  |
+| HurinkRdata34 | oui | classique | 1520 | FJSPLib (OptalCP, 2026-01-01) | 1520 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata35 | oui | A | 1734 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1657 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.6 %) |  |
+| HurinkRdata35 | oui | classique | 1657 | FJSPLib (Quintiq, 2026-01-01) | 1657 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata36 | oui | A | 1567 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 2 (2026-10-07) | 1497 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.7 %) |  |
+| HurinkRdata36 | oui | classique | 1497 | FJSPLib (Quintiq, 2026-01-01) | 1497 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata37 | oui | A | 1605 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 1535 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.6 %) |  |
+| HurinkRdata37 | oui | classique | 1535 | FJSPLib (Quintiq, 2026-01-01) | 1535 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata38 | non | A | 1624 | Recuit simulé [evals=100000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 1549 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.8 %) |  |
+| HurinkRdata38 | non | classique | 1549 | FJSPLib (Quintiq, 2026-01-01) | 1549 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata39 | oui | A | 1109 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1023 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.4 %) |  |
+| HurinkRdata39 | oui | classique | 1023 | FJSPLib (OptalCP, 2026-01-01) | 1023 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata40 | oui | A | 1172 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1062 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.4 %) |  |
+| HurinkRdata40 | oui | classique | 1062 | FJSPLib (OptalCP, 2026-01-01) | 1062 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata41 | oui | A | 1058 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 954 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.9 %) |  |
+| HurinkRdata41 | oui | classique | 954 | FJSPLib (OptalCP, 2026-01-01) | 954 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata42 | oui | A | 1107 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1011 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.5 %) |  |
+| HurinkRdata42 | oui | classique | 1011 | FJSPLib (OptalCP, 2026-01-01) | 1011 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkRdata43 | oui | A | 1042 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 955 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.1 %) |  |
+| HurinkRdata43 | oui | classique | 955 | FJSPLib (OptalCP, 2026-01-01) | 955 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata4 | oui | A | 663 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 570 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 16.3 %) |  |
+| HurinkVdata4 | oui | classique | 570 | FJSPLib (OptalCP, 2026-01-01) | 570 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata5 | oui | A | 615 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 529 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 16.3 %) |  |
+| HurinkVdata5 | oui | classique | 529 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 529 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata6 | oui | A | 557 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 477 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 16.8 %) |  |
+| HurinkVdata6 | oui | classique | 477 | FJSPLib (OptalCP, 2026-01-01) | 477 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata7 | oui | A | 584 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 502 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 16.3 %) |  |
+| HurinkVdata7 | oui | classique | 502 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 502 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata8 | oui | A | 535 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 457 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 17.1 %) |  |
+| HurinkVdata8 | oui | classique | 457 | FJSPLib (OptalCP, 2026-01-01) | 457 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata9 | oui | A | 885 | Faisceau:regle [faisceau=100,k=0] graine 0 (2026-10-06) | 799 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.8 %) |  |
+| HurinkVdata9 | oui | classique | 799 | RL:imit-ft [faisceau=5,k=4] graine 0 (2026-10-07) | 799 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata10 | oui | A | 831 | RL:imit-ft [faisceau=100,k=4] graine 0 (2026-10-06) | 749 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.9 %) |  |
+| HurinkVdata10 | oui | classique | 749 | FJSPLib (OptalCP, 2026-01-01) | 749 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata11 | oui | A | 848 | Recherche tabou [evals=50000,depart=heuristique,params=taguchi] graine 2 (2026-10-06) | 765 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.8 %) |  |
+| HurinkVdata11 | oui | classique | 765 | FJSPLib (OptalCP, 2026-01-01) | 765 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata12 | oui | A | 945 | RL:imit-ft [faisceau=20,k=4] graine 0 (2026-10-06) | 853 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.8 %) |  |
+| HurinkVdata12 | oui | classique | 853 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 853 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata13 | oui | A | 891 | Faisceau:regle [faisceau=50,k=0] graine 0 (2026-10-06) | 804 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.8 %) |  |
+| HurinkVdata13 | oui | classique | 804 | FJSPLib (OptalCP, 2026-01-01) | 804 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata14 | oui | A | 1158 | Recuit simulé [evals=100000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 1071 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.1 %) |  |
+| HurinkVdata14 | oui | classique | 1071 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 1071 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata15 | oui | A | 1011 | Recuit simulé [evals=200000,depart=heuristique,params=taguchi] graine 2 (2026-10-07) | 936 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.0 %) |  |
+| HurinkVdata15 | oui | classique | 936 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 936 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata16 | oui | A | 1121 | RL:aleatoire-g0 [faisceau=50,k=5] graine 0 (2026-10-06) | 1038 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.0 %) |  |
+| HurinkVdata16 | oui | classique | 1038 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 1038 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata17 | oui | A | 1154 | RL:imit-ft [faisceau=50,k=4] graine 0 (2026-10-06) | 1070 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 7.9 %) |  |
+| HurinkVdata17 | oui | classique | 1070 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-09) | 1070 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata18 | oui | A | 1176 | RL:imit-ft [faisceau=50,k=2] graine 0 (2026-10-06) | 1089 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 8.0 %) |  |
+| HurinkVdata18 | oui | classique | 1089 | FJSPLib (OptalCP, 2026-01-01) | 1089 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata19 | oui | A | 717 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 4 (2026-10-06) | 717 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata19 | oui | classique | 717 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 717 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata20 | oui | A | 646 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 646 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata20 | oui | classique | 646 | LOR+EFT [] graine 0 (2026-10-07) | 646 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata21 | oui | A | 663 | Faisceau:regle [faisceau=200,k=0] graine 0 (2026-10-06) | 663 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata21 | oui | classique | 663 | LPT+EFT [] graine 0 (2026-10-07) | 663 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata22 | oui | A | 645 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 617 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.5 %) |  |
+| HurinkVdata22 | oui | classique | 617 | RL:imit-ft [faisceau=50,k=5] graine 0 (2026-10-07) | 617 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata23 | oui | A | 756 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 756 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata23 | oui | classique | 756 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 756 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata24 | oui | A | 875 | RL:imit-ft [faisceau=50,k=5] graine 0 (2026-10-06) | 800 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.4 %) |  |
+| HurinkVdata24 | oui | classique | 800 | FJSPLib (OptalCP, 2026-01-01) | 800 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata25 | oui | A | 806 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 733 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 10.0 %) |  |
+| HurinkVdata25 | oui | classique | 733 | FJSPLib (CPO2013, 2013-11-22) | 733 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata26 | oui | A | 886 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 809 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.5 %) |  |
+| HurinkVdata26 | oui | classique | 809 | FJSPLib (OptalCP, 2026-01-01) | 809 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata27 | oui | A | 846 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 773 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.4 %) |  |
+| HurinkVdata27 | oui | classique | 773 | FJSPLib (OptalCP, 2026-01-01) | 773 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata28 | oui | A | 823 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 751 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 9.6 %) |  |
+| HurinkVdata28 | oui | classique | 751 | FJSPLib (Quintiq, 2026-01-01) | 751 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata29 | oui | A | 1123 | RL:imit-ft [faisceau=50,k=2] graine 0 (2026-10-06) | 1052 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.7 %) |  |
+| HurinkVdata29 | oui | classique | 1052 | FJSPLib (OptalCP, 2026-01-01) | 1052 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata30 | oui | A | 1157 | RL:imit-ft [faisceau=50,k=5] graine 0 (2026-10-06) | 1084 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.7 %) |  |
+| HurinkVdata30 | oui | classique | 1084 | FJSPLib (OptalCP, 2026-01-01) | 1084 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata31 | oui | A | 1142 | Faisceau:regle [faisceau=50,k=0] graine 0 (2026-10-06) | 1069 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.8 %) |  |
+| HurinkVdata31 | oui | classique | 1069 | FJSPLib (OptalCP, 2026-01-01) | 1069 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata32 | oui | A | 1062 | RL:imit-ft [faisceau=20,k=2] graine 0 (2026-10-06) | 993 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.9 %) |  |
+| HurinkVdata32 | oui | classique | 993 | FJSPLib (Quintiq, 2026-01-01) | 993 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata33 | oui | A | 1140 | CP-SAT [temps=600,segments=valide] graine 0 (2026-10-08) | 1068 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 6.7 %) |  |
+| HurinkVdata33 | oui | classique | 1068 | FJSPLib (Quintiq, 2026-01-01) | 1068 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata34 | oui | A | 1587 | Faisceau:regle [faisceau=50,k=0] graine 0 (2026-10-06) | 1520 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.4 %) |  |
+| HurinkVdata34 | oui | classique | 1520 | FJSPLib (OptalCP, 2026-01-01) | 1520 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata35 | oui | A | 1730 | RL:imit-ft [faisceau=200,k=4] graine 0 (2026-10-07) | 1657 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.4 %) |  |
+| HurinkVdata35 | oui | classique | 1657 | FJSPLib (Quintiq, 2026-01-01) | 1657 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata36 | oui | A | 1564 | RL:imit-ft [faisceau=100,k=4] graine 0 (2026-10-06) | 1497 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.5 %) |  |
+| HurinkVdata36 | oui | classique | 1497 | FJSPLib (MG2000, 2000-01-01) | 1497 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata37 | oui | A | 1602 | RL:imit-ft [faisceau=100,k=4] graine 0 (2026-10-06) | 1535 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.4 %) |  |
+| HurinkVdata37 | oui | classique | 1535 | FJSPLib (OptalCP, 2026-01-01) | 1535 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata38 | oui | A | 1618 | RL:imit-ft [faisceau=20,k=4] graine 0 (2026-10-06) | 1549 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 4.5 %) |  |
+| HurinkVdata38 | oui | classique | 1549 | FJSPLib (OptalCP, 2026-01-01) | 1549 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata39 | oui | A | 948 | RL:imit-ft [faisceau=100,k=5] graine 0 (2026-10-07) | 948 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata39 | oui | classique | 948 | RL:imit-ft [faisceau=5,k=4] graine 0 (2026-10-07) | 948 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata40 | oui | A | 987 | RL:imit-ft [faisceau=50,k=5] graine 0 (2026-10-06) | 986 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 0.1 %) |  |
+| HurinkVdata40 | oui | classique | 986 | RL:imit-ft [faisceau=50,k=5] graine 0 (2026-10-07) | 986 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata41 | oui | A | 943 | Faisceau:regle [faisceau=5,k=0] graine 0 (2026-10-06) | 943 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata41 | oui | classique | 943 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 943 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata42 | oui | A | 935 | RL:imit-ft [faisceau=200,k=4] graine 0 (2026-10-07) | 922 | FJSPLib (OptalCP, 2026-01-01) | ouvert (écart 1.4 %) |  |
+| HurinkVdata42 | oui | classique | 922 | RL:imit-ft [faisceau=50,k=5] graine 0 (2026-10-07) | 922 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata43 | oui | A | 955 | Faisceau:regle [faisceau=200,k=0] graine 0 (2026-10-06) | 955 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| HurinkVdata43 | oui | classique | 955 | Recherche tabou [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-07) | 955 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| Kacem1 | oui | A | 11 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 0 (2026-10-06) | 11 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| Kacem1 | oui | classique | 11 | LPT+EFT [] graine 0 (2026-10-07) | 11 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| Kacem2 | oui | A | 11 | MOR+EFT [] graine 0 (2026-09-30) | 11 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| Kacem2 | oui | classique | 11 | MOR+EFT [] graine 0 (2026-10-07) | 11 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| Kacem3 | oui | A | 7 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 2 (2026-10-06) | 7 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| Kacem3 | oui | classique | 7 | Recuit simulé [evals=50000,depart=heuristique,params=taguchi] graine 1 (2026-10-07) | 7 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| Kacem4 | oui | A | 11 | Faisceau:regle [faisceau=50,k=0] graine 0 (2026-10-06) | 11 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |
+| Kacem4 | oui | classique | 11 | Faisceau:regle [faisceau=50,k=0] graine 0 (2026-10-07) | 11 | FJSPLib (OptalCP, 2026-01-01) | optimum prouvé |  |

@@ -1,0 +1,9 @@
+[
+ {"label": "MWKR+EFT", "methode": "MWKR+EFT", "config": ""},
+ {"label": "GA (Taguchi, 50k)", "methode": "Algorithme génétique", "config": "evals=50000,depart=heuristique,params=taguchi"},
+ {"label": "Tabu (Taguchi, 50k)", "methode": "Recherche tabou", "config": "evals=50000,depart=heuristique,params=taguchi"},
+ {"label": "Agent greedy", "methode": "RL:imit-ft", "config": "glouton"},
+ {"label": "Agent best of 100", "methode": "RL:imit-ft", "config": "meilleur_de_k=100"},
+ {"label": "Agent + beam 5x4", "methode": "RL:imit-ft", "config": "faisceau=5,k=4"},
+ {"label": "Agent + beam 50x5", "methode": "RL:imit-ft", "config": "faisceau=50,k=5"}
+]

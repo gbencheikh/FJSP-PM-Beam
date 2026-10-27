@@ -1,0 +1,1271 @@
+label,methode,config,instance,famille,valeur,reference,ecart_pct,graines
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",BrandimarteMk2,Brandimarte,33.0,32.6,1.227,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",BrandimarteMk4,Brandimarte,80.0,77.6,3.0928,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",BrandimarteMk5,Brandimarte,190.0,190.8,-0.4193,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",BrandimarteMk6,Brandimarte,74.0,73.4,0.8174,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",BrandimarteMk7,Brandimarte,161.0,163.8,-1.7094,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",BrandimarteMk8,Brandimarte,567.0,562.6,0.7821,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",BrandimarteMk9,Brandimarte,327.0,330.0,-0.9091,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",BrandimarteMk10,Brandimarte,243.0,257.4,-5.5944,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata4,Hurink edata,761.0,723.0,5.2559,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata5,Hurink edata,854.0,814.0,4.914,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata6,Hurink edata,669.0,655.8,2.0128,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata7,Hurink edata,761.0,690.8,10.1621,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata8,Hurink edata,672.0,599.2,12.1495,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata9,Hurink edata,939.0,921.2,1.9323,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata10,Hurink edata,946.0,878.0,7.7449,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata11,Hurink edata,959.0,925.4,3.6309,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata12,Hurink edata,1033.0,977.8,5.6453,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata14,Hurink edata,1235.0,1204.8,2.5066,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata15,Hurink edata,1073.0,1070.2,0.2616,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata16,Hurink edata,1222.0,1139.8,7.2118,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata17,Hurink edata,1253.0,1216.0,3.0428,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata18,Hurink edata,1340.0,1219.0,9.9262,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata19,Hurink edata,1083.0,1020.8,6.0933,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata20,Hurink edata,853.0,828.4,2.9696,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata21,Hurink edata,1002.0,960.0,4.375,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata22,Hurink edata,922.0,902.4,2.172,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata24,Hurink edata,1183.0,1149.2,2.9412,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata25,Hurink edata,1029.0,967.0,6.4116,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata26,Hurink edata,1194.0,1095.6,8.9814,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata27,Hurink edata,1083.0,1039.4,4.1947,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata28,Hurink edata,1084.0,1049.0,3.3365,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata29,Hurink edata,1321.0,1258.0,5.0079,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata30,Hurink edata,1400.0,1331.8,5.1209,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata31,Hurink edata,1384.0,1270.6,8.9249,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata32,Hurink edata,1316.0,1292.2,1.8418,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata34,Hurink edata,1753.0,1680.0,4.3452,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata35,Hurink edata,1892.0,1804.4,4.8548,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata36,Hurink edata,1744.0,1656.8,5.2632,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata37,Hurink edata,1778.0,1752.4,1.4609,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata38,Hurink edata,1940.0,1842.6,5.286,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata39,Hurink edata,1365.0,1303.0,4.7583,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata40,Hurink edata,1582.0,1559.2,1.4623,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata41,Hurink edata,1386.0,1309.2,5.8662,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata42,Hurink edata,1397.0,1370.8,1.9113,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkEdata43,Hurink edata,1349.0,1265.8,6.5729,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata4,Hurink rdata,691.0,681.2,1.4386,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata5,Hurink rdata,636.0,635.2,0.1259,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata6,Hurink rdata,566.0,570.8,-0.8409,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata7,Hurink rdata,597.0,597.8,-0.1338,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata9,Hurink rdata,892.0,888.0,0.4505,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata10,Hurink rdata,845.0,835.6,1.1249,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata11,Hurink rdata,863.0,853.4,1.1249,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata12,Hurink rdata,966.0,951.4,1.5346,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata13,Hurink rdata,905.0,899.6,0.6003,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata14,Hurink rdata,1164.0,1162.0,0.1721,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata15,Hurink rdata,1018.0,1013.2,0.4737,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata16,Hurink rdata,1123.0,1125.2,-0.1955,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata17,Hurink rdata,1166.0,1156.8,0.7953,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata19,Hurink rdata,851.0,794.0,7.1788,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata20,Hurink rdata,761.0,694.4,9.591,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata21,Hurink rdata,767.0,757.0,1.321,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata22,Hurink rdata,848.0,805.8,5.237,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata23,Hurink rdata,859.0,827.8,3.769,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata24,Hurink rdata,992.0,966.0,2.6915,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata25,Hurink rdata,908.0,885.2,2.5757,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata26,Hurink rdata,995.0,991.0,0.4036,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata27,Hurink rdata,954.0,946.4,0.803,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata29,Hurink rdata,1205.0,1168.8,3.0972,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata30,Hurink rdata,1259.0,1213.6,3.7409,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata31,Hurink rdata,1199.0,1193.2,0.4861,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata32,Hurink rdata,1124.0,1105.8,1.6459,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata33,Hurink rdata,1248.0,1205.6,3.5169,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata34,Hurink rdata,1627.0,1601.6,1.5859,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata35,Hurink rdata,1759.0,1745.2,0.7907,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata36,Hurink rdata,1600.0,1581.6,1.1634,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata37,Hurink rdata,1631.0,1614.6,1.0157,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata39,Hurink rdata,1186.0,1177.2,0.7475,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata40,Hurink rdata,1239.0,1252.2,-1.0541,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata41,Hurink rdata,1144.0,1125.0,1.6889,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata42,Hurink rdata,1157.0,1169.2,-1.0434,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkRdata43,Hurink rdata,1155.0,1110.8,3.9791,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata4,Hurink vdata,671.0,675.6,-0.6809,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata5,Hurink vdata,621.0,624.0,-0.4808,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata6,Hurink vdata,559.0,567.2,-1.4457,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata7,Hurink vdata,595.0,589.2,0.9844,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata8,Hurink vdata,549.0,546.6,0.4391,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata9,Hurink vdata,886.0,889.0,-0.3375,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata10,Hurink vdata,839.0,836.8,0.2629,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata11,Hurink vdata,850.0,849.4,0.0706,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata12,Hurink vdata,949.0,950.4,-0.1473,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata13,Hurink vdata,896.0,893.8,0.2461,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata14,Hurink vdata,1165.0,1159.8,0.4484,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata15,Hurink vdata,1014.0,1013.4,0.0592,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata16,Hurink vdata,1122.0,1125.2,-0.2844,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata17,Hurink vdata,1156.0,1158.2,-0.1899,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata18,Hurink vdata,1177.0,1178.2,-0.1019,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata19,Hurink vdata,721.0,732.2,-1.5296,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata20,Hurink vdata,646.0,647.6,-0.2471,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata21,Hurink vdata,676.0,702.4,-3.7585,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata22,Hurink vdata,663.0,722.6,-8.248,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata23,Hurink vdata,756.0,763.4,-0.9693,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata24,Hurink vdata,879.0,935.4,-6.0295,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata25,Hurink vdata,811.0,847.6,-4.3181,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata26,Hurink vdata,905.0,930.8,-2.7718,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata27,Hurink vdata,850.0,889.6,-4.4514,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata28,Hurink vdata,835.0,866.0,-3.5797,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata29,Hurink vdata,1126.0,1146.0,-1.7452,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata30,Hurink vdata,1160.0,1178.2,-1.5447,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata31,Hurink vdata,1145.0,1164.0,-1.6323,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata32,Hurink vdata,1065.0,1085.4,-1.8795,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata33,Hurink vdata,1149.0,1164.6,-1.3395,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata34,Hurink vdata,1588.0,1598.4,-0.6507,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata35,Hurink vdata,1735.0,1740.0,-0.2874,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata36,Hurink vdata,1566.0,1572.4,-0.407,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata37,Hurink vdata,1606.0,1610.4,-0.2732,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata38,Hurink vdata,1620.0,1625.8,-0.3567,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata39,Hurink vdata,962.0,1070.8,-10.1606,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata40,Hurink vdata,1006.0,1138.6,-11.6459,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata41,Hurink vdata,943.0,1014.2,-7.0203,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata42,Hurink vdata,938.0,1058.2,-11.3589,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",HurinkVdata43,Hurink vdata,956.0,1062.6,-10.032,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",Kacem1,Kacem,12.0,11.0,9.0909,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",Kacem2,Kacem,11.0,11.8,-6.7797,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",Kacem3,Kacem,7.0,7.6,-7.8947,1
+Rule beam B=5,Faisceau:regle,"faisceau=5,k=0",Kacem4,Kacem,12.0,13.0,-7.6923,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",BrandimarteMk2,Brandimarte,33.0,32.6,1.227,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",BrandimarteMk4,Brandimarte,79.0,77.6,1.8041,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",BrandimarteMk5,Brandimarte,190.0,190.8,-0.4193,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",BrandimarteMk6,Brandimarte,74.0,73.4,0.8174,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",BrandimarteMk7,Brandimarte,162.0,163.8,-1.0989,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",BrandimarteMk8,Brandimarte,567.0,562.6,0.7821,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",BrandimarteMk9,Brandimarte,328.0,330.0,-0.6061,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",BrandimarteMk10,Brandimarte,241.0,257.4,-6.3714,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata4,Hurink edata,751.0,723.0,3.8728,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata5,Hurink edata,814.0,814.0,0.0,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata6,Hurink edata,669.0,655.8,2.0128,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata7,Hurink edata,736.0,690.8,6.5431,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata8,Hurink edata,618.0,599.2,3.1375,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata9,Hurink edata,936.0,921.2,1.6066,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata10,Hurink edata,946.0,878.0,7.7449,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata11,Hurink edata,959.0,925.4,3.6309,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata12,Hurink edata,1061.0,977.8,8.5089,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata14,Hurink edata,1216.0,1204.8,0.9296,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata15,Hurink edata,1073.0,1070.2,0.2616,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata16,Hurink edata,1178.0,1139.8,3.3515,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata17,Hurink edata,1250.0,1216.0,2.7961,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata18,Hurink edata,1327.0,1219.0,8.8597,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata19,Hurink edata,1074.0,1020.8,5.2116,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata20,Hurink edata,839.0,828.4,1.2796,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata21,Hurink edata,994.0,960.0,3.5417,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata22,Hurink edata,931.0,902.4,3.1693,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata24,Hurink edata,1225.0,1149.2,6.5959,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata25,Hurink edata,1022.0,967.0,5.6877,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata26,Hurink edata,1181.0,1095.6,7.7948,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata27,Hurink edata,1083.0,1039.4,4.1947,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata28,Hurink edata,1078.0,1049.0,2.7645,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata29,Hurink edata,1298.0,1258.0,3.1797,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata30,Hurink edata,1393.0,1331.8,4.5953,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata31,Hurink edata,1403.0,1270.6,10.4203,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata32,Hurink edata,1319.0,1292.2,2.074,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata34,Hurink edata,1766.0,1680.0,5.119,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata35,Hurink edata,1871.0,1804.4,3.691,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata36,Hurink edata,1710.0,1656.8,3.211,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata37,Hurink edata,1800.0,1752.4,2.7163,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata38,Hurink edata,1911.0,1842.6,3.7121,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata39,Hurink edata,1365.0,1303.0,4.7583,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata40,Hurink edata,1580.0,1559.2,1.334,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata41,Hurink edata,1392.0,1309.2,6.3245,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata42,Hurink edata,1382.0,1370.8,0.817,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkEdata43,Hurink edata,1366.0,1265.8,7.9159,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata4,Hurink rdata,684.0,681.2,0.411,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata5,Hurink rdata,636.0,635.2,0.1259,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata6,Hurink rdata,566.0,570.8,-0.8409,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata7,Hurink rdata,601.0,597.8,0.5353,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata9,Hurink rdata,894.0,888.0,0.6757,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata10,Hurink rdata,845.0,835.6,1.1249,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata11,Hurink rdata,863.0,853.4,1.1249,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata12,Hurink rdata,971.0,951.4,2.0601,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata13,Hurink rdata,900.0,899.6,0.0445,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata14,Hurink rdata,1165.0,1162.0,0.2582,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata15,Hurink rdata,1019.0,1013.2,0.5724,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata16,Hurink rdata,1122.0,1125.2,-0.2844,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata17,Hurink rdata,1163.0,1156.8,0.536,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata19,Hurink rdata,832.0,794.0,4.7859,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata20,Hurink rdata,734.0,694.4,5.7028,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata21,Hurink rdata,785.0,757.0,3.6988,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata22,Hurink rdata,827.0,805.8,2.6309,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata23,Hurink rdata,904.0,827.8,9.2051,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata24,Hurink rdata,1003.0,966.0,3.8302,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata25,Hurink rdata,908.0,885.2,2.5757,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata26,Hurink rdata,996.0,991.0,0.5045,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata27,Hurink rdata,945.0,946.4,-0.1479,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata29,Hurink rdata,1197.0,1168.8,2.4127,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata30,Hurink rdata,1246.0,1213.6,2.6697,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata31,Hurink rdata,1218.0,1193.2,2.0784,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata32,Hurink rdata,1099.0,1105.8,-0.6149,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata33,Hurink rdata,1240.0,1205.6,2.8534,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata34,Hurink rdata,1621.0,1601.6,1.2113,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata35,Hurink rdata,1764.0,1745.2,1.0772,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata36,Hurink rdata,1603.0,1581.6,1.3531,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata37,Hurink rdata,1631.0,1614.6,1.0157,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata39,Hurink rdata,1217.0,1177.2,3.3809,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata40,Hurink rdata,1243.0,1252.2,-0.7347,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata41,Hurink rdata,1093.0,1125.0,-2.8444,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata42,Hurink rdata,1178.0,1169.2,0.7527,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkRdata43,Hurink rdata,1141.0,1110.8,2.7188,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata4,Hurink vdata,671.0,675.6,-0.6809,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata5,Hurink vdata,621.0,624.0,-0.4808,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata6,Hurink vdata,559.0,567.2,-1.4457,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata7,Hurink vdata,595.0,589.2,0.9844,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata8,Hurink vdata,549.0,546.6,0.4391,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata9,Hurink vdata,886.0,889.0,-0.3375,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata10,Hurink vdata,846.0,836.8,1.0994,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata11,Hurink vdata,850.0,849.4,0.0706,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata12,Hurink vdata,949.0,950.4,-0.1473,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata13,Hurink vdata,892.0,893.8,-0.2014,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata14,Hurink vdata,1164.0,1159.8,0.3621,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata15,Hurink vdata,1012.0,1013.4,-0.1381,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata16,Hurink vdata,1122.0,1125.2,-0.2844,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata17,Hurink vdata,1156.0,1158.2,-0.1899,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata18,Hurink vdata,1177.0,1178.2,-0.1019,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata19,Hurink vdata,727.0,732.2,-0.7102,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata20,Hurink vdata,648.0,647.6,0.0618,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata21,Hurink vdata,667.0,702.4,-5.0399,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata22,Hurink vdata,663.0,722.6,-8.248,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata23,Hurink vdata,756.0,763.4,-0.9693,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata24,Hurink vdata,882.0,935.4,-5.7088,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata25,Hurink vdata,813.0,847.6,-4.0821,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata26,Hurink vdata,896.0,930.8,-3.7387,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata27,Hurink vdata,850.0,889.6,-4.4514,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata28,Hurink vdata,835.0,866.0,-3.5797,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata29,Hurink vdata,1124.0,1146.0,-1.9197,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata30,Hurink vdata,1159.0,1178.2,-1.6296,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata31,Hurink vdata,1145.0,1164.0,-1.6323,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata32,Hurink vdata,1065.0,1085.4,-1.8795,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata33,Hurink vdata,1143.0,1164.6,-1.8547,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata34,Hurink vdata,1588.0,1598.4,-0.6507,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata35,Hurink vdata,1733.0,1740.0,-0.4023,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata36,Hurink vdata,1566.0,1572.4,-0.407,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata37,Hurink vdata,1605.0,1610.4,-0.3353,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata38,Hurink vdata,1620.0,1625.8,-0.3567,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata39,Hurink vdata,951.0,1070.8,-11.1879,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata40,Hurink vdata,997.0,1138.6,-12.4363,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata41,Hurink vdata,943.0,1014.2,-7.0203,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata42,Hurink vdata,946.0,1058.2,-10.6029,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",HurinkVdata43,Hurink vdata,958.0,1062.6,-9.8438,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",Kacem1,Kacem,11.0,11.0,0.0,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",Kacem2,Kacem,11.0,11.8,-6.7797,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",Kacem3,Kacem,7.0,7.6,-7.8947,1
+Rule beam B=20,Faisceau:regle,"faisceau=20,k=0",Kacem4,Kacem,12.0,13.0,-7.6923,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",BrandimarteMk2,Brandimarte,33.0,32.6,1.227,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",BrandimarteMk4,Brandimarte,79.0,77.6,1.8041,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",BrandimarteMk5,Brandimarte,188.0,190.8,-1.4675,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",BrandimarteMk6,Brandimarte,75.0,73.4,2.1798,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",BrandimarteMk7,Brandimarte,160.0,163.8,-2.3199,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",BrandimarteMk8,Brandimarte,567.0,562.6,0.7821,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",BrandimarteMk9,Brandimarte,329.0,330.0,-0.303,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",BrandimarteMk10,Brandimarte,242.0,257.4,-5.9829,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata4,Hurink edata,747.0,723.0,3.3195,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata5,Hurink edata,814.0,814.0,0.0,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata6,Hurink edata,669.0,655.8,2.0128,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata7,Hurink edata,736.0,690.8,6.5431,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata8,Hurink edata,616.0,599.2,2.8037,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata9,Hurink edata,936.0,921.2,1.6066,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata10,Hurink edata,925.0,878.0,5.3531,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata11,Hurink edata,947.0,925.4,2.3341,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata12,Hurink edata,1052.0,977.8,7.5885,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata14,Hurink edata,1216.0,1204.8,0.9296,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata15,Hurink edata,1073.0,1070.2,0.2616,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata16,Hurink edata,1179.0,1139.8,3.4392,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata17,Hurink edata,1235.0,1216.0,1.5625,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata18,Hurink edata,1298.0,1219.0,6.4807,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata19,Hurink edata,1067.0,1020.8,4.5259,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata20,Hurink edata,839.0,828.4,1.2796,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata21,Hurink edata,994.0,960.0,3.5417,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata22,Hurink edata,931.0,902.4,3.1693,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata24,Hurink edata,1210.0,1149.2,5.2906,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata25,Hurink edata,1024.0,967.0,5.8945,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata26,Hurink edata,1167.0,1095.6,6.517,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata27,Hurink edata,1068.0,1039.4,2.7516,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata28,Hurink edata,1071.0,1049.0,2.0972,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata29,Hurink edata,1302.0,1258.0,3.4976,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata30,Hurink edata,1404.0,1331.8,5.4212,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata31,Hurink edata,1403.0,1270.6,10.4203,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata32,Hurink edata,1329.0,1292.2,2.8479,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata34,Hurink edata,1766.0,1680.0,5.119,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata35,Hurink edata,1928.0,1804.4,6.8499,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata36,Hurink edata,1714.0,1656.8,3.4524,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata37,Hurink edata,1806.0,1752.4,3.0587,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata38,Hurink edata,1925.0,1842.6,4.4719,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata39,Hurink edata,1365.0,1303.0,4.7583,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata40,Hurink edata,1569.0,1559.2,0.6285,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata41,Hurink edata,1392.0,1309.2,6.3245,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata42,Hurink edata,1380.0,1370.8,0.6711,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkEdata43,Hurink edata,1366.0,1265.8,7.9159,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata4,Hurink rdata,677.0,681.2,-0.6166,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata5,Hurink rdata,633.0,635.2,-0.3463,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata6,Hurink rdata,566.0,570.8,-0.8409,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata7,Hurink rdata,607.0,597.8,1.539,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata9,Hurink rdata,887.0,888.0,-0.1126,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata10,Hurink rdata,845.0,835.6,1.1249,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata11,Hurink rdata,854.0,853.4,0.0703,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata12,Hurink rdata,955.0,951.4,0.3784,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata13,Hurink rdata,900.0,899.6,0.0445,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata14,Hurink rdata,1165.0,1162.0,0.2582,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata15,Hurink rdata,1018.0,1013.2,0.4737,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata16,Hurink rdata,1122.0,1125.2,-0.2844,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata17,Hurink rdata,1163.0,1156.8,0.536,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata19,Hurink rdata,825.0,794.0,3.9043,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata20,Hurink rdata,728.0,694.4,4.8387,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata21,Hurink rdata,783.0,757.0,3.4346,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata22,Hurink rdata,842.0,805.8,4.4924,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata23,Hurink rdata,880.0,827.8,6.3059,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata24,Hurink rdata,985.0,966.0,1.9669,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata25,Hurink rdata,907.0,885.2,2.4627,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata26,Hurink rdata,983.0,991.0,-0.8073,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata27,Hurink rdata,947.0,946.4,0.0634,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata29,Hurink rdata,1196.0,1168.8,2.3272,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata30,Hurink rdata,1246.0,1213.6,2.6697,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata31,Hurink rdata,1206.0,1193.2,1.0727,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata32,Hurink rdata,1106.0,1105.8,0.0181,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata33,Hurink rdata,1227.0,1205.6,1.775,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata34,Hurink rdata,1618.0,1601.6,1.024,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata35,Hurink rdata,1767.0,1745.2,1.2491,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata36,Hurink rdata,1603.0,1581.6,1.3531,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata37,Hurink rdata,1631.0,1614.6,1.0157,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata39,Hurink rdata,1196.0,1177.2,1.597,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata40,Hurink rdata,1221.0,1252.2,-2.4916,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata41,Hurink rdata,1088.0,1125.0,-3.2889,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata42,Hurink rdata,1189.0,1169.2,1.6935,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkRdata43,Hurink rdata,1117.0,1110.8,0.5582,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata4,Hurink vdata,667.0,675.6,-1.2729,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata5,Hurink vdata,621.0,624.0,-0.4808,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata6,Hurink vdata,559.0,567.2,-1.4457,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata7,Hurink vdata,595.0,589.2,0.9844,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata8,Hurink vdata,546.0,546.6,-0.1098,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata9,Hurink vdata,886.0,889.0,-0.3375,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata10,Hurink vdata,836.0,836.8,-0.0956,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata11,Hurink vdata,849.0,849.4,-0.0471,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata12,Hurink vdata,949.0,950.4,-0.1473,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata13,Hurink vdata,891.0,893.8,-0.3133,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata14,Hurink vdata,1163.0,1159.8,0.2759,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata15,Hurink vdata,1012.0,1013.4,-0.1381,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata16,Hurink vdata,1122.0,1125.2,-0.2844,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata17,Hurink vdata,1155.0,1158.2,-0.2763,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata18,Hurink vdata,1177.0,1178.2,-0.1019,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata19,Hurink vdata,724.0,732.2,-1.1199,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata20,Hurink vdata,646.0,647.6,-0.2471,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata21,Hurink vdata,669.0,702.4,-4.7551,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata22,Hurink vdata,662.0,722.6,-8.3864,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata23,Hurink vdata,756.0,763.4,-0.9693,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata24,Hurink vdata,883.0,935.4,-5.6019,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata25,Hurink vdata,811.0,847.6,-4.3181,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata26,Hurink vdata,901.0,930.8,-3.2015,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata27,Hurink vdata,850.0,889.6,-4.4514,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata28,Hurink vdata,831.0,866.0,-4.0416,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata29,Hurink vdata,1124.0,1146.0,-1.9197,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata30,Hurink vdata,1160.0,1178.2,-1.5447,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata31,Hurink vdata,1142.0,1164.0,-1.89,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata32,Hurink vdata,1064.0,1085.4,-1.9716,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata33,Hurink vdata,1145.0,1164.6,-1.683,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata34,Hurink vdata,1587.0,1598.4,-0.7132,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata35,Hurink vdata,1732.0,1740.0,-0.4598,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata36,Hurink vdata,1566.0,1572.4,-0.407,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata37,Hurink vdata,1604.0,1610.4,-0.3974,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata38,Hurink vdata,1619.0,1625.8,-0.4183,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata39,Hurink vdata,950.0,1070.8,-11.2813,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata40,Hurink vdata,998.0,1138.6,-12.3485,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata41,Hurink vdata,943.0,1014.2,-7.0203,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata42,Hurink vdata,942.0,1058.2,-10.9809,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",HurinkVdata43,Hurink vdata,958.0,1062.6,-9.8438,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",Kacem1,Kacem,11.0,11.0,0.0,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",Kacem2,Kacem,11.0,11.8,-6.7797,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",Kacem3,Kacem,7.0,7.6,-7.8947,1
+Rule beam B=50,Faisceau:regle,"faisceau=50,k=0",Kacem4,Kacem,11.0,13.0,-15.3846,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",BrandimarteMk2,Brandimarte,33.0,32.6,1.227,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",BrandimarteMk4,Brandimarte,79.0,77.6,1.8041,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",BrandimarteMk5,Brandimarte,190.0,190.8,-0.4193,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",BrandimarteMk6,Brandimarte,75.0,73.4,2.1798,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",BrandimarteMk7,Brandimarte,162.0,163.8,-1.0989,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",BrandimarteMk8,Brandimarte,567.0,562.6,0.7821,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",BrandimarteMk9,Brandimarte,328.0,330.0,-0.6061,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",BrandimarteMk10,Brandimarte,240.0,257.4,-6.7599,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata4,Hurink edata,744.0,723.0,2.9046,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata5,Hurink edata,814.0,814.0,0.0,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata6,Hurink edata,669.0,655.8,2.0128,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata7,Hurink edata,736.0,690.8,6.5431,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata8,Hurink edata,616.0,599.2,2.8037,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata9,Hurink edata,936.0,921.2,1.6066,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata10,Hurink edata,903.0,878.0,2.8474,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata11,Hurink edata,947.0,925.4,2.3341,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata12,Hurink edata,1014.0,977.8,3.7022,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata14,Hurink edata,1216.0,1204.8,0.9296,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata15,Hurink edata,1073.0,1070.2,0.2616,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata16,Hurink edata,1156.0,1139.8,1.4213,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata17,Hurink edata,1240.0,1216.0,1.9737,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata18,Hurink edata,1264.0,1219.0,3.6916,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata19,Hurink edata,1064.0,1020.8,4.232,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata20,Hurink edata,839.0,828.4,1.2796,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata21,Hurink edata,996.0,960.0,3.75,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata22,Hurink edata,909.0,902.4,0.7314,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata24,Hurink edata,1163.0,1149.2,1.2008,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata25,Hurink edata,1010.0,967.0,4.4467,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata26,Hurink edata,1140.0,1095.6,4.0526,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata27,Hurink edata,1068.0,1039.4,2.7516,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata28,Hurink edata,1071.0,1049.0,2.0972,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata29,Hurink edata,1301.0,1258.0,3.4181,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata30,Hurink edata,1419.0,1331.8,6.5475,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata31,Hurink edata,1376.0,1270.6,8.2953,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata32,Hurink edata,1324.0,1292.2,2.4609,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata34,Hurink edata,1747.0,1680.0,3.9881,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata35,Hurink edata,1928.0,1804.4,6.8499,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata36,Hurink edata,1705.0,1656.8,2.9092,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata37,Hurink edata,1820.0,1752.4,3.8576,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata38,Hurink edata,1921.0,1842.6,4.2549,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata39,Hurink edata,1357.0,1303.0,4.1443,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata40,Hurink edata,1571.0,1559.2,0.7568,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata41,Hurink edata,1327.0,1309.2,1.3596,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata42,Hurink edata,1380.0,1370.8,0.6711,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkEdata43,Hurink edata,1350.0,1265.8,6.6519,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata4,Hurink rdata,677.0,681.2,-0.6166,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata5,Hurink rdata,633.0,635.2,-0.3463,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata6,Hurink rdata,566.0,570.8,-0.8409,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata7,Hurink rdata,605.0,597.8,1.2044,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata9,Hurink rdata,887.0,888.0,-0.1126,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata10,Hurink rdata,833.0,835.6,-0.3112,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata11,Hurink rdata,856.0,853.4,0.3047,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata12,Hurink rdata,954.0,951.4,0.2733,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata13,Hurink rdata,900.0,899.6,0.0445,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata14,Hurink rdata,1164.0,1162.0,0.1721,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata15,Hurink rdata,1019.0,1013.2,0.5724,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata16,Hurink rdata,1122.0,1125.2,-0.2844,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata17,Hurink rdata,1160.0,1156.8,0.2766,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata19,Hurink rdata,825.0,794.0,3.9043,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata20,Hurink rdata,711.0,694.4,2.3906,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata21,Hurink rdata,780.0,757.0,3.0383,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata22,Hurink rdata,838.0,805.8,3.996,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata23,Hurink rdata,862.0,827.8,4.1314,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata24,Hurink rdata,981.0,966.0,1.5528,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata25,Hurink rdata,900.0,885.2,1.6719,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata26,Hurink rdata,980.0,991.0,-1.11,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata27,Hurink rdata,946.0,946.4,-0.0423,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata29,Hurink rdata,1181.0,1168.8,1.0438,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata30,Hurink rdata,1224.0,1213.6,0.857,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata31,Hurink rdata,1208.0,1193.2,1.2404,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata32,Hurink rdata,1106.0,1105.8,0.0181,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata33,Hurink rdata,1227.0,1205.6,1.775,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata34,Hurink rdata,1610.0,1601.6,0.5245,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata35,Hurink rdata,1754.0,1745.2,0.5042,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata36,Hurink rdata,1600.0,1581.6,1.1634,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata37,Hurink rdata,1628.0,1614.6,0.8299,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata39,Hurink rdata,1210.0,1177.2,2.7863,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata40,Hurink rdata,1226.0,1252.2,-2.0923,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata41,Hurink rdata,1116.0,1125.0,-0.8,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata42,Hurink rdata,1176.0,1169.2,0.5816,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkRdata43,Hurink rdata,1136.0,1110.8,2.2686,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata4,Hurink vdata,667.0,675.6,-1.2729,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata5,Hurink vdata,620.0,624.0,-0.641,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata6,Hurink vdata,559.0,567.2,-1.4457,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata7,Hurink vdata,592.0,589.2,0.4752,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata8,Hurink vdata,541.0,546.6,-1.0245,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata9,Hurink vdata,885.0,889.0,-0.4499,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata10,Hurink vdata,835.0,836.8,-0.2151,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata11,Hurink vdata,848.0,849.4,-0.1648,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata12,Hurink vdata,947.0,950.4,-0.3577,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata13,Hurink vdata,891.0,893.8,-0.3133,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata14,Hurink vdata,1163.0,1159.8,0.2759,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata15,Hurink vdata,1013.0,1013.4,-0.0395,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata16,Hurink vdata,1122.0,1125.2,-0.2844,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata17,Hurink vdata,1155.0,1158.2,-0.2763,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata18,Hurink vdata,1177.0,1178.2,-0.1019,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata19,Hurink vdata,720.0,732.2,-1.6662,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata20,Hurink vdata,648.0,647.6,0.0618,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata21,Hurink vdata,663.0,702.4,-5.6093,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata22,Hurink vdata,662.0,722.6,-8.3864,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata23,Hurink vdata,756.0,763.4,-0.9693,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata24,Hurink vdata,881.0,935.4,-5.8157,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata25,Hurink vdata,810.0,847.6,-4.4361,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata26,Hurink vdata,891.0,930.8,-4.2759,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata27,Hurink vdata,848.0,889.6,-4.6763,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata28,Hurink vdata,831.0,866.0,-4.0416,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata29,Hurink vdata,1124.0,1146.0,-1.9197,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata30,Hurink vdata,1159.0,1178.2,-1.6296,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata31,Hurink vdata,1142.0,1164.0,-1.89,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata32,Hurink vdata,1064.0,1085.4,-1.9716,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata33,Hurink vdata,1143.0,1164.6,-1.8547,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata34,Hurink vdata,1587.0,1598.4,-0.7132,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata35,Hurink vdata,1732.0,1740.0,-0.4598,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata36,Hurink vdata,1565.0,1572.4,-0.4706,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata37,Hurink vdata,1604.0,1610.4,-0.3974,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata38,Hurink vdata,1619.0,1625.8,-0.4183,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata39,Hurink vdata,952.0,1070.8,-11.0945,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata40,Hurink vdata,993.0,1138.6,-12.7876,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata41,Hurink vdata,943.0,1014.2,-7.0203,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata42,Hurink vdata,941.0,1058.2,-11.0754,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",HurinkVdata43,Hurink vdata,955.0,1062.6,-10.1261,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",Kacem1,Kacem,11.0,11.0,0.0,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",Kacem2,Kacem,11.0,11.8,-6.7797,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",Kacem3,Kacem,7.0,7.6,-7.8947,1
+Rule beam B=200,Faisceau:regle,"faisceau=200,k=0",Kacem4,Kacem,11.0,13.0,-15.3846,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",BrandimarteMk2,Brandimarte,35.0,32.6,7.362,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",BrandimarteMk4,Brandimarte,80.0,77.6,3.0928,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",BrandimarteMk5,Brandimarte,192.0,190.8,0.6289,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",BrandimarteMk6,Brandimarte,81.0,73.4,10.3542,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",BrandimarteMk7,Brandimarte,164.0,163.8,0.1221,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",BrandimarteMk8,Brandimarte,567.0,562.6,0.7821,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",BrandimarteMk9,Brandimarte,339.0,330.0,2.7273,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",BrandimarteMk10,Brandimarte,250.0,257.4,-2.8749,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata4,Hurink edata,747.0,723.0,3.3195,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata5,Hurink edata,851.0,814.0,4.5455,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata6,Hurink edata,691.0,655.8,5.3675,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata7,Hurink edata,768.0,690.8,11.1754,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata8,Hurink edata,624.0,599.2,4.1389,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata9,Hurink edata,962.0,921.2,4.429,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata10,Hurink edata,963.0,878.0,9.6811,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata11,Hurink edata,947.0,925.4,2.3341,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata12,Hurink edata,1036.0,977.8,5.9521,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata14,Hurink edata,1246.0,1204.8,3.4197,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata15,Hurink edata,1073.0,1070.2,0.2616,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata16,Hurink edata,1238.0,1139.8,8.6155,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata17,Hurink edata,1254.0,1216.0,3.125,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata18,Hurink edata,1343.0,1219.0,10.1723,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata19,Hurink edata,1069.0,1020.8,4.7218,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata20,Hurink edata,875.0,828.4,5.6253,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata21,Hurink edata,1030.0,960.0,7.2917,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata22,Hurink edata,937.0,902.4,3.8342,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata24,Hurink edata,1228.0,1149.2,6.8569,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata25,Hurink edata,1036.0,967.0,7.1355,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata26,Hurink edata,1216.0,1095.6,10.9894,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata27,Hurink edata,1094.0,1039.4,5.253,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata28,Hurink edata,1108.0,1049.0,5.6244,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata29,Hurink edata,1356.0,1258.0,7.7901,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata30,Hurink edata,1475.0,1331.8,10.7524,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata31,Hurink edata,1434.0,1270.6,12.8601,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata32,Hurink edata,1382.0,1292.2,6.9494,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata34,Hurink edata,1806.0,1680.0,7.5,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata35,Hurink edata,1973.0,1804.4,9.3438,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata36,Hurink edata,1761.0,1656.8,6.2892,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata37,Hurink edata,1891.0,1752.4,7.9092,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata38,Hurink edata,1958.0,1842.6,6.2629,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata39,Hurink edata,1412.0,1303.0,8.3653,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata40,Hurink edata,1653.0,1559.2,6.0159,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata41,Hurink edata,1431.0,1309.2,9.3034,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata42,Hurink edata,1427.0,1370.8,4.0998,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkEdata43,Hurink edata,1426.0,1265.8,12.656,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata4,Hurink rdata,690.0,681.2,1.2918,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata5,Hurink rdata,647.0,635.2,1.8577,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata6,Hurink rdata,571.0,570.8,0.035,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata7,Hurink rdata,613.0,597.8,2.5427,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata9,Hurink rdata,900.0,888.0,1.3514,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata10,Hurink rdata,845.0,835.6,1.1249,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata11,Hurink rdata,862.0,853.4,1.0077,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata12,Hurink rdata,980.0,951.4,3.0061,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata13,Hurink rdata,912.0,899.6,1.3784,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata14,Hurink rdata,1173.0,1162.0,0.9466,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata15,Hurink rdata,1031.0,1013.2,1.7568,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata16,Hurink rdata,1129.0,1125.2,0.3377,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata17,Hurink rdata,1164.0,1156.8,0.6224,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata19,Hurink rdata,871.0,794.0,9.6977,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata20,Hurink rdata,741.0,694.4,6.7108,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata21,Hurink rdata,763.0,757.0,0.7926,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata22,Hurink rdata,867.0,805.8,7.5949,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata23,Hurink rdata,898.0,827.8,8.4803,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata24,Hurink rdata,1030.0,966.0,6.6253,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata25,Hurink rdata,931.0,885.2,5.174,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata26,Hurink rdata,999.0,991.0,0.8073,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata27,Hurink rdata,1007.0,946.4,6.4032,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata29,Hurink rdata,1218.0,1168.8,4.2094,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata30,Hurink rdata,1275.0,1213.6,5.0593,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata31,Hurink rdata,1239.0,1193.2,3.8384,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata32,Hurink rdata,1134.0,1105.8,2.5502,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata33,Hurink rdata,1263.0,1205.6,4.7611,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata34,Hurink rdata,1631.0,1601.6,1.8357,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata35,Hurink rdata,1794.0,1745.2,2.7962,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata36,Hurink rdata,1618.0,1581.6,2.3015,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata37,Hurink rdata,1664.0,1614.6,3.0596,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata39,Hurink rdata,1231.0,1177.2,4.5702,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata40,Hurink rdata,1290.0,1252.2,3.0187,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata41,Hurink rdata,1175.0,1125.0,4.4444,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata42,Hurink rdata,1201.0,1169.2,2.7198,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkRdata43,Hurink rdata,1162.0,1110.8,4.6093,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata4,Hurink vdata,679.0,675.6,0.5033,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata5,Hurink vdata,625.0,624.0,0.1603,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata6,Hurink vdata,565.0,567.2,-0.3879,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata7,Hurink vdata,598.0,589.2,1.4936,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata8,Hurink vdata,556.0,546.6,1.7197,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata9,Hurink vdata,888.0,889.0,-0.1125,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata10,Hurink vdata,853.0,836.8,1.9359,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata11,Hurink vdata,856.0,849.4,0.777,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata12,Hurink vdata,949.0,950.4,-0.1473,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata13,Hurink vdata,896.0,893.8,0.2461,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata14,Hurink vdata,1165.0,1159.8,0.4484,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata15,Hurink vdata,1016.0,1013.4,0.2566,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata16,Hurink vdata,1127.0,1125.2,0.16,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata17,Hurink vdata,1161.0,1158.2,0.2418,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata18,Hurink vdata,1178.0,1178.2,-0.017,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata19,Hurink vdata,728.0,732.2,-0.5736,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata20,Hurink vdata,656.0,647.6,1.2971,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata21,Hurink vdata,684.0,702.4,-2.6196,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata22,Hurink vdata,679.0,722.6,-6.0338,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata23,Hurink vdata,756.0,763.4,-0.9693,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata24,Hurink vdata,892.0,935.4,-4.6397,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata25,Hurink vdata,819.0,847.6,-3.3742,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata26,Hurink vdata,912.0,930.8,-2.0198,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata27,Hurink vdata,850.0,889.6,-4.4514,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata28,Hurink vdata,835.0,866.0,-3.5797,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata29,Hurink vdata,1125.0,1146.0,-1.8325,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata30,Hurink vdata,1167.0,1178.2,-0.9506,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata31,Hurink vdata,1150.0,1164.0,-1.2027,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata32,Hurink vdata,1067.0,1085.4,-1.6952,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata33,Hurink vdata,1151.0,1164.6,-1.1678,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata34,Hurink vdata,1591.0,1598.4,-0.463,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata35,Hurink vdata,1738.0,1740.0,-0.1149,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata36,Hurink vdata,1571.0,1572.4,-0.089,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata37,Hurink vdata,1608.0,1610.4,-0.149,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata38,Hurink vdata,1622.0,1625.8,-0.2337,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata39,Hurink vdata,964.0,1070.8,-9.9739,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata40,Hurink vdata,1014.0,1138.6,-10.9433,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata41,Hurink vdata,943.0,1014.2,-7.0203,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata42,Hurink vdata,959.0,1058.2,-9.3744,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",HurinkVdata43,Hurink vdata,959.0,1062.6,-9.7497,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",Kacem1,Kacem,12.0,11.0,9.0909,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",Kacem2,Kacem,13.0,11.8,10.1695,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",Kacem3,Kacem,10.0,7.6,31.5789,1
+Untrained net + beam 5x4,RL:aleatoire-g0,"faisceau=5,k=4",Kacem4,Kacem,15.0,13.0,15.3846,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",BrandimarteMk2,Brandimarte,34.0,32.6,4.2945,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",BrandimarteMk4,Brandimarte,81.0,77.6,4.3814,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",BrandimarteMk5,Brandimarte,189.0,190.8,-0.9434,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",BrandimarteMk6,Brandimarte,73.0,73.4,-0.545,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",BrandimarteMk7,Brandimarte,164.0,163.8,0.1221,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",BrandimarteMk8,Brandimarte,567.0,562.6,0.7821,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",BrandimarteMk9,Brandimarte,328.0,330.0,-0.6061,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",BrandimarteMk10,Brandimarte,247.0,257.4,-4.0404,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata4,Hurink edata,735.0,723.0,1.6598,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata5,Hurink edata,851.0,814.0,4.5455,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata6,Hurink edata,664.0,655.8,1.2504,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata7,Hurink edata,736.0,690.8,6.5431,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata8,Hurink edata,616.0,599.2,2.8037,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata9,Hurink edata,955.0,921.2,3.6691,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata10,Hurink edata,902.0,878.0,2.7335,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata11,Hurink edata,947.0,925.4,2.3341,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata12,Hurink edata,1026.0,977.8,4.9294,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata14,Hurink edata,1235.0,1204.8,2.5066,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata15,Hurink edata,1073.0,1070.2,0.2616,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata16,Hurink edata,1232.0,1139.8,8.0891,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata17,Hurink edata,1244.0,1216.0,2.3026,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata18,Hurink edata,1325.0,1219.0,8.6957,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata19,Hurink edata,1041.0,1020.8,1.9788,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata20,Hurink edata,842.0,828.4,1.6417,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata21,Hurink edata,996.0,960.0,3.75,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata22,Hurink edata,905.0,902.4,0.2881,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata24,Hurink edata,1179.0,1149.2,2.5931,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata25,Hurink edata,983.0,967.0,1.6546,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata26,Hurink edata,1185.0,1095.6,8.1599,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata27,Hurink edata,1070.0,1039.4,2.944,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata28,Hurink edata,1084.0,1049.0,3.3365,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata29,Hurink edata,1312.0,1258.0,4.2925,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata30,Hurink edata,1389.0,1331.8,4.2949,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata31,Hurink edata,1409.0,1270.6,10.8925,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata32,Hurink edata,1323.0,1292.2,2.3835,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata34,Hurink edata,1781.0,1680.0,6.0119,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata35,Hurink edata,1918.0,1804.4,6.2957,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata36,Hurink edata,1760.0,1656.8,6.2289,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata37,Hurink edata,1840.0,1752.4,4.9989,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata38,Hurink edata,1934.0,1842.6,4.9604,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata39,Hurink edata,1374.0,1303.0,5.449,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata40,Hurink edata,1629.0,1559.2,4.4767,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata41,Hurink edata,1415.0,1309.2,8.0813,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata42,Hurink edata,1368.0,1370.8,-0.2043,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkEdata43,Hurink edata,1373.0,1265.8,8.469,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata4,Hurink rdata,677.0,681.2,-0.6166,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata5,Hurink rdata,633.0,635.2,-0.3463,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata6,Hurink rdata,564.0,570.8,-1.1913,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata7,Hurink rdata,607.0,597.8,1.539,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata9,Hurink rdata,889.0,888.0,0.1126,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata10,Hurink rdata,837.0,835.6,0.1675,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata11,Hurink rdata,856.0,853.4,0.3047,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata12,Hurink rdata,966.0,951.4,1.5346,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata13,Hurink rdata,901.0,899.6,0.1556,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata14,Hurink rdata,1166.0,1162.0,0.3442,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata15,Hurink rdata,1022.0,1013.2,0.8685,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata16,Hurink rdata,1123.0,1125.2,-0.1955,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata17,Hurink rdata,1165.0,1156.8,0.7089,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata19,Hurink rdata,857.0,794.0,7.9345,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata20,Hurink rdata,707.0,694.4,1.8145,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata21,Hurink rdata,774.0,757.0,2.2457,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata22,Hurink rdata,837.0,805.8,3.8719,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata23,Hurink rdata,871.0,827.8,5.2187,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata24,Hurink rdata,994.0,966.0,2.8986,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata25,Hurink rdata,920.0,885.2,3.9313,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata26,Hurink rdata,1000.0,991.0,0.9082,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata27,Hurink rdata,946.0,946.4,-0.0423,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata29,Hurink rdata,1195.0,1168.8,2.2416,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata30,Hurink rdata,1245.0,1213.6,2.5873,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata31,Hurink rdata,1208.0,1193.2,1.2404,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata32,Hurink rdata,1111.0,1105.8,0.4702,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata33,Hurink rdata,1238.0,1205.6,2.6875,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata34,Hurink rdata,1620.0,1601.6,1.1489,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata35,Hurink rdata,1773.0,1745.2,1.5929,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata36,Hurink rdata,1611.0,1581.6,1.8589,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata37,Hurink rdata,1644.0,1614.6,1.8209,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata39,Hurink rdata,1195.0,1177.2,1.5121,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata40,Hurink rdata,1253.0,1252.2,0.0639,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata41,Hurink rdata,1139.0,1125.0,1.2444,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata42,Hurink rdata,1195.0,1169.2,2.2066,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkRdata43,Hurink rdata,1133.0,1110.8,1.9986,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata4,Hurink vdata,667.0,675.6,-1.2729,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata5,Hurink vdata,621.0,624.0,-0.4808,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata6,Hurink vdata,558.0,567.2,-1.622,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata7,Hurink vdata,598.0,589.2,1.4936,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata8,Hurink vdata,540.0,546.6,-1.2075,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata9,Hurink vdata,886.0,889.0,-0.3375,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata10,Hurink vdata,842.0,836.8,0.6214,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata11,Hurink vdata,848.0,849.4,-0.1648,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata12,Hurink vdata,949.0,950.4,-0.1473,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata13,Hurink vdata,892.0,893.8,-0.2014,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata14,Hurink vdata,1163.0,1159.8,0.2759,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata15,Hurink vdata,1013.0,1013.4,-0.0395,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata16,Hurink vdata,1121.0,1125.2,-0.3733,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata17,Hurink vdata,1157.0,1158.2,-0.1036,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata18,Hurink vdata,1177.0,1178.2,-0.1019,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata19,Hurink vdata,721.0,732.2,-1.5296,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata20,Hurink vdata,646.0,647.6,-0.2471,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata21,Hurink vdata,668.0,702.4,-4.8975,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata22,Hurink vdata,652.0,722.6,-9.7703,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata23,Hurink vdata,756.0,763.4,-0.9693,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata24,Hurink vdata,882.0,935.4,-5.7088,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata25,Hurink vdata,808.0,847.6,-4.672,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata26,Hurink vdata,893.0,930.8,-4.061,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata27,Hurink vdata,850.0,889.6,-4.4514,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata28,Hurink vdata,835.0,866.0,-3.5797,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata29,Hurink vdata,1124.0,1146.0,-1.9197,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata30,Hurink vdata,1161.0,1178.2,-1.4599,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata31,Hurink vdata,1144.0,1164.0,-1.7182,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata32,Hurink vdata,1064.0,1085.4,-1.9716,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata33,Hurink vdata,1143.0,1164.6,-1.8547,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata34,Hurink vdata,1587.0,1598.4,-0.7132,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata35,Hurink vdata,1734.0,1740.0,-0.3448,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata36,Hurink vdata,1567.0,1572.4,-0.3434,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata37,Hurink vdata,1605.0,1610.4,-0.3353,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata38,Hurink vdata,1620.0,1625.8,-0.3567,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata39,Hurink vdata,957.0,1070.8,-10.6276,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata40,Hurink vdata,991.0,1138.6,-12.9633,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata41,Hurink vdata,943.0,1014.2,-7.0203,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata42,Hurink vdata,944.0,1058.2,-10.7919,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",HurinkVdata43,Hurink vdata,955.0,1062.6,-10.1261,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",Kacem1,Kacem,12.0,11.0,9.0909,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",Kacem2,Kacem,13.0,11.8,10.1695,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",Kacem3,Kacem,10.0,7.6,31.5789,1
+Untrained net + beam 50x5,RL:aleatoire-g0,"faisceau=50,k=5",Kacem4,Kacem,15.0,13.0,15.3846,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk2,Brandimarte,33.0,32.6,1.227,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk4,Brandimarte,79.0,77.6,1.8041,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk5,Brandimarte,185.0,190.8,-3.0398,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk6,Brandimarte,73.0,73.4,-0.545,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk7,Brandimarte,159.0,163.8,-2.9304,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk8,Brandimarte,567.0,562.6,0.7821,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk9,Brandimarte,327.0,330.0,-0.9091,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",BrandimarteMk10,Brandimarte,242.0,257.4,-5.9829,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata4,Hurink edata,751.0,723.0,3.8728,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata5,Hurink edata,851.0,814.0,4.5455,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata6,Hurink edata,649.0,655.8,-1.0369,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata7,Hurink edata,719.0,690.8,4.0822,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata8,Hurink edata,660.0,599.2,10.1469,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata9,Hurink edata,919.0,921.2,-0.2388,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata10,Hurink edata,920.0,878.0,4.7836,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata11,Hurink edata,959.0,925.4,3.6309,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata12,Hurink edata,1026.0,977.8,4.9294,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata14,Hurink edata,1253.0,1204.8,4.0007,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata15,Hurink edata,1073.0,1070.2,0.2616,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata16,Hurink edata,1180.0,1139.8,3.5269,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata17,Hurink edata,1218.0,1216.0,0.1645,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata18,Hurink edata,1330.0,1219.0,9.1058,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata19,Hurink edata,1060.0,1020.8,3.8401,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata20,Hurink edata,818.0,828.4,-1.2554,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata21,Hurink edata,1002.0,960.0,4.375,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata22,Hurink edata,924.0,902.4,2.3936,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata24,Hurink edata,1172.0,1149.2,1.984,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata25,Hurink edata,1029.0,967.0,6.4116,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata26,Hurink edata,1151.0,1095.6,5.0566,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata27,Hurink edata,1068.0,1039.4,2.7516,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata28,Hurink edata,1078.0,1049.0,2.7645,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata29,Hurink edata,1297.0,1258.0,3.1002,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata30,Hurink edata,1474.0,1331.8,10.6773,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata31,Hurink edata,1368.0,1270.6,7.6657,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata32,Hurink edata,1356.0,1292.2,4.9373,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata34,Hurink edata,1780.0,1680.0,5.9524,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata35,Hurink edata,1928.0,1804.4,6.8499,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata36,Hurink edata,1714.0,1656.8,3.4524,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata37,Hurink edata,1848.0,1752.4,5.4554,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata38,Hurink edata,1925.0,1842.6,4.4719,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata39,Hurink edata,1365.0,1303.0,4.7583,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata40,Hurink edata,1600.0,1559.2,2.6167,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata41,Hurink edata,1396.0,1309.2,6.63,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata42,Hurink edata,1394.0,1370.8,1.6924,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkEdata43,Hurink edata,1375.0,1265.8,8.627,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata4,Hurink rdata,675.0,681.2,-0.9102,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata5,Hurink rdata,645.0,635.2,1.5428,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata6,Hurink rdata,566.0,570.8,-0.8409,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata7,Hurink rdata,618.0,597.8,3.3791,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata9,Hurink rdata,900.0,888.0,1.3514,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata10,Hurink rdata,839.0,835.6,0.4069,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata11,Hurink rdata,857.0,853.4,0.4218,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata12,Hurink rdata,954.0,951.4,0.2733,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata13,Hurink rdata,906.0,899.6,0.7114,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata14,Hurink rdata,1166.0,1162.0,0.3442,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata15,Hurink rdata,1015.0,1013.2,0.1777,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata16,Hurink rdata,1124.0,1125.2,-0.1066,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata17,Hurink rdata,1166.0,1156.8,0.7953,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata19,Hurink rdata,832.0,794.0,4.7859,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata20,Hurink rdata,764.0,694.4,10.023,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata21,Hurink rdata,771.0,757.0,1.8494,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata22,Hurink rdata,879.0,805.8,9.0841,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata23,Hurink rdata,892.0,827.8,7.7555,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata24,Hurink rdata,986.0,966.0,2.0704,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata25,Hurink rdata,926.0,885.2,4.6091,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata26,Hurink rdata,980.0,991.0,-1.11,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata27,Hurink rdata,947.0,946.4,0.0634,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata29,Hurink rdata,1209.0,1168.8,3.4394,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata30,Hurink rdata,1249.0,1213.6,2.9169,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata31,Hurink rdata,1215.0,1193.2,1.827,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata32,Hurink rdata,1113.0,1105.8,0.6511,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata33,Hurink rdata,1255.0,1205.6,4.0975,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata34,Hurink rdata,1623.0,1601.6,1.3362,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata35,Hurink rdata,1774.0,1745.2,1.6502,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata36,Hurink rdata,1602.0,1581.6,1.2898,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata37,Hurink rdata,1641.0,1614.6,1.6351,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata39,Hurink rdata,1205.0,1177.2,2.3615,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata40,Hurink rdata,1255.0,1252.2,0.2236,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata41,Hurink rdata,1141.0,1125.0,1.4222,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata42,Hurink rdata,1185.0,1169.2,1.3514,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkRdata43,Hurink rdata,1125.0,1110.8,1.2784,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata4,Hurink vdata,676.0,675.6,0.0592,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata5,Hurink vdata,626.0,624.0,0.3205,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata6,Hurink vdata,563.0,567.2,-0.7405,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata7,Hurink vdata,596.0,589.2,1.1541,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata8,Hurink vdata,549.0,546.6,0.4391,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata9,Hurink vdata,885.0,889.0,-0.4499,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata10,Hurink vdata,846.0,836.8,1.0994,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata11,Hurink vdata,855.0,849.4,0.6593,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata12,Hurink vdata,948.0,950.4,-0.2525,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata13,Hurink vdata,892.0,893.8,-0.2014,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata14,Hurink vdata,1165.0,1159.8,0.4484,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata15,Hurink vdata,1013.0,1013.4,-0.0395,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata16,Hurink vdata,1122.0,1125.2,-0.2844,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata17,Hurink vdata,1155.0,1158.2,-0.2763,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata18,Hurink vdata,1177.0,1178.2,-0.1019,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata19,Hurink vdata,732.0,732.2,-0.0273,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata20,Hurink vdata,649.0,647.6,0.2162,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata21,Hurink vdata,666.0,702.4,-5.1822,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata22,Hurink vdata,674.0,722.6,-6.7257,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata23,Hurink vdata,756.0,763.4,-0.9693,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata24,Hurink vdata,885.0,935.4,-5.3881,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata25,Hurink vdata,813.0,847.6,-4.0821,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata26,Hurink vdata,893.0,930.8,-4.061,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata27,Hurink vdata,854.0,889.6,-4.0018,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata28,Hurink vdata,835.0,866.0,-3.5797,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata29,Hurink vdata,1126.0,1146.0,-1.7452,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata30,Hurink vdata,1160.0,1178.2,-1.5447,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata31,Hurink vdata,1144.0,1164.0,-1.7182,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata32,Hurink vdata,1065.0,1085.4,-1.8795,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata33,Hurink vdata,1147.0,1164.6,-1.5112,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata34,Hurink vdata,1588.0,1598.4,-0.6507,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata35,Hurink vdata,1734.0,1740.0,-0.3448,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata36,Hurink vdata,1568.0,1572.4,-0.2798,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata37,Hurink vdata,1607.0,1610.4,-0.2111,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata38,Hurink vdata,1620.0,1625.8,-0.3567,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata39,Hurink vdata,951.0,1070.8,-11.1879,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata40,Hurink vdata,1010.0,1138.6,-11.2946,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata41,Hurink vdata,943.0,1014.2,-7.0203,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata42,Hurink vdata,947.0,1058.2,-10.5084,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",HurinkVdata43,Hurink vdata,955.0,1062.6,-10.1261,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",Kacem1,Kacem,11.0,11.0,0.0,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",Kacem2,Kacem,11.0,11.8,-6.7797,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",Kacem3,Kacem,7.0,7.6,-7.8947,1
+Policy + beam 5x4,RL:imit-ft,"faisceau=5,k=4",Kacem4,Kacem,11.0,13.0,-15.3846,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",BrandimarteMk2,Brandimarte,33.0,32.6,1.227,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",BrandimarteMk4,Brandimarte,79.0,77.6,1.8041,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",BrandimarteMk5,Brandimarte,185.0,190.8,-3.0398,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",BrandimarteMk6,Brandimarte,73.0,73.4,-0.545,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",BrandimarteMk7,Brandimarte,159.0,163.8,-2.9304,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",BrandimarteMk8,Brandimarte,567.0,562.6,0.7821,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",BrandimarteMk9,Brandimarte,327.0,330.0,-0.9091,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",BrandimarteMk10,Brandimarte,242.0,257.4,-5.9829,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata4,Hurink edata,751.0,723.0,3.8728,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata5,Hurink edata,851.0,814.0,4.5455,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata6,Hurink edata,649.0,655.8,-1.0369,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata7,Hurink edata,719.0,690.8,4.0822,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata8,Hurink edata,660.0,599.2,10.1469,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata9,Hurink edata,919.0,921.2,-0.2388,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata10,Hurink edata,920.0,878.0,4.7836,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata11,Hurink edata,959.0,925.4,3.6309,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata12,Hurink edata,1026.0,977.8,4.9294,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata14,Hurink edata,1253.0,1204.8,4.0007,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata15,Hurink edata,1073.0,1070.2,0.2616,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata16,Hurink edata,1180.0,1139.8,3.5269,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata17,Hurink edata,1218.0,1216.0,0.1645,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata18,Hurink edata,1330.0,1219.0,9.1058,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata19,Hurink edata,1060.0,1020.8,3.8401,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata20,Hurink edata,818.0,828.4,-1.2554,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata21,Hurink edata,1002.0,960.0,4.375,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata22,Hurink edata,924.0,902.4,2.3936,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata24,Hurink edata,1172.0,1149.2,1.984,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata25,Hurink edata,1029.0,967.0,6.4116,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata26,Hurink edata,1151.0,1095.6,5.0566,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata27,Hurink edata,1068.0,1039.4,2.7516,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata28,Hurink edata,1078.0,1049.0,2.7645,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata29,Hurink edata,1297.0,1258.0,3.1002,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata30,Hurink edata,1474.0,1331.8,10.6773,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata31,Hurink edata,1368.0,1270.6,7.6657,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata32,Hurink edata,1356.0,1292.2,4.9373,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata34,Hurink edata,1780.0,1680.0,5.9524,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata35,Hurink edata,1928.0,1804.4,6.8499,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata36,Hurink edata,1714.0,1656.8,3.4524,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata37,Hurink edata,1848.0,1752.4,5.4554,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata38,Hurink edata,1925.0,1842.6,4.4719,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata39,Hurink edata,1365.0,1303.0,4.7583,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata40,Hurink edata,1600.0,1559.2,2.6167,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata41,Hurink edata,1396.0,1309.2,6.63,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata42,Hurink edata,1394.0,1370.8,1.6924,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkEdata43,Hurink edata,1375.0,1265.8,8.627,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata4,Hurink rdata,675.0,681.2,-0.9102,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata5,Hurink rdata,645.0,635.2,1.5428,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata6,Hurink rdata,566.0,570.8,-0.8409,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata7,Hurink rdata,618.0,597.8,3.3791,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata9,Hurink rdata,900.0,888.0,1.3514,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata10,Hurink rdata,839.0,835.6,0.4069,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata11,Hurink rdata,857.0,853.4,0.4218,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata12,Hurink rdata,954.0,951.4,0.2733,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata13,Hurink rdata,906.0,899.6,0.7114,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata14,Hurink rdata,1166.0,1162.0,0.3442,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata15,Hurink rdata,1015.0,1013.2,0.1777,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata16,Hurink rdata,1124.0,1125.2,-0.1066,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata17,Hurink rdata,1166.0,1156.8,0.7953,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata19,Hurink rdata,832.0,794.0,4.7859,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata20,Hurink rdata,764.0,694.4,10.023,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata21,Hurink rdata,771.0,757.0,1.8494,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata22,Hurink rdata,879.0,805.8,9.0841,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata23,Hurink rdata,892.0,827.8,7.7555,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata24,Hurink rdata,986.0,966.0,2.0704,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata25,Hurink rdata,926.0,885.2,4.6091,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata26,Hurink rdata,980.0,991.0,-1.11,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata27,Hurink rdata,947.0,946.4,0.0634,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata29,Hurink rdata,1209.0,1168.8,3.4394,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata30,Hurink rdata,1249.0,1213.6,2.9169,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata31,Hurink rdata,1215.0,1193.2,1.827,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata32,Hurink rdata,1113.0,1105.8,0.6511,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata33,Hurink rdata,1255.0,1205.6,4.0975,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata34,Hurink rdata,1623.0,1601.6,1.3362,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata35,Hurink rdata,1774.0,1745.2,1.6502,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata36,Hurink rdata,1602.0,1581.6,1.2898,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata37,Hurink rdata,1641.0,1614.6,1.6351,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata39,Hurink rdata,1205.0,1177.2,2.3615,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata40,Hurink rdata,1255.0,1252.2,0.2236,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata41,Hurink rdata,1141.0,1125.0,1.4222,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata42,Hurink rdata,1185.0,1169.2,1.3514,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkRdata43,Hurink rdata,1125.0,1110.8,1.2784,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata4,Hurink vdata,676.0,675.6,0.0592,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata5,Hurink vdata,626.0,624.0,0.3205,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata6,Hurink vdata,563.0,567.2,-0.7405,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata7,Hurink vdata,596.0,589.2,1.1541,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata8,Hurink vdata,549.0,546.6,0.4391,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata9,Hurink vdata,885.0,889.0,-0.4499,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata10,Hurink vdata,846.0,836.8,1.0994,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata11,Hurink vdata,855.0,849.4,0.6593,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata12,Hurink vdata,948.0,950.4,-0.2525,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata13,Hurink vdata,892.0,893.8,-0.2014,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata14,Hurink vdata,1165.0,1159.8,0.4484,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata15,Hurink vdata,1013.0,1013.4,-0.0395,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata16,Hurink vdata,1122.0,1125.2,-0.2844,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata17,Hurink vdata,1155.0,1158.2,-0.2763,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata18,Hurink vdata,1177.0,1178.2,-0.1019,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata19,Hurink vdata,732.0,732.2,-0.0273,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata20,Hurink vdata,649.0,647.6,0.2162,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata21,Hurink vdata,666.0,702.4,-5.1822,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata22,Hurink vdata,674.0,722.6,-6.7257,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata23,Hurink vdata,756.0,763.4,-0.9693,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata24,Hurink vdata,885.0,935.4,-5.3881,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata25,Hurink vdata,813.0,847.6,-4.0821,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata26,Hurink vdata,893.0,930.8,-4.061,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata27,Hurink vdata,854.0,889.6,-4.0018,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata28,Hurink vdata,835.0,866.0,-3.5797,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata29,Hurink vdata,1126.0,1146.0,-1.7452,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata30,Hurink vdata,1160.0,1178.2,-1.5447,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata31,Hurink vdata,1144.0,1164.0,-1.7182,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata32,Hurink vdata,1065.0,1085.4,-1.8795,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata33,Hurink vdata,1147.0,1164.6,-1.5112,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata34,Hurink vdata,1588.0,1598.4,-0.6507,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata35,Hurink vdata,1734.0,1740.0,-0.3448,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata36,Hurink vdata,1568.0,1572.4,-0.2798,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata37,Hurink vdata,1607.0,1610.4,-0.2111,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata38,Hurink vdata,1620.0,1625.8,-0.3567,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata39,Hurink vdata,951.0,1070.8,-11.1879,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata40,Hurink vdata,1010.0,1138.6,-11.2946,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata41,Hurink vdata,943.0,1014.2,-7.0203,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata42,Hurink vdata,947.0,1058.2,-10.5084,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",HurinkVdata43,Hurink vdata,955.0,1062.6,-10.1261,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",Kacem1,Kacem,11.0,11.0,0.0,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",Kacem2,Kacem,11.0,11.8,-6.7797,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",Kacem3,Kacem,7.0,7.6,-7.8947,1
+  without LB pruning,RL:imit-ft,"faisceau=5,k=4,sans_elagage",Kacem4,Kacem,11.0,13.0,-15.3846,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",BrandimarteMk2,Brandimarte,33.0,32.6,1.227,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",BrandimarteMk4,Brandimarte,82.0,77.6,5.6701,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",BrandimarteMk5,Brandimarte,185.0,190.8,-3.0398,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",BrandimarteMk6,Brandimarte,74.0,73.4,0.8174,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",BrandimarteMk7,Brandimarte,162.0,163.8,-1.0989,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",BrandimarteMk8,Brandimarte,567.0,562.6,0.7821,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",BrandimarteMk9,Brandimarte,327.0,330.0,-0.9091,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",BrandimarteMk10,Brandimarte,244.0,257.4,-5.2059,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata4,Hurink edata,751.0,723.0,3.8728,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata5,Hurink edata,830.0,814.0,1.9656,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata6,Hurink edata,649.0,655.8,-1.0369,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata7,Hurink edata,719.0,690.8,4.0822,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata8,Hurink edata,672.0,599.2,12.1495,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata9,Hurink edata,919.0,921.2,-0.2388,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata10,Hurink edata,908.0,878.0,3.4169,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata11,Hurink edata,960.0,925.4,3.7389,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata12,Hurink edata,1032.0,977.8,5.5431,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata14,Hurink edata,1253.0,1204.8,4.0007,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata15,Hurink edata,1073.0,1070.2,0.2616,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata16,Hurink edata,1180.0,1139.8,3.5269,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata17,Hurink edata,1218.0,1216.0,0.1645,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata18,Hurink edata,1345.0,1219.0,10.3363,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata19,Hurink edata,1061.0,1020.8,3.9381,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata20,Hurink edata,850.0,828.4,2.6074,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata21,Hurink edata,1002.0,960.0,4.375,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata22,Hurink edata,924.0,902.4,2.3936,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata24,Hurink edata,1244.0,1149.2,8.2492,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata25,Hurink edata,1031.0,967.0,6.6184,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata26,Hurink edata,1151.0,1095.6,5.0566,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata27,Hurink edata,1093.0,1039.4,5.1568,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata28,Hurink edata,1083.0,1049.0,3.2412,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata29,Hurink edata,1309.0,1258.0,4.0541,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata30,Hurink edata,1415.0,1331.8,6.2472,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata31,Hurink edata,1422.0,1270.6,11.9156,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata32,Hurink edata,1342.0,1292.2,3.8539,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata34,Hurink edata,1748.0,1680.0,4.0476,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata35,Hurink edata,1975.0,1804.4,9.4547,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata36,Hurink edata,1749.0,1656.8,5.5649,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata37,Hurink edata,1838.0,1752.4,4.8847,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata38,Hurink edata,1925.0,1842.6,4.4719,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata39,Hurink edata,1357.0,1303.0,4.1443,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata40,Hurink edata,1584.0,1559.2,1.5906,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata41,Hurink edata,1383.0,1309.2,5.637,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata42,Hurink edata,1394.0,1370.8,1.6924,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkEdata43,Hurink edata,1356.0,1265.8,7.1259,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata4,Hurink rdata,681.0,681.2,-0.0294,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata5,Hurink rdata,646.0,635.2,1.7003,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata6,Hurink rdata,566.0,570.8,-0.8409,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata7,Hurink rdata,618.0,597.8,3.3791,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata9,Hurink rdata,897.0,888.0,1.0135,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata10,Hurink rdata,841.0,835.6,0.6462,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata11,Hurink rdata,861.0,853.4,0.8906,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata12,Hurink rdata,954.0,951.4,0.2733,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata13,Hurink rdata,907.0,899.6,0.8226,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata14,Hurink rdata,1166.0,1162.0,0.3442,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata15,Hurink rdata,1018.0,1013.2,0.4737,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata16,Hurink rdata,1125.0,1125.2,-0.0178,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata17,Hurink rdata,1165.0,1156.8,0.7089,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata19,Hurink rdata,832.0,794.0,4.7859,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata20,Hurink rdata,777.0,694.4,11.8952,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata21,Hurink rdata,777.0,757.0,2.642,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata22,Hurink rdata,876.0,805.8,8.7118,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata23,Hurink rdata,868.0,827.8,4.8562,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata24,Hurink rdata,991.0,966.0,2.588,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata25,Hurink rdata,908.0,885.2,2.5757,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata26,Hurink rdata,1013.0,991.0,2.22,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata27,Hurink rdata,972.0,946.4,2.705,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata29,Hurink rdata,1191.0,1168.8,1.8994,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata30,Hurink rdata,1250.0,1213.6,2.9993,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata31,Hurink rdata,1221.0,1193.2,2.3299,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata32,Hurink rdata,1104.0,1105.8,-0.1628,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata33,Hurink rdata,1254.0,1205.6,4.0146,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata34,Hurink rdata,1622.0,1601.6,1.2737,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata35,Hurink rdata,1772.0,1745.2,1.5356,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata36,Hurink rdata,1628.0,1581.6,2.9337,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata37,Hurink rdata,1642.0,1614.6,1.697,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata39,Hurink rdata,1193.0,1177.2,1.3422,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata40,Hurink rdata,1247.0,1252.2,-0.4153,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata41,Hurink rdata,1148.0,1125.0,2.0444,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata42,Hurink rdata,1185.0,1169.2,1.3514,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkRdata43,Hurink rdata,1140.0,1110.8,2.6287,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata4,Hurink vdata,667.0,675.6,-1.2729,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata5,Hurink vdata,628.0,624.0,0.641,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata6,Hurink vdata,563.0,567.2,-0.7405,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata7,Hurink vdata,591.0,589.2,0.3055,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata8,Hurink vdata,549.0,546.6,0.4391,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata9,Hurink vdata,888.0,889.0,-0.1125,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata10,Hurink vdata,847.0,836.8,1.2189,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata11,Hurink vdata,849.0,849.4,-0.0471,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata12,Hurink vdata,947.0,950.4,-0.3577,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata13,Hurink vdata,894.0,893.8,0.0224,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata14,Hurink vdata,1163.0,1159.8,0.2759,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata15,Hurink vdata,1013.0,1013.4,-0.0395,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata16,Hurink vdata,1122.0,1125.2,-0.2844,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata17,Hurink vdata,1157.0,1158.2,-0.1036,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata18,Hurink vdata,1178.0,1178.2,-0.017,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata19,Hurink vdata,743.0,732.2,1.475,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata20,Hurink vdata,655.0,647.6,1.1427,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata21,Hurink vdata,668.0,702.4,-4.8975,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata22,Hurink vdata,669.0,722.6,-7.4177,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata23,Hurink vdata,756.0,763.4,-0.9693,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata24,Hurink vdata,882.0,935.4,-5.7088,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata25,Hurink vdata,818.0,847.6,-3.4922,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata26,Hurink vdata,905.0,930.8,-2.7718,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata27,Hurink vdata,855.0,889.6,-3.8894,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata28,Hurink vdata,839.0,866.0,-3.1178,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata29,Hurink vdata,1126.0,1146.0,-1.7452,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata30,Hurink vdata,1162.0,1178.2,-1.375,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata31,Hurink vdata,1146.0,1164.0,-1.5464,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata32,Hurink vdata,1065.0,1085.4,-1.8795,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata33,Hurink vdata,1147.0,1164.6,-1.5112,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata34,Hurink vdata,1588.0,1598.4,-0.6507,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata35,Hurink vdata,1734.0,1740.0,-0.3448,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata36,Hurink vdata,1567.0,1572.4,-0.3434,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata37,Hurink vdata,1606.0,1610.4,-0.2732,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata38,Hurink vdata,1620.0,1625.8,-0.3567,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata39,Hurink vdata,966.0,1070.8,-9.7871,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata40,Hurink vdata,1008.0,1138.6,-11.4702,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata41,Hurink vdata,954.0,1014.2,-5.9357,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata42,Hurink vdata,956.0,1058.2,-9.6579,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",HurinkVdata43,Hurink vdata,967.0,1062.6,-8.9968,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",Kacem1,Kacem,11.0,11.0,0.0,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",Kacem2,Kacem,11.0,11.8,-6.7797,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",Kacem3,Kacem,7.0,7.6,-7.8947,1
+  without duplicate removal,RL:imit-ft,"faisceau=5,k=4,sans_doublons",Kacem4,Kacem,11.0,13.0,-15.3846,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk1,Brandimarte,51.0,51.0,0.0,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk2,Brandimarte,33.0,32.6,1.227,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk3,Brandimarte,219.0,219.0,0.0,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk4,Brandimarte,79.0,77.6,1.8041,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk5,Brandimarte,190.0,190.8,-0.4193,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk6,Brandimarte,74.0,73.4,0.8174,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk7,Brandimarte,158.0,163.8,-3.5409,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk8,Brandimarte,567.0,562.6,0.7821,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk9,Brandimarte,325.0,330.0,-1.5152,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",BrandimarteMk10,Brandimarte,238.0,257.4,-7.5369,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata4,Hurink edata,735.0,723.0,1.6598,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata5,Hurink edata,814.0,814.0,0.0,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata6,Hurink edata,669.0,655.8,2.0128,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata7,Hurink edata,736.0,690.8,6.5431,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata8,Hurink edata,616.0,599.2,2.8037,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata9,Hurink edata,939.0,921.2,1.9323,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata10,Hurink edata,906.0,878.0,3.1891,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata11,Hurink edata,949.0,925.4,2.5502,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata12,Hurink edata,997.0,977.8,1.9636,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata14,Hurink edata,1199.0,1204.8,-0.4814,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata15,Hurink edata,1068.0,1070.2,-0.2056,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata16,Hurink edata,1135.0,1139.8,-0.4211,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata17,Hurink edata,1218.0,1216.0,0.1645,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata18,Hurink edata,1317.0,1219.0,8.0394,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata19,Hurink edata,1045.0,1020.8,2.3707,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata20,Hurink edata,828.0,828.4,-0.0483,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata21,Hurink edata,996.0,960.0,3.75,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata22,Hurink edata,924.0,902.4,2.3936,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata24,Hurink edata,1201.0,1149.2,4.5075,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata25,Hurink edata,1011.0,967.0,4.5502,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata26,Hurink edata,1152.0,1095.6,5.1479,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata27,Hurink edata,1083.0,1039.4,4.1947,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata28,Hurink edata,1066.0,1049.0,1.6206,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata29,Hurink edata,1299.0,1258.0,3.2591,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata30,Hurink edata,1391.0,1331.8,4.4451,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata31,Hurink edata,1364.0,1270.6,7.3509,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata32,Hurink edata,1330.0,1292.2,2.9252,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata34,Hurink edata,1747.0,1680.0,3.9881,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata35,Hurink edata,1875.0,1804.4,3.9127,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata36,Hurink edata,1720.0,1656.8,3.8146,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata37,Hurink edata,1830.0,1752.4,4.4282,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata38,Hurink edata,1925.0,1842.6,4.4719,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata39,Hurink edata,1362.0,1303.0,4.528,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata40,Hurink edata,1563.0,1559.2,0.2437,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata41,Hurink edata,1390.0,1309.2,6.1717,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata42,Hurink edata,1388.0,1370.8,1.2547,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkEdata43,Hurink edata,1372.0,1265.8,8.39,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata4,Hurink rdata,679.0,681.2,-0.323,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata5,Hurink rdata,638.0,635.2,0.4408,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata6,Hurink rdata,560.0,570.8,-1.8921,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata7,Hurink rdata,605.0,597.8,1.2044,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata9,Hurink rdata,893.0,888.0,0.5631,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata10,Hurink rdata,833.0,835.6,-0.3112,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata11,Hurink rdata,854.0,853.4,0.0703,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata12,Hurink rdata,964.0,951.4,1.3244,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata13,Hurink rdata,897.0,899.6,-0.289,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata14,Hurink rdata,1167.0,1162.0,0.4303,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata15,Hurink rdata,1015.0,1013.2,0.1777,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata16,Hurink rdata,1123.0,1125.2,-0.1955,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata17,Hurink rdata,1159.0,1156.8,0.1902,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata19,Hurink rdata,843.0,794.0,6.1713,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata20,Hurink rdata,714.0,694.4,2.8226,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata21,Hurink rdata,773.0,757.0,2.1136,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata22,Hurink rdata,870.0,805.8,7.9672,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata23,Hurink rdata,822.0,827.8,-0.7007,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata24,Hurink rdata,982.0,966.0,1.6563,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata25,Hurink rdata,916.0,885.2,3.4794,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata26,Hurink rdata,976.0,991.0,-1.5136,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata27,Hurink rdata,953.0,946.4,0.6974,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata29,Hurink rdata,1178.0,1168.8,0.7871,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata30,Hurink rdata,1245.0,1213.6,2.5873,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata31,Hurink rdata,1211.0,1193.2,1.4918,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata32,Hurink rdata,1106.0,1105.8,0.0181,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata33,Hurink rdata,1239.0,1205.6,2.7704,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata34,Hurink rdata,1599.0,1601.6,-0.1623,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata35,Hurink rdata,1757.0,1745.2,0.6761,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata36,Hurink rdata,1603.0,1581.6,1.3531,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata37,Hurink rdata,1627.0,1614.6,0.768,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata39,Hurink rdata,1188.0,1177.2,0.9174,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata40,Hurink rdata,1265.0,1252.2,1.0222,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata41,Hurink rdata,1128.0,1125.0,0.2667,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata42,Hurink rdata,1163.0,1169.2,-0.5303,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkRdata43,Hurink rdata,1118.0,1110.8,0.6482,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata4,Hurink vdata,668.0,675.6,-1.1249,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata5,Hurink vdata,621.0,624.0,-0.4808,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata6,Hurink vdata,558.0,567.2,-1.622,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata7,Hurink vdata,587.0,589.2,-0.3734,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata8,Hurink vdata,545.0,546.6,-0.2927,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata9,Hurink vdata,886.0,889.0,-0.3375,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata10,Hurink vdata,840.0,836.8,0.3824,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata11,Hurink vdata,848.0,849.4,-0.1648,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata12,Hurink vdata,948.0,950.4,-0.2525,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata13,Hurink vdata,891.0,893.8,-0.3133,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata14,Hurink vdata,1162.0,1159.8,0.1897,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata15,Hurink vdata,1012.0,1013.4,-0.1381,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata16,Hurink vdata,1122.0,1125.2,-0.2844,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata17,Hurink vdata,1156.0,1158.2,-0.1899,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata18,Hurink vdata,1176.0,1178.2,-0.1867,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata19,Hurink vdata,720.0,732.2,-1.6662,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata20,Hurink vdata,646.0,647.6,-0.2471,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata21,Hurink vdata,668.0,702.4,-4.8975,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata22,Hurink vdata,660.0,722.6,-8.6632,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata23,Hurink vdata,756.0,763.4,-0.9693,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata24,Hurink vdata,875.0,935.4,-6.4571,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata25,Hurink vdata,808.0,847.6,-4.672,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata26,Hurink vdata,897.0,930.8,-3.6313,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata27,Hurink vdata,848.0,889.6,-4.6763,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata28,Hurink vdata,828.0,866.0,-4.388,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata29,Hurink vdata,1125.0,1146.0,-1.8325,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata30,Hurink vdata,1157.0,1178.2,-1.7994,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata31,Hurink vdata,1143.0,1164.0,-1.8041,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata32,Hurink vdata,1064.0,1085.4,-1.9716,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata33,Hurink vdata,1143.0,1164.6,-1.8547,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata34,Hurink vdata,1587.0,1598.4,-0.7132,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata35,Hurink vdata,1732.0,1740.0,-0.4598,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata36,Hurink vdata,1565.0,1572.4,-0.4706,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata37,Hurink vdata,1604.0,1610.4,-0.3974,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata38,Hurink vdata,1619.0,1625.8,-0.4183,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata39,Hurink vdata,951.0,1070.8,-11.1879,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata40,Hurink vdata,987.0,1138.6,-13.3146,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata41,Hurink vdata,943.0,1014.2,-7.0203,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata42,Hurink vdata,947.0,1058.2,-10.5084,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",HurinkVdata43,Hurink vdata,955.0,1062.6,-10.1261,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",Kacem1,Kacem,11.0,11.0,0.0,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",Kacem2,Kacem,11.0,11.8,-6.7797,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",Kacem3,Kacem,7.0,7.6,-7.8947,1
+Policy + beam 50x5,RL:imit-ft,"faisceau=50,k=5",Kacem4,Kacem,11.0,13.0,-15.3846,1

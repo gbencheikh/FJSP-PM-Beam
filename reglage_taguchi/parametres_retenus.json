@@ -1,0 +1,16 @@
+{
+ "Algorithme génétique": {
+  "population": 60,
+  "p_croisement": 0.8,
+  "p_mutation": 0.1,
+  "elite": 2
+ },
+ "Recherche tabou": {
+  "n_voisins": 40,
+  "tenure": 6
+ },
+ "Recuit simulé": {
+  "p0": 0.3,
+  "ratio_fin": 0.0001
+ }
+}

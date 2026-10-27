@@ -1,0 +1,18 @@
+# Règles de priorité — 134 instances, facteur de seuil 1
+
+| Rang | Règle (opération + machine) | C_max moyen | Écart moyen à la meilleure règle | Nb de fois meilleure |
+|---|---|---|---|---|
+| 1 | MWKR+EFT | 1104.0 | +2.2 % | 75 |
+| 2 | MOR+EFT | 1119.0 | +3.7 % | 44 |
+| 3 | FIFO+EFT | 1163.8 | +7.4 % | 13 |
+| 4 | LPT+EFT | 1266.4 | +17.6 % | 1 |
+| 5 | SPT+EFT | 1260.1 | +17.7 % | 2 |
+| 6 | LOR+EFT | 1335.7 | +24.2 % | 1 |
+| 7 | LWKR+EFT | 1365.9 | +27.3 % | 1 |
+| 8 | MOR+SPTM | 2262.9 | +105.6 % | 2 |
+| 9 | MWKR+SPTM | 2259.1 | +105.8 % | 1 |
+| 10 | FIFO+SPTM | 2301.4 | +109.4 % | 0 |
+| 11 | SPT+SPTM | 2387.0 | +117.0 % | 2 |
+| 12 | LPT+SPTM | 2464.1 | +123.7 % | 0 |
+| 13 | LOR+SPTM | 2514.0 | +128.4 % | 0 |
+| 14 | LWKR+SPTM | 2525.8 | +129.8 % | 0 |

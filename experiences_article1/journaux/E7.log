@@ -1,0 +1,2679 @@
+
+### 2026-10-07T11:54:20 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe -m regles_priorite.comparer --familles Brandimarte HurinkLa Kacem --facteur-seuil 1000
+1876 exécutions lancées, les autres étaient déjà dans la banque.
+# Règles de priorité — 134 instances, facteur de seuil 1000
+
+| Rang | Règle (opération + machine) | C_max moyen | Écart moyen à la meilleure règle | Nb de fois meilleure |
+|---|---|---|---|---|
+| 1 | MWKR+EFT | 968.3 | +2.1 % | 70 |
+| 2 | MOR+EFT | 980.8 | +3.6 % | 34 |
+| 3 | FIFO+EFT | 998.1 | +4.8 % | 20 |
+| 4 | SPT+EFT | 1085.9 | +15.4 % | 6 |
+| 5 | LPT+EFT | 1112.3 | +17.4 % | 4 |
+| 6 | LOR+EFT | 1157.7 | +22.9 % | 1 |
+| 7 | LWKR+EFT | 1187.7 | +26.2 % | 1 |
+| 8 | MOR+SPTM | 2030.0 | +113.2 % | 1 |
+| 9 | MWKR+SPTM | 2028.9 | +113.4 % | 3 |
+| 10 | FIFO+SPTM | 2064.6 | +116.6 % | 0 |
+| 11 | SPT+SPTM | 2135.9 | +124.0 % | 1 |
+| 12 | LPT+SPTM | 2202.7 | +130.5 % | 0 |
+| 13 | LOR+SPTM | 2251.5 | +136.0 % | 0 |
+| 14 | LWKR+SPTM | 2265.5 | +137.8 % | 1 |
+
+### 2026-10-07T11:55:11 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe -m metaheuristiques.comparer --familles Brandimarte HurinkLa Kacem --graines 0 1 2 3 4 --parametres reglage_taguchi/parametres_retenus.json --facteur-seuil 1000 --processus 8 --methodes Recuit simulé Recherche tabou --evaluations 50000
+Paramètres utilisés : {'Algorithme génétique': {'population': 60, 'p_croisement': 0.8, 'p_mutation': 0.1, 'elite': 2}, 'Recherche tabou': {'n_voisins': 40, 'tenure': 6}, 'Recuit simulé': {'p0': 0.3, 'ratio_fin': 0.0001}}
+1340 exécutions à lancer (les autres sont déjà dans la banque).
+BrandimarteMk1 Recherche tabou 0 42.0
+BrandimarteMk1 Recherche tabou 1 42.0
+BrandimarteMk1 Recherche tabou 2 40.0
+BrandimarteMk1 Recuit simulé 3 42.0
+BrandimarteMk1 Recuit simulé 1 42.0
+BrandimarteMk1 Recuit simulé 0 42.0
+BrandimarteMk1 Recuit simulé 4 42.0
+BrandimarteMk1 Recuit simulé 2 42.0
+BrandimarteMk1 Recherche tabou 3 42.0
+BrandimarteMk1 Recherche tabou 4 42.0
+BrandimarteMk2 Recuit simulé 0 28.0
+BrandimarteMk2 Recherche tabou 0 29.0
+BrandimarteMk2 Recuit simulé 1 28.0
+BrandimarteMk2 Recuit simulé 3 28.0
+BrandimarteMk2 Recuit simulé 2 29.0
+BrandimarteMk2 Recuit simulé 4 28.0
+BrandimarteMk2 Recherche tabou 1 30.0
+BrandimarteMk2 Recherche tabou 2 30.0
+BrandimarteMk2 Recherche tabou 4 29.0
+BrandimarteMk2 Recherche tabou 3 30.0
+BrandimarteMk3 Recuit simulé 0 204.0
+BrandimarteMk3 Recuit simulé 2 204.0
+BrandimarteMk3 Recuit simulé 3 204.0
+BrandimarteMk3 Recuit simulé 1 204.0
+BrandimarteMk3 Recuit simulé 4 204.0
+BrandimarteMk3 Recherche tabou 0 204.0
+BrandimarteMk3 Recherche tabou 2 204.0
+BrandimarteMk3 Recherche tabou 1 204.0
+BrandimarteMk4 Recuit simulé 0 68.0
+BrandimarteMk4 Recuit simulé 1 67.0
+BrandimarteMk3 Recherche tabou 4 204.0
+BrandimarteMk3 Recherche tabou 3 204.0
+BrandimarteMk4 Recuit simulé 2 67.0
+BrandimarteMk4 Recuit simulé 3 67.0
+BrandimarteMk4 Recuit simulé 4 67.0
+BrandimarteMk4 Recherche tabou 0 67.0
+BrandimarteMk4 Recherche tabou 1 67.0
+BrandimarteMk4 Recherche tabou 2 67.0
+BrandimarteMk4 Recherche tabou 3 67.0
+BrandimarteMk4 Recherche tabou 4 67.0
+BrandimarteMk5 Recuit simulé 0 177.0
+BrandimarteMk5 Recuit simulé 1 176.0
+BrandimarteMk5 Recuit simulé 2 180.0
+BrandimarteMk5 Recuit simulé 3 179.0
+BrandimarteMk5 Recuit simulé 4 180.0
+BrandimarteMk5 Recherche tabou 0 181.0
+BrandimarteMk5 Recherche tabou 2 181.0
+BrandimarteMk5 Recherche tabou 1 181.0
+BrandimarteMk5 Recherche tabou 3 179.0
+BrandimarteMk5 Recherche tabou 4 180.0
+BrandimarteMk6 Recuit simulé 0 67.0
+BrandimarteMk6 Recuit simulé 1 68.0
+BrandimarteMk6 Recuit simulé 2 72.0
+BrandimarteMk6 Recuit simulé 3 67.0
+BrandimarteMk6 Recuit simulé 4 66.0
+BrandimarteMk6 Recherche tabou 0 66.0
+BrandimarteMk6 Recherche tabou 1 66.0
+BrandimarteMk6 Recherche tabou 2 68.0
+BrandimarteMk7 Recuit simulé 0 150.0
+BrandimarteMk7 Recuit simulé 1 145.0
+BrandimarteMk6 Recherche tabou 3 69.0
+BrandimarteMk6 Recherche tabou 4 67.0
+BrandimarteMk7 Recuit simulé 2 147.0
+BrandimarteMk7 Recuit simulé 3 147.0
+BrandimarteMk7 Recuit simulé 4 149.0
+BrandimarteMk7 Recherche tabou 0 151.0
+BrandimarteMk7 Recherche tabou 1 151.0
+BrandimarteMk7 Recherche tabou 2 154.0
+BrandimarteMk7 Recherche tabou 3 154.0
+BrandimarteMk7 Recherche tabou 4 151.0
+BrandimarteMk8 Recuit simulé 1 523.0
+BrandimarteMk8 Recuit simulé 0 523.0
+BrandimarteMk8 Recuit simulé 2 523.0
+BrandimarteMk8 Recuit simulé 3 523.0
+BrandimarteMk8 Recuit simulé 4 523.0
+BrandimarteMk8 Recherche tabou 0 523.0
+BrandimarteMk8 Recherche tabou 1 523.0
+BrandimarteMk8 Recherche tabou 2 523.0
+BrandimarteMk8 Recherche tabou 4 523.0
+BrandimarteMk8 Recherche tabou 3 523.0
+BrandimarteMk9 Recuit simulé 0 311.0
+BrandimarteMk9 Recuit simulé 1 311.0
+BrandimarteMk9 Recuit simulé 2 313.0
+BrandimarteMk9 Recuit simulé 4 311.0
+BrandimarteMk9 Recuit simulé 3 315.0
+BrandimarteMk9 Recherche tabou 0 311.0
+BrandimarteMk9 Recherche tabou 1 311.0
+BrandimarteMk9 Recherche tabou 2 311.0
+BrandimarteMk9 Recherche tabou 3 311.0
+BrandimarteMk9 Recherche tabou 4 307.0
+BrandimarteMk10 Recuit simulé 0 228.0
+BrandimarteMk10 Recuit simulé 1 226.0
+BrandimarteMk10 Recuit simulé 2 221.0
+BrandimarteMk10 Recuit simulé 3 226.0
+HurinkEdata4 Recuit simulé 0 609.0
+HurinkEdata4 Recuit simulé 1 609.0
+BrandimarteMk10 Recherche tabou 0 227.0
+BrandimarteMk10 Recuit simulé 4 224.0
+HurinkEdata4 Recuit simulé 2 609.0
+HurinkEdata4 Recuit simulé 3 609.0
+BrandimarteMk10 Recherche tabou 1 224.0
+BrandimarteMk10 Recherche tabou 2 224.0
+HurinkEdata4 Recherche tabou 0 621.0
+HurinkEdata4 Recherche tabou 1 609.0
+HurinkEdata4 Recuit simulé 4 611.0
+HurinkEdata4 Recherche tabou 2 614.0
+BrandimarteMk10 Recherche tabou 3 226.0
+BrandimarteMk10 Recherche tabou 4 226.0
+HurinkEdata4 Recherche tabou 3 609.0
+HurinkEdata4 Recherche tabou 4 609.0
+HurinkEdata5 Recuit simulé 0 660.0
+HurinkEdata5 Recuit simulé 1 660.0
+HurinkEdata5 Recuit simulé 2 660.0
+HurinkEdata5 Recuit simulé 3 655.0
+HurinkEdata5 Recuit simulé 4 669.0
+HurinkEdata5 Recherche tabou 0 683.0
+HurinkEdata5 Recherche tabou 1 692.0
+HurinkEdata5 Recherche tabou 2 667.0
+HurinkEdata5 Recherche tabou 3 692.0
+HurinkEdata5 Recherche tabou 4 692.0
+HurinkEdata6 Recuit simulé 0 567.0
+HurinkEdata6 Recuit simulé 1 567.0
+HurinkEdata6 Recuit simulé 2 563.0
+HurinkEdata6 Recuit simulé 3 567.0
+HurinkEdata6 Recuit simulé 4 561.0
+HurinkEdata6 Recherche tabou 0 593.0
+HurinkEdata6 Recherche tabou 1 575.0
+HurinkEdata6 Recherche tabou 2 571.0
+HurinkEdata6 Recherche tabou 3 567.0
+HurinkEdata6 Recherche tabou 4 567.0
+HurinkEdata7 Recuit simulé 0 599.0
+HurinkEdata7 Recuit simulé 1 568.0
+HurinkEdata7 Recuit simulé 2 568.0
+HurinkEdata7 Recuit simulé 3 597.0
+HurinkEdata7 Recherche tabou 0 616.0
+HurinkEdata7 Recuit simulé 4 616.0
+HurinkEdata7 Recherche tabou 1 616.0
+HurinkEdata7 Recherche tabou 2 598.0
+HurinkEdata7 Recherche tabou 3 597.0
+HurinkEdata7 Recherche tabou 4 585.0
+HurinkEdata8 Recuit simulé 0 503.0
+HurinkEdata8 Recuit simulé 1 503.0
+HurinkEdata8 Recuit simulé 2 503.0
+HurinkEdata8 Recherche tabou 0 503.0
+HurinkEdata8 Recuit simulé 3 503.0
+HurinkEdata8 Recuit simulé 4 524.0
+HurinkEdata8 Recherche tabou 1 503.0
+HurinkEdata8 Recherche tabou 2 503.0
+HurinkEdata8 Recherche tabou 3 524.0
+HurinkEdata8 Recherche tabou 4 503.0
+HurinkEdata9 Recuit simulé 0 833.0
+HurinkEdata9 Recuit simulé 1 833.0
+HurinkEdata9 Recuit simulé 2 833.0
+HurinkEdata9 Recuit simulé 3 833.0
+HurinkEdata9 Recherche tabou 0 833.0
+HurinkEdata9 Recuit simulé 4 833.0
+HurinkEdata9 Recherche tabou 1 833.0
+HurinkEdata9 Recherche tabou 2 833.0
+HurinkEdata9 Recherche tabou 3 833.0
+HurinkEdata9 Recherche tabou 4 833.0
+HurinkEdata10 Recuit simulé 0 778.0
+HurinkEdata10 Recuit simulé 1 778.0
+HurinkEdata10 Recuit simulé 2 778.0
+HurinkEdata10 Recuit simulé 3 778.0
+HurinkEdata10 Recuit simulé 4 778.0
+HurinkEdata10 Recherche tabou 0 795.0
+HurinkEdata10 Recherche tabou 1 795.0
+HurinkEdata10 Recherche tabou 2 778.0
+HurinkEdata10 Recherche tabou 3 778.0
+HurinkEdata10 Recherche tabou 4 795.0
+HurinkEdata11 Recuit simulé 0 854.0
+HurinkEdata11 Recuit simulé 1 860.0
+HurinkEdata11 Recuit simulé 2 860.0
+HurinkEdata11 Recuit simulé 3 860.0
+HurinkEdata11 Recherche tabou 0 845.0
+HurinkEdata11 Recuit simulé 4 860.0
+HurinkEdata11 Recherche tabou 1 845.0
+HurinkEdata11 Recherche tabou 2 860.0
+HurinkEdata11 Recherche tabou 3 845.0
+HurinkEdata11 Recherche tabou 4 845.0
+HurinkEdata12 Recuit simulé 0 912.0
+HurinkEdata12 Recuit simulé 1 884.0
+HurinkEdata12 Recuit simulé 2 878.0
+HurinkEdata12 Recuit simulé 3 884.0
+HurinkEdata12 Recherche tabou 0 912.0
+HurinkEdata12 Recuit simulé 4 884.0
+HurinkEdata12 Recherche tabou 1 912.0
+HurinkEdata12 Recherche tabou 2 912.0
+HurinkEdata12 Recherche tabou 3 912.0
+HurinkEdata12 Recherche tabou 4 912.0
+HurinkEdata13 Recuit simulé 0 866.0
+HurinkEdata13 Recuit simulé 1 866.0
+HurinkEdata13 Recuit simulé 2 866.0
+HurinkEdata13 Recuit simulé 3 866.0
+HurinkEdata13 Recherche tabou 0 866.0
+HurinkEdata13 Recuit simulé 4 866.0
+HurinkEdata13 Recherche tabou 1 866.0
+HurinkEdata13 Recherche tabou 2 866.0
+HurinkEdata13 Recherche tabou 3 866.0
+HurinkEdata13 Recherche tabou 4 866.0
+HurinkEdata14 Recuit simulé 0 1106.0
+HurinkEdata14 Recuit simulé 1 1106.0
+HurinkEdata14 Recuit simulé 2 1106.0
+HurinkEdata14 Recuit simulé 3 1106.0
+HurinkEdata14 Recherche tabou 0 1127.0
+HurinkEdata14 Recuit simulé 4 1128.0
+HurinkEdata14 Recherche tabou 1 1107.0
+HurinkEdata14 Recherche tabou 2 1127.0
+HurinkEdata14 Recherche tabou 3 1128.0
+HurinkEdata14 Recherche tabou 4 1128.0
+HurinkEdata15 Recuit simulé 0 979.0
+HurinkEdata15 Recuit simulé 1 960.0
+HurinkEdata15 Recuit simulé 2 960.0
+HurinkEdata15 Recuit simulé 3 960.0
+HurinkEdata15 Recherche tabou 0 979.0
+HurinkEdata15 Recuit simulé 4 979.0
+HurinkEdata15 Recherche tabou 1 979.0
+HurinkEdata15 Recherche tabou 2 979.0
+HurinkEdata15 Recherche tabou 3 979.0
+HurinkEdata15 Recherche tabou 4 979.0
+HurinkEdata16 Recuit simulé 0 1053.0
+HurinkEdata16 Recuit simulé 1 1053.0
+HurinkEdata16 Recuit simulé 2 1053.0
+HurinkEdata16 Recuit simulé 3 1053.0
+HurinkEdata16 Recuit simulé 4 1053.0
+HurinkEdata16 Recherche tabou 0 1053.0
+HurinkEdata16 Recherche tabou 1 1053.0
+HurinkEdata16 Recherche tabou 2 1053.0
+HurinkEdata16 Recherche tabou 3 1053.0
+HurinkEdata16 Recherche tabou 4 1053.0
+HurinkEdata17 Recuit simulé 0 1123.0
+HurinkEdata17 Recuit simulé 1 1147.0
+HurinkEdata17 Recuit simulé 3 1123.0
+HurinkEdata17 Recuit simulé 2 1147.0
+HurinkEdata17 Recherche tabou 0 1147.0
+HurinkEdata17 Recuit simulé 4 1137.0
+HurinkEdata17 Recherche tabou 1 1123.0
+HurinkEdata17 Recherche tabou 2 1147.0
+HurinkEdata17 Recherche tabou 3 1137.0
+HurinkEdata17 Recherche tabou 4 1137.0
+HurinkEdata18 Recuit simulé 0 1111.0
+HurinkEdata18 Recuit simulé 1 1111.0
+HurinkEdata18 Recuit simulé 3 1128.0
+HurinkEdata18 Recuit simulé 2 1111.0
+HurinkEdata18 Recherche tabou 0 1152.0
+HurinkEdata18 Recuit simulé 4 1111.0
+HurinkEdata18 Recherche tabou 1 1125.0
+HurinkEdata18 Recherche tabou 2 1152.0
+HurinkEdata18 Recherche tabou 3 1126.0
+HurinkEdata18 Recherche tabou 4 1128.0
+HurinkEdata19 Recuit simulé 0 915.0
+HurinkEdata19 Recuit simulé 1 920.0
+HurinkEdata19 Recuit simulé 2 899.0
+HurinkEdata19 Recuit simulé 3 915.0
+HurinkEdata19 Recherche tabou 0 952.0
+HurinkEdata19 Recuit simulé 4 918.0
+HurinkEdata19 Recherche tabou 1 971.0
+HurinkEdata19 Recherche tabou 2 945.0
+HurinkEdata19 Recherche tabou 3 975.0
+HurinkEdata19 Recherche tabou 4 960.0
+HurinkEdata20 Recuit simulé 0 722.0
+HurinkEdata20 Recuit simulé 1 729.0
+HurinkEdata20 Recuit simulé 2 734.0
+HurinkEdata20 Recuit simulé 3 745.0
+HurinkEdata20 Recherche tabou 0 729.0
+HurinkEdata20 Recuit simulé 4 707.0
+HurinkEdata20 Recherche tabou 1 729.0
+HurinkEdata20 Recherche tabou 2 729.0
+HurinkEdata20 Recherche tabou 3 729.0
+HurinkEdata20 Recherche tabou 4 729.0
+HurinkEdata21 Recuit simulé 0 853.0
+HurinkEdata21 Recuit simulé 1 882.0
+HurinkEdata21 Recuit simulé 2 844.0
+HurinkEdata21 Recuit simulé 3 861.0
+HurinkEdata21 Recherche tabou 0 843.0
+HurinkEdata21 Recuit simulé 4 844.0
+HurinkEdata21 Recherche tabou 1 846.0
+HurinkEdata21 Recherche tabou 2 844.0
+HurinkEdata21 Recherche tabou 3 861.0
+HurinkEdata21 Recherche tabou 4 843.0
+HurinkEdata22 Recuit simulé 0 836.0
+HurinkEdata22 Recuit simulé 1 805.0
+HurinkEdata22 Recuit simulé 2 828.0
+HurinkEdata22 Recuit simulé 3 839.0
+HurinkEdata22 Recherche tabou 0 816.0
+HurinkEdata22 Recuit simulé 4 845.0
+HurinkEdata22 Recherche tabou 1 801.0
+HurinkEdata22 Recherche tabou 2 805.0
+HurinkEdata22 Recherche tabou 3 805.0
+HurinkEdata22 Recherche tabou 4 823.0
+HurinkEdata23 Recuit simulé 0 864.0
+HurinkEdata23 Recuit simulé 1 864.0
+HurinkEdata23 Recuit simulé 2 880.0
+HurinkEdata23 Recuit simulé 3 864.0
+HurinkEdata23 Recherche tabou 0 883.0
+HurinkEdata23 Recuit simulé 4 864.0
+HurinkEdata23 Recherche tabou 1 883.0
+HurinkEdata23 Recherche tabou 2 883.0
+HurinkEdata23 Recherche tabou 3 883.0
+HurinkEdata23 Recherche tabou 4 883.0
+HurinkEdata24 Recuit simulé 0 1081.0
+HurinkEdata24 Recuit simulé 1 1083.0
+HurinkEdata24 Recuit simulé 2 1084.0
+HurinkEdata24 Recuit simulé 3 1106.0
+HurinkEdata24 Recherche tabou 0 1077.0
+HurinkEdata24 Recuit simulé 4 1055.0
+HurinkEdata24 Recherche tabou 1 1120.0
+HurinkEdata24 Recherche tabou 2 1099.0
+HurinkEdata24 Recherche tabou 3 1092.0
+HurinkEdata24 Recherche tabou 4 1079.0
+HurinkEdata25 Recuit simulé 0 923.0
+HurinkEdata25 Recuit simulé 1 906.0
+HurinkEdata25 Recuit simulé 2 899.0
+HurinkEdata25 Recuit simulé 3 915.0
+HurinkEdata25 Recherche tabou 0 928.0
+HurinkEdata25 Recuit simulé 4 922.0
+HurinkEdata25 Recherche tabou 1 919.0
+HurinkEdata25 Recherche tabou 2 915.0
+HurinkEdata25 Recherche tabou 3 914.0
+HurinkEdata25 Recherche tabou 4 928.0
+HurinkEdata26 Recuit simulé 1 1010.0
+HurinkEdata26 Recuit simulé 0 985.0
+HurinkEdata26 Recuit simulé 2 980.0
+HurinkEdata26 Recuit simulé 3 984.0
+HurinkEdata26 Recuit simulé 4 1032.0
+HurinkEdata26 Recherche tabou 0 1032.0
+HurinkEdata26 Recherche tabou 1 1038.0
+HurinkEdata26 Recherche tabou 2 1032.0
+HurinkEdata26 Recherche tabou 3 1032.0
+HurinkEdata26 Recherche tabou 4 1032.0
+HurinkEdata27 Recuit simulé 0 959.0
+HurinkEdata27 Recuit simulé 1 943.0
+HurinkEdata27 Recuit simulé 2 959.0
+HurinkEdata27 Recuit simulé 3 950.0
+HurinkEdata27 Recherche tabou 0 970.0
+HurinkEdata27 Recuit simulé 4 968.0
+HurinkEdata27 Recherche tabou 1 965.0
+HurinkEdata27 Recherche tabou 2 965.0
+HurinkEdata27 Recherche tabou 3 965.0
+HurinkEdata27 Recherche tabou 4 965.0
+HurinkEdata28 Recuit simulé 0 963.0
+HurinkEdata28 Recuit simulé 1 999.0
+HurinkEdata28 Recuit simulé 2 996.0
+HurinkEdata28 Recuit simulé 3 983.0
+HurinkEdata28 Recherche tabou 0 1064.0
+HurinkEdata28 Recuit simulé 4 988.0
+HurinkEdata28 Recherche tabou 1 1064.0
+HurinkEdata28 Recherche tabou 2 992.0
+HurinkEdata28 Recherche tabou 3 1029.0
+HurinkEdata28 Recherche tabou 4 1029.0
+HurinkEdata29 Recuit simulé 0 1167.0
+HurinkEdata29 Recuit simulé 1 1148.0
+HurinkEdata29 Recuit simulé 2 1188.0
+HurinkEdata29 Recuit simulé 3 1157.0
+HurinkEdata29 Recuit simulé 4 1181.0
+HurinkEdata29 Recherche tabou 0 1183.0
+HurinkEdata29 Recherche tabou 1 1186.0
+HurinkEdata29 Recherche tabou 2 1193.0
+HurinkEdata29 Recherche tabou 3 1197.0
+HurinkEdata29 Recherche tabou 4 1197.0
+HurinkEdata30 Recuit simulé 0 1243.0
+HurinkEdata30 Recuit simulé 1 1228.0
+HurinkEdata30 Recuit simulé 2 1255.0
+HurinkEdata30 Recuit simulé 3 1268.0
+HurinkEdata30 Recuit simulé 4 1249.0
+HurinkEdata30 Recherche tabou 0 1287.0
+HurinkEdata30 Recherche tabou 1 1276.0
+HurinkEdata30 Recherche tabou 2 1287.0
+HurinkEdata30 Recherche tabou 3 1256.0
+HurinkEdata30 Recherche tabou 4 1301.0
+HurinkEdata31 Recuit simulé 0 1185.0
+HurinkEdata31 Recuit simulé 1 1180.0
+HurinkEdata31 Recuit simulé 3 1210.0
+HurinkEdata31 Recuit simulé 2 1230.0
+HurinkEdata31 Recherche tabou 0 1246.0
+HurinkEdata31 Recuit simulé 4 1193.0
+HurinkEdata31 Recherche tabou 1 1236.0
+HurinkEdata31 Recherche tabou 2 1260.0
+HurinkEdata31 Recherche tabou 3 1227.0
+HurinkEdata31 Recherche tabou 4 1260.0
+HurinkEdata32 Recuit simulé 0 1177.0
+HurinkEdata32 Recuit simulé 1 1202.0
+HurinkEdata32 Recuit simulé 2 1196.0
+HurinkEdata32 Recuit simulé 3 1214.0
+HurinkEdata32 Recherche tabou 0 1188.0
+HurinkEdata32 Recuit simulé 4 1169.0
+HurinkEdata32 Recherche tabou 1 1186.0
+HurinkEdata32 Recherche tabou 2 1171.0
+HurinkEdata32 Recherche tabou 3 1204.0
+HurinkEdata32 Recherche tabou 4 1207.0
+HurinkEdata33 Recuit simulé 0 1268.0
+HurinkEdata33 Recuit simulé 1 1291.0
+HurinkEdata33 Recuit simulé 2 1277.0
+HurinkEdata33 Recuit simulé 3 1259.0
+HurinkEdata33 Recuit simulé 4 1272.0
+HurinkEdata33 Recherche tabou 0 1303.0
+HurinkEdata33 Recherche tabou 1 1345.0
+HurinkEdata33 Recherche tabou 2 1300.0
+HurinkEdata33 Recherche tabou 4 1298.0
+HurinkEdata33 Recherche tabou 3 1272.0
+HurinkEdata34 Recuit simulé 0 1604.0
+HurinkEdata34 Recuit simulé 1 1587.0
+HurinkEdata34 Recuit simulé 2 1632.0
+HurinkEdata34 Recuit simulé 3 1587.0
+HurinkEdata34 Recherche tabou 0 1636.0
+HurinkEdata34 Recuit simulé 4 1599.0
+HurinkEdata34 Recherche tabou 1 1637.0
+HurinkEdata34 Recherche tabou 2 1608.0
+HurinkEdata34 Recherche tabou 3 1609.0
+HurinkEdata34 Recherche tabou 4 1645.0
+HurinkEdata35 Recuit simulé 0 1743.0
+HurinkEdata35 Recuit simulé 1 1753.0
+HurinkEdata35 Recuit simulé 3 1728.0
+HurinkEdata35 Recuit simulé 2 1728.0
+HurinkEdata35 Recherche tabou 0 1783.0
+HurinkEdata35 Recuit simulé 4 1756.0
+HurinkEdata35 Recherche tabou 1 1753.0
+HurinkEdata35 Recherche tabou 2 1771.0
+HurinkEdata35 Recherche tabou 3 1755.0
+HurinkEdata35 Recherche tabou 4 1771.0
+HurinkEdata36 Recuit simulé 0 1580.0
+HurinkEdata36 Recuit simulé 1 1580.0
+HurinkEdata36 Recuit simulé 2 1575.0
+HurinkEdata36 Recuit simulé 3 1580.0
+HurinkEdata36 Recuit simulé 4 1580.0
+HurinkEdata36 Recherche tabou 0 1598.0
+HurinkEdata36 Recherche tabou 1 1593.0
+HurinkEdata36 Recherche tabou 2 1624.0
+HurinkEdata36 Recherche tabou 3 1620.0
+HurinkEdata36 Recherche tabou 4 1600.0
+HurinkEdata37 Recuit simulé 0 1665.0
+HurinkEdata37 Recuit simulé 1 1648.0
+HurinkEdata37 Recuit simulé 2 1664.0
+HurinkEdata37 Recuit simulé 3 1664.0
+HurinkEdata37 Recuit simulé 4 1664.0
+HurinkEdata37 Recherche tabou 0 1678.0
+HurinkEdata37 Recherche tabou 1 1671.0
+HurinkEdata37 Recherche tabou 2 1670.0
+HurinkEdata37 Recherche tabou 3 1680.0
+HurinkEdata37 Recherche tabou 4 1664.0
+HurinkEdata38 Recuit simulé 0 1749.0
+HurinkEdata38 Recuit simulé 1 1749.0
+HurinkEdata38 Recuit simulé 2 1746.0
+HurinkEdata38 Recuit simulé 3 1736.0
+HurinkEdata38 Recherche tabou 0 1736.0
+HurinkEdata38 Recuit simulé 4 1736.0
+HurinkEdata38 Recherche tabou 1 1763.0
+HurinkEdata38 Recherche tabou 2 1817.0
+HurinkEdata39 Recuit simulé 0 1205.0
+HurinkEdata39 Recuit simulé 1 1252.0
+HurinkEdata39 Recuit simulé 2 1214.0
+HurinkEdata39 Recuit simulé 3 1241.0
+HurinkEdata38 Recherche tabou 4 1736.0
+HurinkEdata38 Recherche tabou 3 1736.0
+HurinkEdata39 Recherche tabou 0 1226.0
+HurinkEdata39 Recuit simulé 4 1187.0
+HurinkEdata39 Recherche tabou 1 1222.0
+HurinkEdata39 Recherche tabou 2 1231.0
+HurinkEdata39 Recherche tabou 3 1230.0
+HurinkEdata39 Recherche tabou 4 1226.0
+HurinkEdata40 Recuit simulé 1 1415.0
+HurinkEdata40 Recuit simulé 0 1425.0
+HurinkEdata40 Recuit simulé 2 1454.0
+HurinkEdata40 Recuit simulé 3 1422.0
+HurinkEdata40 Recherche tabou 0 1467.0
+HurinkEdata40 Recuit simulé 4 1438.0
+HurinkEdata40 Recherche tabou 1 1446.0
+HurinkEdata40 Recherche tabou 2 1439.0
+HurinkEdata40 Recherche tabou 3 1409.0
+HurinkEdata40 Recherche tabou 4 1417.0
+HurinkEdata41 Recuit simulé 0 1218.0
+HurinkEdata41 Recuit simulé 1 1245.0
+HurinkEdata41 Recuit simulé 2 1218.0
+HurinkEdata41 Recuit simulé 3 1228.0
+HurinkEdata41 Recherche tabou 0 1226.0
+HurinkEdata41 Recuit simulé 4 1231.0
+HurinkEdata41 Recherche tabou 1 1220.0
+HurinkEdata41 Recherche tabou 2 1246.0
+HurinkEdata41 Recherche tabou 3 1235.0
+HurinkEdata41 Recherche tabou 4 1223.0
+HurinkEdata42 Recuit simulé 1 1250.0
+HurinkEdata42 Recuit simulé 0 1252.0
+HurinkEdata42 Recuit simulé 2 1209.0
+HurinkEdata42 Recuit simulé 3 1261.0
+HurinkEdata42 Recherche tabou 0 1268.0
+HurinkEdata42 Recuit simulé 4 1260.0
+HurinkEdata42 Recherche tabou 1 1261.0
+HurinkEdata42 Recherche tabou 2 1294.0
+HurinkEdata42 Recherche tabou 3 1277.0
+HurinkEdata42 Recherche tabou 4 1264.0
+HurinkEdata43 Recuit simulé 0 1219.0
+HurinkEdata43 Recuit simulé 1 1186.0
+HurinkEdata43 Recuit simulé 2 1243.0
+HurinkEdata43 Recuit simulé 3 1221.0
+HurinkRdata4 Recuit simulé 0 579.0
+HurinkRdata4 Recuit simulé 1 579.0
+HurinkEdata43 Recuit simulé 4 1198.0
+HurinkEdata43 Recherche tabou 0 1223.0
+HurinkRdata4 Recuit simulé 2 579.0
+HurinkRdata4 Recuit simulé 3 574.0
+HurinkRdata4 Recherche tabou 0 575.0
+HurinkEdata43 Recherche tabou 1 1211.0
+HurinkEdata43 Recherche tabou 2 1205.0
+HurinkRdata4 Recuit simulé 4 584.0
+HurinkEdata43 Recherche tabou 3 1202.0
+HurinkEdata43 Recherche tabou 4 1213.0
+HurinkRdata4 Recherche tabou 1 586.0
+HurinkRdata4 Recherche tabou 2 586.0
+HurinkRdata4 Recherche tabou 3 580.0
+HurinkRdata4 Recherche tabou 4 586.0
+HurinkRdata5 Recuit simulé 1 535.0
+HurinkRdata5 Recuit simulé 0 540.0
+HurinkRdata5 Recuit simulé 2 538.0
+HurinkRdata5 Recuit simulé 3 541.0
+HurinkRdata5 Recherche tabou 0 535.0
+HurinkRdata5 Recuit simulé 4 545.0
+HurinkRdata5 Recherche tabou 1 538.0
+HurinkRdata5 Recherche tabou 2 535.0
+HurinkRdata5 Recherche tabou 3 538.0
+HurinkRdata5 Recherche tabou 4 534.0
+HurinkRdata6 Recuit simulé 0 483.0
+HurinkRdata6 Recuit simulé 1 486.0
+HurinkRdata6 Recuit simulé 2 489.0
+HurinkRdata6 Recuit simulé 3 485.0
+HurinkRdata6 Recherche tabou 0 488.0
+HurinkRdata6 Recuit simulé 4 496.0
+HurinkRdata6 Recherche tabou 1 483.0
+HurinkRdata6 Recherche tabou 2 488.0
+HurinkRdata6 Recherche tabou 3 483.0
+HurinkRdata6 Recherche tabou 4 483.0
+HurinkRdata7 Recuit simulé 0 514.0
+HurinkRdata7 Recuit simulé 1 517.0
+HurinkRdata7 Recuit simulé 2 506.0
+HurinkRdata7 Recherche tabou 0 515.0
+HurinkRdata7 Recuit simulé 3 508.0
+HurinkRdata7 Recuit simulé 4 522.0
+HurinkRdata7 Recherche tabou 1 515.0
+HurinkRdata7 Recherche tabou 2 518.0
+HurinkRdata7 Recherche tabou 3 511.0
+HurinkRdata7 Recherche tabou 4 529.0
+HurinkRdata8 Recuit simulé 0 464.0
+HurinkRdata8 Recuit simulé 1 462.0
+HurinkRdata8 Recuit simulé 2 463.0
+HurinkRdata8 Recuit simulé 3 461.0
+HurinkRdata8 Recuit simulé 4 464.0
+HurinkRdata8 Recherche tabou 0 468.0
+HurinkRdata8 Recherche tabou 1 472.0
+HurinkRdata8 Recherche tabou 2 467.0
+HurinkRdata8 Recherche tabou 3 468.0
+HurinkRdata8 Recherche tabou 4 465.0
+HurinkRdata9 Recuit simulé 0 802.0
+HurinkRdata9 Recuit simulé 1 802.0
+HurinkRdata9 Recuit simulé 2 808.0
+HurinkRdata9 Recuit simulé 3 806.0
+HurinkRdata9 Recherche tabou 0 807.0
+HurinkRdata9 Recuit simulé 4 806.0
+HurinkRdata9 Recherche tabou 1 807.0
+HurinkRdata9 Recherche tabou 2 811.0
+HurinkRdata9 Recherche tabou 3 805.0
+HurinkRdata9 Recherche tabou 4 812.0
+HurinkRdata10 Recuit simulé 0 756.0
+HurinkRdata10 Recuit simulé 1 766.0
+HurinkRdata10 Recuit simulé 2 758.0
+HurinkRdata10 Recuit simulé 3 756.0
+HurinkRdata10 Recherche tabou 0 755.0
+HurinkRdata10 Recuit simulé 4 755.0
+HurinkRdata10 Recherche tabou 1 757.0
+HurinkRdata10 Recherche tabou 2 758.0
+HurinkRdata10 Recherche tabou 3 757.0
+HurinkRdata10 Recherche tabou 4 755.0
+HurinkRdata11 Recuit simulé 1 768.0
+HurinkRdata11 Recuit simulé 0 769.0
+HurinkRdata11 Recuit simulé 2 768.0
+HurinkRdata11 Recuit simulé 3 768.0
+HurinkRdata11 Recherche tabou 0 771.0
+HurinkRdata11 Recuit simulé 4 769.0
+HurinkRdata11 Recherche tabou 1 781.0
+HurinkRdata11 Recherche tabou 2 768.0
+HurinkRdata11 Recherche tabou 3 771.0
+HurinkRdata11 Recherche tabou 4 779.0
+HurinkRdata12 Recuit simulé 0 858.0
+HurinkRdata12 Recuit simulé 1 868.0
+HurinkRdata12 Recuit simulé 2 856.0
+HurinkRdata12 Recuit simulé 3 861.0
+HurinkRdata12 Recherche tabou 0 859.0
+HurinkRdata12 Recuit simulé 4 858.0
+HurinkRdata12 Recherche tabou 1 859.0
+HurinkRdata12 Recherche tabou 2 859.0
+HurinkRdata12 Recherche tabou 3 857.0
+HurinkRdata12 Recherche tabou 4 859.0
+HurinkRdata13 Recuit simulé 0 807.0
+HurinkRdata13 Recuit simulé 1 810.0
+HurinkRdata13 Recuit simulé 2 808.0
+HurinkRdata13 Recuit simulé 3 809.0
+HurinkRdata13 Recherche tabou 0 807.0
+HurinkRdata13 Recuit simulé 4 806.0
+HurinkRdata13 Recherche tabou 1 807.0
+HurinkRdata13 Recherche tabou 2 810.0
+HurinkRdata13 Recherche tabou 4 808.0
+HurinkRdata13 Recherche tabou 3 809.0
+HurinkRdata14 Recuit simulé 0 1072.0
+HurinkRdata14 Recuit simulé 1 1074.0
+HurinkRdata14 Recuit simulé 2 1074.0
+HurinkRdata14 Recuit simulé 3 1072.0
+HurinkRdata14 Recherche tabou 0 1079.0
+HurinkRdata14 Recuit simulé 4 1077.0
+HurinkRdata14 Recherche tabou 1 1073.0
+HurinkRdata14 Recherche tabou 2 1075.0
+HurinkRdata14 Recherche tabou 3 1075.0
+HurinkRdata14 Recherche tabou 4 1075.0
+HurinkRdata15 Recuit simulé 0 940.0
+HurinkRdata15 Recuit simulé 1 938.0
+HurinkRdata15 Recuit simulé 2 937.0
+HurinkRdata15 Recuit simulé 3 937.0
+HurinkRdata15 Recherche tabou 0 939.0
+HurinkRdata15 Recuit simulé 4 938.0
+HurinkRdata15 Recherche tabou 1 939.0
+HurinkRdata15 Recherche tabou 2 939.0
+HurinkRdata15 Recherche tabou 3 937.0
+HurinkRdata15 Recherche tabou 4 939.0
+HurinkRdata16 Recuit simulé 0 1041.0
+HurinkRdata16 Recuit simulé 1 1042.0
+HurinkRdata16 Recuit simulé 2 1041.0
+HurinkRdata16 Recuit simulé 3 1040.0
+HurinkRdata16 Recherche tabou 0 1041.0
+HurinkRdata16 Recuit simulé 4 1041.0
+HurinkRdata16 Recherche tabou 1 1041.0
+HurinkRdata16 Recherche tabou 2 1041.0
+HurinkRdata16 Recherche tabou 3 1044.0
+HurinkRdata16 Recherche tabou 4 1040.0
+HurinkRdata17 Recuit simulé 0 1072.0
+HurinkRdata17 Recuit simulé 1 1073.0
+HurinkRdata17 Recuit simulé 2 1072.0
+HurinkRdata17 Recuit simulé 3 1072.0
+HurinkRdata17 Recuit simulé 4 1077.0
+HurinkRdata17 Recherche tabou 0 1077.0
+HurinkRdata17 Recherche tabou 1 1079.0
+HurinkRdata17 Recherche tabou 2 1079.0
+HurinkRdata17 Recherche tabou 3 1079.0
+HurinkRdata17 Recherche tabou 4 1073.0
+HurinkRdata18 Recuit simulé 0 1094.0
+HurinkRdata18 Recuit simulé 1 1095.0
+HurinkRdata18 Recuit simulé 3 1094.0
+HurinkRdata18 Recuit simulé 2 1095.0
+HurinkRdata18 Recherche tabou 0 1100.0
+HurinkRdata18 Recuit simulé 4 1091.0
+HurinkRdata18 Recherche tabou 1 1098.0
+HurinkRdata18 Recherche tabou 2 1100.0
+HurinkRdata18 Recherche tabou 3 1100.0
+HurinkRdata18 Recherche tabou 4 1099.0
+HurinkRdata19 Recuit simulé 0 728.0
+HurinkRdata19 Recuit simulé 1 717.0
+HurinkRdata19 Recuit simulé 2 719.0
+HurinkRdata19 Recuit simulé 3 717.0
+HurinkRdata19 Recherche tabou 0 728.0
+HurinkRdata19 Recuit simulé 4 744.0
+HurinkRdata19 Recherche tabou 1 728.0
+HurinkRdata19 Recherche tabou 2 781.0
+HurinkRdata19 Recherche tabou 3 744.0
+HurinkRdata19 Recherche tabou 4 731.0
+HurinkRdata20 Recuit simulé 0 646.0
+HurinkRdata20 Recuit simulé 1 646.0
+HurinkRdata20 Recuit simulé 3 646.0
+HurinkRdata20 Recuit simulé 2 646.0
+HurinkRdata20 Recuit simulé 4 646.0
+HurinkRdata20 Recherche tabou 0 646.0
+HurinkRdata20 Recherche tabou 1 646.0
+HurinkRdata20 Recherche tabou 2 668.0
+HurinkRdata20 Recherche tabou 3 646.0
+HurinkRdata20 Recherche tabou 4 668.0
+HurinkRdata21 Recuit simulé 0 698.0
+HurinkRdata21 Recuit simulé 1 669.0
+HurinkRdata21 Recuit simulé 2 700.0
+HurinkRdata21 Recuit simulé 3 686.0
+HurinkRdata21 Recherche tabou 0 708.0
+HurinkRdata21 Recuit simulé 4 704.0
+HurinkRdata21 Recherche tabou 1 700.0
+HurinkRdata21 Recherche tabou 2 710.0
+HurinkRdata21 Recherche tabou 4 710.0
+HurinkRdata21 Recherche tabou 3 700.0
+HurinkRdata22 Recuit simulé 0 729.0
+HurinkRdata22 Recuit simulé 1 739.0
+HurinkRdata22 Recuit simulé 2 732.0
+HurinkRdata22 Recuit simulé 3 719.0
+HurinkRdata22 Recherche tabou 0 750.0
+HurinkRdata22 Recuit simulé 4 734.0
+HurinkRdata22 Recherche tabou 2 786.0
+HurinkRdata22 Recherche tabou 1 731.0
+HurinkRdata22 Recherche tabou 3 763.0
+HurinkRdata22 Recherche tabou 4 756.0
+HurinkRdata23 Recuit simulé 0 800.0
+HurinkRdata23 Recuit simulé 1 756.0
+HurinkRdata23 Recuit simulé 2 756.0
+HurinkRdata23 Recuit simulé 3 756.0
+HurinkRdata23 Recherche tabou 0 791.0
+HurinkRdata23 Recuit simulé 4 814.0
+HurinkRdata23 Recherche tabou 1 764.0
+HurinkRdata23 Recherche tabou 2 791.0
+HurinkRdata23 Recherche tabou 3 791.0
+HurinkRdata23 Recherche tabou 4 791.0
+HurinkRdata24 Recuit simulé 0 881.0
+HurinkRdata24 Recuit simulé 1 886.0
+HurinkRdata24 Recuit simulé 2 885.0
+HurinkRdata24 Recuit simulé 3 888.0
+HurinkRdata24 Recherche tabou 0 907.0
+HurinkRdata24 Recuit simulé 4 877.0
+HurinkRdata24 Recherche tabou 1 901.0
+HurinkRdata24 Recherche tabou 2 939.0
+HurinkRdata24 Recherche tabou 3 898.0
+HurinkRdata24 Recherche tabou 4 908.0
+HurinkRdata25 Recuit simulé 0 813.0
+HurinkRdata25 Recuit simulé 1 824.0
+HurinkRdata25 Recuit simulé 2 817.0
+HurinkRdata25 Recuit simulé 3 827.0
+HurinkRdata25 Recherche tabou 0 839.0
+HurinkRdata25 Recuit simulé 4 801.0
+HurinkRdata25 Recherche tabou 1 801.0
+HurinkRdata25 Recherche tabou 2 822.0
+HurinkRdata25 Recherche tabou 3 820.0
+HurinkRdata25 Recherche tabou 4 813.0
+HurinkRdata26 Recuit simulé 0 898.0
+HurinkRdata26 Recuit simulé 1 891.0
+HurinkRdata26 Recuit simulé 2 880.0
+HurinkRdata26 Recuit simulé 3 886.0
+HurinkRdata26 Recherche tabou 0 909.0
+HurinkRdata26 Recuit simulé 4 892.0
+HurinkRdata26 Recherche tabou 1 919.0
+HurinkRdata26 Recherche tabou 2 889.0
+HurinkRdata26 Recherche tabou 3 909.0
+HurinkRdata26 Recherche tabou 4 900.0
+HurinkRdata27 Recuit simulé 0 841.0
+HurinkRdata27 Recuit simulé 1 854.0
+HurinkRdata27 Recuit simulé 2 874.0
+HurinkRdata27 Recuit simulé 3 842.0
+HurinkRdata27 Recuit simulé 4 839.0
+HurinkRdata27 Recherche tabou 0 879.0
+HurinkRdata27 Recherche tabou 1 859.0
+HurinkRdata27 Recherche tabou 2 855.0
+HurinkRdata27 Recherche tabou 3 850.0
+HurinkRdata27 Recherche tabou 4 861.0
+HurinkRdata28 Recuit simulé 0 846.0
+HurinkRdata28 Recuit simulé 1 847.0
+HurinkRdata28 Recuit simulé 2 824.0
+HurinkRdata28 Recuit simulé 3 831.0
+HurinkRdata28 Recuit simulé 4 851.0
+HurinkRdata28 Recherche tabou 0 857.0
+HurinkRdata28 Recherche tabou 1 853.0
+HurinkRdata28 Recherche tabou 2 864.0
+HurinkRdata28 Recherche tabou 4 851.0
+HurinkRdata28 Recherche tabou 3 856.0
+HurinkRdata29 Recuit simulé 0 1103.0
+HurinkRdata29 Recuit simulé 1 1099.0
+HurinkRdata29 Recuit simulé 2 1095.0
+HurinkRdata29 Recuit simulé 3 1080.0
+HurinkRdata29 Recuit simulé 4 1105.0
+HurinkRdata29 Recherche tabou 0 1126.0
+HurinkRdata29 Recherche tabou 1 1111.0
+HurinkRdata29 Recherche tabou 2 1118.0
+HurinkRdata29 Recherche tabou 3 1108.0
+HurinkRdata29 Recherche tabou 4 1101.0
+HurinkRdata30 Recuit simulé 0 1126.0
+HurinkRdata30 Recuit simulé 1 1112.0
+HurinkRdata30 Recuit simulé 2 1127.0
+HurinkRdata30 Recuit simulé 3 1112.0
+HurinkRdata30 Recherche tabou 0 1146.0
+HurinkRdata30 Recuit simulé 4 1125.0
+HurinkRdata30 Recherche tabou 1 1149.0
+HurinkRdata30 Recherche tabou 2 1139.0
+HurinkRdata30 Recherche tabou 3 1143.0
+HurinkRdata30 Recherche tabou 4 1134.0
+HurinkRdata31 Recuit simulé 0 1105.0
+HurinkRdata31 Recuit simulé 1 1112.0
+HurinkRdata31 Recuit simulé 2 1101.0
+HurinkRdata31 Recuit simulé 3 1119.0
+HurinkRdata31 Recuit simulé 4 1107.0
+HurinkRdata31 Recherche tabou 0 1135.0
+HurinkRdata31 Recherche tabou 1 1118.0
+HurinkRdata31 Recherche tabou 2 1135.0
+HurinkRdata31 Recherche tabou 3 1127.0
+HurinkRdata31 Recherche tabou 4 1113.0
+HurinkRdata32 Recuit simulé 0 1035.0
+HurinkRdata32 Recuit simulé 1 1036.0
+HurinkRdata32 Recuit simulé 2 1018.0
+HurinkRdata32 Recuit simulé 3 1043.0
+HurinkRdata32 Recuit simulé 4 1032.0
+HurinkRdata32 Recherche tabou 0 1047.0
+HurinkRdata32 Recherche tabou 1 1034.0
+HurinkRdata32 Recherche tabou 2 1035.0
+HurinkRdata32 Recherche tabou 3 1036.0
+HurinkRdata32 Recherche tabou 4 1040.0
+HurinkRdata33 Recuit simulé 0 1120.0
+HurinkRdata33 Recuit simulé 1 1112.0
+HurinkRdata33 Recuit simulé 2 1129.0
+HurinkRdata33 Recuit simulé 3 1121.0
+HurinkRdata33 Recuit simulé 4 1127.0
+HurinkRdata33 Recherche tabou 0 1114.0
+HurinkRdata33 Recherche tabou 1 1130.0
+HurinkRdata33 Recherche tabou 2 1145.0
+HurinkRdata33 Recherche tabou 3 1145.0
+HurinkRdata33 Recherche tabou 4 1125.0
+HurinkRdata34 Recuit simulé 0 1541.0
+HurinkRdata34 Recuit simulé 1 1531.0
+HurinkRdata34 Recuit simulé 2 1538.0
+HurinkRdata34 Recuit simulé 3 1537.0
+HurinkRdata34 Recherche tabou 0 1557.0
+HurinkRdata34 Recuit simulé 4 1536.0
+HurinkRdata34 Recherche tabou 1 1551.0
+HurinkRdata34 Recherche tabou 2 1554.0
+HurinkRdata34 Recherche tabou 3 1544.0
+HurinkRdata34 Recherche tabou 4 1551.0
+HurinkRdata35 Recuit simulé 0 1669.0
+HurinkRdata35 Recuit simulé 1 1670.0
+HurinkRdata35 Recuit simulé 2 1672.0
+HurinkRdata35 Recuit simulé 3 1688.0
+HurinkRdata35 Recuit simulé 4 1673.0
+HurinkRdata35 Recherche tabou 0 1685.0
+HurinkRdata35 Recherche tabou 1 1693.0
+HurinkRdata35 Recherche tabou 2 1690.0
+HurinkRdata35 Recherche tabou 3 1699.0
+HurinkRdata35 Recherche tabou 4 1680.0
+HurinkRdata36 Recuit simulé 0 1517.0
+HurinkRdata36 Recuit simulé 1 1518.0
+HurinkRdata36 Recuit simulé 2 1517.0
+HurinkRdata36 Recuit simulé 3 1515.0
+HurinkRdata36 Recherche tabou 0 1536.0
+HurinkRdata36 Recuit simulé 4 1516.0
+HurinkRdata36 Recherche tabou 1 1526.0
+HurinkRdata36 Recherche tabou 2 1540.0
+HurinkRdata36 Recherche tabou 3 1521.0
+HurinkRdata36 Recherche tabou 4 1526.0
+HurinkRdata37 Recuit simulé 0 1546.0
+HurinkRdata37 Recuit simulé 1 1551.0
+HurinkRdata37 Recuit simulé 2 1546.0
+HurinkRdata37 Recuit simulé 3 1546.0
+HurinkRdata37 Recherche tabou 0 1556.0
+HurinkRdata37 Recuit simulé 4 1550.0
+HurinkRdata37 Recherche tabou 1 1547.0
+HurinkRdata37 Recherche tabou 2 1555.0
+HurinkRdata37 Recherche tabou 3 1559.0
+HurinkRdata37 Recherche tabou 4 1567.0
+HurinkRdata38 Recuit simulé 0 1564.0
+HurinkRdata38 Recuit simulé 1 1556.0
+HurinkRdata38 Recuit simulé 2 1574.0
+HurinkRdata38 Recuit simulé 3 1562.0
+HurinkRdata38 Recuit simulé 4 1564.0
+HurinkRdata38 Recherche tabou 0 1571.0
+HurinkRdata38 Recherche tabou 1 1580.0
+HurinkRdata38 Recherche tabou 2 1573.0
+HurinkRdata38 Recherche tabou 3 1570.0
+HurinkRdata39 Recuit simulé 0 1089.0
+HurinkRdata39 Recuit simulé 1 1076.0
+HurinkRdata38 Recherche tabou 4 1569.0
+HurinkRdata39 Recuit simulé 2 1103.0
+HurinkRdata39 Recuit simulé 3 1079.0
+HurinkRdata39 Recherche tabou 0 1122.0
+HurinkRdata39 Recuit simulé 4 1094.0
+HurinkRdata39 Recherche tabou 1 1091.0
+HurinkRdata39 Recherche tabou 3 1097.0
+HurinkRdata39 Recherche tabou 2 1109.0
+HurinkRdata39 Recherche tabou 4 1114.0
+HurinkRdata40 Recuit simulé 0 1133.0
+HurinkRdata40 Recuit simulé 1 1163.0
+HurinkRdata40 Recuit simulé 3 1151.0
+HurinkRdata40 Recuit simulé 2 1168.0
+HurinkRdata40 Recherche tabou 2 1187.0
+HurinkRdata40 Recherche tabou 1 1166.0
+HurinkRdata40 Recherche tabou 0 1184.0
+HurinkRdata40 Recuit simulé 4 1165.0
+HurinkRdata40 Recherche tabou 3 1174.0
+HurinkRdata40 Recherche tabou 4 1166.0
+HurinkRdata41 Recuit simulé 0 1079.0
+HurinkRdata41 Recuit simulé 1 1142.0
+HurinkRdata41 Recuit simulé 2 1045.0
+HurinkRdata41 Recherche tabou 0 1045.0
+HurinkRdata41 Recuit simulé 3 1077.0
+HurinkRdata41 Recuit simulé 4 1014.0
+HurinkRdata41 Recherche tabou 1 1037.0
+HurinkRdata41 Recherche tabou 2 1065.0
+HurinkRdata41 Recherche tabou 3 1063.0
+HurinkRdata41 Recherche tabou 4 1059.0
+HurinkRdata42 Recuit simulé 1 1075.0
+HurinkRdata42 Recuit simulé 0 1089.0
+HurinkRdata42 Recuit simulé 2 1080.0
+HurinkRdata42 Recuit simulé 3 1127.0
+HurinkRdata42 Recuit simulé 4 1132.0
+HurinkRdata42 Recherche tabou 0 1095.0
+HurinkRdata42 Recherche tabou 1 1136.0
+HurinkRdata42 Recherche tabou 2 1136.0
+HurinkRdata42 Recherche tabou 4 1090.0
+HurinkRdata42 Recherche tabou 3 1107.0
+HurinkRdata43 Recuit simulé 1 1038.0
+HurinkRdata43 Recuit simulé 0 1034.0
+HurinkRdata43 Recuit simulé 2 1023.0
+HurinkRdata43 Recuit simulé 3 1017.0
+HurinkRdata43 Recherche tabou 0 1057.0
+HurinkRdata43 Recuit simulé 4 1037.0
+HurinkVdata4 Recuit simulé 0 576.0
+HurinkVdata4 Recuit simulé 1 581.0
+HurinkVdata4 Recuit simulé 2 574.0
+HurinkVdata4 Recuit simulé 3 581.0
+HurinkVdata4 Recherche tabou 0 577.0
+HurinkVdata4 Recuit simulé 4 575.0
+HurinkRdata43 Recherche tabou 2 1077.0
+HurinkRdata43 Recherche tabou 1 1064.0
+HurinkRdata43 Recherche tabou 3 1056.0
+HurinkRdata43 Recherche tabou 4 1061.0
+HurinkVdata4 Recherche tabou 1 580.0
+HurinkVdata4 Recherche tabou 2 575.0
+HurinkVdata4 Recherche tabou 3 576.0
+HurinkVdata4 Recherche tabou 4 574.0
+HurinkVdata5 Recuit simulé 0 534.0
+HurinkVdata5 Recuit simulé 1 536.0
+HurinkVdata5 Recuit simulé 2 539.0
+HurinkVdata5 Recuit simulé 3 536.0
+HurinkVdata5 Recherche tabou 0 544.0
+HurinkVdata5 Recuit simulé 4 535.0
+HurinkVdata5 Recherche tabou 1 536.0
+HurinkVdata5 Recherche tabou 2 534.0
+HurinkVdata5 Recherche tabou 3 534.0
+HurinkVdata5 Recherche tabou 4 534.0
+HurinkVdata6 Recuit simulé 0 482.0
+HurinkVdata6 Recuit simulé 1 484.0
+HurinkVdata6 Recuit simulé 2 484.0
+HurinkVdata6 Recuit simulé 3 480.0
+HurinkVdata6 Recherche tabou 0 489.0
+HurinkVdata6 Recuit simulé 4 483.0
+HurinkVdata6 Recherche tabou 1 489.0
+HurinkVdata6 Recherche tabou 2 481.0
+HurinkVdata6 Recherche tabou 4 485.0
+HurinkVdata6 Recherche tabou 3 480.0
+HurinkVdata7 Recuit simulé 0 506.0
+HurinkVdata7 Recuit simulé 1 505.0
+HurinkVdata7 Recuit simulé 2 509.0
+HurinkVdata7 Recuit simulé 3 503.0
+HurinkVdata7 Recherche tabou 0 509.0
+HurinkVdata7 Recuit simulé 4 510.0
+HurinkVdata7 Recherche tabou 1 507.0
+HurinkVdata7 Recherche tabou 2 504.0
+HurinkVdata7 Recherche tabou 3 506.0
+HurinkVdata7 Recherche tabou 4 503.0
+HurinkVdata8 Recuit simulé 0 468.0
+HurinkVdata8 Recuit simulé 1 473.0
+HurinkVdata8 Recuit simulé 2 465.0
+HurinkVdata8 Recuit simulé 3 468.0
+HurinkVdata8 Recherche tabou 0 475.0
+HurinkVdata8 Recuit simulé 4 466.0
+HurinkVdata8 Recherche tabou 1 468.0
+HurinkVdata8 Recherche tabou 2 472.0
+HurinkVdata8 Recherche tabou 3 469.0
+HurinkVdata8 Recherche tabou 4 471.0
+HurinkVdata9 Recuit simulé 0 804.0
+HurinkVdata9 Recuit simulé 1 803.0
+HurinkVdata9 Recuit simulé 2 802.0
+HurinkVdata9 Recuit simulé 3 803.0
+HurinkVdata9 Recherche tabou 0 805.0
+HurinkVdata9 Recuit simulé 4 802.0
+HurinkVdata9 Recherche tabou 1 802.0
+HurinkVdata9 Recherche tabou 2 804.0
+HurinkVdata9 Recherche tabou 3 804.0
+HurinkVdata9 Recherche tabou 4 802.0
+HurinkVdata10 Recuit simulé 0 757.0
+HurinkVdata10 Recuit simulé 1 756.0
+HurinkVdata10 Recuit simulé 2 752.0
+HurinkVdata10 Recuit simulé 3 754.0
+HurinkVdata10 Recuit simulé 4 753.0
+HurinkVdata10 Recherche tabou 0 755.0
+HurinkVdata10 Recherche tabou 1 756.0
+HurinkVdata10 Recherche tabou 2 758.0
+HurinkVdata10 Recherche tabou 3 754.0
+HurinkVdata10 Recherche tabou 4 756.0
+HurinkVdata11 Recuit simulé 0 767.0
+HurinkVdata11 Recuit simulé 1 768.0
+HurinkVdata11 Recuit simulé 2 767.0
+HurinkVdata11 Recuit simulé 3 768.0
+HurinkVdata11 Recherche tabou 0 769.0
+HurinkVdata11 Recuit simulé 4 768.0
+HurinkVdata11 Recherche tabou 1 768.0
+HurinkVdata11 Recherche tabou 2 770.0
+HurinkVdata11 Recherche tabou 3 767.0
+HurinkVdata11 Recherche tabou 4 767.0
+HurinkVdata12 Recuit simulé 0 856.0
+HurinkVdata12 Recuit simulé 1 858.0
+HurinkVdata12 Recuit simulé 2 856.0
+HurinkVdata12 Recuit simulé 3 856.0
+HurinkVdata12 Recuit simulé 4 856.0
+HurinkVdata12 Recherche tabou 0 859.0
+HurinkVdata12 Recherche tabou 1 859.0
+HurinkVdata12 Recherche tabou 2 857.0
+HurinkVdata12 Recherche tabou 3 856.0
+HurinkVdata12 Recherche tabou 4 856.0
+HurinkVdata13 Recuit simulé 0 806.0
+HurinkVdata13 Recuit simulé 1 809.0
+HurinkVdata13 Recuit simulé 2 805.0
+HurinkVdata13 Recuit simulé 3 806.0
+HurinkVdata13 Recherche tabou 0 806.0
+HurinkVdata13 Recuit simulé 4 808.0
+HurinkVdata13 Recherche tabou 1 806.0
+HurinkVdata13 Recherche tabou 2 812.0
+HurinkVdata13 Recherche tabou 3 806.0
+HurinkVdata13 Recherche tabou 4 806.0
+HurinkVdata14 Recuit simulé 0 1073.0
+HurinkVdata14 Recuit simulé 1 1073.0
+HurinkVdata14 Recuit simulé 2 1074.0
+HurinkVdata14 Recuit simulé 3 1073.0
+HurinkVdata14 Recherche tabou 0 1074.0
+HurinkVdata14 Recuit simulé 4 1074.0
+HurinkVdata14 Recherche tabou 1 1074.0
+HurinkVdata14 Recherche tabou 2 1074.0
+HurinkVdata14 Recherche tabou 3 1075.0
+HurinkVdata14 Recherche tabou 4 1074.0
+HurinkVdata15 Recuit simulé 0 938.0
+HurinkVdata15 Recuit simulé 1 938.0
+HurinkVdata15 Recuit simulé 2 938.0
+HurinkVdata15 Recuit simulé 3 938.0
+HurinkVdata15 Recherche tabou 0 940.0
+HurinkVdata15 Recuit simulé 4 939.0
+HurinkVdata15 Recherche tabou 1 939.0
+HurinkVdata15 Recherche tabou 2 940.0
+HurinkVdata15 Recherche tabou 3 940.0
+HurinkVdata15 Recherche tabou 4 939.0
+HurinkVdata16 Recuit simulé 0 1041.0
+HurinkVdata16 Recuit simulé 1 1041.0
+HurinkVdata16 Recuit simulé 2 1042.0
+HurinkVdata16 Recuit simulé 3 1042.0
+HurinkVdata16 Recherche tabou 0 1043.0
+HurinkVdata16 Recuit simulé 4 1041.0
+HurinkVdata16 Recherche tabou 1 1041.0
+HurinkVdata16 Recherche tabou 2 1041.0
+HurinkVdata16 Recherche tabou 3 1040.0
+HurinkVdata16 Recherche tabou 4 1041.0
+HurinkVdata17 Recuit simulé 0 1073.0
+HurinkVdata17 Recuit simulé 1 1076.0
+HurinkVdata17 Recuit simulé 2 1073.0
+HurinkVdata17 Recuit simulé 3 1072.0
+HurinkVdata17 Recherche tabou 0 1071.0
+HurinkVdata17 Recuit simulé 4 1071.0
+HurinkVdata17 Recherche tabou 1 1072.0
+HurinkVdata17 Recherche tabou 2 1073.0
+HurinkVdata17 Recherche tabou 3 1073.0
+HurinkVdata17 Recherche tabou 4 1073.0
+HurinkVdata18 Recuit simulé 0 1096.0
+HurinkVdata18 Recuit simulé 1 1092.0
+HurinkVdata18 Recuit simulé 2 1091.0
+HurinkVdata18 Recuit simulé 3 1091.0
+HurinkVdata18 Recherche tabou 0 1093.0
+HurinkVdata18 Recuit simulé 4 1092.0
+HurinkVdata18 Recherche tabou 1 1093.0
+HurinkVdata18 Recherche tabou 2 1093.0
+HurinkVdata18 Recherche tabou 3 1093.0
+HurinkVdata18 Recherche tabou 4 1093.0
+HurinkVdata19 Recuit simulé 0 717.0
+HurinkVdata19 Recuit simulé 1 717.0
+HurinkVdata19 Recuit simulé 2 717.0
+HurinkVdata19 Recuit simulé 3 717.0
+HurinkVdata19 Recherche tabou 0 717.0
+HurinkVdata19 Recuit simulé 4 717.0
+HurinkVdata19 Recherche tabou 2 717.0
+HurinkVdata19 Recherche tabou 1 717.0
+HurinkVdata19 Recherche tabou 3 717.0
+HurinkVdata19 Recherche tabou 4 717.0
+HurinkVdata20 Recuit simulé 0 646.0
+HurinkVdata20 Recuit simulé 1 646.0
+HurinkVdata20 Recuit simulé 2 646.0
+HurinkVdata20 Recuit simulé 3 646.0
+HurinkVdata20 Recherche tabou 0 646.0
+HurinkVdata20 Recuit simulé 4 646.0
+HurinkVdata20 Recherche tabou 1 646.0
+HurinkVdata20 Recherche tabou 2 646.0
+HurinkVdata20 Recherche tabou 3 646.0
+HurinkVdata20 Recherche tabou 4 646.0
+HurinkVdata21 Recuit simulé 1 663.0
+HurinkVdata21 Recuit simulé 0 663.0
+HurinkVdata21 Recuit simulé 2 663.0
+HurinkVdata21 Recuit simulé 3 663.0
+HurinkVdata21 Recherche tabou 0 663.0
+HurinkVdata21 Recuit simulé 4 663.0
+HurinkVdata21 Recherche tabou 1 663.0
+HurinkVdata21 Recherche tabou 2 663.0
+HurinkVdata21 Recherche tabou 3 663.0
+HurinkVdata21 Recherche tabou 4 663.0
+HurinkVdata22 Recuit simulé 0 629.0
+HurinkVdata22 Recuit simulé 1 638.0
+HurinkVdata22 Recuit simulé 2 634.0
+HurinkVdata22 Recuit simulé 3 631.0
+HurinkVdata22 Recuit simulé 4 628.0
+HurinkVdata22 Recherche tabou 0 657.0
+HurinkVdata22 Recherche tabou 1 634.0
+HurinkVdata22 Recherche tabou 2 663.0
+HurinkVdata22 Recherche tabou 3 657.0
+HurinkVdata22 Recherche tabou 4 638.0
+HurinkVdata23 Recuit simulé 0 756.0
+HurinkVdata23 Recuit simulé 1 756.0
+HurinkVdata23 Recuit simulé 2 756.0
+HurinkVdata23 Recuit simulé 3 756.0
+HurinkVdata23 Recherche tabou 0 756.0
+HurinkVdata23 Recuit simulé 4 756.0
+HurinkVdata23 Recherche tabou 1 756.0
+HurinkVdata23 Recherche tabou 2 756.0
+HurinkVdata23 Recherche tabou 3 756.0
+HurinkVdata23 Recherche tabou 4 756.0
+HurinkVdata24 Recuit simulé 0 832.0
+HurinkVdata24 Recuit simulé 1 832.0
+HurinkVdata24 Recuit simulé 3 832.0
+HurinkVdata24 Recuit simulé 2 832.0
+HurinkVdata24 Recherche tabou 0 821.0
+HurinkVdata24 Recuit simulé 4 832.0
+HurinkVdata24 Recherche tabou 1 818.0
+HurinkVdata24 Recherche tabou 2 819.0
+HurinkVdata24 Recherche tabou 3 821.0
+HurinkVdata24 Recherche tabou 4 813.0
+HurinkVdata25 Recuit simulé 0 756.0
+HurinkVdata25 Recuit simulé 1 762.0
+HurinkVdata25 Recuit simulé 2 775.0
+HurinkVdata25 Recuit simulé 3 758.0
+HurinkVdata25 Recuit simulé 4 772.0
+HurinkVdata25 Recherche tabou 0 751.0
+HurinkVdata25 Recherche tabou 1 753.0
+HurinkVdata25 Recherche tabou 2 757.0
+HurinkVdata25 Recherche tabou 3 752.0
+HurinkVdata25 Recherche tabou 4 755.0
+HurinkVdata26 Recuit simulé 0 840.0
+HurinkVdata26 Recuit simulé 1 848.0
+HurinkVdata26 Recuit simulé 2 848.0
+HurinkVdata26 Recuit simulé 3 834.0
+HurinkVdata26 Recuit simulé 4 853.0
+HurinkVdata26 Recherche tabou 0 837.0
+HurinkVdata26 Recherche tabou 2 833.0
+HurinkVdata26 Recherche tabou 1 842.0
+HurinkVdata26 Recherche tabou 3 829.0
+HurinkVdata26 Recherche tabou 4 831.0
+HurinkVdata27 Recuit simulé 0 804.0
+HurinkVdata27 Recuit simulé 1 805.0
+HurinkVdata27 Recuit simulé 2 806.0
+HurinkVdata27 Recuit simulé 3 806.0
+HurinkVdata27 Recherche tabou 0 788.0
+HurinkVdata27 Recuit simulé 4 806.0
+HurinkVdata27 Recherche tabou 1 790.0
+HurinkVdata27 Recherche tabou 2 788.0
+HurinkVdata27 Recherche tabou 3 791.0
+HurinkVdata27 Recherche tabou 4 791.0
+HurinkVdata28 Recuit simulé 0 776.0
+HurinkVdata28 Recuit simulé 1 776.0
+HurinkVdata28 Recuit simulé 2 776.0
+HurinkVdata28 Recuit simulé 3 776.0
+HurinkVdata28 Recherche tabou 0 766.0
+HurinkVdata28 Recuit simulé 4 776.0
+HurinkVdata28 Recherche tabou 1 766.0
+HurinkVdata28 Recherche tabou 2 769.0
+HurinkVdata28 Recherche tabou 3 766.0
+HurinkVdata28 Recherche tabou 4 768.0
+HurinkVdata29 Recuit simulé 0 1069.0
+HurinkVdata29 Recuit simulé 1 1069.0
+HurinkVdata29 Recuit simulé 2 1069.0
+HurinkVdata29 Recuit simulé 3 1069.0
+HurinkVdata29 Recherche tabou 0 1068.0
+HurinkVdata29 Recuit simulé 4 1065.0
+HurinkVdata29 Recherche tabou 1 1067.0
+HurinkVdata29 Recherche tabou 2 1066.0
+HurinkVdata29 Recherche tabou 3 1068.0
+HurinkVdata29 Recherche tabou 4 1068.0
+HurinkVdata30 Recuit simulé 0 1103.0
+HurinkVdata30 Recuit simulé 1 1105.0
+HurinkVdata30 Recuit simulé 2 1108.0
+HurinkVdata30 Recuit simulé 3 1098.0
+HurinkVdata30 Recuit simulé 4 1104.0
+HurinkVdata30 Recherche tabou 0 1101.0
+HurinkVdata30 Recherche tabou 1 1101.0
+HurinkVdata30 Recherche tabou 2 1098.0
+HurinkVdata30 Recherche tabou 3 1100.0
+HurinkVdata30 Recherche tabou 4 1097.0
+HurinkVdata31 Recuit simulé 0 1085.0
+HurinkVdata31 Recuit simulé 1 1083.0
+HurinkVdata31 Recuit simulé 2 1085.0
+HurinkVdata31 Recuit simulé 3 1081.0
+HurinkVdata31 Recherche tabou 0 1085.0
+HurinkVdata31 Recuit simulé 4 1085.0
+HurinkVdata31 Recherche tabou 1 1085.0
+HurinkVdata31 Recherche tabou 2 1085.0
+HurinkVdata31 Recherche tabou 3 1082.0
+HurinkVdata31 Recherche tabou 4 1082.0
+HurinkVdata32 Recuit simulé 0 1015.0
+HurinkVdata32 Recuit simulé 1 1010.0
+HurinkVdata32 Recuit simulé 3 1016.0
+HurinkVdata32 Recuit simulé 2 1002.0
+HurinkVdata32 Recherche tabou 0 1013.0
+HurinkVdata32 Recuit simulé 4 1009.0
+HurinkVdata32 Recherche tabou 1 1010.0
+HurinkVdata32 Recherche tabou 2 1009.0
+HurinkVdata32 Recherche tabou 3 1009.0
+HurinkVdata32 Recherche tabou 4 1013.0
+HurinkVdata33 Recuit simulé 1 1088.0
+HurinkVdata33 Recuit simulé 0 1091.0
+HurinkVdata33 Recuit simulé 2 1086.0
+HurinkVdata33 Recuit simulé 3 1094.0
+HurinkVdata33 Recherche tabou 0 1083.0
+HurinkVdata33 Recuit simulé 4 1083.0
+HurinkVdata33 Recherche tabou 1 1079.0
+HurinkVdata33 Recherche tabou 2 1081.0
+HurinkVdata33 Recherche tabou 3 1080.0
+HurinkVdata33 Recherche tabou 4 1082.0
+HurinkVdata34 Recuit simulé 0 1526.0
+HurinkVdata34 Recuit simulé 1 1529.0
+HurinkVdata34 Recuit simulé 2 1530.0
+HurinkVdata34 Recuit simulé 3 1525.0
+HurinkVdata34 Recuit simulé 4 1529.0
+HurinkVdata34 Recherche tabou 0 1525.0
+HurinkVdata34 Recherche tabou 1 1526.0
+HurinkVdata34 Recherche tabou 2 1523.0
+HurinkVdata34 Recherche tabou 3 1528.0
+HurinkVdata34 Recherche tabou 4 1528.0
+HurinkVdata35 Recuit simulé 0 1662.0
+HurinkVdata35 Recuit simulé 1 1664.0
+HurinkVdata35 Recuit simulé 2 1664.0
+HurinkVdata35 Recuit simulé 3 1667.0
+HurinkVdata35 Recherche tabou 0 1667.0
+HurinkVdata35 Recuit simulé 4 1666.0
+HurinkVdata35 Recherche tabou 1 1663.0
+HurinkVdata35 Recherche tabou 2 1663.0
+HurinkVdata35 Recherche tabou 3 1668.0
+HurinkVdata35 Recherche tabou 4 1662.0
+HurinkVdata36 Recuit simulé 0 1503.0
+HurinkVdata36 Recuit simulé 1 1505.0
+HurinkVdata36 Recuit simulé 2 1507.0
+HurinkVdata36 Recuit simulé 3 1505.0
+HurinkVdata36 Recherche tabou 0 1504.0
+HurinkVdata36 Recuit simulé 4 1508.0
+HurinkVdata36 Recherche tabou 1 1505.0
+HurinkVdata36 Recherche tabou 2 1503.0
+HurinkVdata36 Recherche tabou 3 1502.0
+HurinkVdata36 Recherche tabou 4 1503.0
+HurinkVdata37 Recuit simulé 0 1550.0
+HurinkVdata37 Recuit simulé 1 1542.0
+HurinkVdata37 Recuit simulé 2 1541.0
+HurinkVdata37 Recuit simulé 3 1542.0
+HurinkVdata37 Recherche tabou 0 1547.0
+HurinkVdata37 Recuit simulé 4 1546.0
+HurinkVdata37 Recherche tabou 1 1548.0
+HurinkVdata37 Recherche tabou 2 1540.0
+HurinkVdata37 Recherche tabou 4 1549.0
+HurinkVdata37 Recherche tabou 3 1544.0
+HurinkVdata38 Recuit simulé 0 1559.0
+HurinkVdata38 Recuit simulé 1 1559.0
+HurinkVdata38 Recuit simulé 2 1553.0
+HurinkVdata38 Recuit simulé 3 1555.0
+HurinkVdata38 Recuit simulé 4 1556.0
+HurinkVdata38 Recherche tabou 0 1554.0
+HurinkVdata38 Recherche tabou 1 1558.0
+HurinkVdata38 Recherche tabou 2 1555.0
+HurinkVdata39 Recuit simulé 0 966.0
+HurinkVdata39 Recuit simulé 1 966.0
+HurinkVdata38 Recherche tabou 3 1561.0
+HurinkVdata38 Recherche tabou 4 1559.0
+HurinkVdata39 Recuit simulé 2 966.0
+HurinkVdata39 Recuit simulé 3 966.0
+HurinkVdata39 Recherche tabou 0 956.0
+HurinkVdata39 Recuit simulé 4 966.0
+HurinkVdata39 Recherche tabou 1 953.0
+HurinkVdata39 Recherche tabou 2 956.0
+HurinkVdata39 Recherche tabou 3 956.0
+HurinkVdata39 Recherche tabou 4 956.0
+HurinkVdata40 Recuit simulé 0 1020.0
+HurinkVdata40 Recuit simulé 1 1020.0
+HurinkVdata40 Recuit simulé 2 1019.0
+HurinkVdata40 Recuit simulé 3 1020.0
+HurinkVdata40 Recuit simulé 4 1020.0
+HurinkVdata40 Recherche tabou 0 993.0
+HurinkVdata40 Recherche tabou 1 1003.0
+HurinkVdata40 Recherche tabou 2 990.0
+HurinkVdata40 Recherche tabou 3 988.0
+HurinkVdata40 Recherche tabou 4 992.0
+HurinkVdata41 Recuit simulé 0 943.0
+HurinkVdata41 Recuit simulé 1 963.0
+HurinkVdata41 Recuit simulé 2 949.0
+HurinkVdata41 Recuit simulé 3 943.0
+HurinkVdata41 Recherche tabou 0 970.0
+HurinkVdata41 Recuit simulé 4 945.0
+HurinkVdata41 Recherche tabou 1 970.0
+HurinkVdata41 Recherche tabou 2 970.0
+HurinkVdata41 Recherche tabou 3 970.0
+HurinkVdata41 Recherche tabou 4 954.0
+HurinkVdata42 Recuit simulé 0 955.0
+HurinkVdata42 Recuit simulé 1 951.0
+HurinkVdata42 Recuit simulé 2 976.0
+HurinkVdata42 Recuit simulé 3 960.0
+HurinkVdata42 Recherche tabou 0 936.0
+HurinkVdata42 Recuit simulé 4 978.0
+HurinkVdata42 Recherche tabou 1 935.0
+HurinkVdata42 Recherche tabou 2 966.0
+HurinkVdata42 Recherche tabou 3 954.0
+HurinkVdata42 Recherche tabou 4 964.0
+HurinkVdata43 Recuit simulé 0 956.0
+HurinkVdata43 Recuit simulé 1 956.0
+HurinkVdata43 Recuit simulé 2 956.0
+HurinkVdata43 Recuit simulé 3 956.0
+Kacem1 Recuit simulé 0 11.0
+Kacem1 Recuit simulé 1 11.0
+HurinkVdata43 Recuit simulé 4 956.0
+HurinkVdata43 Recherche tabou 0 955.0
+Kacem1 Recuit simulé 2 11.0
+Kacem1 Recuit simulé 3 11.0
+Kacem1 Recherche tabou 0 11.0
+Kacem1 Recuit simulé 4 11.0
+Kacem1 Recherche tabou 2 11.0
+Kacem1 Recherche tabou 1 11.0
+Kacem1 Recherche tabou 3 11.0
+Kacem1 Recherche tabou 4 11.0
+HurinkVdata43 Recherche tabou 2 955.0
+HurinkVdata43 Recherche tabou 1 955.0
+Kacem2 Recuit simulé 0 12.0
+Kacem2 Recuit simulé 1 11.0
+Kacem2 Recuit simulé 2 11.0
+Kacem2 Recuit simulé 3 11.0
+HurinkVdata43 Recherche tabou 4 955.0
+HurinkVdata43 Recherche tabou 3 955.0
+Kacem2 Recherche tabou 0 13.0
+Kacem2 Recuit simulé 4 13.0
+Kacem2 Recherche tabou 1 13.0
+Kacem2 Recherche tabou 2 12.0
+Kacem2 Recherche tabou 3 12.0
+Kacem2 Recherche tabou 4 12.0
+Kacem3 Recuit simulé 0 8.0
+Kacem3 Recuit simulé 1 7.0
+Kacem3 Recuit simulé 2 8.0
+Kacem3 Recuit simulé 3 8.0
+Kacem3 Recherche tabou 0 8.0
+Kacem3 Recuit simulé 4 7.0
+Kacem3 Recherche tabou 1 8.0
+Kacem3 Recherche tabou 2 7.0
+Kacem3 Recherche tabou 3 8.0
+Kacem3 Recherche tabou 4 8.0
+Kacem4 Recuit simulé 0 13.0
+Kacem4 Recuit simulé 1 13.0
+Kacem4 Recuit simulé 2 13.0
+Kacem4 Recuit simulé 3 13.0
+Kacem4 Recherche tabou 0 13.0
+Kacem4 Recuit simulé 4 13.0
+Kacem4 Recherche tabou 1 13.0
+Kacem4 Recherche tabou 2 13.0
+Kacem4 Recherche tabou 3 12.0
+Kacem4 Recherche tabou 4 12.0
+# Métaheuristiques — 134 instances, 50000 évaluations par exécution, 5 graines, départ heuristique, facteur de seuil 1000
+
+| Méthode | C_max moyen | Écart moyen à la meilleure solution trouvée | Écart-type entre graines | Nb de fois meilleure (moyenne des graines) |
+|---|---|---|---|---|
+| Recherche tabou | 901.0 | +1.9 % | 0.1 pt | 46 |
+| Recuit simulé | 894.7 | +1.2 % | 0.1 pt | 101 |
+
+### 2026-10-07T12:37:17 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe comparer_rl.py --processus 8 --modele models/imitation/cand_ft_best.pt --nom imit-ft --familles Brandimarte HurinkLa Kacem --facteur-seuil 1000
+imit-ft : 134 exécutions à lancer, 8 processus
+imit-ft BrandimarteMk1 graine 0 79.0
+imit-ft BrandimarteMk2 graine 0 64.0
+imit-ft BrandimarteMk4 graine 0 133.0
+imit-ft BrandimarteMk5 graine 0 343.0
+imit-ft BrandimarteMk7 graine 0 356.0
+imit-ft HurinkEdata4 graine 0 1277.0
+imit-ft BrandimarteMk3 graine 0 367.0
+imit-ft BrandimarteMk6 graine 0 146.0
+imit-ft HurinkEdata5 graine 0 1428.0
+imit-ft HurinkEdata6 graine 0 1103.0
+imit-ft HurinkEdata7 graine 0 1209.0
+imit-ft HurinkEdata8 graine 0 1051.0
+imit-ft BrandimarteMk8 graine 0 828.0
+imit-ft HurinkEdata9 graine 0 1939.0
+imit-ft HurinkEdata10 graine 0 1790.0
+imit-ft HurinkEdata11 graine 0 1698.0
+imit-ft HurinkEdata12 graine 0 1932.0
+imit-ft BrandimarteMk9 graine 0 619.0
+imit-ft HurinkEdata13 graine 0 1710.0
+imit-ft BrandimarteMk10 graine 0 476.0
+imit-ft HurinkEdata14 graine 0 2455.0
+imit-ft HurinkEdata15 graine 0 2001.0
+imit-ft HurinkEdata19 graine 0 1727.0
+imit-ft HurinkEdata16 graine 0 2278.0
+imit-ft HurinkEdata20 graine 0 1285.0
+imit-ft HurinkEdata18 graine 0 2263.0
+imit-ft HurinkEdata17 graine 0 2311.0
+imit-ft HurinkEdata21 graine 0 1571.0
+imit-ft HurinkEdata22 graine 0 1474.0
+imit-ft HurinkEdata23 graine 0 1599.0
+imit-ft HurinkEdata24 graine 0 2108.0
+imit-ft HurinkEdata25 graine 0 1699.0
+imit-ft HurinkEdata26 graine 0 2009.0
+imit-ft HurinkEdata27 graine 0 1842.0
+imit-ft HurinkEdata28 graine 0 1822.0
+imit-ft HurinkEdata29 graine 0 2372.0
+imit-ft HurinkEdata30 graine 0 2631.0
+imit-ft HurinkEdata31 graine 0 2355.0
+imit-ft HurinkEdata32 graine 0 2417.0
+imit-ft HurinkEdata33 graine 0 2495.0
+imit-ft HurinkEdata34 graine 0 3355.0
+imit-ft HurinkEdata39 graine 0 2171.0
+imit-ft HurinkEdata36 graine 0 3200.0
+imit-ft HurinkEdata35 graine 0 3493.0
+imit-ft HurinkEdata40 graine 0 2731.0
+imit-ft HurinkEdata41 graine 0 2260.0
+imit-ft HurinkRdata4 graine 0 1136.0
+imit-ft HurinkRdata5 graine 0 1123.0
+imit-ft HurinkRdata6 graine 0 996.0
+imit-ft HurinkRdata7 graine 0 1043.0
+imit-ft HurinkRdata8 graine 0 1022.0
+imit-ft HurinkEdata37 graine 0 3241.0
+imit-ft HurinkEdata38 graine 0 3349.0
+imit-ft HurinkRdata9 graine 0 1634.0
+imit-ft HurinkRdata10 graine 0 1590.0
+imit-ft HurinkEdata42 graine 0 2278.0
+imit-ft HurinkRdata12 graine 0 1757.0
+imit-ft HurinkRdata11 graine 0 1595.0
+imit-ft HurinkEdata43 graine 0 2256.0
+imit-ft HurinkRdata13 graine 0 1749.0
+imit-ft HurinkRdata14 graine 0 2212.0
+imit-ft HurinkRdata19 graine 0 1317.0
+imit-ft HurinkRdata20 graine 0 1133.0
+imit-ft HurinkRdata15 graine 0 2074.0
+imit-ft HurinkRdata21 graine 0 1172.0
+imit-ft HurinkRdata16 graine 0 2159.0
+imit-ft HurinkRdata17 graine 0 2255.0
+imit-ft HurinkRdata18 graine 0 2240.0
+imit-ft HurinkRdata22 graine 0 1345.0
+imit-ft HurinkRdata23 graine 0 1408.0
+imit-ft HurinkRdata24 graine 0 1800.0
+imit-ft HurinkRdata25 graine 0 1667.0
+imit-ft HurinkRdata26 graine 0 1850.0
+imit-ft HurinkRdata27 graine 0 1955.0
+imit-ft HurinkRdata28 graine 0 1671.0
+imit-ft HurinkRdata31 graine 0 2520.0
+imit-ft HurinkRdata29 graine 0 2250.0
+imit-ft HurinkRdata30 graine 0 2479.0
+imit-ft HurinkRdata33 graine 0 2313.0
+imit-ft HurinkRdata32 graine 0 2295.0
+imit-ft HurinkRdata39 graine 0 2042.0
+imit-ft HurinkRdata34 graine 0 2925.0
+imit-ft HurinkRdata40 graine 0 2117.0
+imit-ft HurinkRdata35 graine 0 3207.0
+imit-ft HurinkRdata41 graine 0 1880.0
+imit-ft HurinkRdata36 graine 0 2884.0
+imit-ft HurinkVdata4 graine 0 1208.0
+imit-ft HurinkVdata5 graine 0 1118.0
+imit-ft HurinkVdata6 graine 0 974.0
+imit-ft HurinkVdata7 graine 0 985.0
+imit-ft HurinkRdata37 graine 0 3022.0
+imit-ft HurinkVdata8 graine 0 948.0
+imit-ft HurinkRdata38 graine 0 3071.0
+imit-ft HurinkRdata42 graine 0 2044.0
+imit-ft HurinkVdata10 graine 0 1523.0
+imit-ft HurinkVdata9 graine 0 1593.0
+imit-ft HurinkVdata11 graine 0 1567.0
+imit-ft HurinkVdata12 graine 0 1852.0
+imit-ft HurinkRdata43 graine 0 1888.0
+imit-ft HurinkVdata13 graine 0 1674.0
+imit-ft HurinkVdata14 graine 0 2246.0
+imit-ft HurinkVdata19 graine 0 1148.0
+imit-ft HurinkVdata16 graine 0 2153.0
+imit-ft HurinkVdata15 graine 0 1949.0
+imit-ft HurinkVdata17 graine 0 2260.0
+imit-ft HurinkVdata21 graine 0 1076.0
+imit-ft HurinkVdata20 graine 0 970.0
+imit-ft HurinkVdata18 graine 0 2224.0
+imit-ft HurinkVdata22 graine 0 1135.0
+imit-ft HurinkVdata23 graine 0 1136.0
+imit-ft HurinkVdata26 graine 0 1802.0
+imit-ft HurinkVdata25 graine 0 1636.0
+imit-ft HurinkVdata24 graine 0 1741.0
+imit-ft HurinkVdata27 graine 0 1748.0
+imit-ft HurinkVdata28 graine 0 1671.0
+imit-ft HurinkVdata29 graine 0 2245.0
+imit-ft HurinkVdata30 graine 0 2255.0
+imit-ft HurinkVdata31 graine 0 2242.0
+imit-ft HurinkVdata32 graine 0 2180.0
+imit-ft HurinkVdata33 graine 0 2311.0
+imit-ft HurinkVdata35 graine 0 3227.0
+imit-ft HurinkVdata36 graine 0 3026.0
+imit-ft HurinkVdata34 graine 0 3025.0
+imit-ft Kacem1 graine 0 15.0
+imit-ft HurinkVdata39 graine 0 1803.0
+imit-ft Kacem2 graine 0 22.0
+imit-ft Kacem3 graine 0 21.0
+imit-ft Kacem4 graine 0 29.0
+imit-ft HurinkVdata40 graine 0 2049.0
+imit-ft HurinkVdata37 graine 0 3006.0
+imit-ft HurinkVdata41 graine 0 1729.0
+imit-ft HurinkVdata38 graine 0 3008.0
+imit-ft HurinkVdata42 graine 0 1794.0
+imit-ft HurinkVdata43 graine 0 1844.0
+# Comparaison — 134 instances, régime A, facteur de seuil 1000
+
+C_max moyen sur les graines disponibles ; écart au meilleur connu = meilleure valeur, toutes méthodes de la banque.
+
+| Méthode [configuration] | C_max moyen | Écart moyen au meilleur connu | V/E/D de imit-ft |
+|---|---|---|---|
+| Recuit simulé [evals=50000,depart=heuristique,params=taguchi] | 894.7 | +0.3 % | 0/0/134 |
+| Recherche tabou [evals=50000,depart=heuristique,params=taguchi] | 901.0 | +1.0 % | 0/0/134 |
+| MWKR+EFT | 968.3 | +8.6 % | 0/0/134 |
+| MOR+EFT | 980.8 | +10.2 % | 0/0/134 |
+| FIFO+EFT | 998.1 | +11.5 % | 0/0/134 |
+| SPT+EFT | 1085.9 | +22.6 % | 0/0/134 |
+| LPT+EFT | 1112.3 | +24.9 % | 0/0/134 |
+| LOR+EFT | 1157.7 | +30.8 % | 1/0/133 |
+| LWKR+EFT | 1187.7 | +34.4 % | 1/0/133 |
+| RL:imit-ft [glouton] | 1780.6 | +100.2 % | – |
+| MOR+SPTM | 2030.0 | +123.2 % | 59/0/75 |
+| MWKR+SPTM | 2028.9 | +123.4 % | 59/0/75 |
+| FIFO+SPTM | 2064.6 | +126.9 % | 63/0/71 |
+| SPT+SPTM | 2135.9 | +134.6 % | 67/0/67 |
+| LPT+SPTM | 2202.7 | +141.6 % | 70/0/64 |
+| LOR+SPTM | 2251.5 | +147.4 % | 75/1/58 |
+| LWKR+SPTM | 2265.5 | +149.3 % | 77/1/56 |
+
+V/E/D = victoires / égalités / défaites de l'agent face à la méthode de la ligne, instance par instance.
+
+### 2026-10-07T12:37:50 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe comparer_rl.py --processus 8 --modele models/imitation/cand_ft_best.pt --nom imit-ft --familles Brandimarte HurinkLa Kacem --facteur-seuil 1000 --echantillons 100 --graines 0 1 2 3 4
+imit-ft : 670 exécutions à lancer, 8 processus
+imit-ft BrandimarteMk1 graine 1 57.0
+imit-ft BrandimarteMk1 graine 2 59.0
+imit-ft BrandimarteMk1 graine 4 61.0
+imit-ft BrandimarteMk1 graine 0 60.0
+imit-ft BrandimarteMk1 graine 3 59.0
+imit-ft BrandimarteMk2 graine 0 47.0
+imit-ft BrandimarteMk2 graine 2 48.0
+imit-ft BrandimarteMk2 graine 1 48.0
+imit-ft BrandimarteMk2 graine 3 47.0
+imit-ft BrandimarteMk2 graine 4 49.0
+imit-ft BrandimarteMk4 graine 0 100.0
+imit-ft BrandimarteMk4 graine 1 99.0
+imit-ft BrandimarteMk4 graine 2 97.0
+imit-ft BrandimarteMk3 graine 1 246.0
+imit-ft BrandimarteMk3 graine 0 251.0
+imit-ft BrandimarteMk3 graine 2 253.0
+imit-ft BrandimarteMk3 graine 3 252.0
+imit-ft BrandimarteMk3 graine 4 253.0
+imit-ft BrandimarteMk4 graine 3 95.0
+imit-ft BrandimarteMk4 graine 4 99.0
+imit-ft BrandimarteMk5 graine 1 227.0
+imit-ft BrandimarteMk5 graine 0 231.0
+imit-ft BrandimarteMk5 graine 2 227.0
+imit-ft BrandimarteMk5 graine 3 228.0
+imit-ft BrandimarteMk5 graine 4 240.0
+imit-ft BrandimarteMk6 graine 0 106.0
+imit-ft BrandimarteMk6 graine 1 112.0
+imit-ft BrandimarteMk7 graine 1 232.0
+imit-ft BrandimarteMk7 graine 0 239.0
+imit-ft BrandimarteMk7 graine 2 247.0
+imit-ft BrandimarteMk6 graine 2 108.0
+imit-ft BrandimarteMk6 graine 4 110.0
+imit-ft BrandimarteMk6 graine 3 109.0
+imit-ft BrandimarteMk7 graine 3 239.0
+imit-ft BrandimarteMk7 graine 4 248.0
+imit-ft BrandimarteMk8 graine 0 596.0
+imit-ft BrandimarteMk8 graine 1 601.0
+imit-ft BrandimarteMk8 graine 2 600.0
+imit-ft BrandimarteMk8 graine 3 590.0
+imit-ft BrandimarteMk8 graine 4 589.0
+imit-ft BrandimarteMk9 graine 0 422.0
+imit-ft BrandimarteMk9 graine 1 436.0
+imit-ft BrandimarteMk9 graine 2 444.0
+imit-ft HurinkEdata4 graine 0 986.0
+imit-ft HurinkEdata4 graine 1 985.0
+imit-ft BrandimarteMk9 graine 3 437.0
+imit-ft BrandimarteMk9 graine 4 431.0
+imit-ft BrandimarteMk10 graine 0 367.0
+imit-ft HurinkEdata4 graine 2 913.0
+imit-ft HurinkEdata4 graine 3 986.0
+imit-ft HurinkEdata4 graine 4 955.0
+imit-ft BrandimarteMk10 graine 1 368.0
+imit-ft BrandimarteMk10 graine 2 362.0
+imit-ft HurinkEdata5 graine 0 898.0
+imit-ft HurinkEdata5 graine 1 1064.0
+imit-ft BrandimarteMk10 graine 3 368.0
+imit-ft HurinkEdata5 graine 2 990.0
+imit-ft HurinkEdata5 graine 3 973.0
+imit-ft HurinkEdata5 graine 4 1025.0
+imit-ft BrandimarteMk10 graine 4 367.0
+imit-ft HurinkEdata6 graine 0 823.0
+imit-ft HurinkEdata6 graine 1 836.0
+imit-ft HurinkEdata6 graine 2 868.0
+imit-ft HurinkEdata6 graine 3 860.0
+imit-ft HurinkEdata6 graine 4 874.0
+imit-ft HurinkEdata7 graine 0 912.0
+imit-ft HurinkEdata7 graine 1 906.0
+imit-ft HurinkEdata7 graine 2 913.0
+imit-ft HurinkEdata7 graine 3 909.0
+imit-ft HurinkEdata7 graine 4 913.0
+imit-ft HurinkEdata8 graine 0 788.0
+imit-ft HurinkEdata8 graine 1 771.0
+imit-ft HurinkEdata8 graine 2 741.0
+imit-ft HurinkEdata8 graine 3 792.0
+imit-ft HurinkEdata8 graine 4 801.0
+imit-ft HurinkEdata9 graine 0 1308.0
+imit-ft HurinkEdata9 graine 1 1302.0
+imit-ft HurinkEdata9 graine 2 1286.0
+imit-ft HurinkEdata9 graine 3 1290.0
+imit-ft HurinkEdata9 graine 4 1227.0
+imit-ft HurinkEdata10 graine 0 1270.0
+imit-ft HurinkEdata10 graine 2 1278.0
+imit-ft HurinkEdata10 graine 1 1229.0
+imit-ft HurinkEdata10 graine 3 1291.0
+imit-ft HurinkEdata10 graine 4 1226.0
+imit-ft HurinkEdata11 graine 0 1286.0
+imit-ft HurinkEdata11 graine 1 1246.0
+imit-ft HurinkEdata11 graine 2 1275.0
+imit-ft HurinkEdata11 graine 4 1287.0
+imit-ft HurinkEdata11 graine 3 1274.0
+imit-ft HurinkEdata12 graine 0 1374.0
+imit-ft HurinkEdata12 graine 1 1401.0
+imit-ft HurinkEdata12 graine 2 1411.0
+imit-ft HurinkEdata12 graine 3 1385.0
+imit-ft HurinkEdata12 graine 4 1401.0
+imit-ft HurinkEdata13 graine 0 1283.0
+imit-ft HurinkEdata13 graine 1 1263.0
+imit-ft HurinkEdata13 graine 2 1251.0
+imit-ft HurinkEdata13 graine 3 1343.0
+imit-ft HurinkEdata13 graine 4 1322.0
+imit-ft HurinkEdata14 graine 0 1599.0
+imit-ft HurinkEdata14 graine 1 1683.0
+imit-ft HurinkEdata14 graine 2 1632.0
+imit-ft HurinkEdata14 graine 3 1571.0
+imit-ft HurinkEdata14 graine 4 1696.0
+imit-ft HurinkEdata15 graine 1 1427.0
+imit-ft HurinkEdata15 graine 0 1424.0
+imit-ft HurinkEdata15 graine 2 1423.0
+imit-ft HurinkEdata15 graine 3 1341.0
+imit-ft HurinkEdata15 graine 4 1430.0
+imit-ft HurinkEdata16 graine 0 1555.0
+imit-ft HurinkEdata16 graine 1 1558.0
+imit-ft HurinkEdata16 graine 2 1535.0
+imit-ft HurinkEdata16 graine 3 1580.0
+imit-ft HurinkEdata16 graine 4 1573.0
+imit-ft HurinkEdata17 graine 0 1628.0
+imit-ft HurinkEdata17 graine 1 1599.0
+imit-ft HurinkEdata17 graine 2 1615.0
+imit-ft HurinkEdata17 graine 3 1628.0
+imit-ft HurinkEdata17 graine 4 1618.0
+imit-ft HurinkEdata18 graine 0 1723.0
+imit-ft HurinkEdata18 graine 1 1745.0
+imit-ft HurinkEdata18 graine 2 1737.0
+imit-ft HurinkEdata18 graine 3 1750.0
+imit-ft HurinkEdata18 graine 4 1766.0
+imit-ft HurinkEdata19 graine 0 1308.0
+imit-ft HurinkEdata19 graine 1 1320.0
+imit-ft HurinkEdata19 graine 2 1330.0
+imit-ft HurinkEdata19 graine 3 1274.0
+imit-ft HurinkEdata19 graine 4 1357.0
+imit-ft HurinkEdata20 graine 0 1057.0
+imit-ft HurinkEdata20 graine 1 1093.0
+imit-ft HurinkEdata20 graine 2 1075.0
+imit-ft HurinkEdata20 graine 3 1070.0
+imit-ft HurinkEdata20 graine 4 1092.0
+imit-ft HurinkEdata21 graine 0 1259.0
+imit-ft HurinkEdata21 graine 1 1238.0
+imit-ft HurinkEdata21 graine 2 1321.0
+imit-ft HurinkEdata21 graine 3 1276.0
+imit-ft HurinkEdata21 graine 4 1245.0
+imit-ft HurinkEdata22 graine 0 1263.0
+imit-ft HurinkEdata22 graine 1 1244.0
+imit-ft HurinkEdata22 graine 2 1225.0
+imit-ft HurinkEdata22 graine 3 1271.0
+imit-ft HurinkEdata22 graine 4 1233.0
+imit-ft HurinkEdata23 graine 0 1293.0
+imit-ft HurinkEdata23 graine 1 1338.0
+imit-ft HurinkEdata23 graine 2 1301.0
+imit-ft HurinkEdata23 graine 3 1248.0
+imit-ft HurinkEdata23 graine 4 1299.0
+imit-ft HurinkEdata24 graine 0 1722.0
+imit-ft HurinkEdata24 graine 1 1661.0
+imit-ft HurinkEdata24 graine 2 1658.0
+imit-ft HurinkEdata24 graine 3 1720.0
+imit-ft HurinkEdata24 graine 4 1711.0
+imit-ft HurinkEdata25 graine 0 1438.0
+imit-ft HurinkEdata25 graine 1 1541.0
+imit-ft HurinkEdata25 graine 2 1470.0
+imit-ft HurinkEdata25 graine 3 1537.0
+imit-ft HurinkEdata25 graine 4 1476.0
+imit-ft HurinkEdata26 graine 0 1653.0
+imit-ft HurinkEdata26 graine 1 1656.0
+imit-ft HurinkEdata26 graine 2 1631.0
+imit-ft HurinkEdata26 graine 3 1638.0
+imit-ft HurinkEdata26 graine 4 1612.0
+imit-ft HurinkEdata27 graine 0 1564.0
+imit-ft HurinkEdata27 graine 1 1565.0
+imit-ft HurinkEdata27 graine 2 1486.0
+imit-ft HurinkEdata27 graine 3 1536.0
+imit-ft HurinkEdata27 graine 4 1553.0
+imit-ft HurinkEdata28 graine 0 1537.0
+imit-ft HurinkEdata28 graine 1 1567.0
+imit-ft HurinkEdata28 graine 2 1575.0
+imit-ft HurinkEdata28 graine 3 1527.0
+imit-ft HurinkEdata28 graine 4 1538.0
+imit-ft HurinkEdata29 graine 0 1883.0
+imit-ft HurinkEdata29 graine 1 1934.0
+imit-ft HurinkEdata29 graine 2 1810.0
+imit-ft HurinkEdata29 graine 3 1847.0
+imit-ft HurinkEdata29 graine 4 1886.0
+imit-ft HurinkEdata30 graine 0 1885.0
+imit-ft HurinkEdata30 graine 1 1996.0
+imit-ft HurinkEdata30 graine 2 2010.0
+imit-ft HurinkEdata30 graine 3 1919.0
+imit-ft HurinkEdata30 graine 4 1994.0
+imit-ft HurinkEdata31 graine 0 1886.0
+imit-ft HurinkEdata31 graine 1 1942.0
+imit-ft HurinkEdata31 graine 2 1903.0
+imit-ft HurinkEdata31 graine 3 1942.0
+imit-ft HurinkEdata31 graine 4 1909.0
+imit-ft HurinkEdata32 graine 0 1893.0
+imit-ft HurinkEdata32 graine 1 1816.0
+imit-ft HurinkEdata32 graine 2 1851.0
+imit-ft HurinkEdata32 graine 3 1852.0
+imit-ft HurinkEdata32 graine 4 1835.0
+imit-ft HurinkEdata33 graine 0 1983.0
+imit-ft HurinkEdata33 graine 1 2000.0
+imit-ft HurinkEdata33 graine 2 1972.0
+imit-ft HurinkEdata33 graine 3 1942.0
+imit-ft HurinkEdata33 graine 4 1950.0
+imit-ft HurinkEdata34 graine 0 2299.0
+imit-ft HurinkEdata34 graine 1 2319.0
+imit-ft HurinkEdata34 graine 2 2299.0
+imit-ft HurinkEdata34 graine 3 2261.0
+imit-ft HurinkEdata34 graine 4 2312.0
+imit-ft HurinkEdata35 graine 0 2504.0
+imit-ft HurinkEdata35 graine 1 2393.0
+imit-ft HurinkEdata35 graine 2 2506.0
+imit-ft HurinkEdata35 graine 3 2488.0
+imit-ft HurinkEdata35 graine 4 2498.0
+imit-ft HurinkEdata36 graine 0 2226.0
+imit-ft HurinkEdata36 graine 1 2233.0
+imit-ft HurinkEdata36 graine 2 2249.0
+imit-ft HurinkEdata36 graine 3 2174.0
+imit-ft HurinkEdata36 graine 4 2281.0
+imit-ft HurinkEdata37 graine 0 2356.0
+imit-ft HurinkEdata37 graine 1 2385.0
+imit-ft HurinkEdata37 graine 2 2354.0
+imit-ft HurinkEdata37 graine 3 2335.0
+imit-ft HurinkEdata37 graine 4 2321.0
+imit-ft HurinkEdata38 graine 0 2479.0
+imit-ft HurinkEdata38 graine 1 2455.0
+imit-ft HurinkEdata38 graine 2 2526.0
+imit-ft HurinkEdata38 graine 3 2461.0
+imit-ft HurinkEdata39 graine 0 1853.0
+imit-ft HurinkEdata39 graine 1 1893.0
+imit-ft HurinkEdata39 graine 2 1921.0
+imit-ft HurinkEdata38 graine 4 2498.0
+imit-ft HurinkEdata39 graine 3 1889.0
+imit-ft HurinkEdata39 graine 4 1833.0
+imit-ft HurinkEdata40 graine 0 2158.0
+imit-ft HurinkEdata40 graine 1 2087.0
+imit-ft HurinkEdata40 graine 3 2126.0
+imit-ft HurinkEdata40 graine 2 2143.0
+imit-ft HurinkEdata40 graine 4 2100.0
+imit-ft HurinkEdata41 graine 0 1857.0
+imit-ft HurinkEdata41 graine 1 1808.0
+imit-ft HurinkEdata41 graine 2 1862.0
+imit-ft HurinkEdata41 graine 3 1807.0
+imit-ft HurinkEdata41 graine 4 1806.0
+imit-ft HurinkEdata42 graine 0 1893.0
+imit-ft HurinkEdata42 graine 1 1909.0
+imit-ft HurinkEdata42 graine 2 1935.0
+imit-ft HurinkEdata42 graine 3 1914.0
+imit-ft HurinkEdata42 graine 4 1869.0
+imit-ft HurinkRdata4 graine 0 888.0
+imit-ft HurinkEdata43 graine 0 1888.0
+imit-ft HurinkRdata4 graine 1 892.0
+imit-ft HurinkRdata4 graine 2 895.0
+imit-ft HurinkRdata4 graine 3 831.0
+imit-ft HurinkRdata4 graine 4 895.0
+imit-ft HurinkRdata5 graine 0 842.0
+imit-ft HurinkEdata43 graine 1 1844.0
+imit-ft HurinkRdata5 graine 1 866.0
+imit-ft HurinkRdata5 graine 2 841.0
+imit-ft HurinkRdata5 graine 3 870.0
+imit-ft HurinkRdata5 graine 4 834.0
+imit-ft HurinkEdata43 graine 2 1894.0
+imit-ft HurinkRdata6 graine 0 750.0
+imit-ft HurinkRdata6 graine 1 769.0
+imit-ft HurinkRdata6 graine 2 725.0
+imit-ft HurinkRdata6 graine 3 713.0
+imit-ft HurinkRdata6 graine 4 731.0
+imit-ft HurinkRdata7 graine 0 790.0
+imit-ft HurinkRdata7 graine 1 796.0
+imit-ft HurinkEdata43 graine 3 1852.0
+imit-ft HurinkRdata7 graine 2 748.0
+imit-ft HurinkEdata43 graine 4 1845.0
+imit-ft HurinkRdata7 graine 3 768.0
+imit-ft HurinkRdata7 graine 4 789.0
+imit-ft HurinkRdata8 graine 0 712.0
+imit-ft HurinkRdata8 graine 1 711.0
+imit-ft HurinkRdata8 graine 2 712.0
+imit-ft HurinkRdata8 graine 3 708.0
+imit-ft HurinkRdata8 graine 4 687.0
+imit-ft HurinkRdata9 graine 0 1162.0
+imit-ft HurinkRdata9 graine 1 1216.0
+imit-ft HurinkRdata9 graine 2 1212.0
+imit-ft HurinkRdata9 graine 3 1198.0
+imit-ft HurinkRdata9 graine 4 1187.0
+imit-ft HurinkRdata10 graine 0 1134.0
+imit-ft HurinkRdata10 graine 1 1134.0
+imit-ft HurinkRdata10 graine 2 1111.0
+imit-ft HurinkRdata10 graine 3 1145.0
+imit-ft HurinkRdata10 graine 4 1133.0
+imit-ft HurinkRdata11 graine 0 1123.0
+imit-ft HurinkRdata11 graine 1 1139.0
+imit-ft HurinkRdata11 graine 2 1145.0
+imit-ft HurinkRdata11 graine 3 1135.0
+imit-ft HurinkRdata11 graine 4 1161.0
+imit-ft HurinkRdata12 graine 0 1319.0
+imit-ft HurinkRdata12 graine 1 1284.0
+imit-ft HurinkRdata12 graine 2 1286.0
+imit-ft HurinkRdata12 graine 3 1248.0
+imit-ft HurinkRdata12 graine 4 1243.0
+imit-ft HurinkRdata13 graine 0 1225.0
+imit-ft HurinkRdata13 graine 1 1199.0
+imit-ft HurinkRdata13 graine 2 1214.0
+imit-ft HurinkRdata13 graine 3 1223.0
+imit-ft HurinkRdata13 graine 4 1205.0
+imit-ft HurinkRdata14 graine 0 1479.0
+imit-ft HurinkRdata14 graine 1 1499.0
+imit-ft HurinkRdata14 graine 2 1521.0
+imit-ft HurinkRdata14 graine 3 1476.0
+imit-ft HurinkRdata14 graine 4 1471.0
+imit-ft HurinkRdata15 graine 0 1273.0
+imit-ft HurinkRdata15 graine 1 1255.0
+imit-ft HurinkRdata15 graine 2 1272.0
+imit-ft HurinkRdata15 graine 3 1286.0
+imit-ft HurinkRdata15 graine 4 1296.0
+imit-ft HurinkRdata16 graine 0 1451.0
+imit-ft HurinkRdata16 graine 1 1407.0
+imit-ft HurinkRdata16 graine 2 1430.0
+imit-ft HurinkRdata16 graine 3 1361.0
+imit-ft HurinkRdata16 graine 4 1456.0
+imit-ft HurinkRdata17 graine 0 1418.0
+imit-ft HurinkRdata17 graine 1 1464.0
+imit-ft HurinkRdata17 graine 2 1498.0
+imit-ft HurinkRdata17 graine 3 1475.0
+imit-ft HurinkRdata17 graine 4 1453.0
+imit-ft HurinkRdata18 graine 0 1551.0
+imit-ft HurinkRdata18 graine 1 1503.0
+imit-ft HurinkRdata18 graine 2 1477.0
+imit-ft HurinkRdata18 graine 3 1508.0
+imit-ft HurinkRdata18 graine 4 1492.0
+imit-ft HurinkRdata19 graine 0 1075.0
+imit-ft HurinkRdata19 graine 1 1148.0
+imit-ft HurinkRdata19 graine 2 1107.0
+imit-ft HurinkRdata19 graine 3 1138.0
+imit-ft HurinkRdata19 graine 4 1125.0
+imit-ft HurinkRdata20 graine 0 979.0
+imit-ft HurinkRdata20 graine 1 920.0
+imit-ft HurinkRdata20 graine 2 912.0
+imit-ft HurinkRdata20 graine 3 984.0
+imit-ft HurinkRdata20 graine 4 949.0
+imit-ft HurinkRdata21 graine 0 1034.0
+imit-ft HurinkRdata21 graine 1 1039.0
+imit-ft HurinkRdata21 graine 2 1022.0
+imit-ft HurinkRdata21 graine 3 1006.0
+imit-ft HurinkRdata21 graine 4 1026.0
+imit-ft HurinkRdata22 graine 0 1139.0
+imit-ft HurinkRdata22 graine 1 1094.0
+imit-ft HurinkRdata22 graine 2 1099.0
+imit-ft HurinkRdata22 graine 3 1116.0
+imit-ft HurinkRdata22 graine 4 1060.0
+imit-ft HurinkRdata23 graine 0 1179.0
+imit-ft HurinkRdata23 graine 1 1153.0
+imit-ft HurinkRdata23 graine 2 1173.0
+imit-ft HurinkRdata23 graine 3 1133.0
+imit-ft HurinkRdata23 graine 4 1102.0
+imit-ft HurinkRdata24 graine 0 1474.0
+imit-ft HurinkRdata24 graine 1 1460.0
+imit-ft HurinkRdata24 graine 2 1450.0
+imit-ft HurinkRdata24 graine 3 1452.0
+imit-ft HurinkRdata24 graine 4 1461.0
+imit-ft HurinkRdata25 graine 0 1380.0
+imit-ft HurinkRdata25 graine 1 1353.0
+imit-ft HurinkRdata25 graine 2 1375.0
+imit-ft HurinkRdata25 graine 3 1294.0
+imit-ft HurinkRdata25 graine 4 1369.0
+imit-ft HurinkRdata26 graine 0 1455.0
+imit-ft HurinkRdata26 graine 1 1404.0
+imit-ft HurinkRdata26 graine 2 1463.0
+imit-ft HurinkRdata26 graine 3 1452.0
+imit-ft HurinkRdata26 graine 4 1445.0
+imit-ft HurinkRdata27 graine 0 1418.0
+imit-ft HurinkRdata27 graine 1 1417.0
+imit-ft HurinkRdata27 graine 2 1435.0
+imit-ft HurinkRdata27 graine 3 1402.0
+imit-ft HurinkRdata28 graine 0 1403.0
+imit-ft HurinkRdata27 graine 4 1401.0
+imit-ft HurinkRdata28 graine 1 1377.0
+imit-ft HurinkRdata28 graine 2 1346.0
+imit-ft HurinkRdata28 graine 3 1343.0
+imit-ft HurinkRdata28 graine 4 1374.0
+imit-ft HurinkRdata29 graine 0 1657.0
+imit-ft HurinkRdata29 graine 1 1717.0
+imit-ft HurinkRdata29 graine 2 1691.0
+imit-ft HurinkRdata29 graine 3 1703.0
+imit-ft HurinkRdata29 graine 4 1702.0
+imit-ft HurinkRdata30 graine 0 1752.0
+imit-ft HurinkRdata30 graine 1 1748.0
+imit-ft HurinkRdata30 graine 2 1786.0
+imit-ft HurinkRdata30 graine 3 1781.0
+imit-ft HurinkRdata30 graine 4 1800.0
+imit-ft HurinkRdata31 graine 0 1756.0
+imit-ft HurinkRdata31 graine 1 1740.0
+imit-ft HurinkRdata31 graine 2 1728.0
+imit-ft HurinkRdata31 graine 3 1733.0
+imit-ft HurinkRdata31 graine 4 1702.0
+imit-ft HurinkRdata32 graine 0 1614.0
+imit-ft HurinkRdata32 graine 1 1589.0
+imit-ft HurinkRdata32 graine 2 1590.0
+imit-ft HurinkRdata32 graine 3 1631.0
+imit-ft HurinkRdata32 graine 4 1613.0
+imit-ft HurinkRdata33 graine 0 1754.0
+imit-ft HurinkRdata33 graine 1 1704.0
+imit-ft HurinkRdata33 graine 2 1713.0
+imit-ft HurinkRdata33 graine 3 1753.0
+imit-ft HurinkRdata33 graine 4 1748.0
+imit-ft HurinkRdata34 graine 0 2091.0
+imit-ft HurinkRdata34 graine 1 2033.0
+imit-ft HurinkRdata34 graine 2 2092.0
+imit-ft HurinkRdata34 graine 3 2098.0
+imit-ft HurinkRdata34 graine 4 2081.0
+imit-ft HurinkRdata35 graine 0 2181.0
+imit-ft HurinkRdata35 graine 1 2250.0
+imit-ft HurinkRdata35 graine 2 2248.0
+imit-ft HurinkRdata35 graine 3 2229.0
+imit-ft HurinkRdata35 graine 4 2284.0
+imit-ft HurinkRdata36 graine 0 2043.0
+imit-ft HurinkRdata36 graine 1 2066.0
+imit-ft HurinkRdata36 graine 2 2066.0
+imit-ft HurinkRdata36 graine 3 2073.0
+imit-ft HurinkRdata36 graine 4 2078.0
+imit-ft HurinkRdata37 graine 0 2072.0
+imit-ft HurinkRdata37 graine 1 2087.0
+imit-ft HurinkRdata37 graine 2 2127.0
+imit-ft HurinkRdata37 graine 3 2138.0
+imit-ft HurinkRdata37 graine 4 2067.0
+imit-ft HurinkRdata38 graine 0 2181.0
+imit-ft HurinkRdata38 graine 1 2110.0
+imit-ft HurinkRdata38 graine 2 2139.0
+imit-ft HurinkRdata38 graine 3 2136.0
+imit-ft HurinkRdata39 graine 0 1688.0
+imit-ft HurinkRdata39 graine 1 1642.0
+imit-ft HurinkRdata39 graine 2 1704.0
+imit-ft HurinkRdata39 graine 3 1678.0
+imit-ft HurinkRdata38 graine 4 2108.0
+imit-ft HurinkRdata39 graine 4 1675.0
+imit-ft HurinkRdata40 graine 0 1784.0
+imit-ft HurinkRdata40 graine 1 1766.0
+imit-ft HurinkRdata40 graine 2 1799.0
+imit-ft HurinkRdata40 graine 3 1810.0
+imit-ft HurinkRdata40 graine 4 1757.0
+imit-ft HurinkRdata41 graine 0 1613.0
+imit-ft HurinkRdata41 graine 1 1609.0
+imit-ft HurinkRdata41 graine 2 1572.0
+imit-ft HurinkRdata41 graine 3 1610.0
+imit-ft HurinkRdata41 graine 4 1573.0
+imit-ft HurinkRdata42 graine 0 1634.0
+imit-ft HurinkRdata42 graine 1 1610.0
+imit-ft HurinkRdata42 graine 2 1599.0
+imit-ft HurinkRdata42 graine 3 1623.0
+imit-ft HurinkRdata42 graine 4 1641.0
+imit-ft HurinkRdata43 graine 0 1627.0
+imit-ft HurinkVdata4 graine 0 854.0
+imit-ft HurinkVdata4 graine 1 859.0
+imit-ft HurinkVdata4 graine 2 826.0
+imit-ft HurinkRdata43 graine 1 1591.0
+imit-ft HurinkVdata4 graine 3 852.0
+imit-ft HurinkVdata4 graine 4 863.0
+imit-ft HurinkVdata5 graine 0 803.0
+imit-ft HurinkVdata5 graine 1 766.0
+imit-ft HurinkVdata5 graine 2 800.0
+imit-ft HurinkVdata5 graine 3 769.0
+imit-ft HurinkVdata6 graine 0 717.0
+imit-ft HurinkVdata5 graine 4 787.0
+imit-ft HurinkVdata6 graine 1 738.0
+imit-ft HurinkRdata43 graine 2 1611.0
+imit-ft HurinkVdata6 graine 2 721.0
+imit-ft HurinkVdata6 graine 3 724.0
+imit-ft HurinkVdata6 graine 4 735.0
+imit-ft HurinkRdata43 graine 3 1598.0
+imit-ft HurinkVdata7 graine 1 780.0
+imit-ft HurinkVdata7 graine 0 734.0
+imit-ft HurinkVdata7 graine 2 697.0
+imit-ft HurinkRdata43 graine 4 1631.0
+imit-ft HurinkVdata7 graine 3 770.0
+imit-ft HurinkVdata7 graine 4 766.0
+imit-ft HurinkVdata8 graine 0 721.0
+imit-ft HurinkVdata8 graine 1 707.0
+imit-ft HurinkVdata8 graine 3 688.0
+imit-ft HurinkVdata8 graine 2 697.0
+imit-ft HurinkVdata8 graine 4 695.0
+imit-ft HurinkVdata9 graine 0 1170.0
+imit-ft HurinkVdata9 graine 1 1123.0
+imit-ft HurinkVdata9 graine 2 1136.0
+imit-ft HurinkVdata9 graine 3 1164.0
+imit-ft HurinkVdata10 graine 1 1087.0
+imit-ft HurinkVdata9 graine 4 1101.0
+imit-ft HurinkVdata10 graine 0 1090.0
+imit-ft HurinkVdata10 graine 2 1089.0
+imit-ft HurinkVdata10 graine 3 1120.0
+imit-ft HurinkVdata10 graine 4 1105.0
+imit-ft HurinkVdata11 graine 0 1038.0
+imit-ft HurinkVdata11 graine 1 1114.0
+imit-ft HurinkVdata11 graine 2 1040.0
+imit-ft HurinkVdata11 graine 3 1083.0
+imit-ft HurinkVdata11 graine 4 1080.0
+imit-ft HurinkVdata12 graine 0 1243.0
+imit-ft HurinkVdata12 graine 1 1235.0
+imit-ft HurinkVdata12 graine 2 1248.0
+imit-ft HurinkVdata12 graine 3 1221.0
+imit-ft HurinkVdata12 graine 4 1228.0
+imit-ft HurinkVdata13 graine 0 1139.0
+imit-ft HurinkVdata13 graine 2 1112.0
+imit-ft HurinkVdata13 graine 1 1133.0
+imit-ft HurinkVdata13 graine 3 1116.0
+imit-ft HurinkVdata13 graine 4 1130.0
+imit-ft HurinkVdata14 graine 0 1395.0
+imit-ft HurinkVdata14 graine 1 1424.0
+imit-ft HurinkVdata14 graine 2 1409.0
+imit-ft HurinkVdata15 graine 0 1257.0
+imit-ft HurinkVdata14 graine 3 1429.0
+imit-ft HurinkVdata14 graine 4 1407.0
+imit-ft HurinkVdata15 graine 1 1235.0
+imit-ft HurinkVdata15 graine 2 1232.0
+imit-ft HurinkVdata15 graine 3 1231.0
+imit-ft HurinkVdata15 graine 4 1237.0
+imit-ft HurinkVdata16 graine 2 1360.0
+imit-ft HurinkVdata16 graine 1 1388.0
+imit-ft HurinkVdata16 graine 0 1385.0
+imit-ft HurinkVdata16 graine 3 1369.0
+imit-ft HurinkVdata16 graine 4 1359.0
+imit-ft HurinkVdata17 graine 0 1415.0
+imit-ft HurinkVdata17 graine 1 1390.0
+imit-ft HurinkVdata17 graine 2 1430.0
+imit-ft HurinkVdata17 graine 4 1420.0
+imit-ft HurinkVdata17 graine 3 1418.0
+imit-ft HurinkVdata18 graine 0 1461.0
+imit-ft HurinkVdata18 graine 1 1416.0
+imit-ft HurinkVdata18 graine 2 1430.0
+imit-ft HurinkVdata18 graine 3 1422.0
+imit-ft HurinkVdata18 graine 4 1431.0
+imit-ft HurinkVdata19 graine 0 920.0
+imit-ft HurinkVdata19 graine 1 916.0
+imit-ft HurinkVdata19 graine 2 915.0
+imit-ft HurinkVdata19 graine 3 916.0
+imit-ft HurinkVdata19 graine 4 898.0
+imit-ft HurinkVdata20 graine 0 789.0
+imit-ft HurinkVdata20 graine 1 778.0
+imit-ft HurinkVdata20 graine 2 801.0
+imit-ft HurinkVdata20 graine 3 796.0
+imit-ft HurinkVdata20 graine 4 758.0
+imit-ft HurinkVdata21 graine 0 861.0
+imit-ft HurinkVdata21 graine 1 856.0
+imit-ft HurinkVdata21 graine 2 861.0
+imit-ft HurinkVdata21 graine 3 859.0
+imit-ft HurinkVdata21 graine 4 860.0
+imit-ft HurinkVdata22 graine 0 877.0
+imit-ft HurinkVdata22 graine 1 870.0
+imit-ft HurinkVdata22 graine 2 862.0
+imit-ft HurinkVdata22 graine 3 862.0
+imit-ft HurinkVdata22 graine 4 884.0
+imit-ft HurinkVdata23 graine 0 913.0
+imit-ft HurinkVdata23 graine 1 897.0
+imit-ft HurinkVdata23 graine 2 912.0
+imit-ft HurinkVdata23 graine 3 882.0
+imit-ft HurinkVdata23 graine 4 902.0
+imit-ft HurinkVdata24 graine 0 1200.0
+imit-ft HurinkVdata24 graine 1 1216.0
+imit-ft HurinkVdata24 graine 2 1174.0
+imit-ft HurinkVdata24 graine 4 1190.0
+imit-ft HurinkVdata24 graine 3 1199.0
+imit-ft HurinkVdata25 graine 0 1121.0
+imit-ft HurinkVdata25 graine 1 1097.0
+imit-ft HurinkVdata25 graine 2 1104.0
+imit-ft HurinkVdata25 graine 4 1079.0
+imit-ft HurinkVdata25 graine 3 1081.0
+imit-ft HurinkVdata26 graine 0 1256.0
+imit-ft HurinkVdata26 graine 1 1211.0
+imit-ft HurinkVdata26 graine 2 1198.0
+imit-ft HurinkVdata26 graine 3 1199.0
+imit-ft HurinkVdata26 graine 4 1217.0
+imit-ft HurinkVdata27 graine 0 1165.0
+imit-ft HurinkVdata27 graine 1 1132.0
+imit-ft HurinkVdata27 graine 2 1187.0
+imit-ft HurinkVdata27 graine 3 1161.0
+imit-ft HurinkVdata27 graine 4 1160.0
+imit-ft HurinkVdata28 graine 0 1102.0
+imit-ft HurinkVdata28 graine 1 1152.0
+imit-ft HurinkVdata28 graine 2 1143.0
+imit-ft HurinkVdata28 graine 3 1124.0
+imit-ft HurinkVdata28 graine 4 1138.0
+imit-ft HurinkVdata29 graine 0 1447.0
+imit-ft HurinkVdata29 graine 1 1440.0
+imit-ft HurinkVdata29 graine 2 1467.0
+imit-ft HurinkVdata29 graine 3 1429.0
+imit-ft HurinkVdata29 graine 4 1438.0
+imit-ft HurinkVdata30 graine 0 1451.0
+imit-ft HurinkVdata30 graine 1 1488.0
+imit-ft HurinkVdata30 graine 2 1463.0
+imit-ft HurinkVdata30 graine 3 1480.0
+imit-ft HurinkVdata30 graine 4 1485.0
+imit-ft HurinkVdata31 graine 0 1475.0
+imit-ft HurinkVdata31 graine 1 1467.0
+imit-ft HurinkVdata31 graine 2 1454.0
+imit-ft HurinkVdata31 graine 3 1431.0
+imit-ft HurinkVdata31 graine 4 1453.0
+imit-ft HurinkVdata32 graine 0 1374.0
+imit-ft HurinkVdata32 graine 1 1372.0
+imit-ft HurinkVdata32 graine 3 1361.0
+imit-ft HurinkVdata32 graine 2 1360.0
+imit-ft HurinkVdata32 graine 4 1394.0
+imit-ft HurinkVdata33 graine 0 1441.0
+imit-ft HurinkVdata33 graine 1 1441.0
+imit-ft HurinkVdata33 graine 2 1465.0
+imit-ft HurinkVdata33 graine 3 1426.0
+imit-ft HurinkVdata33 graine 4 1433.0
+imit-ft HurinkVdata34 graine 1 1776.0
+imit-ft HurinkVdata34 graine 0 1833.0
+imit-ft HurinkVdata34 graine 2 1806.0
+imit-ft HurinkVdata34 graine 3 1820.0
+imit-ft HurinkVdata34 graine 4 1807.0
+imit-ft HurinkVdata35 graine 0 1970.0
+imit-ft HurinkVdata35 graine 1 1962.0
+imit-ft HurinkVdata35 graine 2 1937.0
+imit-ft HurinkVdata35 graine 3 1945.0
+imit-ft HurinkVdata35 graine 4 1961.0
+imit-ft HurinkVdata36 graine 0 1759.0
+imit-ft HurinkVdata36 graine 1 1777.0
+imit-ft HurinkVdata36 graine 2 1770.0
+imit-ft HurinkVdata36 graine 3 1775.0
+imit-ft HurinkVdata36 graine 4 1751.0
+imit-ft HurinkVdata37 graine 0 1788.0
+imit-ft HurinkVdata37 graine 1 1797.0
+imit-ft HurinkVdata37 graine 2 1830.0
+imit-ft HurinkVdata37 graine 3 1802.0
+imit-ft HurinkVdata37 graine 4 1828.0
+imit-ft HurinkVdata38 graine 0 1846.0
+imit-ft HurinkVdata38 graine 1 1838.0
+imit-ft HurinkVdata38 graine 2 1849.0
+imit-ft HurinkVdata38 graine 3 1853.0
+imit-ft HurinkVdata39 graine 0 1264.0
+imit-ft HurinkVdata39 graine 1 1262.0
+imit-ft HurinkVdata39 graine 2 1260.0
+imit-ft HurinkVdata38 graine 4 1867.0
+imit-ft HurinkVdata39 graine 3 1272.0
+imit-ft HurinkVdata39 graine 4 1246.0
+imit-ft HurinkVdata40 graine 0 1365.0
+imit-ft HurinkVdata40 graine 1 1365.0
+imit-ft HurinkVdata40 graine 2 1350.0
+imit-ft HurinkVdata40 graine 3 1324.0
+imit-ft HurinkVdata40 graine 4 1369.0
+imit-ft HurinkVdata41 graine 0 1207.0
+imit-ft HurinkVdata41 graine 1 1194.0
+imit-ft HurinkVdata41 graine 2 1218.0
+imit-ft HurinkVdata41 graine 3 1217.0
+imit-ft HurinkVdata41 graine 4 1187.0
+imit-ft HurinkVdata42 graine 1 1261.0
+imit-ft HurinkVdata42 graine 0 1275.0
+imit-ft HurinkVdata42 graine 2 1258.0
+imit-ft Kacem1 graine 0 14.0
+imit-ft HurinkVdata42 graine 3 1280.0
+imit-ft HurinkVdata42 graine 4 1263.0
+imit-ft Kacem1 graine 1 14.0
+imit-ft Kacem1 graine 2 14.0
+imit-ft Kacem1 graine 3 14.0
+imit-ft Kacem1 graine 4 14.0
+imit-ft Kacem2 graine 0 19.0
+imit-ft Kacem2 graine 1 22.0
+imit-ft Kacem2 graine 2 22.0
+imit-ft HurinkVdata43 graine 0 1251.0
+imit-ft Kacem2 graine 3 20.0
+imit-ft Kacem2 graine 4 22.0
+imit-ft Kacem3 graine 0 13.0
+imit-ft Kacem3 graine 1 14.0
+imit-ft Kacem3 graine 2 14.0
+imit-ft Kacem3 graine 3 15.0
+imit-ft Kacem3 graine 4 13.0
+imit-ft HurinkVdata43 graine 1 1243.0
+imit-ft Kacem4 graine 0 26.0
+imit-ft Kacem4 graine 2 26.0
+imit-ft Kacem4 graine 1 26.0
+imit-ft HurinkVdata43 graine 2 1237.0
+imit-ft Kacem4 graine 3 25.0
+imit-ft Kacem4 graine 4 28.0
+imit-ft HurinkVdata43 graine 3 1263.0
+imit-ft HurinkVdata43 graine 4 1238.0
+# Comparaison — 134 instances, régime A, facteur de seuil 1000
+
+C_max moyen sur les graines disponibles ; écart au meilleur connu = meilleure valeur, toutes méthodes de la banque.
+
+| Méthode [configuration] | C_max moyen | Écart moyen au meilleur connu | V/E/D de imit-ft |
+|---|---|---|---|
+| Recuit simulé [evals=50000,depart=heuristique,params=taguchi] | 894.7 | +0.3 % | 0/0/134 |
+| Recherche tabou [evals=50000,depart=heuristique,params=taguchi] | 901.0 | +1.0 % | 0/0/134 |
+| MWKR+EFT | 968.3 | +8.6 % | 0/0/134 |
+| MOR+EFT | 980.8 | +10.2 % | 0/0/134 |
+| FIFO+EFT | 998.1 | +11.5 % | 0/0/134 |
+| SPT+EFT | 1085.9 | +22.6 % | 9/0/125 |
+| LPT+EFT | 1112.3 | +24.9 % | 7/0/127 |
+| LOR+EFT | 1157.7 | +30.8 % | 12/0/122 |
+| LWKR+EFT | 1187.7 | +34.4 % | 17/0/117 |
+| RL:imit-ft [echantillons=100] | 1288.7 | +46.6 % | – |
+| RL:imit-ft [glouton] | 1780.6 | +100.2 % | 134/0/0 |
+| MOR+SPTM | 2030.0 | +123.2 % | 84/0/50 |
+| MWKR+SPTM | 2028.9 | +123.4 % | 84/0/50 |
+| FIFO+SPTM | 2064.6 | +126.9 % | 86/1/47 |
+| SPT+SPTM | 2135.9 | +134.6 % | 93/0/41 |
+| LPT+SPTM | 2202.7 | +141.6 % | 98/0/36 |
+| LOR+SPTM | 2251.5 | +147.4 % | 102/0/32 |
+| LWKR+SPTM | 2265.5 | +149.3 % | 104/0/30 |
+
+V/E/D = victoires / égalités / défaites de l'agent face à la méthode de la ligne, instance par instance.
+
+### 2026-10-07T13:58:25 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --modele models/imitation/cand_ft_best.pt --nom imit-ft --largeur 5 --k 4 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1000 --processus 8
+134 instances à lancer (RL:imit-ft [faisceau=5,k=4])
+BrandimarteMk2 : 29  (645 évaluations, 1.9 s)
+BrandimarteMk1 : 41  (839 évaluations, 1.9 s)
+BrandimarteMk7 : 157  (1244 évaluations, 2.5 s)
+BrandimarteMk5 : 177  (1803 évaluations, 2.6 s)
+BrandimarteMk4 : 69  (1832 évaluations, 2.6 s)
+HurinkEdata4 : 675  (1025 évaluations, 0.6 s)
+HurinkEdata6 : 596  (987 évaluations, 0.6 s)
+HurinkEdata5 : 706  (1079 évaluations, 0.6 s)
+HurinkEdata7 : 636  (980 évaluations, 0.6 s)
+HurinkEdata8 : 568  (1062 évaluations, 0.6 s)
+HurinkEdata9 : 875  (1630 évaluations, 1.0 s)
+BrandimarteMk3 : 204  (3455 évaluations, 4.4 s)
+BrandimarteMk6 : 76  (3287 évaluations, 4.3 s)
+HurinkEdata10 : 863  (1640 évaluations, 1.1 s)
+HurinkEdata11 : 865  (1567 évaluations, 0.9 s)
+HurinkEdata12 : 950  (1652 évaluations, 1.0 s)
+HurinkEdata13 : 920  (1760 évaluations, 1.0 s)
+HurinkEdata14 : 1141  (2236 évaluations, 1.5 s)
+BrandimarteMk9 : 318  (4160 évaluations, 4.1 s)
+BrandimarteMk10 : 226  (4004 évaluations, 4.3 s)
+HurinkEdata15 : 984  (2168 évaluations, 1.5 s)
+HurinkEdata16 : 1150  (2279 évaluations, 1.6 s)
+HurinkEdata17 : 1163  (2317 évaluations, 1.5 s)
+BrandimarteMk8 : 523  (4925 évaluations, 6.7 s)
+HurinkEdata18 : 1226  (2285 évaluations, 1.6 s)
+HurinkEdata20 : 754  (2381 évaluations, 1.7 s)
+HurinkEdata19 : 982  (2597 évaluations, 2.0 s)
+HurinkEdata21 : 889  (2292 évaluations, 1.8 s)
+HurinkEdata23 : 917  (2352 évaluations, 1.7 s)
+HurinkEdata22 : 877  (2428 évaluations, 1.8 s)
+HurinkEdata24 : 1180  (3414 évaluations, 2.8 s)
+HurinkEdata25 : 958  (3605 évaluations, 2.9 s)
+HurinkEdata26 : 1076  (3646 évaluations, 2.9 s)
+HurinkEdata27 : 1009  (2945 évaluations, 2.5 s)
+HurinkEdata28 : 1082  (3720 évaluations, 3.0 s)
+HurinkEdata29 : 1236  (4434 évaluations, 3.8 s)
+HurinkEdata31 : 1367  (4889 évaluations, 4.4 s)
+HurinkEdata30 : 1390  (5325 évaluations, 4.8 s)
+HurinkEdata32 : 1274  (4085 évaluations, 3.7 s)
+HurinkEdata33 : 1432  (5371 évaluations, 4.9 s)
+HurinkEdata36 : 1683  (4843 évaluations, 5.5 s)
+HurinkEdata34 : 1684  (6621 évaluations, 7.3 s)
+HurinkEdata35 : 1835  (6871 évaluations, 7.6 s)
+HurinkEdata39 : 1277  (5410 évaluations, 5.2 s)
+HurinkRdata4 : 583  (928 évaluations, 0.5 s)
+HurinkEdata40 : 1464  (5002 évaluations, 5.0 s)
+HurinkRdata5 : 558  (941 évaluations, 0.5 s)
+HurinkRdata6 : 495  (882 évaluations, 0.5 s)
+HurinkRdata7 : 531  (814 évaluations, 0.4 s)
+HurinkRdata8 : 468  (919 évaluations, 0.5 s)
+HurinkEdata37 : 1733  (6739 évaluations, 7.5 s)
+HurinkRdata9 : 823  (1614 évaluations, 1.0 s)
+HurinkRdata10 : 771  (1615 évaluations, 1.0 s)
+HurinkEdata38 : 1841  (6422 évaluations, 7.3 s)
+HurinkRdata11 : 780  (1404 évaluations, 0.9 s)
+HurinkRdata12 : 879  (1536 évaluations, 1.0 s)
+HurinkEdata41 : 1297  (5293 évaluations, 5.6 s)
+HurinkRdata13 : 827  (1356 évaluations, 0.9 s)
+HurinkRdata15 : 949  (2032 évaluations, 1.5 s)
+HurinkRdata14 : 1079  (2141 évaluations, 1.6 s)
+HurinkRdata16 : 1044  (2067 évaluations, 1.6 s)
+HurinkRdata17 : 1104  (1840 évaluations, 1.4 s)
+HurinkRdata19 : 786  (1708 évaluations, 1.2 s)
+HurinkRdata18 : 1120  (2191 évaluations, 1.8 s)
+HurinkRdata20 : 681  (1721 évaluations, 1.2 s)
+HurinkRdata21 : 712  (1877 évaluations, 1.3 s)
+HurinkEdata42 : 1294  (6240 évaluations, 6.5 s)
+HurinkRdata23 : 814  (2147 évaluations, 1.6 s)
+HurinkEdata43 : 1309  (6245 évaluations, 6.3 s)
+HurinkRdata22 : 771  (2471 évaluations, 1.9 s)
+HurinkRdata25 : 849  (2479 évaluations, 1.9 s)
+HurinkRdata24 : 924  (3179 évaluations, 2.4 s)
+HurinkRdata27 : 883  (2997 évaluations, 2.3 s)
+HurinkRdata26 : 931  (3391 évaluations, 2.5 s)
+HurinkRdata28 : 892  (3039 évaluations, 2.4 s)
+HurinkRdata29 : 1136  (3245 évaluations, 2.7 s)
+HurinkRdata31 : 1145  (3767 évaluations, 3.2 s)
+HurinkRdata30 : 1168  (4384 évaluations, 3.7 s)
+HurinkRdata33 : 1175  (3277 évaluations, 2.9 s)
+HurinkRdata32 : 1058  (4051 évaluations, 3.4 s)
+HurinkRdata36 : 1541  (3410 évaluations, 4.2 s)
+HurinkRdata34 : 1554  (4138 évaluations, 4.9 s)
+HurinkRdata35 : 1701  (4148 évaluations, 5.0 s)
+HurinkRdata37 : 1567  (3608 évaluations, 4.5 s)
+HurinkVdata4 : 573  (962 évaluations, 0.6 s)
+HurinkVdata5 : 536  (976 évaluations, 0.5 s)
+HurinkVdata6 : 483  (916 évaluations, 0.5 s)
+HurinkRdata40 : 1181  (4570 évaluations, 4.2 s)
+HurinkRdata39 : 1153  (4749 évaluations, 4.4 s)
+HurinkVdata7 : 521  (1008 évaluations, 0.6 s)
+HurinkVdata8 : 462  (860 évaluations, 0.5 s)
+HurinkRdata41 : 1067  (4789 évaluations, 4.5 s)
+HurinkVdata9 : 799  (1436 évaluations, 1.0 s)
+HurinkVdata10 : 764  (1658 évaluations, 1.1 s)
+HurinkVdata12 : 857  (1483 évaluations, 1.0 s)
+HurinkVdata11 : 769  (1449 évaluations, 1.0 s)
+HurinkVdata13 : 808  (1400 évaluations, 1.0 s)
+HurinkRdata38 : 1599  (5301 évaluations, 6.9 s)
+HurinkVdata19 : 717  (454 évaluations, 0.3 s)
+HurinkVdata20 : 646  (4 évaluations, 0.0 s)
+HurinkVdata21 : 663  (4 évaluations, 0.0 s)
+HurinkVdata14 : 1082  (2155 évaluations, 1.7 s)
+HurinkVdata23 : 756  (4 évaluations, 0.0 s)
+HurinkVdata15 : 939  (1962 évaluations, 1.5 s)
+HurinkRdata42 : 1125  (4955 évaluations, 4.7 s)
+HurinkVdata17 : 1072  (1944 évaluations, 1.5 s)
+HurinkRdata43 : 1077  (4574 évaluations, 4.3 s)
+HurinkVdata16 : 1040  (1969 évaluations, 1.6 s)
+HurinkVdata18 : 1093  (1948 évaluations, 1.6 s)
+HurinkVdata22 : 620  (1154 évaluations, 0.8 s)
+HurinkVdata26 : 818  (1098 évaluations, 0.9 s)
+HurinkVdata28 : 768  (1615 évaluations, 1.3 s)
+HurinkVdata24 : 815  (3003 évaluations, 2.3 s)
+HurinkVdata25 : 740  (2638 évaluations, 2.2 s)
+HurinkVdata27 : 780  (2858 évaluations, 2.4 s)
+HurinkVdata29 : 1057  (4028 évaluations, 4.1 s)
+HurinkVdata32 : 998  (3784 évaluations, 3.7 s)
+HurinkVdata30 : 1087  (3942 évaluations, 4.4 s)
+HurinkVdata39 : 948  (40 évaluations, 0.1 s)
+HurinkVdata31 : 1076  (4267 évaluations, 4.6 s)
+HurinkVdata41 : 943  (4 évaluations, 0.0 s)
+HurinkVdata33 : 1078  (4059 évaluations, 4.5 s)
+HurinkVdata40 : 987  (1284 évaluations, 1.1 s)
+Kacem1 : 11  (4 évaluations, 0.0 s)
+Kacem2 : 11  (60 évaluations, 0.1 s)
+HurinkVdata43 : 955  (120 évaluations, 0.2 s)
+Kacem3 : 7  (96 évaluations, 0.1 s)
+Kacem4 : 12  (620 évaluations, 0.7 s)
+HurinkVdata42 : 934  (2262 évaluations, 1.9 s)
+HurinkVdata34 : 1523  (4020 évaluations, 6.6 s)
+HurinkVdata36 : 1503  (4416 évaluations, 7.1 s)
+HurinkVdata35 : 1663  (5208 évaluations, 7.9 s)
+HurinkVdata37 : 1540  (4488 évaluations, 6.3 s)
+HurinkVdata38 : 1554  (4804 évaluations, 6.2 s)
+# Agent qui anticipe « RL:imit-ft [faisceau=5,k=4] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | +2.28 % | 2/2/6 |
+| HurinkEdata | 40 | +6.60 % | 0/0/40 |
+| HurinkRdata | 40 | +2.96 % | 1/0/39 |
+| HurinkVdata | 40 | -0.68 % | 26/5/9 |
+| Kacem | 4 | -5.19 % | 3/1/0 |
+| **Total** | 134 | **+2.67 %** | 32/8/94 |
+
+Temps moyen par instance : agent 2.6 s, recuit 15.2 s. Plannings évalués : agent 2662, recuit 50 000.
+
+### 2026-10-07T13:59:24 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --modele models/imitation/cand_ft_best.pt --nom imit-ft --largeur 50 --k 5 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1000 --processus 8
+134 instances à lancer (RL:imit-ft [faisceau=50,k=5])
+BrandimarteMk1 : 42  (12147 évaluations, 7.3 s)
+BrandimarteMk2 : 28  (11567 évaluations, 7.2 s)
+BrandimarteMk5 : 175  (24133 évaluations, 12.9 s)
+BrandimarteMk4 : 69  (21782 évaluations, 13.5 s)
+BrandimarteMk7 : 150  (20774 évaluations, 14.8 s)
+HurinkEdata4 : 650  (9387 évaluations, 4.4 s)
+HurinkEdata5 : 692  (11006 évaluations, 5.4 s)
+HurinkEdata6 : 593  (9934 évaluations, 5.1 s)
+HurinkEdata7 : 615  (7089 évaluations, 3.7 s)
+HurinkEdata8 : 519  (10993 évaluations, 5.1 s)
+HurinkEdata9 : 875  (16156 évaluations, 7.3 s)
+HurinkEdata10 : 828  (17805 évaluations, 8.4 s)
+HurinkEdata11 : 848  (15250 évaluations, 7.4 s)
+BrandimarteMk3 : 204  (45063 évaluations, 32.0 s)
+BrandimarteMk6 : 71  (43369 évaluations, 34.3 s)
+HurinkEdata12 : 912  (17445 évaluations, 8.1 s)
+HurinkEdata13 : 920  (19353 évaluations, 9.3 s)
+HurinkEdata15 : 979  (26174 évaluations, 12.9 s)
+HurinkEdata14 : 1145  (27685 évaluations, 13.5 s)
+HurinkEdata16 : 1128  (27460 évaluations, 13.9 s)
+HurinkEdata17 : 1147  (28554 évaluations, 14.0 s)
+HurinkEdata18 : 1219  (26819 évaluations, 14.1 s)
+BrandimarteMk9 : 309  (60599 évaluations, 49.9 s)
+BrandimarteMk8 : 523  (62136 évaluations, 59.3 s)
+HurinkEdata20 : 754  (22520 évaluations, 14.9 s)
+BrandimarteMk10 : 220  (61623 évaluations, 53.4 s)
+HurinkEdata19 : 970  (27315 évaluations, 17.6 s)
+HurinkEdata21 : 889  (24676 évaluations, 17.0 s)
+HurinkEdata22 : 884  (26174 évaluations, 17.1 s)
+HurinkEdata23 : 924  (24998 évaluations, 16.7 s)
+HurinkEdata25 : 945  (38327 évaluations, 24.7 s)
+HurinkEdata24 : 1133  (41544 évaluations, 28.6 s)
+HurinkEdata27 : 1003  (39388 évaluations, 25.1 s)
+HurinkEdata26 : 1058  (40956 évaluations, 27.9 s)
+HurinkEdata28 : 1034  (40229 évaluations, 27.1 s)
+HurinkEdata29 : 1235  (51779 évaluations, 36.7 s)
+HurinkEdata30 : 1325  (54602 évaluations, 40.0 s)
+HurinkEdata31 : 1306  (60941 évaluations, 45.4 s)
+HurinkEdata32 : 1245  (56162 évaluations, 42.9 s)
+HurinkEdata33 : 1338  (62141 évaluations, 45.8 s)
+HurinkEdata36 : 1657  (84590 évaluations, 77.8 s)
+HurinkEdata35 : 1825  (89950 évaluations, 81.4 s)
+HurinkEdata39 : 1261  (70766 évaluations, 58.3 s)
+HurinkEdata34 : 1681  (97562 évaluations, 88.2 s)
+HurinkRdata4 : 586  (10172 évaluations, 4.7 s)
+HurinkRdata5 : 549  (10434 évaluations, 4.8 s)
+HurinkRdata6 : 486  (10479 évaluations, 4.4 s)
+HurinkRdata7 : 526  (8956 évaluations, 3.9 s)
+HurinkEdata37 : 1743  (91362 évaluations, 82.7 s)
+HurinkRdata8 : 461  (10256 évaluations, 4.4 s)
+HurinkRdata9 : 808  (19342 évaluations, 8.8 s)
+HurinkEdata40 : 1475  (73150 évaluations, 65.0 s)
+HurinkRdata10 : 756  (18731 évaluations, 8.4 s)
+HurinkRdata11 : 774  (16654 évaluations, 7.3 s)
+HurinkEdata38 : 1822  (92543 évaluations, 87.9 s)
+HurinkEdata41 : 1267  (71264 évaluations, 64.5 s)
+HurinkRdata12 : 860  (18933 évaluations, 8.4 s)
+HurinkRdata13 : 818  (18600 évaluations, 8.4 s)
+HurinkRdata15 : 942  (24763 évaluations, 13.0 s)
+HurinkRdata14 : 1078  (26185 évaluations, 13.7 s)
+HurinkRdata16 : 1041  (25244 évaluations, 13.2 s)
+HurinkRdata17 : 1089  (25686 évaluations, 13.4 s)
+HurinkRdata18 : 1109  (25390 évaluations, 13.7 s)
+HurinkRdata19 : 751  (25019 évaluations, 13.7 s)
+HurinkRdata21 : 707  (23055 évaluations, 12.6 s)
+HurinkRdata20 : 672  (25971 évaluations, 14.3 s)
+HurinkRdata23 : 801  (23043 évaluations, 13.1 s)
+HurinkRdata22 : 764  (27907 évaluations, 16.6 s)
+HurinkEdata43 : 1258  (70944 évaluations, 58.7 s)
+HurinkEdata42 : 1321  (71320 évaluations, 64.9 s)
+HurinkRdata24 : 919  (37200 évaluations, 23.1 s)
+HurinkRdata25 : 843  (38948 évaluations, 23.8 s)
+HurinkRdata26 : 897  (36409 évaluations, 21.3 s)
+HurinkRdata27 : 893  (38510 évaluations, 23.5 s)
+HurinkRdata28 : 868  (39388 évaluations, 23.7 s)
+HurinkRdata29 : 1128  (53587 évaluations, 38.0 s)
+HurinkRdata30 : 1159  (54858 évaluations, 39.0 s)
+HurinkRdata32 : 1028  (49225 évaluations, 34.7 s)
+HurinkRdata31 : 1130  (59232 évaluations, 41.7 s)
+HurinkRdata33 : 1160  (55615 évaluations, 40.1 s)
+HurinkRdata35 : 1681  (77771 évaluations, 76.1 s)
+HurinkRdata34 : 1544  (76737 évaluations, 80.5 s)
+HurinkRdata41 : 1050  (61992 évaluations, 45.0 s)
+HurinkRdata39 : 1131  (69709 évaluations, 52.7 s)
+HurinkRdata40 : 1184  (66850 évaluations, 51.2 s)
+HurinkVdata4 : 572  (10571 évaluations, 4.6 s)
+HurinkVdata5 : 531  (10514 évaluations, 4.4 s)
+HurinkVdata6 : 479  (9898 évaluations, 4.1 s)
+HurinkRdata36 : 1529  (83050 évaluations, 83.7 s)
+HurinkVdata7 : 509  (10756 évaluations, 4.3 s)
+HurinkVdata8 : 462  (9630 évaluations, 3.9 s)
+HurinkVdata9 : 799  (16616 évaluations, 7.7 s)
+HurinkVdata10 : 758  (18465 évaluations, 8.6 s)
+HurinkVdata11 : 768  (18271 évaluations, 8.9 s)
+HurinkVdata12 : 856  (18905 évaluations, 9.3 s)
+HurinkRdata37 : 1562  (88905 évaluations, 82.0 s)
+HurinkRdata38 : 1577  (78404 évaluations, 78.1 s)
+HurinkVdata13 : 806  (18285 évaluations, 9.0 s)
+HurinkVdata19 : 717  (120 évaluations, 0.2 s)
+HurinkVdata20 : 646  (5 évaluations, 0.0 s)
+HurinkVdata21 : 663  (5 évaluations, 0.0 s)
+HurinkVdata22 : 617  (2628 évaluations, 1.5 s)
+HurinkVdata23 : 756  (5 évaluations, 0.0 s)
+HurinkVdata14 : 1078  (25671 évaluations, 14.5 s)
+HurinkVdata16 : 1039  (24217 évaluations, 13.9 s)
+HurinkVdata15 : 939  (25611 évaluations, 14.4 s)
+HurinkVdata17 : 1071  (24318 évaluations, 14.1 s)
+HurinkVdata18 : 1091  (24760 évaluations, 14.4 s)
+HurinkRdata43 : 1068  (62549 évaluations, 47.9 s)
+HurinkVdata24 : 810  (38396 évaluations, 23.3 s)
+HurinkVdata25 : 740  (34042 évaluations, 21.0 s)
+HurinkRdata42 : 1121  (69521 évaluations, 53.8 s)
+HurinkVdata26 : 818  (36941 évaluations, 22.4 s)
+HurinkVdata27 : 778  (37264 évaluations, 22.6 s)
+HurinkVdata28 : 759  (38056 évaluations, 23.2 s)
+HurinkVdata29 : 1056  (50365 évaluations, 40.6 s)
+HurinkVdata30 : 1087  (49643 évaluations, 42.0 s)
+HurinkVdata31 : 1073  (51243 évaluations, 41.6 s)
+HurinkVdata39 : 948  (125 évaluations, 0.4 s)
+HurinkVdata40 : 986  (880 évaluations, 1.4 s)
+HurinkVdata41 : 943  (5 évaluations, 0.0 s)
+HurinkVdata33 : 1074  (51213 évaluations, 41.6 s)
+HurinkVdata43 : 955  (30 évaluations, 0.1 s)
+Kacem1 : 11  (5 évaluations, 0.0 s)
+Kacem2 : 11  (335 évaluations, 0.4 s)
+HurinkVdata32 : 998  (51322 évaluations, 42.9 s)
+Kacem3 : 7  (430 évaluations, 0.6 s)
+Kacem4 : 12  (10805 évaluations, 9.5 s)
+HurinkVdata42 : 922  (24918 évaluations, 15.9 s)
+HurinkVdata34 : 1521  (74770 évaluations, 91.6 s)
+HurinkVdata35 : 1662  (75304 évaluations, 91.7 s)
+HurinkVdata36 : 1502  (77606 évaluations, 91.2 s)
+HurinkVdata37 : 1539  (78063 évaluations, 83.5 s)
+HurinkVdata38 : 1552  (76603 évaluations, 74.8 s)
+# Agent qui anticipe « RL:imit-ft [faisceau=50,k=5] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | +0.29 % | 4/3/3 |
+| HurinkEdata | 40 | +4.71 % | 1/0/39 |
+| HurinkRdata | 40 | +1.73 % | 6/1/33 |
+| HurinkVdata | 40 | -0.96 % | 31/4/5 |
+| Kacem | 4 | -5.19 % | 3/1/0 |
+| **Total** | 134 | **+1.50 %** | 45/9/80 |
+
+Temps moyen par instance : agent 27.3 s, recuit 15.2 s. Plannings évalués : agent 35675, recuit 50 000.
+
+### 2026-10-07T14:07:41 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --nom regle --largeur 50 --k 0 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1000 --processus 8
+134 instances à lancer (Faisceau:regle [faisceau=50,k=0])
+BrandimarteMk1 : 41  (19288 évaluations, 4.8 s)
+BrandimarteMk2 : 28  (28739 évaluations, 5.7 s)
+BrandimarteMk5 : 176  (41620 évaluations, 10.3 s)
+BrandimarteMk4 : 69  (41834 évaluations, 10.7 s)
+BrandimarteMk7 : 147  (61294 évaluations, 13.2 s)
+HurinkEdata4 : 666  (14274 évaluations, 3.3 s)
+HurinkEdata5 : 692  (13635 évaluations, 3.3 s)
+HurinkEdata7 : 615  (9706 évaluations, 2.7 s)
+HurinkEdata6 : 593  (14822 évaluations, 3.7 s)
+HurinkEdata8 : 513  (11986 évaluations, 3.1 s)
+BrandimarteMk3 : 204  (60044 évaluations, 19.9 s)
+HurinkEdata9 : 875  (20997 évaluations, 5.7 s)
+HurinkEdata10 : 828  (21460 évaluations, 5.6 s)
+HurinkEdata11 : 892  (20871 évaluations, 6.0 s)
+HurinkEdata12 : 912  (23866 évaluations, 6.3 s)
+HurinkEdata13 : 866  (21036 évaluations, 5.9 s)
+BrandimarteMk6 : 69  (96035 évaluations, 29.9 s)
+HurinkEdata14 : 1143  (30271 évaluations, 8.7 s)
+HurinkEdata15 : 979  (32603 évaluations, 9.5 s)
+HurinkEdata16 : 1070  (33253 évaluations, 9.0 s)
+HurinkEdata17 : 1147  (30667 évaluations, 8.6 s)
+HurinkEdata18 : 1219  (34821 évaluations, 9.3 s)
+HurinkEdata19 : 964  (30260 évaluations, 10.8 s)
+HurinkEdata20 : 752  (31413 évaluations, 11.9 s)
+BrandimarteMk8 : 523  (84619 évaluations, 44.5 s)
+HurinkEdata21 : 889  (27826 évaluations, 11.0 s)
+HurinkEdata22 : 883  (32957 évaluations, 12.3 s)
+HurinkEdata23 : 918  (31824 évaluations, 11.7 s)
+BrandimarteMk9 : 309  (118765 évaluations, 57.3 s)
+HurinkEdata24 : 1111  (53608 évaluations, 20.8 s)
+HurinkEdata25 : 956  (47907 évaluations, 19.2 s)
+BrandimarteMk10 : 214  (128822 évaluations, 58.1 s)
+HurinkEdata26 : 1068  (50614 évaluations, 21.8 s)
+HurinkEdata27 : 991  (48979 évaluations, 20.3 s)
+HurinkEdata28 : 1036  (48940 évaluations, 19.6 s)
+HurinkEdata29 : 1256  (68576 évaluations, 30.9 s)
+HurinkEdata31 : 1295  (61889 évaluations, 28.1 s)
+HurinkEdata30 : 1339  (64046 évaluations, 29.6 s)
+HurinkEdata32 : 1234  (63895 évaluations, 30.6 s)
+HurinkEdata33 : 1356  (72903 évaluations, 32.4 s)
+HurinkEdata35 : 1811  (98053 évaluations, 58.5 s)
+HurinkEdata34 : 1679  (107781 évaluations, 64.4 s)
+HurinkEdata36 : 1670  (111189 évaluations, 68.3 s)
+HurinkRdata4 : 582  (12772 évaluations, 3.0 s)
+HurinkRdata5 : 538  (12163 évaluations, 3.0 s)
+HurinkEdata40 : 1495  (85256 évaluations, 50.5 s)
+HurinkEdata39 : 1272  (97553 évaluations, 53.9 s)
+HurinkRdata6 : 486  (12371 évaluations, 3.0 s)
+HurinkEdata37 : 1748  (104271 évaluations, 65.4 s)
+HurinkRdata7 : 527  (11191 évaluations, 2.7 s)
+HurinkEdata41 : 1288  (89080 évaluations, 51.6 s)
+HurinkRdata8 : 465  (12985 évaluations, 3.1 s)
+HurinkRdata9 : 803  (23102 évaluations, 5.9 s)
+HurinkRdata10 : 750  (23924 évaluations, 5.4 s)
+HurinkRdata11 : 772  (23724 évaluations, 5.8 s)
+HurinkRdata12 : 859  (24107 évaluations, 5.7 s)
+HurinkRdata13 : 814  (25649 évaluations, 5.5 s)
+HurinkEdata38 : 1777  (104682 évaluations, 64.9 s)
+HurinkRdata14 : 1077  (39876 évaluations, 9.6 s)
+HurinkRdata15 : 942  (37780 évaluations, 9.5 s)
+HurinkRdata16 : 1038  (39959 évaluations, 9.7 s)
+HurinkRdata17 : 1087  (41993 évaluations, 10.0 s)
+HurinkRdata18 : 1107  (39424 évaluations, 9.9 s)
+HurinkRdata20 : 676  (18365 évaluations, 5.3 s)
+HurinkRdata19 : 751  (36548 évaluations, 11.5 s)
+HurinkRdata23 : 813  (24137 évaluations, 7.3 s)
+HurinkRdata21 : 706  (36073 évaluations, 11.5 s)
+HurinkRdata22 : 764  (37975 évaluations, 12.9 s)
+HurinkEdata42 : 1282  (95676 évaluations, 51.6 s)
+HurinkRdata24 : 902  (43520 évaluations, 16.5 s)
+HurinkEdata43 : 1239  (92939 évaluations, 50.5 s)
+HurinkRdata25 : 830  (41952 évaluations, 15.2 s)
+HurinkRdata26 : 896  (49150 évaluations, 17.9 s)
+HurinkRdata27 : 878  (50165 évaluations, 18.4 s)
+HurinkRdata28 : 845  (43528 évaluations, 16.2 s)
+HurinkRdata30 : 1153  (63782 évaluations, 27.8 s)
+HurinkRdata29 : 1105  (69221 évaluations, 29.8 s)
+HurinkRdata32 : 1040  (67085 évaluations, 28.5 s)
+HurinkRdata31 : 1123  (69141 évaluations, 29.8 s)
+HurinkRdata33 : 1148  (69115 évaluations, 29.9 s)
+HurinkRdata39 : 1116  (82705 évaluations, 40.1 s)
+HurinkRdata34 : 1543  (120752 évaluations, 73.0 s)
+HurinkRdata40 : 1175  (103867 évaluations, 49.1 s)
+HurinkRdata41 : 1067  (101385 évaluations, 48.6 s)
+HurinkVdata4 : 572  (14282 évaluations, 3.2 s)
+HurinkRdata36 : 1523  (117989 évaluations, 72.7 s)
+HurinkVdata5 : 530  (14449 évaluations, 3.3 s)
+HurinkRdata35 : 1688  (123056 évaluations, 75.1 s)
+HurinkVdata6 : 481  (14041 évaluations, 3.0 s)
+HurinkVdata7 : 513  (14984 évaluations, 3.3 s)
+HurinkVdata8 : 462  (13159 évaluations, 3.1 s)
+HurinkVdata9 : 801  (28487 évaluations, 6.1 s)
+HurinkVdata10 : 758  (27720 évaluations, 6.2 s)
+HurinkVdata11 : 766  (26071 évaluations, 6.2 s)
+HurinkVdata12 : 857  (29102 évaluations, 6.0 s)
+HurinkRdata38 : 1570  (117236 évaluations, 70.9 s)
+HurinkVdata13 : 805  (28257 évaluations, 6.5 s)
+HurinkRdata37 : 1554  (120387 évaluations, 74.8 s)
+HurinkVdata19 : 717  (2140 évaluations, 1.5 s)
+HurinkVdata20 : 646  (50 évaluations, 0.0 s)
+HurinkVdata21 : 663  (50 évaluations, 0.0 s)
+HurinkVdata22 : 617  (4058 évaluations, 1.6 s)
+HurinkVdata23 : 756  (52 évaluations, 0.0 s)
+HurinkVdata15 : 938  (47251 évaluations, 11.5 s)
+HurinkVdata14 : 1075  (53035 évaluations, 12.8 s)
+HurinkVdata16 : 1039  (49384 évaluations, 12.1 s)
+HurinkVdata17 : 1071  (44902 évaluations, 11.1 s)
+HurinkVdata18 : 1090  (52174 évaluations, 12.0 s)
+HurinkVdata25 : 740  (47383 évaluations, 16.9 s)
+HurinkVdata24 : 809  (50349 évaluations, 18.2 s)
+HurinkRdata43 : 1043  (82013 évaluations, 42.3 s)
+HurinkVdata26 : 814  (48679 évaluations, 17.1 s)
+HurinkRdata42 : 1119  (95298 évaluations, 52.9 s)
+HurinkVdata27 : 778  (54352 évaluations, 18.7 s)
+HurinkVdata28 : 762  (55024 évaluations, 18.6 s)
+HurinkVdata29 : 1055  (92266 évaluations, 41.6 s)
+HurinkVdata32 : 996  (88021 évaluations, 38.0 s)
+HurinkVdata31 : 1071  (89131 évaluations, 38.6 s)
+HurinkVdata33 : 1073  (91620 évaluations, 38.5 s)
+HurinkVdata30 : 1086  (95557 évaluations, 41.5 s)
+HurinkVdata41 : 943  (98 évaluations, 0.1 s)
+HurinkVdata39 : 948  (4598 évaluations, 5.4 s)
+HurinkVdata43 : 955  (92 évaluations, 0.1 s)
+Kacem1 : 11  (20 évaluations, 0.0 s)
+HurinkVdata40 : 986  (4390 évaluations, 4.8 s)
+Kacem2 : 11  (2820 évaluations, 1.8 s)
+Kacem3 : 7  (3626 évaluations, 2.8 s)
+Kacem4 : 11  (50099 évaluations, 4.4 s)
+HurinkVdata42 : 922  (40597 évaluations, 13.5 s)
+HurinkVdata35 : 1660  (207610 évaluations, 140.6 s)
+HurinkVdata34 : 1521  (206973 évaluations, 141.5 s)
+HurinkVdata36 : 1499  (211398 évaluations, 142.1 s)
+HurinkVdata37 : 1537  (207494 évaluations, 131.4 s)
+HurinkVdata38 : 1552  (210006 évaluations, 127.1 s)
+# Agent qui anticipe « Faisceau:regle [faisceau=50,k=0] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -0.66 % | 6/2/2 |
+| HurinkEdata | 40 | +4.49 % | 0/1/39 |
+| HurinkRdata | 40 | +1.27 % | 7/0/33 |
+| HurinkVdata | 40 | -0.98 % | 32/4/4 |
+| Kacem | 4 | -7.11 % | 3/1/0 |
+| **Total** | 134 | **+1.17 %** | 48/8/78 |
+
+Temps moyen par instance : agent 24.8 s, recuit 15.2 s. Plannings évalués : agent 53946, recuit 50 000.

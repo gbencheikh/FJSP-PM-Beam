@@ -1,0 +1,5 @@
+[
+ {"label": "GA (50k)", "methode": "Algorithme génétique", "config": "evals=50000,depart=heuristique,params=taguchi"},
+ {"label": "TS (50k)", "methode": "Recherche tabou", "config": "evals=50000,depart=heuristique,params=taguchi"},
+ {"label": "SA (50k)", "methode": "Recuit simulé", "config": "evals=50000,depart=heuristique,params=taguchi"}
+]
