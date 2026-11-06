@@ -39,6 +39,19 @@ def fichiers(familles):
 
 
 def charger_instances(familles=("Brandimarte", "Hurink", "Kacem"), regime="A", facteur_seuil=1.0):
+    """Variable d'environnement FJSP_MU (R4, 29/10/2026) : durée de maintenance M_k = max(1, round(mu·u)) ;
+    défaut 1 (protocole de l'article). Avec FJSP_MU ≠ 1, la banque utilise un fichier séparé (banque.py)."""
     import os
-    return [load_fjs_v3(f, regime, T_scale=facteur_seuil, **PARAMS[regime])
-            for f in fichiers(familles) if os.path.exists(f)]
+    mu = float(os.environ.get("FJSP_MU", "1"))
+    # B2 (relecteur indépendant, M10 ; déclaré le 04/11/2026) : FJSP_GRAINE_PHI = g -> autre tirage des facteurs φ_k
+    # (graine du protocole : 0 ; banque séparée resultats_phi<g>.csv, voir banque.py)
+    graine_phi = int(os.environ.get("FJSP_GRAINE_PHI", "0"))
+    insts = [load_fjs_v3(f, regime, T_scale=facteur_seuil, mu=mu, seed=graine_phi, **PARAMS[regime])
+             for f in fichiers(familles) if os.path.exists(f)]
+    # D4 (déclaré le 02/11/2026, 2e relecture M9) : FJSP_TK_LK=1 -> T_k = L_k, charge totale des opérations éligibles
+    # sur k : la maintenance n'est jamais nécessaire (problème classique) mais les features restent à l'échelle usuelle.
+    if os.environ.get("FJSP_TK_LK") == "1":
+        import numpy as np
+        for inst in insts:
+            inst.T = np.array([max(1.0, float(inst.P[inst.P[:, k] > 0, k].sum())) for k in range(inst.m)])
+    return insts

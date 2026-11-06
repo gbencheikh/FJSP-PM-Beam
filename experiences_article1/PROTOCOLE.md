@@ -654,3 +654,409 @@ réseau apporte environ 0,5 point et le faisceau sans réseau plafonne quand B a
 ## 27/10/2026 — Section Related work (rédaction)
 - Section reformulée en entier : `article/related_work_2026-10-27.tex` (5 paragraphes continus + tableau `tab:literature`). Sources : fiches de `claude/revue_litterature.md` ; chiffres de Song et al. 2023 (tableau V) sourcés en commentaire.
 - `article/references.bib` : les 16 entrées de l'état de l'art du 27/10 n'étaient pas dans la version locale (écrasée par l'ajout de Freddi2019) ; fusion des deux versions (45 entrées, aucun doublon) + ajout de `zhang2026dynamic` (CIE 218:112121, vérifiée sur la notice du dépôt BIT ; texte intégral non lu, PDF demandé à l'auteur).
+
+## 27/10/2026 — Dépôt public de l'article 1 (`D:\Workspace\RL_FJSSP_PM\fjsp-pm-beam`)
+- Copie (rien n'est déplacé) du code nécessaire à l'article (fermeture des imports depuis `experiences_article1/`, `anticiper.py`, `comparer_rl.py`, `cpsat_*`, `hybride_rl_mh.py`, `train_v3.py`, `imitation/`, `outils/`), des instances (Brandimarte, Hurink edata/rdata/vdata, Kacem), des réseaux (`cand_best`, `cand_ft_ppo_best`, `cand_ft_best` + journaux), des plannings experts, de la banque (`resultats.csv` ; `solutions.jsonl` compressé en `.gz`, décompression automatique à l'import), des résultats, des journaux et des scripts Song (`externe/`, sans le dépôt de Song).
+- Modifications propres au dépôt : chemins `../../externe` → `externe` (lancer, statistiques, budgets_song, analyse_song_temps) ; décompression automatique dans `banque.py`.
+- Ajouts : `outils/verifier_planning.py` (vérificateur indépendant : éligibilité, durées, précédences, chevauchements, durée des maintenances, usure ; 467 plannings de la banque vérifiés, C_max identiques) ; `outils/exporter_instances.py` → `Instances/parametres_usure_regime_A.csv|json` (134 instances, 127 de test, 1 164 machines) ; README (anglais), LICENSE (MIT), CITATION.cff, .gitignore, requirements.
+- Corrections reportées aussi ici : `tableaux_article.py` (f-strings incompatibles avec Python < 3.12 ; fichier temporaire écrit hors du dossier de résultats).
+- Contrôle : depuis le dépôt, `statistiques` sur `methodes_principal_sans_hybride.json` redonne exactement `principal_provisoire.md` ; `tableaux_article` produit les 4 tableaux. Tests unitaires non relancés dans la VM (torch absent) : à lancer sous Windows.
+- 27/10/2026 (figure) : `figure_gantt_resultats.py` -> `resultats/gantt_resultats_BrandimarteMk1.{pdf,png,json}`. Gantt de quatre
+  plannings relus dans la banque (aucun recalcul) et vérifiés par `outils/verifier_planning.py` (copié aussi ici) :
+  politique gloutonne 52 (15 PM), faisceau 50 × 5 51 (13 PM), recuit 50k graine 0 51 (14 PM), CP-SAT 600 s 50 (12 PM, optimum prouvé).
+  Choix de Mk01 : petite instance, nombreuses maintenances, optimum prouvé. Copié dans le dépôt fjsp-pm-beam.
+- 27/10/2026 (figure, révision) : `figure_gantt_resultats.py` CALCULE désormais les plannings (a) glouton, (b) faisceau 50 × 5
+  (réseau cand_ft_best.pt), (c) recuit Taguchi 50k graine 0 (une_execution de E2) ; (d) CP-SAT 600 s relu dans la banque par
+  défaut (`--cpsat S` pour le recalculer, démarré à chaud ; en 60 s il atteint 50 mais laisse 26 maintenances inutiles et une
+  borne 22). Option `--banque` : tout relire. Contrôle (cloud, PyTorch 2.14.1) : 52 / 51 / 51 / 50, identiques à la banque.
+  Fichiers de travail laissés dans fjsp-pm-beam (suppression non autorisée) : `_test_cloud.tgz`, `_fig.py` (ignorés par git).
+- 27/10/2026 (figure) : opérations de durée 1 sans étiquette dans le Gantt (seuil d'affichage 1,5 dans style_figures.gantt).
+  Ajout du paramètre facultatif `petite_police` (défaut None : figure_exemple inchangée) ; figure_gantt_resultats l'utilise
+  (taille 4,5) : toutes les opérations portent leur numéro de job. Copié dans fjsp-pm-beam.
+- 27/10/2026 (dépôt) : `animation_gantt.py` -> GIF de la construction du planning du faisceau 50 × 5 sur Mk01 (68 décisions rejouées
+  dans l'ordre des dates de début = ordre du processus de décision ; usure c_k/T_k à droite ; pause finale 2,5 s ; 374 Ko).
+  Lit le .json produit par figure_gantt_resultats.py. Copié dans fjsp-pm-beam/docs/beam_search_mk01.gif et affiché en tête du README.
+
+## 3 sexies. Révision après le rapport de relecture du 27/10/2026 (`claude/revue_article1_deterministe.md`) — DÉCLARÉ AVANT CALCUL
+
+Validé par Ghita le 27/10/2026. Plan complet : document de projet `claude/plan_revision_article1.md`.
+
+**R1 — filtre non appris (question M1 du rapport).** Faisceau identique à celui du réseau (moteur MWKR+EFT, doublons,
+élagage), mais les K actions gardées par piste sont choisies par une règle (`anticipation.py`, option `filtre`) :
+- `regle` : priorité du moteur (MWKR, puis fin au plus tôt ; maintenance au rang du job dont la machine EFT doit être
+  maintenue ; attente en dernier) ; `fin` : fin au plus tôt de l'action ; `borne` : borne inférieure de la situation suivante.
+- Réglages : (B, K) ∈ {(5, 4), (10, 4), (20, 4), (50, 5)}, ceux du réseau dans E5 ; 134 instances calculées, 127 analysées.
+- Analyse principale : pour chaque (B, K), Wilcoxon apparié par instance réseau contre chaque filtre (écart au recuit 50k),
+  Holm sur les 12 tests ; écart moyen, IC bootstrap 95 %, V/E/D. Analyse secondaire : courbe qualité / plannings évalués
+  avec tous les filtres (le filtre `borne` calcule une borne par candidat : son temps est rapporté à part).
+- Règle d'interprétation : le filtre appris « apporte » au sens de l'article s'il est significativement meilleur que le
+  meilleur filtre non appris pour au moins 3 des 4 réglages. Sinon, l'article le dit, et la contribution est reformulée
+  (le gain vient du rollout filtré, le réseau n'étant qu'un filtre parmi d'autres).
+- **Transparence** : avant cette déclaration, le code a été vérifié dans le cloud sur les 10 Brandimarte seulement
+  (B = 5, K = 4 ; copie du dépôt, hors banque) : écart au recuit 50k +0,20 % (`regle`), +0,15 % (`fin`), −0,86 % (`borne`),
+  contre −0,96 % pour le réseau (E5). Ces valeurs ne sont pas utilisées ; la campagne R1 recalcule tout sur le PC.
+
+**R2 — imitation seule (M6).** Réseau `models/imitation/cand_best.pt` (fin de l'imitation, avant PPO) : glouton,
+100 tirages × 5 graines, faisceaux (5,4), (10,4), (20,4), (50,5). Comparaison appariée au réseau final aux mêmes réglages
+(Holm sur 6 tests).
+
+**R3 — graines d'entraînement (M5).** Étapes E11 et E12 telles que déclarées le 6/10 (graines 1 et 2, mêmes plannings experts).
+Rapport : dispersion sur 3 graines de l'écart du faisceau 5 × 4 et 50 × 5 et du facteur de réduction des évaluations.
+
+**R4 — sensibilité du générateur (M10).** Étape E13 (facteur de seuil 0,7 et 1,5) ; variante maintenance longue μ = 3
+(M_k = round(3u)) à implémenter, mêmes méthodes qu'E13. Réglages déclarés ici ; lancement après R1–R3.
+
+**Équivalence (M7).** Faisceau 50 × 5 contre recuit 50k : équivalence déclarée si l'IC bootstrap à 90 % de l'écart moyen
+(127 instances, 10 000 rééchantillonnages, graine 0) est contenu dans [−1 % ; +1 %] (TOST au seuil 5 %). Marge fixée ici,
+avant tout calcul. Tests stratifiés par famille : Wilcoxon par famille, Holm sur les 5 familles, rapportés sans règle de décision.
+
+Code : `jssp_pm/anticipation.py` (option `filtre`), `anticiper.py` (option `--filtre`), `lancer.py` (étapes R1, R2) ;
+versions précédentes dans `archives_code_27oct/`. Comportement par défaut inchangé (filtre = None).
+- 28/10/2026 (R1, R2 : résultats, analyse déclarée) : `python -m experiences_article1.analyse_revision_R1R2` ->
+  `resultats/revision_R1R2.md|csv` (127 instances, campagne du 27/10 au soir, PC, 8 processus).
+  **Verdict R1 : 0/4.** Le réseau final n'est significativement meilleur que le meilleur filtre non appris pour AUCUN
+  réglage (Holm sur 12 tests) : 5×4 réseau +0,76 % contre `regle` +1,07 % (différence −0,30, p Holm 0,21) ; 10×4 +0,34 %
+  contre +0,83 % (−0,49 ; 0,12) ; 20×4 +0,27 % contre +0,50 % (−0,22 ; 0,21) ; 50×5 +0,05 % contre `borne` +0,10 %
+  (−0,05 ; 0,64). Le réseau bat significativement le filtre `fin` à 5×4, 10×4, 20×4. Différences moyennes toujours en
+  faveur du réseau, mais non significatives contre le meilleur filtre. Selon la règle déclarée : contribution à reformuler.
+  Observation : les filtres simples captent l'essentiel du gain sur le faisceau sans filtre (ex. `borne` 50×5 : +0,10 % en
+  38 086 plannings, contre +0,15 % en 126 090 sans filtre, B = 100) : le facteur 6–9 n'est pas propre à l'apprentissage.
+  **R2** : PPO améliore nettement la politique seule (glouton +7,32 % contre +30,47 % pour l'imitation seule ; 100 tirages
+  +2,22 % contre +7,43 %) et le faisceau aux petites largeurs (5×4 : −0,41, p Holm 0,011 ; 10×4 : −0,59, p 0,0036), pas
+  aux grandes (20×4 : p 0,073 ; 50×5 : p 0,35).
+- 28/10/2026 (DÉCISION, révision de la thèse par les données) : option A retenue après R1/R2. **L'ancienne thèse
+  « la politique apprise rend la recherche 6 à 9 fois moins coûteuse » est retirée** : elle comparait le filtrage à
+  l'absence de filtrage, pas l'apprentissage à un filtre simple. Nouvelle thèse (à formuler dans l'article) : un filtered
+  beam search à complétion par règle (Ow & Morton 1988) atteint la qualité du recuit réglé à budget égal ; le filtre appris
+  est meilleur en moyenne dans les 4 réglages, jamais significativement contre le meilleur filtre simple ; le PPO compte
+  pour la décision directe et les faisceaux étroits. Perspective : imitation directe des choix de la recherche (déjà tentée
+  sous trois formes, échecs consignés au début du projet).
+  TOST déclaré (faisceau 50×5 guidé contre recuit 50k, marge ±1 %) : IC bootstrap 90 % [−0,53 ; +0,62] % ⊂ [−1 ; +1] :
+  **équivalence établie**. Hors déclaration (exploratoire, à présenter comme tel) : filtre `borne` 50×5 IC 90 %
+  [−0,45 ; +0,64] (Wilcoxon brut p = 0,056) ; filtre `regle` 50×5 IC 90 % [−0,29 ; +0,79] mais Wilcoxon brut p = 0,015
+  (le recuit gagne plus souvent) ; faisceau sans filtre B = 200 IC 90 % [−0,54 ; +0,55], p = 0,022.
+- 29/10/2026 (R3 : graines d'entraînement 1 et 2, étapes E11 et E12, PC, 8 processus) :
+  `python -m experiences_article1.analyse_revision_R3` -> `resultats/revision_R3.md`. Écart au recuit 50k (127 instances),
+  graines 0 / 1 / 2 : glouton +7,32 / +12,38 / +7,85 % ; 100 tirages +2,22 / +2,57 / +1,41 % ; faisceau 5×4
+  +0,76 / +0,81 / +0,80 % (étendue 0,05 pt) ; 50×5 +0,05 / +0,07 / +0,00 % (étendue 0,06 pt). La politique seule varie
+  beaucoup selon la graine ; le faisceau presque pas.
+  Exploratoire : aucune graine ne bat significativement le meilleur filtre simple (Holm sur 6 tests, p ≥ 0,6) ; les trois
+  graines sont équivalentes au recuit à ±1 % au réglage 50×5 (IC 90 % ⊂ [−0,56 ; +0,62]). Le verdict R1 tient pour les 3 graines.
+  Auto-imitation : pour les graines 1 et 2, la dernière itération améliore la validation (163,96 contre 165,17 au mieux en
+  PPO ; 164,33 contre 164,79) et le réseau retenu est celui de l'auto-imitation ; « l'auto-imitation n'apporte rien » ne
+  vaut que pour la graine 0 : écrire « gain faible sur la validation pour 2 graines sur 3 ».
+- 29/10/2026 (R4, version réduite validée par Ghita le 28/10 — DÉCLARÉ AVANT CALCUL) : maintenance longue μ = 3
+  (M_k = max(1, round(3u)), seuils T_k inchangés), variable d'environnement FJSP_MU=3 (charger_instances) et banque séparée
+  `banque_resultats/resultats_mu3.csv` (banque.py) : aucun mélange possible avec les résultats μ = 1. Réseau `cand_ft_best.pt`
+  NON réentraîné (robustesse à un changement de la durée de maintenance). Méthodes : recuit Taguchi 50k (graines 0, 1, 2),
+  faisceau guidé (5,4) et (50,5), filtres `regle` et `borne` aux mêmes réglages (`fin`, le plus faible à μ = 1, est exclu).
+  Analyse : `analyse_revision_R4.py` (réseau contre chaque filtre, Holm sur 4 tests ; règle : le verdict de R1 tient si le
+  réseau ne bat significativement le meilleur des deux filtres à aucun réglage ; secondaire : équivalence ±1 % du faisceau
+  guidé 50×5, nombre de maintenances). E13 (facteurs de seuil 0,7 et 1,5) non lancée (optionnelle).
+  Code : instances.py, banque.py, lancer.py (étape R4, clé « env ») ; anciennes versions dans archives_code_27oct/.
+  Vérification dans le cloud (4 instances Kacem, hors banque du PC) : banque séparée créée, banque principale inchangée.
+
+- 30/10/2026 — **R4 terminé** (lancé 15 h 41, heure du journal ; banque `resultats_mu3.csv` complète : 1 206 lignes =
+  134 instances × 9 méthodes/graines). Analyse `analyse_revision_R4.py` → `resultats/revision_R4.md`. 127 instances de test,
+  référence recuit 50k μ = 3 (moyenne de 3 graines). Réseau `cand_ft_best.pt` non réentraîné.
+  * 5×4 : réseau +0,86 % ; regle +1,33 % (diff −0,47, IC [−0,84 ; −0,13], p brut 0,0225, Holm 0,09) ;
+    borne +1,27 % (diff −0,41, IC [−0,89 ; +0,03], p brut 0,0375, Holm 0,10). Meilleur filtre : borne.
+  * 50×5 : réseau −0,09 % ; regle +0,18 % (diff −0,27, IC [−0,56 ; +0,00], p brut 0,0339, Holm 0,10) ;
+    borne +0,20 % (diff −0,29, IC [−0,59 ; −0,00], p brut 0,073, Holm 0,10). Meilleur filtre : regle.
+  * Règle déclarée : le réseau ne bat significativement (Holm) le meilleur filtre à aucun réglage → **le verdict de R1 tient**.
+  * Secondaire : équivalence ±1 % du faisceau guidé 50×5 au recuit : écart −0,09 %, IC 90 % [−0,87 ; +0,66] → oui.
+  * Maintenances moyennes par instance : recuit 12,3 ; réseau 13,3 (5×4) / 13,0 (50×5) ; regle 14,1 / 13,6 ; borne 13,8 / 13,5.
+  * Lecture (non déclarée, à formuler comme telle) : l'avantage moyen du réseau sur le meilleur filtre est plus grand qu'à
+    μ = 1 (5×4 : −0,41 contre −0,30 ; 50×5 : −0,27 contre −0,05), dans le même sens sur les 4 comparaisons, sans être
+    significatif après correction. Interdit d'écrire « significatif » ; on peut écrire « tendance, non significative ».
+- 02/11/2026 (article, section Results) : nouveau script `tableaux_revision.py` → `resultats/tab_filtres.tex` (écarts et
+  plannings évalués : réseau graines 0/1/2, imitation seule, réseau aléatoire, 3 filtres simples ; glouton, 100 tirages,
+  4 faisceaux ; μ = 1) et `resultats/tab_tests_filtres.tex` (tests déclarés : R1 contre le meilleur filtre, Holm sur 12 ;
+  R2, Holm sur 6 ; R4, Holm sur 4). Valeurs identiques à revision_R1R2.md, revision_R3.md et revision_R4.md (contrôlé).
+  Propositions de texte : `article/experimental_setup_2026-11-02.tex`, `article/results_modifs_2026-11-02.tex`.
+  Correction relevée dans le manuscrit : les instances d'entraînement tirent aussi τ ∈ [0,3 ; 0,8] et μ ∈ [0,5 ; 1,5]
+  (train_v3.sample_v3) ; PPO sur « base » seulement (cand_ft_config.json) ; μ = 3 (R4) est donc hors distribution.
+- 02/11/2026 (figure) : `figure_qualite_budget.py` modifiée (ancienne version : archives_code_27oct/figure_qualite_budget_avant_filtres.py) :
+  deux panneaux, (a) toutes les méthodes + 3 filtres simples, (b) zoom sur les 4 réglages de R1 (réseau et filtres aux mêmes
+  réglages). Couleurs : palette catégorielle, emplacements 1–6 validés (validate_palette.js, mode clair : PASS ; contraste
+  < 3:1 pour 3 couleurs → marqueurs distincts, traits pointillés pour les filtres, valeurs dans tab_filtres.tex).
+  `resultats/qualite_budget_v2_apercu.png` : copie d'aperçu, à supprimer.
+- 02/11/2026 (article, Discussion) : écarts au meilleur connu en classique recalculés (banque, facteur 1000, 127 instances,
+  meilleurs_connus.csv) : recuit 50k +3,15 % (Brandimarte +7,29 %), tabou 50k +3,85 % (+7,96 %). Proposition :
+  `article/discussion_conclusion_2026-11-02.tex`.
+- 02/11/2026 — **2e rapport de relecture** (`claude/revue_article1_deterministe_v3.md`). Analyse EXPLORATOIRE (non déclarée,
+  à présenter comme telle) du point N1 : `experiences_article1/exploratoire_N1_filtres.py`, μ = 1, 127 instances.
+  * Holm restreint aux 4 tests du meilleur filtre : p = 0,20 / 0,071 / 0,20 / 0,64 → toujours aucun réglage significatif
+    (l'affirmation du relecteur « 10×4 deviendrait très probablement significatif » est fausse : 0,071).
+  * Filtre unique a priori (`regle`, celui d'Ow & Morton), Holm sur 4 : diff −0,30 / −0,49 / −0,22 / −0,21 ;
+    p = 0,13 / 0,053 / 0,13 / 0,044 → 1 réglage sur 4 (50×5).
+  * Test global (moyenne par instance des 4 différences au meilleur filtre) : −0,27 point, IC 95 % [−0,49 ; −0,06],
+    Wilcoxon p = 0,0024 → gain faible, de signe constant, significatif quand les réglages sont regroupés.
+  * IC 90 % (pour un TOST à ±0,25) : 5×4 [−0,62 ; 0,00] ; 10×4 [−0,77 ; −0,22] ; 20×4 [−0,45 ; 0,00] ; 50×5 [−0,26 ; +0,14]
+    → aucune équivalence à ±0,25 (sauf presque à 50×5) : l'absence d'effet ne peut pas être affirmée.
+  * Puissance : écart-type des différences 1,4 à 2,1 point ; effet minimal détectable (80 %, 5 %) ≈ 0,34 à 0,52 point.
+  Conclusion à écrire : « gain faible (≈ 0,3 point), de signe constant, qui décroît avec la largeur du faisceau ; non
+  significatif réglage par réglage, significatif quand les réglages sont regroupés (analyse non déclarée) ».
+
+## 3 septies. 2e révision (rapport du 02/11/2026, `claude/revue_article1_deterministe_v3.md`) — DÉCLARÉ AVANT CALCUL
+
+Validé par Ghita le 02/11/2026 (« ok pour les nouvelles expériences » ; D5 lancé, décision selon résultat ; D6 abandonnée :
+l'argument du décodeur (Discussion, *Reference methods*) est retiré et le constat 4 nuancé). Plan : `claude/plan_revision2_article1.md`.
+Transparence : l'analyse exploratoire N1 (entrée précédente) a été faite AVANT ces déclarations ; les règles de D1 reprennent
+donc en connaissance de cause le test global, qui y est déclaré pour de nouvelles données (budgets différents).
+
+**D1 — budget égal entre filtres (N1, M4).** Filtres `regle`, `fin`, `borne`, K inchangé, B' = ceil(B × E_réseau / E_filtre)
+avec les évaluations moyennes de R1 : regle (6,4) (12,4) (22,4) (55,5) ; fin (7,4) (12,4) (24,4) (56,5) ; borne (6,4) (12,4)
+(23,4) (55,5). Les évaluations réelles seront rapportées (le budget d'un filtre doit être ≥ celui du réseau à ±3 %).
+Analyse (127 instances, référence recuit 50k, 5 graines) : (a) pour chaque réglage, réseau contre le meilleur filtre à budget
+égal (écart moyen le plus bas), Wilcoxon, Holm sur les 4 tests ; (b) test global : moyenne par instance des 4 différences au
+meilleur filtre, Wilcoxon bilatéral, IC bootstrap 95 % ; (c) même chose contre le filtre a priori `regle`. Règles :
+« apport significatif réglage par réglage » si (a) ≥ 3/4 ; « gain faible mais constant » si (b) p < 0,05 et (a) < 3/4 ;
+« pas d'apport » sinon. Rapporté aussi : effet minimal détectable (80 %, 5 %) par réglage.
+
+**D2 — temps des filtres (N3).** Filtres `regle`, `fin`, `borne` aux 4 réglages de R1, un processus, machine au repos, sous-ensembles
+E10 (54 instances) et E10b (36). Analyse : temps moyen par instance et par réglage ; puis, pour chaque limite de temps de la
+Table 8 (1, 2, 5, 10, 20, 40 s), le faisceau guidé par le réseau (réglage le plus large dont le temps moyen ≤ limite, comme dans
+E10) contre le meilleur faisceau à filtre simple sous la même règle, Wilcoxon, Holm sur les limites, par sous-ensemble.
+Aucune règle de décision : comparaison descriptive et tests rapportés tels quels.
+
+**D3 — facteur de seuil 0,7 et 1,5 (M10 ; E13 déclarée le 27/10, plan réduit comme R4).** Recuit 50k (graines 0–2), réseau 5×4
+et 50×5, filtres `regle` et `borne` 5×4 et 50×5 ; référence recuit 50k au même facteur. Même règle que R4 : la conclusion de
+R1 tient si le réseau ne bat significativement (Holm sur 4) le meilleur des deux filtres à aucun réglage ; secondaire : TOST ±1 %
+du faisceau 50×5 contre le recuit ; test global (b) de D1.
+
+**D4 — problème classique avec T_k = L_k (M9).** FJSP_TK_LK=1 : T_k = charge totale des opérations éligibles sur k, la
+maintenance n'est jamais nécessaire mais les features gardent leur échelle usuelle. Banque séparée `resultats_TkLk.csv`.
+Réseau `cand_ft_best.pt` : glouton, 100 tirages × 5 graines, faisceaux 5×4 et 50×5 ; filtre `regle` 5×4 et 50×5. Référence : recuit
+50k du problème classique (banque principale, facteur 1000 ; aucune maintenance n'est insérée dans les deux cas, le recuit est
+donc identique). Règle : si l'écart du glouton est < 20 %, l'effondrement observé à ×1000 (+99 %) est attribué à l'échelle des
+features et les sections 10.7 / 11.3 sont réécrites ; s'il est ≥ 50 %, l'interprétation « hors distribution » est conservée ;
+entre les deux, les deux causes sont présentées.
+
+**D5 — filtre appris pour filtrer (N5) : conception à finaliser et déclarer AVANT tout entraînement** (entrée suivante).
+
+Code : `metaheuristiques/instances.py` et `banque_resultats/banque.py` (FJSP_TK_LK), `comparer_rl.py` (suffixe des rapports),
+`lancer.py` (étapes D1–D4) ; anciennes versions dans `archives_code_02nov/`. Vérifié : avec FJSP_TK_LK=1, BrandimarteMk1
+T = (40, 160, 96, 42, 23, 104) = charges ; banque séparée ; sans la variable, comportement inchangé.
+- 03/11/2026 — **D1, D3, D4 terminés** (banques complètes : 134 instances par configuration ; aucun message d'erreur dans les
+  journaux). Analyse déclarée : `analyse_revision_D1D3D4.py` → `resultats/revision_D1D3D4.md`.
+  * **D1 (budget égal)** : budgets des filtres = 100,1 % à 117,6 % de ceux du réseau (le filtre `fin` 7×4 reçoit 17,6 % de plus,
+    au-delà des ±3 % visés : en défaveur du réseau). Réseau contre le meilleur filtre : −0,26 / −0,44 / −0,19 / −0,04 point,
+    Holm sur 4 : 0,32 / 0,096 / 0,21 / 0,75 → 0/4 ; test global −0,23 point, IC 95 % [−0,45 ; −0,04], p = 0,025.
+    **Verdict déclaré : « gain faible mais constant ».** Contre le filtre a priori `regle` : 0/4 (Holm 0,17), global −0,29,
+    IC [−0,52 ; −0,08], p = 0,0023. Effet minimal détectable par réglage : 0,34 à 0,57 point.
+  * **D3 (facteur 0,7 et 1,5)** : conclusion de R1 tient aux deux facteurs ; TOST ±1 % du faisceau 50×5 : équivalent (0,7 :
+    +0,11 %, IC 90 % [−0,55 ; +0,76] ; 1,5 : +0,14 %, [−0,39 ; +0,66]). Test global : 0,7 : −0,33, p = 0,025 ; 1,5 : −0,18,
+    p = 0,13 (non significatif). Différences toutes en faveur du réseau (8/8).
+  * **D4 (T_k = L_k)** : glouton +7,63 % (contre +99,61 % à ×1000), 100 tirages +3,50 %, faisceau 5×4 +1,70 %, 50×5 +0,80 % ;
+    filtre `regle` 5×4 +2,08 %, 50×5 +1,23 % (descriptif, non testé). **Verdict déclaré : l'effondrement à ×1000 vient de
+    l'échelle des features**, pas d'un changement de distribution du problème : sections 10.7 et 11.3 à réécrire ; le relecteur
+    avait raison (M9). Note : le rappel ×1000 porte sur 127 instances (Kacem compris), l'article en donne 123 (sans Kacem).
+- 03/11/2026 — **D5 (filtre appris POUR filtrer) — DÉCLARÉ AVANT CALCUL, en attente de validation par Ghita.**
+  Code : `imitation/filtre_appris.py` (générer / entraîner), étape `lancer --etape D5`, analyse `analyse_revision_D5.py`.
+  * Données : 300 instances d'ENTRAÎNEMENT (train_v3.sample_v3, graines 2 000 000 + i, moitié base / moitié large ; aucune
+    instance de benchmark ni de validation) ; faisceau 5×4 guidé par le réseau final (graine 0) ; chaque situation du faisceau
+    est retenue avec probabilité 0,5 ; pour TOUTES ses actions valides, cible H(s'(s,a)) / u (complétion MWKR du moteur).
+  * Entraînement : départ = réseau final ; perte = entropie croisée entre π_θ(·|s) et q(a|s) ∝ exp(−(H_a − min H)/τ),
+    τ = 1 (unité u) ; Adam, lr 1e-4, 10 époques, lots de 256, tête de valeur gelée ; époque retenue = meilleur C_max moyen
+    du faisceau 5×4 sur les 24 instances de validation (époque 0 = réseau final, retenu si aucune époque ne fait mieux).
+  * Évaluation : faisceaux 5×4, 10×4, 20×4, 50×5 sur les 127 instances (méthode « RL:filtre-appris ») ; glouton descriptif.
+  * Règles : (A) contre le réseau final aux mêmes réglages : « apprendre à filtrer ajoute à la politique » si le test global
+    (moyenne par instance des 4 différences) est significatif (Wilcoxon, p < 0,05) et négatif ; Holm sur 4 rapporté.
+    (B) contre le meilleur filtre simple de R1 : règle de R1 (≥ 3/4 réglages significatifs, Holm sur 4) et test global.
+    Conséquence prévue : si (A) est atteint ou (B) ≥ 3/4, le résultat entre dans l'article (Méthode : 1 paragraphe ; Résultats :
+    1 ligne de table + 1 paragraphe) et le titre général est conservé ; sinon le titre est restreint au filtre appris.
+  * Essai de fonctionnement dans le cloud (03/11, NON utilisé) : 4 instances, 830 situations, 1 époque ; ≈ 20 s par
+    instance pour les données ; validation 5×4 156,13 → 155,92. Accord initial du réseau final avec la meilleure complétion :
+    74 % des situations (action préférée parmi les meilleures complétions). Fichiers de l'essai supprimés.
+- 03/11/2026 — Ajouts avant le lancement de D2 : (1) `outils/temps_experts.py` ajouté à l'étape D2 (M13 : coût des 2 000
+  plannings experts, mesuré sur 40 instances, un processus, extrapolé ; aucune règle de décision) ; (2) table
+  `tableau_gain_global.py` → `resultats/tab_gain_global.tex` : gain du réseau sur le meilleur filtre simple, par campagne,
+  avec test global (lignes D1 et D3 déclarées ; lignes R1 et R4 marquées † : test global non déclaré). Valeurs :
+  R1† −0,27 (p = 0,0024) ; D1 −0,23 (p = 0,025) ; R4† −0,34 (p = 0,032) ; facteur 0,7 −0,33 (p = 0,025) ; 1,5 −0,18 (p = 0,13).
+  (3) D4 sur les 123 instances du tableau classique (sans Kacem, comme l'article) : glouton +7,67 %, 100 tirages +3,61 %,
+  faisceau 5×4 +1,92 %, 50×5 +1,05 % ; filtre `regle` +2,32 % / +1,44 % ; recherche sans filtre B = 50 : +1,38 %.
+  Exploratoire (non déclaré) : réseau contre `regle`, 5×4 −0,40 (p = 0,040), 50×5 −0,38 (p = 0,00038).
+- 03/11/2026 (N2, calibrage absolu) : `tableau_bornes.py` → `resultats/tab_bornes.tex`. Régime A : 19 optima prouvés ;
+  bornes : 119 FJSPLib (classique, ignorent la maintenance), 8 CP-SAT régime A ; écart moyen à la borne : meilleur connu
+  7,82 %, recuit 50k 11,51 %, faisceau 5×4 12,32 %, 50×5 11,53 %. Classique : recuit 3,15 % des meilleurs connus (Brandimarte
+  7,29 %), tabou 3,85 % (7,96 %). Propositions de texte de la 2e révision : `article/propositions_revision2_2026-11-03.tex`
+  (en attente de D2 et D5 pour les passages \acompleter).
+- 03/11/2026 — **D5 validé par Ghita** (« c bon », après présentation de la conception) : déclaration ci-dessus inchangée.
+  Lancement prévu après D2 (D2 = mesures de temps, machine au repos).
+- 03/11/2026 (article) : propositions de la 2e révision intégrées dans `Overleaf_v2` après accord de Ghita (« c bon ») ;
+  tables `tab_gain_global.tex` et `tab_bornes.tex` copiées dans `Overleaf_v2/Results/` ; 8 références ajoutées au .bib.
+  Compilation : 50 pages, aucune référence ni citation indéfinie. Restent 2 marqueurs \acompleter (coût des experts : D2 ;
+  limite sur le filtre appris : D5). Diff : `Overleaf_v2/doc/diff_revision2_2026-11-03.txt`.
+- 04/11/2026 — **D2 et D5 terminés** (journaux sans erreur).
+  * **D2 (temps des filtres)**, `analyse_revision_D2.py` → `resultats/revision_D2.md`. Temps moyens (E10, 54 inst.) : réseau
+    0,90 / 1,76 / 3,28 / 8,77 s (5×4 … 50×5) ; regle 0,84 / 1,55 / 3,09 / 8,51 ; fin 0,61 / 1,31 / 2,49 / 7,12 ; borne 0,77 / 1,39 /
+    2,87 / 8,29. À temps égal, E10 : réseau meilleur que le meilleur filtre de −0,19 à −0,54 point, significatif à 5 s
+    seulement (p Holm 0,026). E10b (36 inst., edata/rdata) : filtres simples meilleurs de 0,28 à 0,70 point jusqu'à 10 s
+    (ils sont plus rapides et peuvent élargir le faisceau), réseau meilleur de 0,13 à 20–40 s ; rien de significatif
+    (p Holm ≥ 0,73). Coût des experts (`temps_experts.md`) : base 2,8 s, large 5,9 s par instance → ≈ 2,4 h CPU pour 2 000.
+  * **D5 (filtre appris pour filtrer)** : 300 instances, 93 386 situations. Aucune des 10 époques n'améliore la validation
+    (faisceau 5×4 : 156,13 à l'époque 0 ; 156,21 à 157,04 ensuite) → selon la règle déclarée, l'époque 0, c'est-à-dire le
+    réseau final, est retenue ; ses résultats sur les benchmarks sont identiques (127/127 instances). Règle (A) non atteinte
+    (différence 0), règle (B) = R1 (0/4 ; global −0,27, p = 0,0024). **Conséquence déclarée : titre restreint au filtre appris.**
+    Accord top-1 avec la meilleure complétion pendant l'entraînement : 0,62 → 0,74 (≈ niveau du réseau final, 0,74 à l'essai).
+    Lecture : avec cette cible (τ = 1), apprendre le classement de la complétion n'améliore pas le filtre ; d'autres cibles
+    (τ plus petit, perte sur le top-K) ne sont pas testées (elles devraient être déclarées).
+- 04/11/2026 (article) : harmonisation en anglais britannique (décision D14) dans `Overleaf_v2` : article.tex (≈ 50 mots :
+  -ize → -ise, behaviour, neighbourhood, modelled, travelling, cancelled, labour, favour, per cent…), appendix2.tex, Appendix4.tex.
+  Conventions : -ise (et non -ize d'Oxford) ; « learned » conservé ; titres des références bibliographiques et commandes LaTeX
+  (étiquettes, citations, fichiers) inchangés. Compilation : 50 pages, aucune erreur. Diff : `Overleaf_v2/doc/diff_anglais_britannique_2026-11-04.txt`.
+- 04/11/2026 — **3e rapport de relecture** (`claude/revue_article1_deterministe_v4.md`, révision mineure). Vérifications :
+  * R1 : décodeur des métaheuristiques confirmé SEMI-ACTIF (`metaheuristiques/codage.decoder` : chaque opération est placée en
+    fin de machine, maintenance juste avant si le seuil serait dépassé). Kacem (régime A) : recuit 50k par graine — Kacem1 11
+    (opt. 11) ×5 ; Kacem2 11/11/13/13/11 (opt. 11) ; Kacem3 8/8/7/7/8 (opt. 7) ; Kacem4 13 ×5 (opt. 11) : écarts de 1 à 2 unités
+    sur des C_max de 7 à 13. **Essai EXPLORATOIRE (cloud, non utilisé dans l'article)** d'un décodeur ACTIF (insertion dans
+    un trou si la charge du segment d'usure reste ≤ T_k ; prototype `metaheuristiques/decodeur_actif_prototype.py`, test
+    `outils/test_decodeur_actif_prototype.py`) : recuit 50k, départ ALÉATOIRE, graines 0–2, Taguchi. Régime A : Kacem4
+    semi 16/17/16 contre actif 15/15/15 ; Kacem2 12/11/11 contre 11/13/12 ; Kacem3 7/8/8 contre 8/7/8 ; mk01–mk07 : pas de
+    différence systématique (mk04 79/72/78 contre 79/79/77 ; mk07 163/171/163 contre 171/163/159). Classique : pas de gain
+    non plus. Décodeur actif 2 à 4 fois plus lent. Lecture : le décodeur n'explique pas l'écart du recuit sur Kacem ; le
+    voisinage (déplacement aléatoire, changement de machine aléatoire, sans chemin critique) est le suspect principal.
+  * R2 : CP-SAT à départ chaud (600 s, 2 fils, E9) présent sur 121/127 instances : écart à la borne 8,12 % ; −2,99 % par rapport
+    au recuit 50k. Provenance des meilleurs connus (régime A) : CP-SAT 50, recuit 40, réseau 19, faisceau sans filtre 8, tabou 7,
+    autres 3.
+  * Holm sur les 5 tests groupés (p = 0,0024† ; 0,025 ; 0,032† ; 0,025 ; 0,13) : 0,012 ; 0,10 ; 0,10 ; 0,10 ; 0,13 → seul le
+    test non déclaré de R1 reste < 0,05.
+  * R4 : la règle déclarée prévoyait la sélection sur validation avec époque 0 retenue si aucune époque ne fait mieux ; elle a
+    été appliquée telle quelle, mais le texte de l'article (§ 8.4) ne la décrit pas : à corriger.
+
+## 3 octies. 3e révision (rapport du 04/11/2026, révision mineure) — DÉCLARÉ AVANT CALCUL
+
+Validé par Ghita le 04/11/2026 (« petite campagne » pour R1 ; phrase « applies to instances of any size » retirée).
+**A1 — décodeur actif (R1).** `metaheuristiques/codage.decoder_actif` (activé par FJSP_DECODEUR=actif pour toutes les
+métaheuristiques ; défaut inchangé = semi-actif) : insertion d'une opération dans un trou de sa machine si elle y tient après
+son prédécesseur de job et si la charge du segment d'usure du trou + p ≤ T_k ; sinon en fin de machine (maintenance avant si
+besoin). Vérifié avec `outils/verifier_planning` sur 840 plannings aléatoires (Kacem + Brandimarte, régime A et classique) :
+tous valides, C_max identiques au vérificateur. Recopie des résultats « paramètres par défaut » désactivée avec ce décodeur.
+Campagne : recuit et tabou, 50 000 évaluations, départ heuristique (MWKR+EFT), Taguchi (paramètres réglés pour le décodeur
+semi-actif, non re-réglés), graines 0–4, Brandimarte + Kacem (14 instances), régime A et classique ; config
+« params=taguchi-actif » ; `lancer --etape A1`. Analyse `analyse_revision_A1.py` : écart au meilleur connu, optima atteints,
+différence actif − semi-actif par instance, Wilcoxon, Holm sur 4. Règle : référence « affaiblie par son décodeur » si le
+recuit actif est meilleur de plus de 1 point en régime A avec p Holm < 0,05 ; sinon l'article indique que le décodeur
+n'explique pas l'écart (essai exploratoire préalable, départ aléatoire, 3 graines : pas de gain systématique).
+Code : `metaheuristiques/codage.py`, `metaheuristiques/comparer.py` (anciennes versions : `archives_code_02nov/`), `lancer.py`.
+- 04/11/2026 (article, 3e relecture) : corrections intégrées dans `Overleaf_v2` (51 pages, aucune erreur ; diff
+  `Overleaf_v2/doc/diff_revision3_2026-11-04.txt`) : R5 (contribution (i) « an optimal schedule » ; phrase des Implications
+  alignée sur 10.5) ; R3 (borne CP meilleure sur 8 instances, dit en (i) et en 9.1) ; R2 (colonne CP-SAT départ chaud dans
+  `tab_bornes.tex` ; provenance des meilleurs connus dans le texte) ; Kacem discuté (C_max de 7 à 13) ; R4 (règle de sélection
+  décrite, expérience « préliminaire ») ; R6 (phrase « any size » retirée ; note sur les graines ; Holm sur les 5 tests groupés :
+  0,012† / 0,10 / 0,10 / 0,10 / 0,13, dit dans le texte ; `tab_classique_TkLk.tex` dans la Table 14 ; `tab_temps_filtres.tex`
+  en annexe) ; forme (Figure 10 en PDF, contrainte (10), départage 7.3(iii), 10.6 fusionnée, bibliographie : Sutton & Barto 2018,
+  Zhang 2020 NeurIPS 33:1621–1632, DOI Wang 2008 et Sabuncuoglu 1999, Gao 2006 17(4):493–507 ; Algorithme 1 et Figure 5 en
+  annexe ; 7.1.1 condensée). Nouveau script : `tableaux_revision3.py`. Reste : \acompleter{A1} en 10.6, après la campagne A1.
+- 04/11/2026 — **A1 terminée** (journal sans erreur ; 14 instances × 5 graines × 2 méthodes × 2 régimes). Analyse déclarée
+  `analyse_revision_A1.py` → `resultats/revision_A1.md`. Différence actif − semi-actif (écart au meilleur connu, points) :
+  régime A recuit +0,42 (IC [−0,61 ; +1,54], p Holm 1), tabou +0,04 (p 1) ; classique recuit +0,64 (p 0,37), tabou +0,73
+  (p 0,19). Optima atteints inchangés (régime A : recuit 1/1 ; classique : 3/3). Kacem4 : 13 dans les deux cas (opt. 11).
+  **Verdict déclaré : le décodeur n'explique pas l'écart du recuit.** Texte de 10.6 complété dans `Overleaf_v2` ;
+  plus aucun marqueur \acompleter.
+- 04/11/2026 — **Relecteur indépendant** (`claude/revue_article1_deterministe_v6.md`, révision majeure simulée). Vérifications
+  EXPLORATOIRES (`exploratoire_relecteur2.py`) :
+  * M5 (grappes : Hurink e/r/vdata d'une même instance la.. = une grappe ; 54 grappes) : test groupé R1 −0,27, IC 95 % par
+    grappes [−0,49 ; −0,07], Wilcoxon sur grappes p = 0,015 ; D1 −0,23, [−0,46 ; −0,05], p = 0,033 → résiste aux grappes.
+    IC 90 % par grappes de D1 : [−0,41 ; −0,08] ⊂ ±0,5 (une équivalence à ±0,5 tiendrait, mais la marge serait choisie après coup).
+  * M1 (faisceau 50×5 contre recuit, par famille) : Brandimarte −0,84 (IC 90 % [−2,35 ; +0,42]) ; edata +3,17 ([2,55 ; 3,80]) ;
+    rdata +1,02 ([0,54 ; 1,56]) ; vdata −2,73 ([−3,68 ; −1,85]) ; Kacem −7,51. Sans Kacem : +0,30 ; médiane +0,07 ; IC 90 %
+    global par grappes [−0,40 ; +0,45]. L'équivalence ne tient qu'EN MOYENNE ; profils complémentaires selon la flexibilité.
+  * M7 : recuit 50k sur un processus ≈ 5,9 s par instance (90 instances de E10/E10b, ≈ 11 300 évaluations/s), contre 8,8 s
+    (E10) et 10,3 s (E10b) pour le faisceau 50×5 : moins d'évaluations, mais PLUS de temps. « fewer evaluations » à nuancer.
+  * Table 4, recuit 20 000 : p brut 0,057 (Wilcoxon), IC [−2,08 ; −0,35] ; les pertes sont grandes (edata), d'où un Wilcoxon
+    non significatif malgré 81/3/43 ; p Holm 0,285 (14 tests). Pas d'erreur.
+
+## 3 nonies. Relecteur indépendant (rapport v6 du 04/11/2026) — DÉCLARÉ AVANT CALCUL
+
+Validé par Ghita le 04/11/2026 (B1, B2, B3 ; pas de référence forte supplémentaire ; corrections de texte dans Overleaf_v2).
+Transparence : l'essai de fonctionnement de B1 (cloud, 3 instances Brandimarte, non utilisé) a montré que les ex aequo sur H à
+la coupure sont presque systématiques (mk01 : 85/87 ; mk03 : 284/284) : le départage n'est donc pas un détail.
+**B1 — départage (M4).** `AgentAnticipation(departage=…)`, option `anticiper.py --departage` (config « ,departage=… ») :
+« ordre » = départage par l'ordre de génération aussi avec le réseau ; « rang » = filtre simple départagé par son rang
+cumulé. Défaut inchangé. Fréquence des ex aequo à la coupure enregistrée dans le journal. Réglages 5×4 et 50×5 ; réseau
+(ordre) ; filtres regle, fin, borne (rang). Analyse `analyse_revision_B1.py` ; règle : le gain du filtre appris est attribué à
+son rôle de filtre si le test groupé (a) « réseau-ordre − meilleur filtre de l'article » est négatif et significatif (p < 0,05) ;
+sinon il est attribué, au moins en partie, au départage. (b) et (c) rapportés.
+**B2 — tirages de φ_k (M10).** FJSP_GRAINE_PHI = 1 et 2 (graine du protocole : 0), banques `resultats_phi1.csv`,
+`resultats_phi2.csv`. Recuit 50k (graines 0–2), réseau et filtres regle et borne à 5×4 et 50×5. Analyse
+`analyse_revision_B2.py` : règle de R4 par tirage, TOST ±1 %, test groupé.
+**B3 — Song et al. sur edata/rdata (M8).** 36 instances de E10b, problème classique (seuils ×1000, comme E10s), faisceau
+guidé un processus (5×4, 10×4, 50×5), budgets par instance (`outils/budgets_song.py --prefixes`), Song à temps égal (graines
+0–2, lots de 20), analyse `analyse_revision_B3.py` : même règle que E10s (scénarios A/B/C, Holm sur 3). Machine au repos.
+Code modifié : `jssp_pm/anticipation.py`, `anticiper.py`, `metaheuristiques/instances.py`, `banque_resultats/banque.py`,
+`outils/budgets_song.py` (anciennes versions : `archives_code_04nov/`). Vérifié : sans les nouvelles options, mêmes C_max sur
+mk01–mk03 (essai cloud) ; FJSP_GRAINE_PHI=1 → mk01 T = (13, 15, 11, 15, 12, 12) contre (13, 12, 10, 10, 14, 15), banque séparée.
+- 04/11/2026 — **Constat important (exploratoire, M1 appliqué au gain du filtre appris)** : `tableaux_revision3.py` →
+  `resultats/tab_familles.tex`. Gain groupé à budget égal (D1) par famille : Brandimarte −0,21 ; edata −0,23 ; rdata +0,05 ;
+  vdata −0,05 ; **Kacem −4,67** (4 instances : −2,27 / −2,12 / −6,58 / −7,69 ; C_max de 7 à 13, une unité = 8 à 14 %).
+  Sans Kacem : D1 −0,088, IC 95 % [−0,22 ; +0,05], Wilcoxon p = 0,091 (NON significatif ; médiane −0,06) ; R1 (même réglage,
+  non déclaré) −0,195, [−0,37 ; −0,01], p = 0,005. → Le test groupé DÉCLARÉ à budget égal repose en grande partie sur les 4
+  instances de Kacem. À dire dans l'article (sensibilité) ; formulation de la thèse à revoir avec Ghita après B1.
+  Autres vérifications : CP-SAT départ chaud absent sur 6 instances vdata (34, 36, 39, 40, 42, 43) : statut UNKNOWN en 600 s
+  malgré la solution de départ. Instance de réglage hors test : HurinkEdata3 = mt20 (edata) ; mt06/mt10/mt20 non retenues dans
+  le jeu de test (aucune raison consignée à l'époque : choix de conception, à dire tel quel).
+- 04/11/2026 (article, relecteur indépendant) : corrections sans effet sur la thèse intégrées dans `Overleaf_v2` (53 pages,
+  aucune erreur ; diff `Overleaf_v2/doc/diff_relecteur2_2026-11-04.txt`) : C4 (« action space proven to contain an optimal
+  schedule ») ; M7 (« not in less time », recuit 50k ≈ 5,9 s contre 8,8–10,3 s) ; M1 (équivalence « on average », profils
+  opposés, médiane, effet Kacem, nouvelle table `tab_familles.tex`) ; phrase de TOST ajoutée en 8.1 ; C2 (10.6 précisée :
+  14 instances, paramètres non re-réglés, signe expliqué, « may be due ») ; C3 (note CP-SAT* : post-optimiseur, 600 s ×
+  2 fils, 6 instances vdata sans solution) ; NP-difficulté forte → Garey et al. ; « evaluate » (Wang & Yu) ; mt20 de edata
+  comme instance de réglage, mt06/mt10/mt20 hors test, grappes signalées ; vocabulaire (disponibilité limitée par le temps
+  de travail cumulé, pas d'arbitrage avec un risque de panne) ; Table 1 « wear » ; r_j, f_k, w_j dans la Table 2 ;
+  transparence sur la conception (M9) ; 10 références ajoutées et vérifiées en ligne (Akturk et al. 2003 ; Naderi et al.
+  2023 ; Lei et al. 2022 ; Wang et al. 2024 ; Zhang et al. 2024 ; Corsini et al. 2024 ; Duin & Voß 1999 ; Blum 2005 ;
+  Kwon et al. 2020 ; Hottung et al. 2022). EN ATTENTE de B1 et de la décision de Ghita : formulation de la thèse (résumé,
+  contributions, 9.2 « Equal budget and pooled tests », conclusion), tests par grappes, retrait de l'argument de puissance
+  post hoc, sensibilité Kacem du gain groupé ; longueur (matériel supplémentaire).
+- 04/11/2026 — **B1, B2, B2b terminés** (journaux sans erreur). Analyses déclarées → `resultats/revision_B1.md`, `revision_B2.md`.
+  * **B1 (départage)** : ex aequo sur H à la coupure dans 85,3 % des sélections (169 787 / 199 053). (a) réseau départagé par
+    l'ordre − meilleur filtre : +0,13 point (IC [−0,12 ; +0,38], p = 0,69) → **verdict déclaré : le gain n'est plus établi sans
+    le départage ; il est attribué, au moins en partie, au départage.** (b) réseau − meilleur filtre départagé par son rang
+    cumulé : −0,26 (IC [−0,51 ; −0,01], grappes [−0,53 ; −0,02], p = 0,010). (c) réseau − réseau-ordre : −0,31 (IC [−0,52 ;
+    −0,11], p = 0,004). Lecture : la valeur du réseau vient de son classement des états à H égal (départage), pas du choix
+    des K actions ; et la log-probabilité départage mieux que le rang cumulé d'un filtre simple.
+    Sans Kacem (exploratoire) : (a) +0,14, p = 0,68 ; (b) −0,08, IC [−0,25 ; +0,11], p = 0,042 ; (c) −0,23, [−0,40 ; −0,06], p = 0,0095.
+  * **B2 (tirages φ_k)** : graine 1 : réseau significativement meilleur que le meilleur filtre aux deux réglages (−0,56 et
+    −0,36, p Holm 0,015 et 0,025) → la conclusion de R1 NE TIENT PAS pour ce tirage ; test groupé −0,46, p = 6·10⁻⁵ (sans
+    Kacem −0,38, p = 0,0002). Graine 2 : conclusion de R1 tient ; groupé −0,28, p = 0,032 (sans Kacem −0,19, p = 0,062).
+    Équivalence ±1 % au recuit dans les deux tirages (faisceau 50×5 : −0,28 % et −0,31 %).
+- 04/11/2026 — **B3 terminé** (journal sans erreur ; 36 instances × 3 réglages × 3 graines de Song). Analyse déclarée →
+  `resultats/revision_B3.md` (règle de E10s) : faisceau guidé contre Song et al. au même temps sur edata/rdata :
+  5×4 −0,60 % (24/0/12, p Holm 0,062, scénario B) ; 10×4 −0,78 % (27/0/9, p 0,016, A) ; 50×5 −1,92 % (32/0/4, p 1,2·10⁻⁵, A).
+  Song dépasse fortement son budget (un lot de 20 tirages au minimum) : comparaison favorable à Song.
+  Dépassements de Song (médianes) : 5×4 budget 1,3 s, temps 8,1 s ; 10×4 1,4 s / 8,5 s ; 50×5 6,3 s / 10,1 s ; 20 tirages
+  (un seul lot) dans la plupart des cas : Song dispose en pratique de 1,6 à 6 fois le temps du faisceau.
+- 04/11/2026 (article) : **nouvelle thèse validée par Ghita** (« le filtre appris ajoute un gain faible, de signe constant,
+  non significatif dans toutes les campagnes, qui vient du départage des ex aequo de la complétion et non du choix des
+  actions »). Intégrée dans `Overleaf_v2` (55 pages, aucune erreur ; diff `Overleaf_v2/doc/diff_nouvelle_these_2026-11-04.txt`) :
+  résumé, contributions, tests par grappes (définition en 8.4), variantes du générateur (tirages de φ_k), règles déclarées
+  (B1, B2, B3), 9.2 « Equal budget and pooled tests » réécrit (grappes, sensibilité Kacem, Holm sur 5, IC 90 % ; argument de
+  puissance post hoc retiré), nouveau paragraphe « Where the gain comes from » + table `tab_departage.tex` (B1), tirages de
+  φ_k + table `tab_tirages_phi.tex` (B2), Song sur edata/rdata (B3), phrase sur DAgger (essayé en phase 1), constat 3 et
+  10.1 réécrits (départage ; améliorer l'évaluation globale plutôt que le filtre), conclusion et perspectives, limite sur
+  les mesures de temps. Nouveau script : `tableaux_revision4.py`.
+
+## 04/11/2026 — Matériel supplémentaire (validé par Ghita)
+- Déplacés de `article.tex` vers `Overleaf_v2/supplementary.tex` (document autonome, 5 pages) : Tables 9 (ablations) et 11 (CP-SAT à temps égal), annexes C (features), D (hyperparamètres), E (procédure d'entraînement, Figure et Algorithme), F (temps de calcul des filtres).
+- Numérotation S : S1 features (Table S1), S2 hyperparamètres (Table S2), S3 entraînement (Figure S1, Algorithme S1), S4 temps (Table S3), S5 ablations (Table S4), S6 CP-SAT (Table S5). Renvois codés en dur dans les deux sens, vérifiés contre `article.aux`.
+- Article principal : 49 pages (55 avant), aucune référence indéfinie. `Appendix3.tex` et `Appendix4.tex` ne sont plus appelés par `article.tex` (conservés).
+- Diff : `Overleaf_v2/doc/diff_supplementaire_2026-11-04.diff` ; PDF : `doc/article_2026-11-04_supp.pdf`, `doc/supplementary_2026-11-04.pdf`.
+
+## 04/11/2026 — Rapport v7 (`claude/revue_article1_deterministe_v7.md`, révision mineure)
+- Vérifications : N3 exact (Kacem −4,67 ; rdata +0,05 ; vdata −0,05 ; sans Kacem 0,09, p = 0,09). N6 (SA 20 000) : p brut 0,057, Holm 0,285 (×5 au rang 10 sur 14, monotonie avec 50 000), IC bootstrap [−2,08 ; −0,35] : les défaites pèsent plus que les victoires dans le Wilcoxon ; pas d'erreur. N5 : les 6 instances vdata sans CP-SAT* (34, 36, 39, 40, 42, 43) ont statut UNKNOWN, **borne 0**, temps 460–530 s, 206 à 433 segments : le solveur ne dépasse pas le présolve ; l'indice couvre toutes les variables de décision (x, début, fin, y, ps, pe, cmax). Diagnostic non lancé (décision de Ghita).
+- Décisions de Ghita : **N1 (départage par un critère secondaire non appris) non réalisé**, assumé comme limite ; titre conservé ; corrections de texte seulement.
+- Intégré dans `Overleaf_v2` : N2 (le filtre agit à deux endroits : choix des actions et départage à la coupure ; « learned policy adds » dans le résumé, les contributions, la Discussion et la conclusion ; § Method et § Simple filters) ; N3 (dépendance au tirage de φ_k et à Kacem dans le résumé, les contributions, 9.2, les limites ; Table 11 comme appui de « 0,2 à 0,5 ») ; N5 (note de la Table des bornes) ; N6 (phrase SA 20 000 en 9.1 ; 10.2 « mieux évaluer » plutôt que « mieux filtrer » ; limite) ; N1 en limite et en Discussion (aucun critère secondaire informatif testé).
+- N4 : nouveau script `tableau_decisions.py` → `resultats/tab_decisions.tex` (Table S6 du matériel supplémentaire : 14 règles déclarées, résultat, décision ; 7 analyses exploratoires). Valeurs reprises des rapports et VÉRIFIÉES textuellement contre `resultats/revision_*.md`, `tab_gain_global.tex` et ce journal.
+- Article 50 pages, supplément 6 pages, aucune référence indéfinie. Diff : `Overleaf_v2/doc/diff_revue_v7_2026-11-04.diff`.
+- 05/11/2026 (décision de Ghita) : la table des règles déclarées passe du supplément à l'article principal (Table 12, page flottante après la table des tirages de φ_k, en 9.2 ; renvoi ajouté en 8.4). Section S7 retirée du supplément (retour à 5 pages, S1–S6). Article 51 pages, aucune référence indéfinie. Diff : `Overleaf_v2/doc/diff_table_decisions_2026-11-05.diff`.
+- 05/11/2026 (décision de Ghita) : retour à la version du 04/11 — table des règles déclarées en matériel supplémentaire (Table S6, section S7). `article.tex` et `supplementary.tex` restaurés depuis le commit du 04/11 (md5 c44e70a5… et 9c16a741…) ; version avec la Table 12 dans l'article conservée dans `Overleaf_v2/doc/article_table12_principal_2026-11-05.tex`. Article 50 pages, supplément 6 pages (PDF : `doc/article_2026-11-04_v7.pdf`, `doc/supplementary_2026-11-04_v7.pdf`).
+- 05/11/2026 (demande de Ghita) : section non numérotée « Declaration of generative AI and AI-assisted technologies in the manuscript preparation process » ajoutée avant les références (après les annexes). Outil : Claude (Anthropic) ; usages déclarés : rédaction et révision du texte, anglais, scripts des tables et figures, recherche et vérification des références — formulation à confirmer par Ghita. Article 50 pages. Diff : `Overleaf_v2/doc/diff_declaration_IA_2026-11-05.diff`.
+
+## 06/11/2026 — Mise à jour du dépôt public `fjsp-pm-beam` pour la soumission (v1.1.0)
+- Synchronisé depuis `jssp_pm/jssp_pm` : code de la révision (filtres, départage, décodeur actif, variables FJSP_MU / FJSP_TK_LK / FJSP_GRAINE_PHI, filtre appris D5, temps des experts), scripts d'analyse (`analyse_revision_*`, `exploratoire_*`) et de tables (`tableau_*`, `tableaux_revision*`), rapports `resultats/revision_*.md`, tables `tab_*.tex`, journaux R1–B3, E11, E12, banques séparées (μ = 3, T_k = L_k, φ graines 1 et 2) avec plannings compressés, réseaux des graines 1 et 2 et du filtre D5, résultats de Song sur edata/rdata. Chemins vers `externe/` adaptés à la racine du dépôt. Non inclus : données d'entraînement de D5 (≈ 220 Mo, régénérables), modèles de l'article stochastique, archives.
+- `banque.py` : décompression automatique de tous les `solutions*.jsonl.gz`. `.gitignore` : `banque_resultats/solutions*.jsonl`.
+- Correction : `tableaux_article.py` (dépôt et projet) avait perdu la fonction `tab_song` ; rétablie depuis la version du 26/10 (sortie identique à `tab_song.tex`).
+- Vérification dans le dépôt : `tableaux_article`, `tableaux_revision`, `tableaux_revision3`, `tableaux_revision4`, `tableau_bornes`, `tableau_gain_global`, `tableau_decisions` et `statistiques` (tableau principal) reproduisent à l'octet près les tables de l'article (Overleaf_v2/Results). Figures identiques sauf `gantt_resultats_BrandimarteMk1.pdf` : le panneau (d) CP-SAT de l'article montre un autre planning optimal (C_max = 50 dans les deux cas).
+- README réécrit (titre, question et réponse, carte table/figure → script, étapes R/D/A/B, réseaux, banques) ; CITATION.cff (titre, affiliation, v1.1.0). Commit et push à faire par Ghita (tests unitaires à lancer sur son PC : torch absent de la VM).

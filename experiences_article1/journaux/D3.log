@@ -1,0 +1,2610 @@
+
+### 2026-11-03T00:10:41 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe -m metaheuristiques.comparer --familles Brandimarte HurinkLa Kacem --graines 0 1 2 --parametres reglage_taguchi/parametres_retenus.json --facteur-seuil 0.7 --processus 8 --methodes Recuit simulé --evaluations 50000
+Paramètres utilisés : {'Algorithme génétique': {'population': 60, 'p_croisement': 0.8, 'p_mutation': 0.1, 'elite': 2}, 'Recherche tabou': {'n_voisins': 40, 'tenure': 6}, 'Recuit simulé': {'p0': 0.3, 'ratio_fin': 0.0001}}
+402 exécutions à lancer (les autres sont déjà dans la banque).
+BrandimarteMk1 Recuit simulé 1 60.0
+BrandimarteMk1 Recuit simulé 2 55.0
+BrandimarteMk2 Recuit simulé 1 34.0
+BrandimarteMk2 Recuit simulé 2 34.0
+BrandimarteMk1 Recuit simulé 0 55.0
+BrandimarteMk2 Recuit simulé 0 34.0
+BrandimarteMk3 Recuit simulé 1 229.0
+BrandimarteMk3 Recuit simulé 0 229.0
+BrandimarteMk4 Recuit simulé 0 87.0
+BrandimarteMk4 Recuit simulé 1 87.0
+BrandimarteMk4 Recuit simulé 2 87.0
+BrandimarteMk5 Recuit simulé 0 197.0
+BrandimarteMk5 Recuit simulé 1 196.0
+BrandimarteMk3 Recuit simulé 2 229.0
+BrandimarteMk5 Recuit simulé 2 197.0
+BrandimarteMk7 Recuit simulé 0 168.0
+BrandimarteMk7 Recuit simulé 1 167.0
+BrandimarteMk7 Recuit simulé 2 168.0
+BrandimarteMk6 Recuit simulé 0 74.0
+BrandimarteMk6 Recuit simulé 1 75.0
+BrandimarteMk6 Recuit simulé 2 75.0
+BrandimarteMk8 Recuit simulé 0 578.0
+BrandimarteMk8 Recuit simulé 1 578.0
+BrandimarteMk8 Recuit simulé 2 578.0
+BrandimarteMk9 Recuit simulé 0 339.0
+BrandimarteMk9 Recuit simulé 1 340.0
+BrandimarteMk9 Recuit simulé 2 338.0
+HurinkEdata4 Recuit simulé 0 731.0
+BrandimarteMk10 Recuit simulé 0 267.0
+BrandimarteMk10 Recuit simulé 1 275.0
+HurinkEdata4 Recuit simulé 1 761.0
+HurinkEdata4 Recuit simulé 2 761.0
+HurinkEdata5 Recuit simulé 0 867.0
+HurinkEdata5 Recuit simulé 1 867.0
+HurinkEdata5 Recuit simulé 2 867.0
+HurinkEdata6 Recuit simulé 0 675.0
+HurinkEdata6 Recuit simulé 1 668.0
+HurinkEdata6 Recuit simulé 2 668.0
+HurinkEdata7 Recuit simulé 0 740.0
+HurinkEdata7 Recuit simulé 1 740.0
+BrandimarteMk10 Recuit simulé 2 273.0
+HurinkEdata7 Recuit simulé 2 740.0
+HurinkEdata8 Recuit simulé 0 660.0
+HurinkEdata8 Recuit simulé 1 660.0
+HurinkEdata8 Recuit simulé 2 660.0
+HurinkEdata9 Recuit simulé 0 955.0
+HurinkEdata9 Recuit simulé 1 955.0
+HurinkEdata9 Recuit simulé 2 955.0
+HurinkEdata10 Recuit simulé 0 902.0
+HurinkEdata10 Recuit simulé 1 928.0
+HurinkEdata10 Recuit simulé 2 928.0
+HurinkEdata11 Recuit simulé 0 962.0
+HurinkEdata11 Recuit simulé 1 962.0
+HurinkEdata11 Recuit simulé 2 962.0
+HurinkEdata12 Recuit simulé 0 1023.0
+HurinkEdata12 Recuit simulé 1 1083.0
+HurinkEdata12 Recuit simulé 2 1023.0
+HurinkEdata13 Recuit simulé 0 1028.0
+HurinkEdata13 Recuit simulé 1 1028.0
+HurinkEdata13 Recuit simulé 2 1028.0
+HurinkEdata14 Recuit simulé 0 1250.0
+HurinkEdata14 Recuit simulé 1 1258.0
+HurinkEdata14 Recuit simulé 2 1258.0
+HurinkEdata15 Recuit simulé 0 1120.0
+HurinkEdata15 Recuit simulé 1 1090.0
+HurinkEdata15 Recuit simulé 2 1090.0
+HurinkEdata16 Recuit simulé 0 1187.0
+HurinkEdata16 Recuit simulé 1 1187.0
+HurinkEdata16 Recuit simulé 2 1189.0
+HurinkEdata17 Recuit simulé 0 1269.0
+HurinkEdata17 Recuit simulé 1 1261.0
+HurinkEdata17 Recuit simulé 2 1261.0
+HurinkEdata18 Recuit simulé 0 1273.0
+HurinkEdata18 Recuit simulé 1 1273.0
+HurinkEdata18 Recuit simulé 2 1273.0
+HurinkEdata19 Recuit simulé 0 1077.0
+HurinkEdata19 Recuit simulé 1 1094.0
+HurinkEdata19 Recuit simulé 2 1114.0
+HurinkEdata20 Recuit simulé 0 888.0
+HurinkEdata20 Recuit simulé 1 880.0
+HurinkEdata20 Recuit simulé 2 912.0
+HurinkEdata21 Recuit simulé 1 1045.0
+HurinkEdata21 Recuit simulé 0 1103.0
+HurinkEdata21 Recuit simulé 2 1045.0
+HurinkEdata22 Recuit simulé 0 1012.0
+HurinkEdata22 Recuit simulé 1 958.0
+HurinkEdata22 Recuit simulé 2 998.0
+HurinkEdata23 Recuit simulé 1 1015.0
+HurinkEdata23 Recuit simulé 0 1085.0
+HurinkEdata23 Recuit simulé 2 1048.0
+HurinkEdata24 Recuit simulé 0 1170.0
+HurinkEdata24 Recuit simulé 1 1196.0
+HurinkEdata24 Recuit simulé 2 1216.0
+HurinkEdata25 Recuit simulé 0 1013.0
+HurinkEdata25 Recuit simulé 1 1047.0
+HurinkEdata26 Recuit simulé 0 1194.0
+HurinkEdata25 Recuit simulé 2 1046.0
+HurinkEdata26 Recuit simulé 1 1194.0
+HurinkEdata26 Recuit simulé 2 1194.0
+HurinkEdata27 Recuit simulé 0 1107.0
+HurinkEdata27 Recuit simulé 1 1065.0
+HurinkEdata27 Recuit simulé 2 1083.0
+HurinkEdata28 Recuit simulé 0 1099.0
+HurinkEdata28 Recuit simulé 2 1102.0
+HurinkEdata28 Recuit simulé 1 1118.0
+HurinkEdata29 Recuit simulé 0 1335.0
+HurinkEdata29 Recuit simulé 1 1339.0
+HurinkEdata29 Recuit simulé 2 1313.0
+HurinkEdata30 Recuit simulé 0 1403.0
+HurinkEdata30 Recuit simulé 1 1357.0
+HurinkEdata30 Recuit simulé 2 1405.0
+HurinkEdata31 Recuit simulé 0 1340.0
+HurinkEdata31 Recuit simulé 1 1344.0
+HurinkEdata31 Recuit simulé 2 1324.0
+HurinkEdata32 Recuit simulé 0 1349.0
+HurinkEdata32 Recuit simulé 1 1323.0
+HurinkEdata32 Recuit simulé 2 1327.0
+HurinkEdata33 Recuit simulé 0 1421.0
+HurinkEdata33 Recuit simulé 1 1427.0
+HurinkEdata33 Recuit simulé 2 1400.0
+HurinkEdata34 Recuit simulé 0 1735.0
+HurinkEdata34 Recuit simulé 1 1706.0
+HurinkEdata34 Recuit simulé 2 1732.0
+HurinkEdata35 Recuit simulé 0 1856.0
+HurinkEdata35 Recuit simulé 1 1877.0
+HurinkEdata35 Recuit simulé 2 1839.0
+HurinkEdata36 Recuit simulé 0 1697.0
+HurinkEdata36 Recuit simulé 1 1697.0
+HurinkEdata36 Recuit simulé 2 1725.0
+HurinkEdata37 Recuit simulé 0 1793.0
+HurinkEdata37 Recuit simulé 1 1772.0
+HurinkEdata37 Recuit simulé 2 1766.0
+HurinkEdata39 Recuit simulé 0 1356.0
+HurinkEdata38 Recuit simulé 0 1892.0
+HurinkEdata38 Recuit simulé 1 1892.0
+HurinkEdata38 Recuit simulé 2 1892.0
+HurinkEdata39 Recuit simulé 1 1357.0
+HurinkEdata39 Recuit simulé 2 1328.0
+HurinkEdata40 Recuit simulé 0 1625.0
+HurinkEdata40 Recuit simulé 1 1642.0
+HurinkEdata40 Recuit simulé 2 1621.0
+HurinkEdata41 Recuit simulé 0 1452.0
+HurinkEdata41 Recuit simulé 1 1342.0
+HurinkEdata41 Recuit simulé 2 1385.0
+HurinkEdata42 Recuit simulé 0 1383.0
+HurinkRdata4 Recuit simulé 1 724.0
+HurinkRdata4 Recuit simulé 0 725.0
+HurinkEdata42 Recuit simulé 1 1399.0
+HurinkRdata4 Recuit simulé 2 731.0
+HurinkEdata42 Recuit simulé 2 1415.0
+HurinkRdata5 Recuit simulé 1 682.0
+HurinkRdata5 Recuit simulé 0 690.0
+HurinkRdata5 Recuit simulé 2 676.0
+HurinkEdata43 Recuit simulé 0 1329.0
+HurinkEdata43 Recuit simulé 1 1324.0
+HurinkRdata6 Recuit simulé 0 610.0
+HurinkEdata43 Recuit simulé 2 1342.0
+HurinkRdata6 Recuit simulé 1 608.0
+HurinkRdata6 Recuit simulé 2 613.0
+HurinkRdata7 Recuit simulé 0 643.0
+HurinkRdata7 Recuit simulé 1 654.0
+HurinkRdata7 Recuit simulé 2 656.0
+HurinkRdata8 Recuit simulé 0 592.0
+HurinkRdata8 Recuit simulé 1 584.0
+HurinkRdata8 Recuit simulé 2 602.0
+HurinkRdata9 Recuit simulé 0 940.0
+HurinkRdata9 Recuit simulé 1 940.0
+HurinkRdata9 Recuit simulé 2 945.0
+HurinkRdata10 Recuit simulé 0 882.0
+HurinkRdata10 Recuit simulé 1 887.0
+HurinkRdata10 Recuit simulé 2 886.0
+HurinkRdata11 Recuit simulé 0 902.0
+HurinkRdata11 Recuit simulé 1 900.0
+HurinkRdata11 Recuit simulé 2 901.0
+HurinkRdata12 Recuit simulé 0 1006.0
+HurinkRdata12 Recuit simulé 1 1011.0
+HurinkRdata12 Recuit simulé 2 1008.0
+HurinkRdata13 Recuit simulé 0 948.0
+HurinkRdata13 Recuit simulé 1 946.0
+HurinkRdata13 Recuit simulé 2 950.0
+HurinkRdata14 Recuit simulé 0 1214.0
+HurinkRdata14 Recuit simulé 1 1214.0
+HurinkRdata14 Recuit simulé 2 1216.0
+HurinkRdata15 Recuit simulé 0 1060.0
+HurinkRdata15 Recuit simulé 1 1060.0
+HurinkRdata15 Recuit simulé 2 1061.0
+HurinkRdata16 Recuit simulé 0 1176.0
+HurinkRdata16 Recuit simulé 1 1177.0
+HurinkRdata16 Recuit simulé 2 1176.0
+HurinkRdata17 Recuit simulé 0 1211.0
+HurinkRdata17 Recuit simulé 1 1212.0
+HurinkRdata17 Recuit simulé 2 1212.0
+HurinkRdata18 Recuit simulé 0 1233.0
+HurinkRdata18 Recuit simulé 1 1233.0
+HurinkRdata18 Recuit simulé 2 1236.0
+HurinkRdata19 Recuit simulé 0 824.0
+HurinkRdata19 Recuit simulé 1 836.0
+HurinkRdata19 Recuit simulé 2 823.0
+HurinkRdata20 Recuit simulé 0 738.0
+HurinkRdata20 Recuit simulé 1 739.0
+HurinkRdata20 Recuit simulé 2 751.0
+HurinkRdata21 Recuit simulé 0 804.0
+HurinkRdata21 Recuit simulé 1 804.0
+HurinkRdata21 Recuit simulé 2 797.0
+HurinkRdata22 Recuit simulé 0 882.0
+HurinkRdata22 Recuit simulé 1 839.0
+HurinkRdata22 Recuit simulé 2 840.0
+HurinkRdata23 Recuit simulé 0 856.0
+HurinkRdata23 Recuit simulé 1 850.0
+HurinkRdata23 Recuit simulé 2 889.0
+HurinkRdata24 Recuit simulé 0 993.0
+HurinkRdata24 Recuit simulé 1 1036.0
+HurinkRdata24 Recuit simulé 2 1009.0
+HurinkRdata25 Recuit simulé 0 940.0
+HurinkRdata25 Recuit simulé 1 942.0
+HurinkRdata25 Recuit simulé 2 912.0
+HurinkRdata26 Recuit simulé 0 1033.0
+HurinkRdata26 Recuit simulé 1 1053.0
+HurinkRdata26 Recuit simulé 2 1009.0
+HurinkRdata27 Recuit simulé 0 978.0
+HurinkRdata27 Recuit simulé 1 988.0
+HurinkRdata27 Recuit simulé 2 997.0
+HurinkRdata28 Recuit simulé 0 962.0
+HurinkRdata28 Recuit simulé 2 955.0
+HurinkRdata28 Recuit simulé 1 941.0
+HurinkRdata29 Recuit simulé 0 1214.0
+HurinkRdata29 Recuit simulé 1 1239.0
+HurinkRdata29 Recuit simulé 2 1227.0
+HurinkRdata30 Recuit simulé 0 1255.0
+HurinkRdata30 Recuit simulé 1 1271.0
+HurinkRdata30 Recuit simulé 2 1262.0
+HurinkRdata31 Recuit simulé 1 1233.0
+HurinkRdata31 Recuit simulé 0 1230.0
+HurinkRdata31 Recuit simulé 2 1258.0
+HurinkRdata32 Recuit simulé 0 1151.0
+HurinkRdata32 Recuit simulé 1 1141.0
+HurinkRdata32 Recuit simulé 2 1172.0
+HurinkRdata33 Recuit simulé 0 1254.0
+HurinkRdata33 Recuit simulé 1 1254.0
+HurinkRdata33 Recuit simulé 2 1251.0
+HurinkRdata34 Recuit simulé 0 1652.0
+HurinkRdata34 Recuit simulé 1 1659.0
+HurinkRdata34 Recuit simulé 2 1661.0
+HurinkRdata35 Recuit simulé 0 1811.0
+HurinkRdata35 Recuit simulé 1 1805.0
+HurinkRdata35 Recuit simulé 2 1800.0
+HurinkRdata36 Recuit simulé 0 1639.0
+HurinkRdata36 Recuit simulé 1 1625.0
+HurinkRdata36 Recuit simulé 2 1637.0
+HurinkRdata37 Recuit simulé 0 1664.0
+HurinkRdata37 Recuit simulé 1 1667.0
+HurinkRdata37 Recuit simulé 2 1667.0
+HurinkRdata39 Recuit simulé 0 1224.0
+HurinkRdata38 Recuit simulé 0 1688.0
+HurinkRdata38 Recuit simulé 1 1709.0
+HurinkRdata38 Recuit simulé 2 1681.0
+HurinkRdata39 Recuit simulé 1 1229.0
+HurinkRdata39 Recuit simulé 2 1218.0
+HurinkRdata40 Recuit simulé 0 1335.0
+HurinkRdata40 Recuit simulé 1 1302.0
+HurinkRdata40 Recuit simulé 2 1287.0
+HurinkRdata41 Recuit simulé 0 1152.0
+HurinkRdata41 Recuit simulé 2 1204.0
+HurinkRdata41 Recuit simulé 1 1196.0
+HurinkRdata42 Recuit simulé 0 1215.0
+HurinkVdata4 Recuit simulé 1 722.0
+HurinkVdata4 Recuit simulé 0 731.0
+HurinkRdata42 Recuit simulé 1 1253.0
+HurinkVdata4 Recuit simulé 2 727.0
+HurinkVdata5 Recuit simulé 1 671.0
+HurinkVdata5 Recuit simulé 0 675.0
+HurinkRdata42 Recuit simulé 2 1205.0
+HurinkRdata43 Recuit simulé 0 1161.0
+HurinkRdata43 Recuit simulé 1 1210.0
+HurinkVdata5 Recuit simulé 2 673.0
+HurinkVdata6 Recuit simulé 0 611.0
+HurinkRdata43 Recuit simulé 2 1183.0
+HurinkVdata6 Recuit simulé 2 617.0
+HurinkVdata6 Recuit simulé 1 617.0
+HurinkVdata7 Recuit simulé 0 636.0
+HurinkVdata7 Recuit simulé 2 639.0
+HurinkVdata7 Recuit simulé 1 652.0
+HurinkVdata8 Recuit simulé 0 588.0
+HurinkVdata8 Recuit simulé 1 598.0
+HurinkVdata8 Recuit simulé 2 599.0
+HurinkVdata9 Recuit simulé 1 938.0
+HurinkVdata9 Recuit simulé 2 941.0
+HurinkVdata9 Recuit simulé 0 940.0
+HurinkVdata10 Recuit simulé 1 883.0
+HurinkVdata10 Recuit simulé 0 883.0
+HurinkVdata10 Recuit simulé 2 883.0
+HurinkVdata11 Recuit simulé 0 899.0
+HurinkVdata11 Recuit simulé 1 902.0
+HurinkVdata12 Recuit simulé 0 1006.0
+HurinkVdata11 Recuit simulé 2 900.0
+HurinkVdata12 Recuit simulé 1 1009.0
+HurinkVdata12 Recuit simulé 2 1005.0
+HurinkVdata13 Recuit simulé 0 946.0
+HurinkVdata13 Recuit simulé 1 948.0
+HurinkVdata13 Recuit simulé 2 947.0
+HurinkVdata14 Recuit simulé 0 1214.0
+HurinkVdata15 Recuit simulé 0 1061.0
+HurinkVdata14 Recuit simulé 1 1213.0
+HurinkVdata14 Recuit simulé 2 1214.0
+HurinkVdata15 Recuit simulé 2 1061.0
+HurinkVdata15 Recuit simulé 1 1060.0
+HurinkVdata16 Recuit simulé 0 1177.0
+HurinkVdata16 Recuit simulé 1 1176.0
+HurinkVdata16 Recuit simulé 2 1176.0
+HurinkVdata17 Recuit simulé 1 1210.0
+HurinkVdata17 Recuit simulé 2 1210.0
+HurinkVdata17 Recuit simulé 0 1210.0
+HurinkVdata18 Recuit simulé 0 1232.0
+HurinkVdata18 Recuit simulé 1 1232.0
+HurinkVdata18 Recuit simulé 2 1232.0
+HurinkVdata19 Recuit simulé 0 786.0
+HurinkVdata19 Recuit simulé 1 785.0
+HurinkVdata19 Recuit simulé 2 785.0
+HurinkVdata20 Recuit simulé 0 674.0
+HurinkVdata20 Recuit simulé 1 687.0
+HurinkVdata20 Recuit simulé 2 670.0
+HurinkVdata21 Recuit simulé 0 762.0
+HurinkVdata21 Recuit simulé 1 756.0
+HurinkVdata21 Recuit simulé 2 739.0
+HurinkVdata22 Recuit simulé 0 757.0
+HurinkVdata22 Recuit simulé 1 771.0
+HurinkVdata22 Recuit simulé 2 756.0
+HurinkVdata23 Recuit simulé 0 819.0
+HurinkVdata23 Recuit simulé 2 806.0
+HurinkVdata23 Recuit simulé 1 829.0
+HurinkVdata24 Recuit simulé 0 971.0
+HurinkVdata24 Recuit simulé 1 977.0
+HurinkVdata24 Recuit simulé 2 979.0
+HurinkVdata25 Recuit simulé 0 884.0
+HurinkVdata25 Recuit simulé 1 883.0
+HurinkVdata25 Recuit simulé 2 912.0
+HurinkVdata26 Recuit simulé 0 970.0
+HurinkVdata26 Recuit simulé 1 979.0
+HurinkVdata26 Recuit simulé 2 985.0
+HurinkVdata27 Recuit simulé 0 949.0
+HurinkVdata27 Recuit simulé 1 944.0
+HurinkVdata27 Recuit simulé 2 930.0
+HurinkVdata28 Recuit simulé 0 912.0
+HurinkVdata28 Recuit simulé 1 908.0
+HurinkVdata28 Recuit simulé 2 910.0
+HurinkVdata29 Recuit simulé 0 1199.0
+HurinkVdata29 Recuit simulé 1 1194.0
+HurinkVdata29 Recuit simulé 2 1191.0
+HurinkVdata30 Recuit simulé 0 1223.0
+HurinkVdata30 Recuit simulé 1 1234.0
+HurinkVdata30 Recuit simulé 2 1229.0
+HurinkVdata31 Recuit simulé 0 1207.0
+HurinkVdata31 Recuit simulé 1 1214.0
+HurinkVdata31 Recuit simulé 2 1207.0
+HurinkVdata32 Recuit simulé 0 1144.0
+HurinkVdata32 Recuit simulé 1 1130.0
+HurinkVdata32 Recuit simulé 2 1123.0
+HurinkVdata33 Recuit simulé 0 1226.0
+HurinkVdata33 Recuit simulé 1 1207.0
+HurinkVdata33 Recuit simulé 2 1208.0
+HurinkVdata34 Recuit simulé 0 1645.0
+HurinkVdata34 Recuit simulé 1 1646.0
+HurinkVdata34 Recuit simulé 2 1643.0
+HurinkVdata35 Recuit simulé 0 1791.0
+HurinkVdata35 Recuit simulé 1 1789.0
+HurinkVdata35 Recuit simulé 2 1792.0
+HurinkVdata36 Recuit simulé 0 1619.0
+HurinkVdata36 Recuit simulé 1 1621.0
+HurinkVdata36 Recuit simulé 2 1623.0
+HurinkVdata37 Recuit simulé 0 1658.0
+HurinkVdata37 Recuit simulé 1 1661.0
+HurinkVdata37 Recuit simulé 2 1655.0
+HurinkVdata38 Recuit simulé 0 1675.0
+HurinkVdata39 Recuit simulé 0 1138.0
+HurinkVdata38 Recuit simulé 1 1678.0
+HurinkVdata38 Recuit simulé 2 1685.0
+HurinkVdata39 Recuit simulé 1 1174.0
+HurinkVdata39 Recuit simulé 2 1108.0
+HurinkVdata40 Recuit simulé 0 1158.0
+HurinkVdata40 Recuit simulé 1 1177.0
+HurinkVdata41 Recuit simulé 0 1062.0
+HurinkVdata40 Recuit simulé 2 1178.0
+HurinkVdata41 Recuit simulé 1 1066.0
+HurinkVdata41 Recuit simulé 2 1087.0
+Kacem1 Recuit simulé 0 11.0
+Kacem1 Recuit simulé 1 11.0
+HurinkVdata42 Recuit simulé 0 1102.0
+Kacem1 Recuit simulé 2 11.0
+Kacem2 Recuit simulé 0 11.0
+Kacem2 Recuit simulé 1 11.0
+HurinkVdata42 Recuit simulé 1 1113.0
+Kacem2 Recuit simulé 2 13.0
+Kacem3 Recuit simulé 0 8.0
+HurinkVdata42 Recuit simulé 2 1146.0
+Kacem3 Recuit simulé 1 8.0
+Kacem3 Recuit simulé 2 7.0
+HurinkVdata43 Recuit simulé 0 1089.0
+Kacem4 Recuit simulé 0 13.0
+HurinkVdata43 Recuit simulé 1 1073.0
+HurinkVdata43 Recuit simulé 2 1118.0
+Kacem4 Recuit simulé 1 13.0
+Kacem4 Recuit simulé 2 13.0
+# Métaheuristiques — 134 instances, 50000 évaluations par exécution, 3 graines, départ heuristique, facteur de seuil 0.7
+
+| Méthode | C_max moyen | Écart moyen à la meilleure solution trouvée | Écart-type entre graines | Nb de fois meilleure (moyenne des graines) |
+|---|---|---|---|---|
+| Recuit simulé | 1016.2 | +0.9 % | 0.1 pt | 134 |
+
+### 2026-11-03T00:24:46 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --modele models/imitation/cand_ft_best.pt --nom imit-ft --largeur 5 --k 4 --familles Brandimarte HurinkLa Kacem --facteur-seuil 0.7 --processus 8 --suffixe _fs0.7
+134 instances à lancer (RL:imit-ft [faisceau=5,k=4])
+BrandimarteMk2 : 33  (1477 évaluations, 1.8 s)
+BrandimarteMk1 : 55  (1782 évaluations, 2.0 s)
+BrandimarteMk5 : 194  (2170 évaluations, 2.4 s)
+BrandimarteMk4 : 87  (2720 évaluations, 2.8 s)
+BrandimarteMk7 : 168  (2461 évaluations, 2.8 s)
+HurinkEdata4 : 792  (1104 évaluations, 0.7 s)
+HurinkEdata5 : 956  (1126 évaluations, 0.7 s)
+HurinkEdata6 : 733  (1159 évaluations, 0.8 s)
+HurinkEdata7 : 819  (1336 évaluations, 0.8 s)
+HurinkEdata8 : 706  (1085 évaluations, 0.7 s)
+BrandimarteMk6 : 76  (4710 évaluations, 4.5 s)
+HurinkEdata9 : 1025  (1584 évaluations, 1.0 s)
+HurinkEdata10 : 996  (1739 évaluations, 1.1 s)
+BrandimarteMk3 : 229  (5419 évaluations, 5.0 s)
+HurinkEdata11 : 1018  (1599 évaluations, 1.1 s)
+HurinkEdata12 : 1065  (1514 évaluations, 1.0 s)
+HurinkEdata13 : 1028  (1615 évaluations, 0.9 s)
+HurinkEdata15 : 1120  (2028 évaluations, 1.2 s)
+HurinkEdata14 : 1274  (2145 évaluations, 1.4 s)
+HurinkEdata16 : 1258  (2097 évaluations, 1.3 s)
+HurinkEdata17 : 1297  (2190 évaluations, 1.4 s)
+HurinkEdata18 : 1399  (2108 évaluations, 1.4 s)
+BrandimarteMk8 : 578  (8387 évaluations, 7.9 s)
+BrandimarteMk9 : 336  (6986 évaluations, 6.6 s)
+HurinkEdata19 : 1161  (3208 évaluations, 2.1 s)
+HurinkEdata20 : 929  (3038 évaluations, 2.0 s)
+HurinkEdata22 : 1027  (2707 évaluations, 1.8 s)
+HurinkEdata21 : 1069  (3745 évaluations, 2.5 s)
+BrandimarteMk10 : 258  (6978 évaluations, 7.4 s)
+HurinkEdata23 : 1091  (3882 évaluations, 2.5 s)
+HurinkEdata24 : 1321  (4510 évaluations, 3.4 s)
+HurinkEdata27 : 1101  (4136 évaluations, 3.1 s)
+HurinkEdata25 : 1053  (4676 évaluations, 3.6 s)
+HurinkEdata26 : 1200  (4722 évaluations, 3.5 s)
+HurinkEdata28 : 1134  (4438 évaluations, 3.5 s)
+HurinkEdata29 : 1379  (5773 évaluations, 5.1 s)
+HurinkEdata30 : 1464  (5852 évaluations, 5.0 s)
+HurinkEdata31 : 1450  (6039 évaluations, 4.9 s)
+HurinkEdata32 : 1407  (6092 évaluations, 5.1 s)
+HurinkEdata33 : 1541  (6737 évaluations, 5.5 s)
+HurinkEdata35 : 1983  (7367 évaluations, 7.8 s)
+HurinkEdata34 : 1827  (7530 évaluations, 8.1 s)
+HurinkEdata36 : 1783  (8014 évaluations, 8.6 s)
+HurinkRdata4 : 739  (1004 évaluations, 0.6 s)
+HurinkEdata39 : 1399  (8727 évaluations, 7.0 s)
+HurinkRdata6 : 623  (1032 évaluations, 0.6 s)
+HurinkRdata5 : 709  (1148 évaluations, 0.7 s)
+HurinkRdata8 : 609  (1118 évaluations, 0.5 s)
+HurinkRdata7 : 675  (1121 évaluations, 0.6 s)
+HurinkEdata40 : 1711  (9062 évaluations, 6.9 s)
+HurinkEdata38 : 1993  (8827 évaluations, 9.3 s)
+HurinkEdata37 : 1876  (8606 évaluations, 9.3 s)
+HurinkRdata9 : 946  (1599 évaluations, 1.0 s)
+HurinkRdata10 : 888  (1579 évaluations, 1.0 s)
+HurinkRdata11 : 902  (1552 évaluations, 1.0 s)
+HurinkRdata13 : 962  (1530 évaluations, 1.0 s)
+HurinkRdata12 : 1014  (1588 évaluations, 1.0 s)
+HurinkEdata41 : 1471  (9389 évaluations, 7.7 s)
+HurinkRdata15 : 1069  (2017 évaluations, 1.4 s)
+HurinkRdata14 : 1216  (2117 évaluations, 1.5 s)
+HurinkRdata17 : 1217  (2077 évaluations, 1.4 s)
+HurinkRdata16 : 1176  (2070 évaluations, 1.5 s)
+HurinkRdata18 : 1249  (2126 évaluations, 1.5 s)
+HurinkRdata21 : 865  (2448 évaluations, 1.5 s)
+HurinkRdata19 : 881  (2858 évaluations, 2.0 s)
+HurinkRdata20 : 784  (2799 évaluations, 1.9 s)
+HurinkEdata43 : 1437  (8626 évaluations, 7.1 s)
+HurinkEdata42 : 1484  (9332 évaluations, 7.9 s)
+HurinkRdata23 : 953  (3167 évaluations, 2.2 s)
+HurinkRdata22 : 892  (3533 évaluations, 2.3 s)
+HurinkRdata24 : 1050  (3569 évaluations, 2.6 s)
+HurinkRdata25 : 952  (3701 évaluations, 2.9 s)
+HurinkRdata27 : 995  (3695 évaluations, 2.8 s)
+HurinkRdata26 : 1054  (3835 évaluations, 3.1 s)
+HurinkRdata28 : 963  (4145 évaluations, 3.1 s)
+HurinkRdata29 : 1259  (4166 évaluations, 3.5 s)
+HurinkRdata30 : 1303  (4890 évaluations, 4.2 s)
+HurinkRdata32 : 1165  (4176 évaluations, 3.6 s)
+HurinkRdata31 : 1267  (4845 évaluations, 4.2 s)
+HurinkRdata33 : 1305  (5155 évaluations, 4.3 s)
+HurinkRdata34 : 1672  (6315 évaluations, 6.8 s)
+HurinkRdata35 : 1813  (6234 évaluations, 6.7 s)
+HurinkRdata36 : 1652  (6605 évaluations, 7.3 s)
+HurinkRdata37 : 1679  (6123 évaluations, 6.7 s)
+HurinkVdata4 : 722  (1096 évaluations, 0.6 s)
+HurinkVdata5 : 676  (1133 évaluations, 0.6 s)
+HurinkRdata39 : 1275  (8078 évaluations, 6.4 s)
+HurinkVdata6 : 616  (1138 évaluations, 0.7 s)
+HurinkVdata7 : 669  (1079 évaluations, 0.6 s)
+HurinkVdata8 : 590  (1137 évaluations, 0.7 s)
+HurinkRdata40 : 1283  (8489 évaluations, 7.1 s)
+HurinkRdata38 : 1711  (6552 évaluations, 7.3 s)
+HurinkVdata9 : 941  (1629 évaluations, 1.0 s)
+HurinkVdata10 : 891  (1545 évaluations, 1.1 s)
+HurinkVdata11 : 901  (1492 évaluations, 1.0 s)
+HurinkVdata12 : 1009  (1688 évaluations, 1.0 s)
+HurinkRdata41 : 1191  (8121 évaluations, 6.6 s)
+HurinkVdata13 : 949  (1574 évaluations, 1.0 s)
+HurinkVdata14 : 1218  (2085 évaluations, 1.6 s)
+HurinkVdata15 : 1062  (2095 évaluations, 1.5 s)
+HurinkVdata16 : 1174  (2100 évaluations, 1.8 s)
+HurinkVdata18 : 1231  (2067 évaluations, 1.7 s)
+HurinkVdata17 : 1210  (2056 évaluations, 1.8 s)
+HurinkVdata19 : 763  (2280 évaluations, 1.9 s)
+HurinkVdata20 : 658  (2014 évaluations, 1.6 s)
+HurinkVdata23 : 770  (1200 évaluations, 0.9 s)
+HurinkVdata21 : 707  (2110 évaluations, 1.6 s)
+HurinkRdata43 : 1232  (8274 évaluations, 6.9 s)
+HurinkVdata22 : 726  (1735 évaluations, 1.3 s)
+HurinkRdata42 : 1276  (8139 évaluations, 7.0 s)
+HurinkVdata24 : 935  (3056 évaluations, 2.6 s)
+HurinkVdata25 : 861  (3200 évaluations, 2.7 s)
+HurinkVdata26 : 956  (3247 évaluations, 2.6 s)
+HurinkVdata27 : 904  (3124 évaluations, 2.7 s)
+HurinkVdata28 : 880  (3159 évaluations, 2.7 s)
+HurinkVdata29 : 1178  (4078 évaluations, 4.1 s)
+HurinkVdata30 : 1214  (4152 évaluations, 4.2 s)
+HurinkVdata31 : 1198  (4271 évaluations, 4.3 s)
+HurinkVdata32 : 1116  (4223 évaluations, 4.0 s)
+HurinkVdata33 : 1199  (4226 évaluations, 4.1 s)
+HurinkVdata40 : 1046  (4213 évaluations, 4.2 s)
+HurinkVdata39 : 984  (5582 évaluations, 5.7 s)
+HurinkVdata41 : 953  (5646 évaluations, 5.7 s)
+HurinkVdata34 : 1640  (6135 évaluations, 9.5 s)
+Kacem1 : 11  (76 évaluations, 0.1 s)
+Kacem2 : 11  (60 évaluations, 0.1 s)
+HurinkVdata35 : 1789  (6073 évaluations, 9.3 s)
+Kacem3 : 7  (100 évaluations, 0.2 s)
+HurinkVdata36 : 1617  (6048 évaluations, 9.5 s)
+Kacem4 : 11  (500 évaluations, 0.7 s)
+HurinkVdata37 : 1656  (6060 évaluations, 8.8 s)
+HurinkVdata38 : 1672  (6110 évaluations, 9.1 s)
+HurinkVdata43 : 982  (4450 évaluations, 3.4 s)
+HurinkVdata42 : 978  (4877 évaluations, 3.9 s)
+# Agent qui anticipe « RL:imit-ft [faisceau=5,k=4] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -1.12 % | 5/3/2 |
+| HurinkEdata | 40 | +5.30 % | 0/1/39 |
+| HurinkRdata | 40 | +2.31 % | 2/0/38 |
+| HurinkVdata | 40 | -2.50 % | 29/1/10 |
+| Kacem | 4 | -7.45 % | 3/1/0 |
+| **Total** | 134 | **+1.22 %** | 39/6/89 |
+
+Temps moyen par instance : agent 3.3 s, recuit 16.6 s. Plannings évalués : agent 3747, recuit 50 000.
+
+### 2026-11-03T00:25:53 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --modele models/imitation/cand_ft_best.pt --nom imit-ft --largeur 50 --k 5 --familles Brandimarte HurinkLa Kacem --facteur-seuil 0.7 --processus 8 --suffixe _fs0.7
+134 instances à lancer (RL:imit-ft [faisceau=50,k=5])
+BrandimarteMk2 : 32  (14194 évaluations, 8.2 s)
+BrandimarteMk1 : 55  (19410 évaluations, 10.4 s)
+BrandimarteMk5 : 194  (26651 évaluations, 14.2 s)
+BrandimarteMk7 : 163  (28427 évaluations, 17.8 s)
+BrandimarteMk4 : 88  (34662 évaluations, 19.5 s)
+HurinkEdata4 : 797  (11523 évaluations, 5.7 s)
+HurinkEdata5 : 929  (12719 évaluations, 6.5 s)
+HurinkEdata6 : 718  (10695 évaluations, 5.2 s)
+HurinkEdata7 : 744  (10561 évaluations, 5.3 s)
+HurinkEdata8 : 706  (12186 évaluations, 6.2 s)
+HurinkEdata9 : 992  (16695 évaluations, 8.1 s)
+HurinkEdata10 : 956  (16649 évaluations, 8.6 s)
+BrandimarteMk6 : 76  (57826 évaluations, 39.5 s)
+BrandimarteMk3 : 229  (67264 évaluations, 40.5 s)
+HurinkEdata11 : 976  (18217 évaluations, 10.0 s)
+HurinkEdata12 : 1060  (18143 évaluations, 10.0 s)
+HurinkEdata13 : 1028  (20039 évaluations, 10.9 s)
+HurinkEdata14 : 1266  (24363 évaluations, 11.7 s)
+HurinkEdata15 : 1120  (24964 évaluations, 12.2 s)
+HurinkEdata16 : 1294  (27442 évaluations, 13.5 s)
+HurinkEdata17 : 1261  (26701 évaluations, 13.1 s)
+HurinkEdata18 : 1337  (23783 évaluations, 12.8 s)
+BrandimarteMk8 : 578  (98235 évaluations, 69.2 s)
+HurinkEdata19 : 1161  (37411 évaluations, 18.5 s)
+BrandimarteMk9 : 334  (85182 évaluations, 65.2 s)
+HurinkEdata20 : 916  (40612 évaluations, 21.7 s)
+HurinkEdata21 : 1068  (41106 évaluations, 22.6 s)
+HurinkEdata22 : 1028  (37102 évaluations, 21.5 s)
+HurinkEdata23 : 1082  (37708 évaluations, 20.6 s)
+BrandimarteMk10 : 250  (80986 évaluations, 73.2 s)
+HurinkEdata24 : 1286  (53866 évaluations, 34.0 s)
+HurinkEdata25 : 1053  (54111 évaluations, 34.8 s)
+HurinkEdata27 : 1118  (50892 évaluations, 32.0 s)
+HurinkEdata28 : 1118  (46606 évaluations, 29.8 s)
+HurinkEdata26 : 1194  (53610 évaluations, 33.4 s)
+HurinkEdata30 : 1519  (66263 évaluations, 45.9 s)
+HurinkEdata29 : 1379  (68350 évaluations, 49.2 s)
+HurinkEdata31 : 1429  (62041 évaluations, 44.0 s)
+HurinkEdata32 : 1375  (68557 évaluations, 46.1 s)
+HurinkEdata33 : 1493  (71693 évaluations, 48.4 s)
+HurinkEdata35 : 1949  (85575 évaluations, 77.6 s)
+HurinkEdata34 : 1777  (87411 évaluations, 80.0 s)
+HurinkEdata36 : 1732  (87576 évaluations, 80.2 s)
+HurinkRdata4 : 735  (11534 évaluations, 5.4 s)
+HurinkRdata5 : 687  (10858 évaluations, 4.7 s)
+HurinkEdata39 : 1428  (115069 évaluations, 71.9 s)
+HurinkRdata6 : 623  (11028 évaluations, 5.4 s)
+HurinkRdata7 : 663  (12068 évaluations, 5.8 s)
+HurinkRdata8 : 599  (11710 évaluations, 5.4 s)
+HurinkEdata37 : 1870  (93125 évaluations, 87.8 s)
+HurinkEdata40 : 1665  (96244 évaluations, 63.6 s)
+HurinkRdata9 : 946  (18334 évaluations, 8.4 s)
+HurinkEdata38 : 1989  (95146 évaluations, 86.9 s)
+HurinkRdata10 : 888  (17373 évaluations, 8.3 s)
+HurinkRdata11 : 910  (17897 évaluations, 9.4 s)
+HurinkRdata12 : 1015  (19079 évaluations, 9.7 s)
+HurinkRdata13 : 958  (18506 évaluations, 9.5 s)
+HurinkEdata41 : 1375  (104407 évaluations, 73.0 s)
+HurinkRdata14 : 1217  (24588 évaluations, 14.4 s)
+HurinkRdata15 : 1063  (24820 évaluations, 14.0 s)
+HurinkRdata16 : 1176  (25339 évaluations, 13.8 s)
+HurinkRdata17 : 1215  (25143 évaluations, 13.8 s)
+HurinkRdata18 : 1244  (25047 évaluations, 13.7 s)
+HurinkRdata19 : 877  (20073 évaluations, 10.9 s)
+HurinkRdata21 : 822  (26875 évaluations, 14.8 s)
+HurinkEdata42 : 1455  (97993 évaluations, 62.3 s)
+HurinkRdata20 : 776  (33138 évaluations, 18.7 s)
+HurinkRdata23 : 921  (20976 évaluations, 11.1 s)
+HurinkEdata43 : 1414  (101151 évaluations, 68.3 s)
+HurinkRdata22 : 893  (36819 évaluations, 19.9 s)
+HurinkRdata24 : 1044  (35435 évaluations, 22.6 s)
+HurinkRdata25 : 951  (37867 évaluations, 23.5 s)
+HurinkRdata26 : 1033  (37444 évaluations, 24.0 s)
+HurinkRdata27 : 1019  (37698 évaluations, 23.3 s)
+HurinkRdata28 : 987  (43756 évaluations, 26.1 s)
+HurinkRdata29 : 1237  (47880 évaluations, 34.3 s)
+HurinkRdata31 : 1250  (52230 évaluations, 37.1 s)
+HurinkRdata30 : 1290  (55095 évaluations, 38.9 s)
+HurinkRdata32 : 1158  (51363 évaluations, 36.4 s)
+HurinkRdata33 : 1287  (57783 évaluations, 40.5 s)
+HurinkRdata34 : 1659  (73125 évaluations, 67.7 s)
+HurinkRdata35 : 1807  (72607 évaluations, 67.1 s)
+HurinkRdata36 : 1643  (72313 évaluations, 67.4 s)
+HurinkVdata4 : 722  (12497 évaluations, 5.9 s)
+HurinkRdata37 : 1665  (71769 évaluations, 65.9 s)
+HurinkVdata5 : 674  (12271 évaluations, 5.2 s)
+HurinkVdata6 : 613  (12397 évaluations, 5.9 s)
+HurinkRdata40 : 1319  (91442 évaluations, 60.2 s)
+HurinkRdata39 : 1222  (88205 évaluations, 62.4 s)
+HurinkVdata7 : 662  (12317 évaluations, 5.3 s)
+HurinkVdata8 : 583  (11842 évaluations, 5.3 s)
+HurinkRdata41 : 1176  (88692 évaluations, 60.5 s)
+HurinkRdata38 : 1703  (75211 évaluations, 70.8 s)
+HurinkVdata9 : 938  (18434 évaluations, 8.6 s)
+HurinkVdata10 : 883  (17571 évaluations, 8.7 s)
+HurinkVdata11 : 900  (17224 évaluations, 8.5 s)
+HurinkVdata12 : 1005  (18960 évaluations, 9.1 s)
+HurinkVdata13 : 946  (17132 évaluations, 8.6 s)
+HurinkVdata14 : 1215  (24609 évaluations, 13.7 s)
+HurinkVdata15 : 1060  (24952 évaluations, 13.3 s)
+HurinkVdata16 : 1174  (24973 évaluations, 13.3 s)
+HurinkVdata17 : 1208  (25096 évaluations, 13.8 s)
+HurinkVdata18 : 1230  (24588 évaluations, 14.1 s)
+HurinkVdata23 : 756  (10721 évaluations, 5.7 s)
+HurinkVdata19 : 736  (28060 évaluations, 15.2 s)
+HurinkVdata22 : 711  (21323 évaluations, 11.7 s)
+HurinkVdata20 : 648  (24116 évaluations, 13.4 s)
+HurinkVdata21 : 700  (27567 évaluations, 15.3 s)
+HurinkRdata42 : 1209  (91978 évaluations, 60.3 s)
+HurinkRdata43 : 1142  (96749 évaluations, 65.0 s)
+HurinkVdata24 : 932  (36662 évaluations, 23.5 s)
+HurinkVdata25 : 856  (35301 évaluations, 23.3 s)
+HurinkVdata26 : 947  (35740 évaluations, 23.7 s)
+HurinkVdata27 : 901  (36207 évaluations, 23.4 s)
+HurinkVdata28 : 879  (37709 évaluations, 25.6 s)
+HurinkVdata29 : 1177  (49347 évaluations, 39.8 s)
+HurinkVdata30 : 1213  (50103 évaluations, 39.4 s)
+HurinkVdata31 : 1195  (49880 évaluations, 40.1 s)
+HurinkVdata32 : 1113  (50005 évaluations, 38.0 s)
+HurinkVdata33 : 1198  (50709 évaluations, 38.5 s)
+HurinkVdata41 : 944  (48491 évaluations, 36.2 s)
+HurinkVdata40 : 1040  (51660 évaluations, 39.7 s)
+HurinkVdata39 : 980  (58307 évaluations, 43.6 s)
+Kacem1 : 11  (260 évaluations, 0.2 s)
+Kacem2 : 11  (375 évaluations, 0.4 s)
+Kacem3 : 7  (535 évaluations, 0.6 s)
+Kacem4 : 11  (12968 évaluations, 11.5 s)
+HurinkVdata34 : 1639  (73100 évaluations, 90.6 s)
+HurinkVdata35 : 1787  (74444 évaluations, 90.3 s)
+HurinkVdata36 : 1615  (74240 évaluations, 89.2 s)
+HurinkVdata37 : 1655  (74565 évaluations, 84.0 s)
+HurinkVdata43 : 963  (54093 évaluations, 33.8 s)
+HurinkVdata38 : 1671  (74230 évaluations, 83.7 s)
+HurinkVdata42 : 962  (68177 évaluations, 39.5 s)
+# Agent qui anticipe « RL:imit-ft [faisceau=50,k=5] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -1.95 % | 6/2/2 |
+| HurinkEdata | 40 | +3.76 % | 2/2/36 |
+| HurinkRdata | 40 | +1.28 % | 6/0/34 |
+| HurinkVdata | 40 | -3.09 % | 36/1/3 |
+| Kacem | 4 | -7.45 % | 3/1/0 |
+| **Total** | 134 | **+0.21 %** | 53/6/75 |
+
+Temps moyen par instance : agent 30.5 s, recuit 16.6 s. Plannings évalués : agent 42647, recuit 50 000.
+
+### 2026-11-03T00:34:45 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --filtre regle --nom filtre-regle --largeur 5 --k 4 --familles Brandimarte HurinkLa Kacem --facteur-seuil 0.7 --processus 8 --suffixe _fs0.7
+134 instances à lancer (Faisceau:filtre-regle [faisceau=5,k=4,filtre=regle])
+BrandimarteMk1 : 56  (1335 évaluations, 1.5 s)
+BrandimarteMk2 : 34  (1341 évaluations, 1.5 s)
+BrandimarteMk5 : 196  (2071 évaluations, 1.9 s)
+BrandimarteMk4 : 88  (2207 évaluations, 2.0 s)
+BrandimarteMk7 : 168  (2103 évaluations, 2.2 s)
+HurinkEdata4 : 792  (1097 évaluations, 0.4 s)
+HurinkEdata5 : 957  (1047 évaluations, 0.4 s)
+HurinkEdata6 : 755  (1059 évaluations, 0.4 s)
+HurinkEdata7 : 813  (1096 évaluations, 0.4 s)
+HurinkEdata8 : 706  (1015 évaluations, 0.4 s)
+BrandimarteMk3 : 229  (3334 évaluations, 2.9 s)
+BrandimarteMk6 : 74  (4107 évaluations, 3.3 s)
+HurinkEdata9 : 1034  (1580 évaluations, 0.7 s)
+HurinkEdata10 : 996  (1520 évaluations, 0.7 s)
+HurinkEdata11 : 1027  (1558 évaluations, 0.7 s)
+HurinkEdata12 : 1140  (1669 évaluations, 0.7 s)
+HurinkEdata13 : 1028  (1560 évaluations, 0.7 s)
+HurinkEdata15 : 1120  (2066 évaluations, 1.1 s)
+HurinkEdata14 : 1270  (2069 évaluations, 1.1 s)
+HurinkEdata16 : 1250  (2095 évaluations, 1.2 s)
+HurinkEdata17 : 1269  (2054 évaluations, 1.1 s)
+HurinkEdata18 : 1381  (2022 évaluations, 1.2 s)
+BrandimarteMk8 : 578  (4908 évaluations, 5.3 s)
+HurinkEdata20 : 918  (2647 évaluations, 1.5 s)
+HurinkEdata19 : 1173  (3010 évaluations, 1.5 s)
+HurinkEdata21 : 1109  (2647 évaluations, 1.4 s)
+BrandimarteMk9 : 337  (6064 évaluations, 5.0 s)
+HurinkEdata22 : 1078  (2929 évaluations, 1.5 s)
+HurinkEdata23 : 1045  (2215 évaluations, 1.1 s)
+BrandimarteMk10 : 258  (5843 évaluations, 5.6 s)
+HurinkEdata24 : 1290  (4281 évaluations, 2.6 s)
+HurinkEdata25 : 1055  (3703 évaluations, 2.2 s)
+HurinkEdata26 : 1225  (3833 évaluations, 2.3 s)
+HurinkEdata27 : 1163  (4004 évaluations, 2.3 s)
+HurinkEdata28 : 1146  (3990 évaluations, 2.4 s)
+HurinkEdata29 : 1392  (4661 évaluations, 3.2 s)
+HurinkEdata30 : 1525  (4548 évaluations, 3.3 s)
+HurinkEdata31 : 1461  (4654 évaluations, 3.3 s)
+HurinkEdata33 : 1517  (5129 évaluations, 3.4 s)
+HurinkEdata32 : 1385  (5134 évaluations, 3.7 s)
+HurinkEdata35 : 1983  (6589 évaluations, 6.4 s)
+HurinkEdata39 : 1379  (6634 évaluations, 4.6 s)
+HurinkEdata36 : 1771  (6661 évaluations, 6.4 s)
+HurinkRdata4 : 744  (957 évaluations, 0.4 s)
+HurinkEdata34 : 1797  (7261 évaluations, 7.0 s)
+HurinkRdata5 : 702  (1169 évaluations, 0.5 s)
+HurinkRdata6 : 631  (1154 évaluations, 0.5 s)
+HurinkEdata37 : 1837  (6682 évaluations, 6.5 s)
+HurinkEdata38 : 1987  (6551 évaluations, 6.4 s)
+HurinkRdata8 : 605  (1098 évaluations, 0.4 s)
+HurinkRdata7 : 698  (1153 évaluations, 0.5 s)
+HurinkRdata9 : 949  (1577 évaluations, 0.7 s)
+HurinkRdata12 : 1024  (1543 évaluations, 0.7 s)
+HurinkRdata11 : 911  (1546 évaluations, 0.7 s)
+HurinkRdata10 : 888  (1615 évaluations, 0.8 s)
+HurinkEdata41 : 1424  (7261 évaluations, 5.4 s)
+HurinkEdata40 : 1696  (7987 évaluations, 5.7 s)
+HurinkRdata13 : 959  (1597 évaluations, 0.7 s)
+HurinkRdata15 : 1072  (1987 évaluations, 1.2 s)
+HurinkRdata14 : 1220  (2088 évaluations, 1.3 s)
+HurinkRdata16 : 1175  (2121 évaluations, 1.3 s)
+HurinkRdata17 : 1217  (2066 évaluations, 1.3 s)
+HurinkRdata18 : 1262  (2222 évaluations, 1.4 s)
+HurinkRdata19 : 931  (3067 évaluations, 1.4 s)
+HurinkRdata20 : 771  (2913 évaluations, 1.3 s)
+HurinkRdata21 : 851  (2936 évaluations, 1.3 s)
+HurinkRdata22 : 914  (2772 évaluations, 1.3 s)
+HurinkRdata23 : 930  (3096 évaluations, 1.3 s)
+HurinkEdata43 : 1412  (7123 évaluations, 5.2 s)
+HurinkEdata42 : 1444  (7457 évaluations, 5.7 s)
+HurinkRdata24 : 1041  (3608 évaluations, 2.1 s)
+HurinkRdata25 : 970  (3808 évaluations, 2.2 s)
+HurinkRdata28 : 989  (3047 évaluations, 1.7 s)
+HurinkRdata26 : 1041  (3582 évaluations, 1.9 s)
+HurinkRdata27 : 1021  (3659 évaluations, 2.0 s)
+HurinkRdata29 : 1249  (4293 évaluations, 2.9 s)
+HurinkRdata30 : 1302  (4394 évaluations, 3.0 s)
+HurinkRdata31 : 1262  (4472 évaluations, 3.2 s)
+HurinkRdata32 : 1172  (4500 évaluations, 3.1 s)
+HurinkRdata33 : 1278  (4739 évaluations, 3.3 s)
+HurinkRdata34 : 1668  (5966 évaluations, 6.4 s)
+HurinkRdata35 : 1826  (6408 évaluations, 6.8 s)
+HurinkRdata36 : 1645  (6586 évaluations, 7.0 s)
+HurinkRdata39 : 1250  (6861 évaluations, 4.8 s)
+HurinkVdata4 : 730  (1094 évaluations, 0.4 s)
+HurinkVdata5 : 681  (1091 évaluations, 0.4 s)
+HurinkRdata41 : 1174  (7002 évaluations, 4.7 s)
+HurinkRdata40 : 1324  (7578 évaluations, 5.2 s)
+HurinkVdata7 : 662  (935 évaluations, 0.4 s)
+HurinkVdata6 : 616  (1020 évaluations, 0.4 s)
+HurinkRdata38 : 1711  (6048 évaluations, 6.3 s)
+HurinkVdata8 : 591  (1009 évaluations, 0.4 s)
+HurinkRdata37 : 1673  (6338 évaluations, 6.9 s)
+HurinkVdata9 : 941  (1568 évaluations, 0.8 s)
+HurinkVdata11 : 901  (1425 évaluations, 0.7 s)
+HurinkVdata10 : 892  (1637 évaluations, 0.8 s)
+HurinkVdata12 : 1006  (1606 évaluations, 0.8 s)
+HurinkVdata13 : 947  (1642 évaluations, 0.8 s)
+HurinkVdata14 : 1216  (2072 évaluations, 1.2 s)
+HurinkVdata15 : 1059  (1987 évaluations, 1.2 s)
+HurinkVdata16 : 1173  (1906 évaluations, 1.3 s)
+HurinkVdata17 : 1210  (1963 évaluations, 1.2 s)
+HurinkVdata18 : 1230  (2065 évaluations, 1.3 s)
+HurinkVdata19 : 758  (2812 évaluations, 1.3 s)
+HurinkVdata20 : 669  (2023 évaluations, 0.9 s)
+HurinkVdata21 : 700  (1971 évaluations, 0.9 s)
+HurinkVdata22 : 720  (2286 évaluations, 1.0 s)
+HurinkVdata23 : 777  (2418 évaluations, 1.0 s)
+HurinkRdata42 : 1267  (7077 évaluations, 4.9 s)
+HurinkRdata43 : 1195  (6635 évaluations, 4.4 s)
+HurinkVdata24 : 938  (3205 évaluations, 1.9 s)
+HurinkVdata26 : 950  (3004 évaluations, 1.8 s)
+HurinkVdata25 : 861  (3208 évaluations, 1.9 s)
+HurinkVdata27 : 905  (3063 évaluations, 1.8 s)
+HurinkVdata28 : 880  (3332 évaluations, 2.0 s)
+HurinkVdata29 : 1180  (4073 évaluations, 3.4 s)
+HurinkVdata30 : 1214  (4194 évaluations, 3.5 s)
+HurinkVdata31 : 1197  (4088 évaluations, 3.4 s)
+HurinkVdata32 : 1116  (3796 évaluations, 3.0 s)
+HurinkVdata33 : 1200  (4090 évaluations, 3.3 s)
+HurinkVdata41 : 959  (2386 évaluations, 1.4 s)
+HurinkVdata39 : 982  (4642 évaluations, 3.1 s)
+HurinkVdata40 : 1036  (5257 évaluations, 3.6 s)
+Kacem1 : 12  (223 évaluations, 0.1 s)
+Kacem2 : 11  (56 évaluations, 0.0 s)
+Kacem3 : 7  (268 évaluations, 0.1 s)
+Kacem4 : 12  (908 évaluations, 0.5 s)
+HurinkVdata42 : 981  (4577 évaluations, 3.0 s)
+HurinkVdata34 : 1639  (5884 évaluations, 8.3 s)
+HurinkVdata35 : 1790  (6079 évaluations, 8.2 s)
+HurinkVdata36 : 1617  (6163 évaluations, 8.1 s)
+HurinkVdata43 : 963  (5495 évaluations, 3.3 s)
+HurinkVdata37 : 1657  (6168 évaluations, 7.5 s)
+HurinkVdata38 : 1672  (6115 évaluations, 7.3 s)
+# Agent qui anticipe « Faisceau:filtre-regle [faisceau=5,k=4,filtre=regle] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -0.67 % | 5/3/2 |
+| HurinkEdata | 40 | +5.43 % | 1/1/38 |
+| HurinkRdata | 40 | +2.50 % | 2/0/38 |
+| HurinkVdata | 40 | -2.55 % | 30/2/8 |
+| Kacem | 4 | -3.25 % | 3/0/1 |
+| **Total** | 134 | **+1.46 %** | 41/6/87 |
+
+Temps moyen par instance : agent 2.5 s, recuit 16.6 s. Plannings évalués : agent 3392, recuit 50 000.
+
+### 2026-11-03T00:35:40 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --filtre regle --nom filtre-regle --largeur 50 --k 5 --familles Brandimarte HurinkLa Kacem --facteur-seuil 0.7 --processus 8 --suffixe _fs0.7
+134 instances à lancer (Faisceau:filtre-regle [faisceau=50,k=5,filtre=regle])
+BrandimarteMk1 : 55  (15760 évaluations, 7.9 s)
+BrandimarteMk2 : 34  (15998 évaluations, 8.3 s)
+BrandimarteMk5 : 198  (24802 évaluations, 12.5 s)
+BrandimarteMk4 : 88  (25545 évaluations, 14.0 s)
+BrandimarteMk7 : 167  (26324 évaluations, 15.9 s)
+HurinkEdata4 : 797  (12150 évaluations, 4.3 s)
+HurinkEdata5 : 929  (12859 évaluations, 4.6 s)
+HurinkEdata6 : 717  (10898 évaluations, 4.1 s)
+HurinkEdata7 : 784  (12182 évaluations, 4.5 s)
+HurinkEdata8 : 706  (11488 évaluations, 4.5 s)
+BrandimarteMk3 : 229  (39795 évaluations, 24.6 s)
+HurinkEdata9 : 1034  (17534 évaluations, 7.0 s)
+HurinkEdata10 : 996  (18911 évaluations, 8.0 s)
+HurinkEdata11 : 1007  (17506 évaluations, 7.1 s)
+HurinkEdata12 : 1140  (20946 évaluations, 8.2 s)
+BrandimarteMk6 : 76  (54939 évaluations, 33.5 s)
+HurinkEdata13 : 1028  (18476 évaluations, 7.0 s)
+HurinkEdata14 : 1276  (25258 évaluations, 11.0 s)
+HurinkEdata15 : 1120  (24266 évaluations, 10.9 s)
+HurinkEdata16 : 1242  (23835 évaluations, 10.0 s)
+HurinkEdata17 : 1269  (23542 évaluations, 10.4 s)
+HurinkEdata18 : 1390  (24591 évaluations, 10.9 s)
+BrandimarteMk8 : 578  (56348 évaluations, 45.8 s)
+HurinkEdata19 : 1114  (34529 évaluations, 15.1 s)
+HurinkEdata20 : 929  (35060 évaluations, 14.9 s)
+HurinkEdata22 : 1037  (29408 évaluations, 13.2 s)
+HurinkEdata23 : 1143  (32846 évaluations, 13.3 s)
+HurinkEdata21 : 1068  (37636 évaluations, 16.9 s)
+BrandimarteMk9 : 336  (79226 évaluations, 58.5 s)
+HurinkEdata24 : 1252  (44139 évaluations, 22.2 s)
+BrandimarteMk10 : 252  (73862 évaluations, 60.5 s)
+HurinkEdata27 : 1118  (39487 évaluations, 19.4 s)
+HurinkEdata25 : 1025  (42441 évaluations, 21.3 s)
+HurinkEdata26 : 1204  (45491 évaluations, 23.2 s)
+HurinkEdata28 : 1149  (47147 évaluations, 23.4 s)
+HurinkEdata29 : 1362  (60519 évaluations, 37.6 s)
+HurinkEdata30 : 1495  (54259 évaluations, 33.8 s)
+HurinkEdata31 : 1438  (58866 évaluations, 36.1 s)
+HurinkEdata32 : 1369  (61062 évaluations, 38.7 s)
+HurinkEdata33 : 1495  (60303 évaluations, 37.8 s)
+HurinkEdata35 : 1911  (72036 évaluations, 61.2 s)
+HurinkEdata34 : 1811  (77808 évaluations, 67.2 s)
+HurinkEdata36 : 1765  (83115 évaluations, 71.1 s)
+HurinkRdata4 : 735  (11877 évaluations, 4.1 s)
+HurinkRdata5 : 689  (12597 évaluations, 4.3 s)
+HurinkEdata39 : 1363  (91870 évaluations, 57.8 s)
+HurinkRdata6 : 623  (11615 évaluations, 4.0 s)
+HurinkRdata7 : 665  (13204 évaluations, 4.6 s)
+HurinkEdata40 : 1691  (92542 évaluations, 61.7 s)
+HurinkRdata8 : 603  (11778 évaluations, 3.9 s)
+HurinkEdata38 : 1989  (78804 évaluations, 70.2 s)
+HurinkRdata9 : 942  (19028 évaluations, 8.1 s)
+HurinkEdata37 : 1887  (87356 évaluations, 78.5 s)
+HurinkEdata41 : 1457  (90847 évaluations, 61.8 s)
+HurinkRdata11 : 912  (18117 évaluations, 8.3 s)
+HurinkRdata10 : 883  (17956 évaluations, 8.8 s)
+HurinkRdata12 : 1009  (18671 évaluations, 8.9 s)
+HurinkRdata13 : 957  (18947 évaluations, 8.2 s)
+HurinkRdata15 : 1068  (25038 évaluations, 12.9 s)
+HurinkRdata14 : 1221  (25182 évaluations, 13.6 s)
+HurinkRdata16 : 1174  (24893 évaluations, 12.8 s)
+HurinkRdata17 : 1215  (25729 évaluations, 14.2 s)
+HurinkRdata18 : 1241  (25201 évaluations, 13.6 s)
+HurinkEdata42 : 1455  (82942 évaluations, 55.5 s)
+HurinkRdata19 : 847  (30658 évaluations, 13.5 s)
+HurinkEdata43 : 1433  (79437 évaluations, 53.0 s)
+HurinkRdata23 : 926  (27506 évaluations, 10.7 s)
+HurinkRdata21 : 825  (33674 évaluations, 14.7 s)
+HurinkRdata20 : 756  (32937 évaluations, 15.0 s)
+HurinkRdata22 : 883  (33243 évaluations, 15.1 s)
+HurinkRdata24 : 1040  (43280 évaluations, 22.4 s)
+HurinkRdata26 : 1029  (39812 évaluations, 20.7 s)
+HurinkRdata27 : 1011  (40683 évaluations, 21.3 s)
+HurinkRdata25 : 959  (44887 évaluations, 23.9 s)
+HurinkRdata28 : 980  (43931 évaluations, 22.3 s)
+HurinkRdata29 : 1249  (51967 évaluations, 31.9 s)
+HurinkRdata30 : 1287  (54591 évaluations, 33.9 s)
+HurinkRdata31 : 1261  (53512 évaluations, 33.1 s)
+HurinkRdata32 : 1152  (47932 évaluations, 29.7 s)
+HurinkRdata33 : 1275  (56411 évaluations, 33.4 s)
+HurinkRdata34 : 1663  (74201 évaluations, 65.9 s)
+HurinkRdata39 : 1243  (87222 évaluations, 50.8 s)
+HurinkRdata35 : 1811  (75590 évaluations, 69.4 s)
+HurinkRdata36 : 1638  (74659 évaluations, 67.2 s)
+HurinkVdata4 : 723  (12211 évaluations, 4.4 s)
+HurinkVdata5 : 673  (12696 évaluations, 4.2 s)
+HurinkRdata40 : 1306  (84176 évaluations, 52.5 s)
+HurinkVdata6 : 613  (12315 évaluations, 3.9 s)
+HurinkVdata7 : 649  (11756 évaluations, 4.1 s)
+HurinkVdata8 : 583  (11794 évaluations, 4.1 s)
+HurinkRdata41 : 1173  (85120 évaluations, 51.5 s)
+HurinkVdata9 : 939  (17757 évaluations, 7.8 s)
+HurinkRdata38 : 1705  (72344 évaluations, 67.8 s)
+HurinkRdata37 : 1677  (75115 évaluations, 69.9 s)
+HurinkVdata10 : 888  (19009 évaluations, 8.1 s)
+HurinkVdata11 : 901  (18992 évaluations, 7.8 s)
+HurinkVdata12 : 1003  (19039 évaluations, 7.7 s)
+HurinkVdata13 : 945  (18275 évaluations, 8.1 s)
+HurinkVdata14 : 1213  (23936 évaluations, 12.3 s)
+HurinkVdata15 : 1061  (24343 évaluations, 12.3 s)
+HurinkVdata17 : 1208  (24180 évaluations, 12.8 s)
+HurinkVdata16 : 1173  (24910 évaluations, 13.3 s)
+HurinkVdata18 : 1230  (24695 évaluations, 13.1 s)
+HurinkVdata20 : 646  (19811 évaluations, 7.8 s)
+HurinkVdata23 : 765  (12336 évaluations, 5.3 s)
+HurinkVdata19 : 739  (31475 évaluations, 13.8 s)
+HurinkVdata21 : 698  (28636 évaluations, 12.5 s)
+HurinkVdata22 : 704  (25452 évaluations, 10.8 s)
+HurinkRdata42 : 1236  (79853 évaluations, 49.9 s)
+HurinkVdata24 : 933  (36432 évaluations, 19.6 s)
+HurinkVdata25 : 859  (37173 évaluations, 19.5 s)
+HurinkVdata26 : 946  (36735 évaluations, 19.5 s)
+HurinkVdata27 : 902  (35445 évaluations, 19.3 s)
+HurinkRdata43 : 1197  (96069 évaluations, 61.2 s)
+HurinkVdata28 : 879  (38847 évaluations, 20.5 s)
+HurinkVdata29 : 1178  (49755 évaluations, 34.9 s)
+HurinkVdata30 : 1211  (49421 évaluations, 34.7 s)
+HurinkVdata31 : 1195  (50522 évaluations, 36.3 s)
+HurinkVdata32 : 1111  (49900 évaluations, 34.6 s)
+HurinkVdata33 : 1199  (49958 évaluations, 35.9 s)
+HurinkVdata41 : 949  (39059 évaluations, 23.7 s)
+HurinkVdata40 : 1031  (48185 évaluations, 30.0 s)
+HurinkVdata39 : 981  (61185 évaluations, 39.0 s)
+Kacem1 : 11  (121 évaluations, 0.1 s)
+Kacem2 : 11  (260 évaluations, 0.2 s)
+Kacem3 : 7  (1486 évaluations, 0.5 s)
+Kacem4 : 12  (10965 évaluations, 4.6 s)
+HurinkVdata34 : 1638  (72258 évaluations, 89.8 s)
+HurinkVdata43 : 972  (50532 évaluations, 29.7 s)
+HurinkVdata35 : 1787  (74185 évaluations, 89.9 s)
+HurinkVdata36 : 1616  (74185 évaluations, 90.7 s)
+HurinkVdata42 : 979  (64304 évaluations, 36.7 s)
+HurinkVdata37 : 1657  (73009 évaluations, 80.9 s)
+HurinkVdata38 : 1671  (72572 évaluations, 80.5 s)
+# Agent qui anticipe « Faisceau:filtre-regle [faisceau=50,k=5,filtre=regle] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -0.78 % | 4/3/3 |
+| HurinkEdata | 40 | +4.57 % | 1/1/38 |
+| HurinkRdata | 40 | +1.30 % | 6/0/34 |
+| HurinkVdata | 40 | -3.07 % | 35/1/4 |
+| Kacem | 4 | -5.53 % | 3/1/0 |
+| **Total** | 134 | **+0.61 %** | 49/6/79 |
+
+Temps moyen par instance : agent 26.3 s, recuit 16.6 s. Plannings évalués : agent 40271, recuit 50 000.
+
+### 2026-11-03T00:43:19 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --filtre borne --nom filtre-borne --largeur 5 --k 4 --familles Brandimarte HurinkLa Kacem --facteur-seuil 0.7 --processus 8 --suffixe _fs0.7
+134 instances à lancer (Faisceau:filtre-borne [faisceau=5,k=4,filtre=borne])
+BrandimarteMk1 : 55  (1493 évaluations, 1.6 s)
+BrandimarteMk2 : 35  (1228 évaluations, 1.4 s)
+BrandimarteMk5 : 195  (2211 évaluations, 1.9 s)
+BrandimarteMk4 : 88  (2134 évaluations, 2.0 s)
+BrandimarteMk7 : 168  (2203 évaluations, 2.3 s)
+HurinkEdata4 : 792  (1102 évaluations, 0.4 s)
+HurinkEdata5 : 957  (1056 évaluations, 0.4 s)
+HurinkEdata6 : 748  (1051 évaluations, 0.4 s)
+HurinkEdata7 : 793  (940 évaluations, 0.4 s)
+BrandimarteMk3 : 229  (3226 évaluations, 2.9 s)
+HurinkEdata8 : 706  (1012 évaluations, 0.4 s)
+HurinkEdata9 : 992  (1540 évaluations, 0.6 s)
+HurinkEdata10 : 944  (1576 évaluations, 0.7 s)
+HurinkEdata11 : 1015  (1520 évaluations, 0.6 s)
+HurinkEdata12 : 1140  (1666 évaluations, 0.7 s)
+BrandimarteMk6 : 79  (4302 évaluations, 3.6 s)
+HurinkEdata13 : 1028  (1478 évaluations, 0.6 s)
+HurinkEdata14 : 1276  (1675 évaluations, 0.8 s)
+HurinkEdata15 : 1120  (2154 évaluations, 0.9 s)
+HurinkEdata16 : 1258  (2004 évaluations, 0.9 s)
+HurinkEdata17 : 1267  (1996 évaluations, 0.9 s)
+BrandimarteMk8 : 578  (4899 évaluations, 4.8 s)
+HurinkEdata18 : 1373  (2194 évaluations, 1.0 s)
+HurinkEdata22 : 1001  (1936 évaluations, 0.9 s)
+HurinkEdata19 : 1194  (3012 évaluations, 1.4 s)
+HurinkEdata20 : 958  (3035 évaluations, 1.4 s)
+BrandimarteMk10 : 260  (5276 évaluations, 4.5 s)
+HurinkEdata21 : 1128  (3206 évaluations, 1.4 s)
+BrandimarteMk9 : 337  (6127 évaluations, 4.7 s)
+HurinkEdata23 : 1056  (2513 évaluations, 1.2 s)
+HurinkEdata24 : 1256  (3836 évaluations, 2.1 s)
+HurinkEdata25 : 1086  (3748 évaluations, 2.0 s)
+HurinkEdata26 : 1221  (3785 évaluations, 2.0 s)
+HurinkEdata27 : 1166  (3738 évaluations, 2.1 s)
+HurinkEdata28 : 1146  (4016 évaluations, 2.2 s)
+HurinkEdata29 : 1368  (4667 évaluations, 3.0 s)
+HurinkEdata30 : 1527  (4827 évaluations, 3.1 s)
+HurinkEdata31 : 1486  (5214 évaluations, 3.4 s)
+HurinkEdata32 : 1388  (5239 évaluations, 3.3 s)
+HurinkEdata33 : 1538  (4981 évaluations, 3.2 s)
+HurinkEdata35 : 1952  (5623 évaluations, 4.9 s)
+HurinkEdata34 : 1838  (6461 évaluations, 5.7 s)
+HurinkEdata36 : 1794  (7043 évaluations, 6.2 s)
+HurinkRdata4 : 749  (1240 évaluations, 0.4 s)
+HurinkEdata39 : 1392  (7821 évaluations, 5.4 s)
+HurinkEdata38 : 2018  (6601 évaluations, 5.9 s)
+HurinkEdata37 : 1859  (7051 évaluations, 6.2 s)
+HurinkRdata5 : 703  (1088 évaluations, 0.4 s)
+HurinkRdata6 : 638  (1041 évaluations, 0.3 s)
+HurinkRdata7 : 662  (1083 évaluations, 0.4 s)
+HurinkRdata8 : 607  (1051 évaluations, 0.4 s)
+HurinkRdata9 : 945  (1366 évaluations, 0.6 s)
+HurinkEdata40 : 1696  (7674 évaluations, 5.3 s)
+HurinkRdata10 : 886  (1592 évaluations, 0.7 s)
+HurinkEdata41 : 1435  (7377 évaluations, 5.4 s)
+HurinkRdata11 : 918  (1565 évaluations, 0.7 s)
+HurinkRdata12 : 1016  (1537 évaluations, 0.7 s)
+HurinkRdata13 : 959  (1442 évaluations, 0.6 s)
+HurinkRdata14 : 1223  (1930 évaluations, 1.0 s)
+HurinkRdata15 : 1070  (1799 évaluations, 0.9 s)
+HurinkRdata17 : 1217  (1913 évaluations, 0.9 s)
+HurinkRdata16 : 1176  (2166 évaluations, 1.1 s)
+HurinkRdata18 : 1250  (1983 évaluations, 1.0 s)
+HurinkEdata42 : 1458  (6720 évaluations, 4.7 s)
+HurinkRdata19 : 874  (2938 évaluations, 1.3 s)
+HurinkRdata20 : 752  (3046 évaluations, 1.4 s)
+HurinkRdata21 : 862  (3313 évaluations, 1.4 s)
+HurinkRdata22 : 883  (2818 évaluations, 1.3 s)
+HurinkEdata43 : 1424  (7665 évaluations, 5.1 s)
+HurinkRdata23 : 930  (3091 évaluations, 1.4 s)
+HurinkRdata24 : 1043  (3209 évaluations, 1.6 s)
+HurinkRdata25 : 961  (3307 évaluations, 1.8 s)
+HurinkRdata26 : 1074  (3727 évaluations, 2.0 s)
+HurinkRdata27 : 1021  (3513 évaluations, 1.8 s)
+HurinkRdata28 : 1018  (4016 évaluations, 2.1 s)
+HurinkRdata29 : 1256  (4426 évaluations, 2.8 s)
+HurinkRdata31 : 1272  (4289 évaluations, 2.7 s)
+HurinkRdata32 : 1175  (4296 évaluations, 2.8 s)
+HurinkRdata30 : 1296  (4872 évaluations, 3.2 s)
+HurinkRdata33 : 1277  (4297 évaluations, 2.7 s)
+HurinkRdata34 : 1675  (5771 évaluations, 5.3 s)
+HurinkRdata39 : 1252  (7175 évaluations, 4.5 s)
+HurinkRdata35 : 1821  (6405 évaluations, 6.1 s)
+HurinkRdata36 : 1640  (6169 évaluations, 5.9 s)
+HurinkRdata40 : 1344  (7403 évaluations, 4.7 s)
+HurinkVdata4 : 725  (1127 évaluations, 0.5 s)
+HurinkVdata5 : 676  (1096 évaluations, 0.4 s)
+HurinkVdata6 : 614  (1109 évaluations, 0.4 s)
+HurinkRdata37 : 1687  (6070 évaluations, 5.7 s)
+HurinkRdata41 : 1190  (7524 évaluations, 4.8 s)
+HurinkVdata7 : 654  (1093 évaluations, 0.4 s)
+HurinkVdata8 : 581  (999 évaluations, 0.4 s)
+HurinkRdata38 : 1711  (6608 évaluations, 6.1 s)
+HurinkVdata9 : 942  (1486 évaluations, 0.7 s)
+HurinkVdata11 : 905  (1578 évaluations, 0.7 s)
+HurinkVdata12 : 1006  (1458 évaluations, 0.7 s)
+HurinkVdata10 : 899  (1666 évaluations, 0.7 s)
+HurinkVdata13 : 950  (1621 évaluations, 0.7 s)
+HurinkVdata14 : 1215  (1907 évaluations, 1.0 s)
+HurinkVdata19 : 760  (1762 évaluations, 0.7 s)
+HurinkVdata17 : 1209  (1741 évaluations, 0.9 s)
+HurinkVdata15 : 1060  (2050 évaluations, 1.1 s)
+HurinkVdata16 : 1175  (2053 évaluations, 1.0 s)
+HurinkVdata18 : 1232  (2063 évaluations, 1.1 s)
+HurinkVdata20 : 664  (1652 évaluations, 0.7 s)
+HurinkVdata21 : 714  (2544 évaluations, 1.1 s)
+HurinkVdata23 : 769  (2458 évaluations, 1.2 s)
+HurinkRdata42 : 1222  (6762 évaluations, 4.6 s)
+HurinkVdata22 : 721  (2450 évaluations, 1.2 s)
+HurinkVdata24 : 935  (3257 évaluations, 1.9 s)
+HurinkVdata25 : 865  (3262 évaluations, 1.9 s)
+HurinkVdata26 : 955  (3388 évaluations, 2.1 s)
+HurinkVdata27 : 905  (2652 évaluations, 1.6 s)
+HurinkRdata43 : 1166  (7607 évaluations, 5.1 s)
+HurinkVdata28 : 876  (3253 évaluations, 1.8 s)
+HurinkVdata30 : 1214  (3553 évaluations, 2.9 s)
+HurinkVdata29 : 1179  (3817 évaluations, 3.0 s)
+HurinkVdata31 : 1197  (3199 évaluations, 2.5 s)
+HurinkVdata32 : 1116  (4043 évaluations, 3.0 s)
+HurinkVdata33 : 1200  (3624 évaluations, 2.8 s)
+HurinkVdata39 : 990  (4678 évaluations, 3.1 s)
+HurinkVdata41 : 959  (5244 évaluations, 3.5 s)
+HurinkVdata40 : 1035  (5813 évaluations, 4.0 s)
+Kacem1 : 12  (250 évaluations, 0.1 s)
+HurinkVdata35 : 1788  (5262 évaluations, 6.5 s)
+Kacem2 : 12  (220 évaluations, 0.1 s)
+Kacem3 : 8  (164 évaluations, 0.1 s)
+HurinkVdata36 : 1618  (4947 évaluations, 6.4 s)
+Kacem4 : 12  (480 évaluations, 0.4 s)
+HurinkVdata34 : 1639  (5703 évaluations, 7.0 s)
+HurinkVdata42 : 993  (4324 évaluations, 2.6 s)
+HurinkVdata37 : 1657  (5709 évaluations, 6.5 s)
+HurinkVdata38 : 1671  (5731 évaluations, 6.5 s)
+HurinkVdata43 : 968  (5483 évaluations, 2.3 s)
+# Agent qui anticipe « Faisceau:filtre-borne [faisceau=5,k=4,filtre=borne] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | +0.14 % | 4/2/4 |
+| HurinkEdata | 40 | +5.36 % | 0/1/39 |
+| HurinkRdata | 40 | +2.20 % | 3/0/37 |
+| HurinkVdata | 40 | -2.55 % | 32/1/7 |
+| Kacem | 4 | +2.15 % | 1/0/3 |
+| **Total** | 134 | **+1.57 %** | 40/4/90 |
+
+Temps moyen par instance : agent 2.3 s, recuit 16.6 s. Plannings évalués : agent 3368, recuit 50 000.
+
+### 2026-11-03T00:44:09 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --filtre borne --nom filtre-borne --largeur 50 --k 5 --familles Brandimarte HurinkLa Kacem --facteur-seuil 0.7 --processus 8 --suffixe _fs0.7
+134 instances à lancer (Faisceau:filtre-borne [faisceau=50,k=5,filtre=borne])
+BrandimarteMk2 : 33  (15315 évaluations, 7.2 s)
+BrandimarteMk1 : 55  (16931 évaluations, 8.0 s)
+BrandimarteMk5 : 193  (25010 évaluations, 10.4 s)
+BrandimarteMk7 : 165  (24418 évaluations, 13.0 s)
+BrandimarteMk4 : 88  (27142 évaluations, 13.9 s)
+HurinkEdata4 : 809  (12477 évaluations, 4.2 s)
+HurinkEdata5 : 912  (12380 évaluations, 4.3 s)
+HurinkEdata6 : 726  (12765 évaluations, 4.3 s)
+HurinkEdata7 : 813  (12431 évaluations, 4.2 s)
+HurinkEdata8 : 706  (11508 évaluations, 4.2 s)
+BrandimarteMk3 : 229  (39830 évaluations, 23.1 s)
+HurinkEdata9 : 1034  (18030 évaluations, 6.4 s)
+HurinkEdata10 : 928  (18624 évaluations, 6.4 s)
+HurinkEdata11 : 1037  (19277 évaluations, 6.9 s)
+BrandimarteMk6 : 77  (52066 évaluations, 28.8 s)
+HurinkEdata12 : 1140  (20254 évaluations, 7.5 s)
+HurinkEdata13 : 1028  (18403 évaluations, 6.7 s)
+HurinkEdata14 : 1289  (26219 évaluations, 11.0 s)
+HurinkEdata16 : 1258  (24013 évaluations, 10.0 s)
+HurinkEdata15 : 1120  (25541 évaluations, 11.0 s)
+HurinkEdata17 : 1297  (23878 évaluations, 10.0 s)
+HurinkEdata18 : 1340  (25193 évaluations, 10.6 s)
+BrandimarteMk8 : 578  (60365 évaluations, 46.1 s)
+HurinkEdata19 : 1147  (40350 évaluations, 17.8 s)
+HurinkEdata22 : 1037  (29338 évaluations, 14.2 s)
+HurinkEdata20 : 914  (40066 évaluations, 18.0 s)
+HurinkEdata21 : 1070  (39930 évaluations, 17.7 s)
+HurinkEdata23 : 1114  (38087 évaluations, 16.7 s)
+BrandimarteMk9 : 336  (76922 évaluations, 54.2 s)
+BrandimarteMk10 : 253  (73354 évaluations, 59.5 s)
+HurinkEdata24 : 1279  (47746 évaluations, 23.9 s)
+HurinkEdata27 : 1140  (41779 évaluations, 21.1 s)
+HurinkEdata26 : 1204  (46861 évaluations, 23.2 s)
+HurinkEdata25 : 1054  (49882 évaluations, 24.4 s)
+HurinkEdata28 : 1151  (45445 évaluations, 22.7 s)
+HurinkEdata29 : 1379  (57705 évaluations, 33.5 s)
+HurinkEdata30 : 1478  (62712 évaluations, 36.9 s)
+HurinkEdata31 : 1397  (55583 évaluations, 31.6 s)
+HurinkEdata32 : 1373  (61735 évaluations, 36.4 s)
+HurinkEdata33 : 1527  (68153 évaluations, 40.3 s)
+HurinkEdata35 : 1982  (72753 évaluations, 57.6 s)
+HurinkEdata36 : 1768  (83005 évaluations, 66.2 s)
+HurinkEdata34 : 1789  (88819 évaluations, 71.5 s)
+HurinkEdata39 : 1426  (85837 évaluations, 51.2 s)
+HurinkRdata5 : 682  (12156 évaluations, 3.6 s)
+HurinkRdata4 : 739  (11962 évaluations, 3.7 s)
+HurinkRdata6 : 623  (11677 évaluations, 4.0 s)
+HurinkRdata7 : 674  (14014 évaluations, 4.5 s)
+HurinkEdata37 : 1877  (81871 évaluations, 65.7 s)
+HurinkRdata8 : 599  (11254 évaluations, 3.5 s)
+HurinkEdata38 : 1985  (81614 évaluations, 66.5 s)
+HurinkRdata10 : 883  (18361 évaluations, 6.7 s)
+HurinkRdata9 : 943  (18838 évaluations, 7.0 s)
+HurinkEdata40 : 1712  (97570 évaluations, 59.4 s)
+HurinkRdata11 : 906  (18421 évaluations, 6.4 s)
+HurinkRdata13 : 954  (17340 évaluations, 6.4 s)
+HurinkRdata12 : 1009  (18864 évaluations, 7.3 s)
+HurinkEdata41 : 1452  (84485 évaluations, 56.9 s)
+HurinkRdata14 : 1214  (25000 évaluations, 11.0 s)
+HurinkRdata15 : 1068  (24360 évaluations, 10.1 s)
+HurinkRdata16 : 1174  (23709 évaluations, 10.1 s)
+HurinkRdata17 : 1214  (25054 évaluations, 10.7 s)
+HurinkRdata18 : 1246  (25516 évaluations, 11.0 s)
+HurinkRdata19 : 862  (30311 évaluations, 12.7 s)
+HurinkEdata42 : 1455  (85284 évaluations, 51.8 s)
+HurinkRdata20 : 788  (31285 évaluations, 13.2 s)
+HurinkRdata21 : 825  (33751 évaluations, 14.2 s)
+HurinkRdata22 : 873  (33982 évaluations, 14.8 s)
+HurinkRdata23 : 901  (28859 évaluations, 12.5 s)
+HurinkRdata24 : 1040  (39851 évaluations, 19.0 s)
+HurinkEdata43 : 1409  (90684 évaluations, 57.9 s)
+HurinkRdata26 : 1036  (38824 évaluations, 18.8 s)
+HurinkRdata25 : 959  (39157 évaluations, 19.4 s)
+HurinkRdata27 : 1001  (44223 évaluations, 22.2 s)
+HurinkRdata28 : 980  (46906 évaluations, 23.1 s)
+HurinkRdata29 : 1249  (47418 évaluations, 28.2 s)
+HurinkRdata30 : 1287  (56975 évaluations, 32.5 s)
+HurinkRdata31 : 1256  (49153 évaluations, 28.5 s)
+HurinkRdata32 : 1144  (49980 évaluations, 28.7 s)
+HurinkRdata33 : 1277  (53139 évaluations, 32.2 s)
+HurinkRdata34 : 1668  (76805 évaluations, 65.2 s)
+HurinkRdata35 : 1808  (68991 évaluations, 62.1 s)
+HurinkRdata36 : 1638  (69575 évaluations, 63.6 s)
+HurinkRdata39 : 1234  (80543 évaluations, 49.1 s)
+HurinkVdata4 : 725  (13562 évaluations, 4.7 s)
+HurinkVdata5 : 673  (13182 évaluations, 4.1 s)
+HurinkVdata6 : 612  (11984 évaluations, 4.0 s)
+HurinkVdata7 : 648  (12087 évaluations, 3.8 s)
+HurinkRdata37 : 1675  (78622 évaluations, 68.6 s)
+HurinkVdata8 : 581  (10995 évaluations, 3.8 s)
+HurinkRdata40 : 1289  (89303 évaluations, 57.4 s)
+HurinkRdata41 : 1200  (85846 évaluations, 51.9 s)
+HurinkVdata9 : 939  (18010 évaluations, 7.0 s)
+HurinkRdata38 : 1707  (77954 évaluations, 68.5 s)
+HurinkVdata10 : 886  (18968 évaluations, 7.3 s)
+HurinkVdata11 : 901  (19137 évaluations, 7.4 s)
+HurinkVdata12 : 1004  (18987 évaluations, 7.2 s)
+HurinkVdata13 : 946  (19126 évaluations, 7.8 s)
+HurinkVdata14 : 1214  (24602 évaluations, 11.4 s)
+HurinkVdata15 : 1061  (24663 évaluations, 11.0 s)
+HurinkVdata16 : 1174  (22774 évaluations, 10.4 s)
+HurinkVdata17 : 1209  (24499 évaluations, 11.7 s)
+HurinkVdata18 : 1231  (24826 évaluations, 11.6 s)
+HurinkVdata19 : 745  (25571 évaluations, 10.6 s)
+HurinkVdata23 : 758  (15509 évaluations, 6.3 s)
+HurinkVdata20 : 653  (22882 évaluations, 9.3 s)
+HurinkVdata22 : 711  (20372 évaluations, 8.8 s)
+HurinkVdata21 : 688  (25123 évaluations, 10.8 s)
+HurinkRdata42 : 1236  (79815 évaluations, 49.3 s)
+HurinkRdata43 : 1169  (85429 évaluations, 49.0 s)
+HurinkVdata24 : 933  (37339 évaluations, 18.9 s)
+HurinkVdata25 : 860  (37059 évaluations, 18.8 s)
+HurinkVdata27 : 904  (36781 évaluations, 18.8 s)
+HurinkVdata26 : 948  (39862 évaluations, 20.7 s)
+HurinkVdata28 : 876  (38992 évaluations, 20.6 s)
+HurinkVdata29 : 1179  (49744 évaluations, 34.0 s)
+HurinkVdata30 : 1211  (49481 évaluations, 33.4 s)
+HurinkVdata31 : 1196  (49902 évaluations, 32.9 s)
+HurinkVdata32 : 1112  (51037 évaluations, 33.4 s)
+HurinkVdata33 : 1198  (51057 évaluations, 33.7 s)
+HurinkVdata39 : 984  (51029 évaluations, 30.3 s)
+HurinkVdata41 : 950  (54203 évaluations, 31.9 s)
+HurinkVdata40 : 1042  (52944 évaluations, 33.2 s)
+Kacem1 : 11  (568 évaluations, 0.3 s)
+Kacem2 : 11  (655 évaluations, 0.4 s)
+Kacem3 : 7  (405 évaluations, 0.5 s)
+Kacem4 : 12  (10225 évaluations, 6.9 s)
+HurinkVdata36 : 1614  (71901 évaluations, 79.1 s)
+HurinkVdata34 : 1639  (73443 évaluations, 81.4 s)
+HurinkVdata35 : 1788  (74795 évaluations, 81.6 s)
+HurinkVdata43 : 968  (42594 évaluations, 24.2 s)
+HurinkVdata42 : 968  (61990 évaluations, 36.1 s)
+HurinkVdata37 : 1655  (74300 évaluations, 74.8 s)
+HurinkVdata38 : 1671  (68466 évaluations, 71.6 s)
+# Agent qui anticipe « Faisceau:filtre-borne [faisceau=50,k=5,filtre=borne] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -1.28 % | 6/2/2 |
+| HurinkEdata | 40 | +4.88 % | 0/1/39 |
+| HurinkRdata | 40 | +1.24 % | 7/0/33 |
+| HurinkVdata | 40 | -3.05 % | 34/1/5 |
+| Kacem | 4 | -5.53 % | 3/1/0 |
+| **Total** | 134 | **+0.66 %** | 50/5/79 |
+
+Temps moyen par instance : agent 24.9 s, recuit 16.6 s. Plannings évalués : agent 40511, recuit 50 000.
+
+### 2026-11-03T00:51:27 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe -m metaheuristiques.comparer --familles Brandimarte HurinkLa Kacem --graines 0 1 2 --parametres reglage_taguchi/parametres_retenus.json --facteur-seuil 1.5 --processus 8 --methodes Recuit simulé --evaluations 50000
+Paramètres utilisés : {'Algorithme génétique': {'population': 60, 'p_croisement': 0.8, 'p_mutation': 0.1, 'elite': 2}, 'Recherche tabou': {'n_voisins': 40, 'tenure': 6}, 'Recuit simulé': {'p0': 0.3, 'ratio_fin': 0.0001}}
+402 exécutions à lancer (les autres sont déjà dans la banque).
+BrandimarteMk1 Recuit simulé 1 51.0
+BrandimarteMk2 Recuit simulé 1 31.0
+BrandimarteMk2 Recuit simulé 2 30.0
+BrandimarteMk1 Recuit simulé 2 50.0
+BrandimarteMk2 Recuit simulé 0 29.0
+BrandimarteMk1 Recuit simulé 0 46.0
+BrandimarteMk3 Recuit simulé 0 214.0
+BrandimarteMk3 Recuit simulé 1 214.0
+BrandimarteMk4 Recuit simulé 0 74.0
+BrandimarteMk4 Recuit simulé 1 75.0
+BrandimarteMk4 Recuit simulé 2 75.0
+BrandimarteMk5 Recuit simulé 1 184.0
+BrandimarteMk5 Recuit simulé 0 183.0
+BrandimarteMk3 Recuit simulé 2 214.0
+BrandimarteMk5 Recuit simulé 2 182.0
+BrandimarteMk7 Recuit simulé 0 156.0
+BrandimarteMk7 Recuit simulé 2 151.0
+BrandimarteMk7 Recuit simulé 1 154.0
+BrandimarteMk6 Recuit simulé 0 69.0
+BrandimarteMk6 Recuit simulé 1 71.0
+BrandimarteMk6 Recuit simulé 2 74.0
+BrandimarteMk8 Recuit simulé 0 545.0
+BrandimarteMk8 Recuit simulé 1 545.0
+BrandimarteMk8 Recuit simulé 2 545.0
+BrandimarteMk9 Recuit simulé 0 320.0
+BrandimarteMk9 Recuit simulé 2 320.0
+BrandimarteMk9 Recuit simulé 1 320.0
+HurinkEdata4 Recuit simulé 0 666.0
+BrandimarteMk10 Recuit simulé 0 244.0
+BrandimarteMk10 Recuit simulé 1 244.0
+HurinkEdata4 Recuit simulé 1 666.0
+HurinkEdata4 Recuit simulé 2 666.0
+HurinkEdata5 Recuit simulé 0 708.0
+HurinkEdata5 Recuit simulé 1 713.0
+HurinkEdata5 Recuit simulé 2 708.0
+HurinkEdata6 Recuit simulé 0 597.0
+HurinkEdata6 Recuit simulé 1 597.0
+HurinkEdata6 Recuit simulé 2 615.0
+HurinkEdata7 Recuit simulé 0 638.0
+HurinkEdata7 Recuit simulé 1 638.0
+HurinkEdata7 Recuit simulé 2 631.0
+BrandimarteMk10 Recuit simulé 2 244.0
+HurinkEdata8 Recuit simulé 0 549.0
+HurinkEdata8 Recuit simulé 1 549.0
+HurinkEdata8 Recuit simulé 2 549.0
+HurinkEdata9 Recuit simulé 0 886.0
+HurinkEdata9 Recuit simulé 1 886.0
+HurinkEdata10 Recuit simulé 0 828.0
+HurinkEdata9 Recuit simulé 2 886.0
+HurinkEdata10 Recuit simulé 1 828.0
+HurinkEdata10 Recuit simulé 2 828.0
+HurinkEdata11 Recuit simulé 0 905.0
+HurinkEdata11 Recuit simulé 1 911.0
+HurinkEdata11 Recuit simulé 2 905.0
+HurinkEdata12 Recuit simulé 0 962.0
+HurinkEdata12 Recuit simulé 1 955.0
+HurinkEdata12 Recuit simulé 2 969.0
+HurinkEdata13 Recuit simulé 0 920.0
+HurinkEdata13 Recuit simulé 1 920.0
+HurinkEdata13 Recuit simulé 2 920.0
+HurinkEdata14 Recuit simulé 0 1160.0
+HurinkEdata14 Recuit simulé 1 1169.0
+HurinkEdata14 Recuit simulé 2 1183.0
+HurinkEdata15 Recuit simulé 0 1026.0
+HurinkEdata15 Recuit simulé 1 1026.0
+HurinkEdata15 Recuit simulé 2 1026.0
+HurinkEdata16 Recuit simulé 0 1105.0
+HurinkEdata16 Recuit simulé 1 1105.0
+HurinkEdata16 Recuit simulé 2 1105.0
+HurinkEdata17 Recuit simulé 0 1177.0
+HurinkEdata17 Recuit simulé 1 1176.0
+HurinkEdata18 Recuit simulé 0 1184.0
+HurinkEdata17 Recuit simulé 2 1176.0
+HurinkEdata18 Recuit simulé 1 1175.0
+HurinkEdata18 Recuit simulé 2 1182.0
+HurinkEdata19 Recuit simulé 0 969.0
+HurinkEdata19 Recuit simulé 1 1005.0
+HurinkEdata19 Recuit simulé 2 988.0
+HurinkEdata20 Recuit simulé 0 754.0
+HurinkEdata20 Recuit simulé 2 754.0
+HurinkEdata20 Recuit simulé 1 757.0
+HurinkEdata21 Recuit simulé 0 880.0
+HurinkEdata21 Recuit simulé 1 897.0
+HurinkEdata21 Recuit simulé 2 913.0
+HurinkEdata22 Recuit simulé 0 898.0
+HurinkEdata22 Recuit simulé 1 887.0
+HurinkEdata22 Recuit simulé 2 853.0
+HurinkEdata23 Recuit simulé 0 918.0
+HurinkEdata23 Recuit simulé 1 918.0
+HurinkEdata23 Recuit simulé 2 918.0
+HurinkEdata24 Recuit simulé 0 1113.0
+HurinkEdata24 Recuit simulé 1 1138.0
+HurinkEdata24 Recuit simulé 2 1123.0
+HurinkEdata25 Recuit simulé 0 964.0
+HurinkEdata25 Recuit simulé 1 953.0
+HurinkEdata25 Recuit simulé 2 964.0
+HurinkEdata26 Recuit simulé 0 1086.0
+HurinkEdata26 Recuit simulé 1 1086.0
+HurinkEdata27 Recuit simulé 0 999.0
+HurinkEdata26 Recuit simulé 2 1086.0
+HurinkEdata27 Recuit simulé 1 1011.0
+HurinkEdata27 Recuit simulé 2 1007.0
+HurinkEdata28 Recuit simulé 0 1028.0
+HurinkEdata28 Recuit simulé 1 1049.0
+HurinkEdata28 Recuit simulé 2 1005.0
+HurinkEdata29 Recuit simulé 0 1231.0
+HurinkEdata29 Recuit simulé 1 1220.0
+HurinkEdata29 Recuit simulé 2 1258.0
+HurinkEdata30 Recuit simulé 0 1295.0
+HurinkEdata30 Recuit simulé 1 1329.0
+HurinkEdata30 Recuit simulé 2 1290.0
+HurinkEdata31 Recuit simulé 1 1234.0
+HurinkEdata31 Recuit simulé 0 1281.0
+HurinkEdata31 Recuit simulé 2 1254.0
+HurinkEdata32 Recuit simulé 0 1222.0
+HurinkEdata32 Recuit simulé 1 1235.0
+HurinkEdata32 Recuit simulé 2 1250.0
+HurinkEdata33 Recuit simulé 0 1324.0
+HurinkEdata33 Recuit simulé 1 1364.0
+HurinkEdata33 Recuit simulé 2 1318.0
+HurinkEdata34 Recuit simulé 0 1646.0
+HurinkEdata34 Recuit simulé 1 1683.0
+HurinkEdata34 Recuit simulé 2 1658.0
+HurinkEdata35 Recuit simulé 0 1808.0
+HurinkEdata35 Recuit simulé 1 1803.0
+HurinkEdata35 Recuit simulé 2 1782.0
+HurinkEdata36 Recuit simulé 0 1610.0
+HurinkEdata36 Recuit simulé 1 1633.0
+HurinkEdata36 Recuit simulé 2 1667.0
+HurinkEdata37 Recuit simulé 0 1696.0
+HurinkEdata37 Recuit simulé 1 1716.0
+HurinkEdata37 Recuit simulé 2 1715.0
+HurinkEdata39 Recuit simulé 0 1264.0
+HurinkEdata38 Recuit simulé 0 1801.0
+HurinkEdata38 Recuit simulé 1 1788.0
+HurinkEdata38 Recuit simulé 2 1798.0
+HurinkEdata39 Recuit simulé 1 1258.0
+HurinkEdata39 Recuit simulé 2 1277.0
+HurinkEdata40 Recuit simulé 0 1504.0
+HurinkEdata40 Recuit simulé 1 1472.0
+HurinkEdata40 Recuit simulé 2 1519.0
+HurinkEdata41 Recuit simulé 0 1267.0
+HurinkEdata41 Recuit simulé 1 1252.0
+HurinkEdata41 Recuit simulé 2 1331.0
+HurinkEdata42 Recuit simulé 0 1267.0
+HurinkRdata4 Recuit simulé 0 633.0
+HurinkRdata4 Recuit simulé 1 637.0
+HurinkEdata42 Recuit simulé 1 1317.0
+HurinkRdata4 Recuit simulé 2 632.0
+HurinkRdata5 Recuit simulé 0 589.0
+HurinkRdata5 Recuit simulé 1 593.0
+HurinkEdata42 Recuit simulé 2 1278.0
+HurinkRdata5 Recuit simulé 2 592.0
+HurinkEdata43 Recuit simulé 0 1253.0
+HurinkRdata6 Recuit simulé 0 533.0
+HurinkEdata43 Recuit simulé 1 1246.0
+HurinkEdata43 Recuit simulé 2 1244.0
+HurinkRdata6 Recuit simulé 1 538.0
+HurinkRdata6 Recuit simulé 2 531.0
+HurinkRdata7 Recuit simulé 0 558.0
+HurinkRdata7 Recuit simulé 1 556.0
+HurinkRdata7 Recuit simulé 2 562.0
+HurinkRdata8 Recuit simulé 0 509.0
+HurinkRdata8 Recuit simulé 1 506.0
+HurinkRdata8 Recuit simulé 2 508.0
+HurinkRdata9 Recuit simulé 0 858.0
+HurinkRdata9 Recuit simulé 1 857.0
+HurinkRdata9 Recuit simulé 2 856.0
+HurinkRdata10 Recuit simulé 0 808.0
+HurinkRdata10 Recuit simulé 1 806.0
+HurinkRdata11 Recuit simulé 0 820.0
+HurinkRdata10 Recuit simulé 2 803.0
+HurinkRdata11 Recuit simulé 1 820.0
+HurinkRdata11 Recuit simulé 2 818.0
+HurinkRdata12 Recuit simulé 0 916.0
+HurinkRdata12 Recuit simulé 1 926.0
+HurinkRdata12 Recuit simulé 2 913.0
+HurinkRdata13 Recuit simulé 1 870.0
+HurinkRdata13 Recuit simulé 0 862.0
+HurinkRdata13 Recuit simulé 2 875.0
+HurinkRdata14 Recuit simulé 0 1127.0
+HurinkRdata14 Recuit simulé 1 1132.0
+HurinkRdata14 Recuit simulé 2 1129.0
+HurinkRdata15 Recuit simulé 0 984.0
+HurinkRdata15 Recuit simulé 1 984.0
+HurinkRdata15 Recuit simulé 2 984.0
+HurinkRdata16 Recuit simulé 0 1093.0
+HurinkRdata16 Recuit simulé 1 1093.0
+HurinkRdata16 Recuit simulé 2 1093.0
+HurinkRdata17 Recuit simulé 0 1125.0
+HurinkRdata17 Recuit simulé 1 1126.0
+HurinkRdata17 Recuit simulé 2 1126.0
+HurinkRdata18 Recuit simulé 0 1146.0
+HurinkRdata18 Recuit simulé 1 1146.0
+HurinkRdata18 Recuit simulé 2 1146.0
+HurinkRdata19 Recuit simulé 0 752.0
+HurinkRdata19 Recuit simulé 1 736.0
+HurinkRdata19 Recuit simulé 2 760.0
+HurinkRdata20 Recuit simulé 0 666.0
+HurinkRdata20 Recuit simulé 1 670.0
+HurinkRdata20 Recuit simulé 2 671.0
+HurinkRdata21 Recuit simulé 0 708.0
+HurinkRdata21 Recuit simulé 2 750.0
+HurinkRdata21 Recuit simulé 1 750.0
+HurinkRdata22 Recuit simulé 0 760.0
+HurinkRdata22 Recuit simulé 1 768.0
+HurinkRdata22 Recuit simulé 2 781.0
+HurinkRdata23 Recuit simulé 0 814.0
+HurinkRdata23 Recuit simulé 1 800.0
+HurinkRdata23 Recuit simulé 2 814.0
+HurinkRdata24 Recuit simulé 1 954.0
+HurinkRdata24 Recuit simulé 0 957.0
+HurinkRdata24 Recuit simulé 2 929.0
+HurinkRdata25 Recuit simulé 0 844.0
+HurinkRdata25 Recuit simulé 1 854.0
+HurinkRdata25 Recuit simulé 2 876.0
+HurinkRdata26 Recuit simulé 0 913.0
+HurinkRdata26 Recuit simulé 1 928.0
+HurinkRdata26 Recuit simulé 2 958.0
+HurinkRdata27 Recuit simulé 0 931.0
+HurinkRdata27 Recuit simulé 1 938.0
+HurinkRdata27 Recuit simulé 2 930.0
+HurinkRdata28 Recuit simulé 0 921.0
+HurinkRdata28 Recuit simulé 1 884.0
+HurinkRdata28 Recuit simulé 2 885.0
+HurinkRdata29 Recuit simulé 0 1162.0
+HurinkRdata29 Recuit simulé 1 1163.0
+HurinkRdata29 Recuit simulé 2 1158.0
+HurinkRdata30 Recuit simulé 0 1188.0
+HurinkRdata30 Recuit simulé 1 1217.0
+HurinkRdata30 Recuit simulé 2 1203.0
+HurinkRdata31 Recuit simulé 0 1162.0
+HurinkRdata31 Recuit simulé 1 1166.0
+HurinkRdata31 Recuit simulé 2 1194.0
+HurinkRdata32 Recuit simulé 0 1071.0
+HurinkRdata32 Recuit simulé 1 1078.0
+HurinkRdata32 Recuit simulé 2 1073.0
+HurinkRdata33 Recuit simulé 0 1176.0
+HurinkRdata33 Recuit simulé 1 1193.0
+HurinkRdata33 Recuit simulé 2 1169.0
+HurinkRdata34 Recuit simulé 0 1581.0
+HurinkRdata34 Recuit simulé 1 1606.0
+HurinkRdata34 Recuit simulé 2 1585.0
+HurinkRdata35 Recuit simulé 0 1730.0
+HurinkRdata35 Recuit simulé 1 1728.0
+HurinkRdata35 Recuit simulé 2 1735.0
+HurinkRdata36 Recuit simulé 0 1579.0
+HurinkRdata36 Recuit simulé 1 1560.0
+HurinkRdata36 Recuit simulé 2 1558.0
+HurinkRdata37 Recuit simulé 0 1607.0
+HurinkRdata37 Recuit simulé 2 1602.0
+HurinkRdata37 Recuit simulé 1 1593.0
+HurinkRdata38 Recuit simulé 0 1610.0
+HurinkRdata39 Recuit simulé 0 1152.0
+HurinkRdata38 Recuit simulé 1 1620.0
+HurinkRdata38 Recuit simulé 2 1618.0
+HurinkRdata39 Recuit simulé 1 1147.0
+HurinkRdata39 Recuit simulé 2 1136.0
+HurinkRdata40 Recuit simulé 1 1231.0
+HurinkRdata40 Recuit simulé 0 1206.0
+HurinkRdata40 Recuit simulé 2 1195.0
+HurinkRdata41 Recuit simulé 0 1052.0
+HurinkRdata41 Recuit simulé 1 1068.0
+HurinkRdata41 Recuit simulé 2 1076.0
+HurinkVdata4 Recuit simulé 0 636.0
+HurinkRdata42 Recuit simulé 0 1125.0
+HurinkVdata4 Recuit simulé 1 635.0
+HurinkRdata42 Recuit simulé 1 1160.0
+HurinkVdata4 Recuit simulé 2 635.0
+HurinkRdata42 Recuit simulé 2 1094.0
+HurinkVdata5 Recuit simulé 0 588.0
+HurinkRdata43 Recuit simulé 0 1072.0
+HurinkVdata5 Recuit simulé 1 588.0
+HurinkVdata5 Recuit simulé 2 588.0
+HurinkRdata43 Recuit simulé 1 1104.0
+HurinkRdata43 Recuit simulé 2 1118.0
+HurinkVdata6 Recuit simulé 0 536.0
+HurinkVdata6 Recuit simulé 1 537.0
+HurinkVdata6 Recuit simulé 2 530.0
+HurinkVdata7 Recuit simulé 0 554.0
+HurinkVdata7 Recuit simulé 1 557.0
+HurinkVdata7 Recuit simulé 2 561.0
+HurinkVdata8 Recuit simulé 0 511.0
+HurinkVdata8 Recuit simulé 1 514.0
+HurinkVdata8 Recuit simulé 2 513.0
+HurinkVdata9 Recuit simulé 0 856.0
+HurinkVdata9 Recuit simulé 1 858.0
+HurinkVdata10 Recuit simulé 0 806.0
+HurinkVdata9 Recuit simulé 2 859.0
+HurinkVdata10 Recuit simulé 1 804.0
+HurinkVdata10 Recuit simulé 2 804.0
+HurinkVdata11 Recuit simulé 0 818.0
+HurinkVdata11 Recuit simulé 1 820.0
+HurinkVdata12 Recuit simulé 0 912.0
+HurinkVdata11 Recuit simulé 2 818.0
+HurinkVdata12 Recuit simulé 1 912.0
+HurinkVdata12 Recuit simulé 2 917.0
+HurinkVdata13 Recuit simulé 0 861.0
+HurinkVdata13 Recuit simulé 1 864.0
+HurinkVdata13 Recuit simulé 2 861.0
+HurinkVdata14 Recuit simulé 0 1126.0
+HurinkVdata14 Recuit simulé 1 1127.0
+HurinkVdata14 Recuit simulé 2 1129.0
+HurinkVdata15 Recuit simulé 0 985.0
+HurinkVdata15 Recuit simulé 1 986.0
+HurinkVdata15 Recuit simulé 2 985.0
+HurinkVdata16 Recuit simulé 0 1093.0
+HurinkVdata16 Recuit simulé 1 1093.0
+HurinkVdata16 Recuit simulé 2 1093.0
+HurinkVdata17 Recuit simulé 0 1125.0
+HurinkVdata17 Recuit simulé 1 1125.0
+HurinkVdata17 Recuit simulé 2 1128.0
+HurinkVdata18 Recuit simulé 0 1145.0
+HurinkVdata18 Recuit simulé 1 1146.0
+HurinkVdata18 Recuit simulé 2 1146.0
+HurinkVdata19 Recuit simulé 0 723.0
+HurinkVdata19 Recuit simulé 1 726.0
+HurinkVdata19 Recuit simulé 2 717.0
+HurinkVdata20 Recuit simulé 0 652.0
+HurinkVdata20 Recuit simulé 2 646.0
+HurinkVdata20 Recuit simulé 1 646.0
+HurinkVdata21 Recuit simulé 0 684.0
+HurinkVdata21 Recuit simulé 1 685.0
+HurinkVdata21 Recuit simulé 2 690.0
+HurinkVdata22 Recuit simulé 0 684.0
+HurinkVdata22 Recuit simulé 1 687.0
+HurinkVdata22 Recuit simulé 2 700.0
+HurinkVdata23 Recuit simulé 0 756.0
+HurinkVdata23 Recuit simulé 1 756.0
+HurinkVdata23 Recuit simulé 2 756.0
+HurinkVdata24 Recuit simulé 0 883.0
+HurinkVdata24 Recuit simulé 1 903.0
+HurinkVdata24 Recuit simulé 2 903.0
+HurinkVdata25 Recuit simulé 0 847.0
+HurinkVdata25 Recuit simulé 1 805.0
+HurinkVdata25 Recuit simulé 2 817.0
+HurinkVdata26 Recuit simulé 0 920.0
+HurinkVdata26 Recuit simulé 1 903.0
+HurinkVdata26 Recuit simulé 2 920.0
+HurinkVdata27 Recuit simulé 0 865.0
+HurinkVdata27 Recuit simulé 1 866.0
+HurinkVdata27 Recuit simulé 2 884.0
+HurinkVdata28 Recuit simulé 0 872.0
+HurinkVdata28 Recuit simulé 1 845.0
+HurinkVdata28 Recuit simulé 2 838.0
+HurinkVdata29 Recuit simulé 0 1131.0
+HurinkVdata29 Recuit simulé 1 1129.0
+HurinkVdata29 Recuit simulé 2 1125.0
+HurinkVdata30 Recuit simulé 0 1158.0
+HurinkVdata30 Recuit simulé 1 1155.0
+HurinkVdata30 Recuit simulé 2 1155.0
+HurinkVdata31 Recuit simulé 0 1148.0
+HurinkVdata31 Recuit simulé 1 1155.0
+HurinkVdata31 Recuit simulé 2 1141.0
+HurinkVdata32 Recuit simulé 0 1057.0
+HurinkVdata32 Recuit simulé 1 1060.0
+HurinkVdata32 Recuit simulé 2 1073.0
+HurinkVdata33 Recuit simulé 0 1142.0
+HurinkVdata33 Recuit simulé 1 1144.0
+HurinkVdata33 Recuit simulé 2 1157.0
+HurinkVdata34 Recuit simulé 0 1580.0
+HurinkVdata34 Recuit simulé 1 1579.0
+HurinkVdata34 Recuit simulé 2 1578.0
+HurinkVdata35 Recuit simulé 0 1724.0
+HurinkVdata35 Recuit simulé 1 1719.0
+HurinkVdata35 Recuit simulé 2 1724.0
+HurinkVdata36 Recuit simulé 0 1557.0
+HurinkVdata36 Recuit simulé 1 1555.0
+HurinkVdata36 Recuit simulé 2 1555.0
+HurinkVdata37 Recuit simulé 0 1594.0
+HurinkVdata37 Recuit simulé 1 1593.0
+HurinkVdata39 Recuit simulé 0 1039.0
+HurinkVdata37 Recuit simulé 2 1596.0
+HurinkVdata38 Recuit simulé 0 1612.0
+HurinkVdata38 Recuit simulé 2 1619.0
+HurinkVdata38 Recuit simulé 1 1608.0
+HurinkVdata39 Recuit simulé 1 1041.0
+HurinkVdata39 Recuit simulé 2 1041.0
+HurinkVdata40 Recuit simulé 0 1139.0
+HurinkVdata40 Recuit simulé 1 1077.0
+HurinkVdata40 Recuit simulé 2 1125.0
+HurinkVdata41 Recuit simulé 0 1014.0
+HurinkVdata41 Recuit simulé 1 996.0
+HurinkVdata41 Recuit simulé 2 974.0
+HurinkVdata42 Recuit simulé 0 1021.0
+Kacem1 Recuit simulé 0 11.0
+Kacem1 Recuit simulé 1 11.0
+Kacem1 Recuit simulé 2 11.0
+Kacem2 Recuit simulé 0 11.0
+Kacem2 Recuit simulé 1 11.0
+Kacem2 Recuit simulé 2 13.0
+HurinkVdata42 Recuit simulé 1 1009.0
+Kacem3 Recuit simulé 0 8.0
+Kacem3 Recuit simulé 1 8.0
+Kacem3 Recuit simulé 2 7.0
+HurinkVdata42 Recuit simulé 2 1031.0
+HurinkVdata43 Recuit simulé 0 1033.0
+Kacem4 Recuit simulé 0 13.0
+HurinkVdata43 Recuit simulé 1 1017.0
+Kacem4 Recuit simulé 1 13.0
+Kacem4 Recuit simulé 2 13.0
+HurinkVdata43 Recuit simulé 2 1024.0
+# Métaheuristiques — 134 instances, 50000 évaluations par exécution, 3 graines, départ heuristique, facteur de seuil 1.5
+
+| Méthode | C_max moyen | Écart moyen à la meilleure solution trouvée | Écart-type entre graines | Nb de fois meilleure (moyenne des graines) |
+|---|---|---|---|---|
+| Recuit simulé | 941.7 | +0.9 % | 0.2 pt | 134 |
+
+### 2026-11-03T01:05:19 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --modele models/imitation/cand_ft_best.pt --nom imit-ft --largeur 5 --k 4 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1.5 --processus 8 --suffixe _fs1.5
+134 instances à lancer (RL:imit-ft [faisceau=5,k=4])
+BrandimarteMk1 : 47  (1525 évaluations, 1.8 s)
+BrandimarteMk2 : 29  (1108 évaluations, 1.7 s)
+BrandimarteMk5 : 182  (2093 évaluations, 2.2 s)
+BrandimarteMk4 : 76  (2725 évaluations, 2.6 s)
+BrandimarteMk7 : 151  (2133 évaluations, 2.5 s)
+HurinkEdata4 : 732  (1048 évaluations, 0.6 s)
+HurinkEdata5 : 815  (1132 évaluations, 0.6 s)
+HurinkEdata6 : 629  (1120 évaluations, 0.6 s)
+HurinkEdata7 : 719  (1146 évaluations, 0.7 s)
+HurinkEdata8 : 570  (1116 évaluations, 0.7 s)
+HurinkEdata9 : 928  (1621 évaluations, 0.9 s)
+BrandimarteMk6 : 71  (4311 évaluations, 4.1 s)
+BrandimarteMk3 : 214  (4927 évaluations, 4.3 s)
+HurinkEdata10 : 877  (1520 évaluations, 0.9 s)
+HurinkEdata11 : 916  (1557 évaluations, 0.9 s)
+HurinkEdata12 : 975  (1536 évaluations, 0.8 s)
+HurinkEdata13 : 941  (1600 évaluations, 0.9 s)
+HurinkEdata14 : 1183  (2001 évaluations, 1.3 s)
+HurinkEdata15 : 1034  (2074 évaluations, 1.3 s)
+HurinkEdata16 : 1170  (2244 évaluations, 1.5 s)
+HurinkEdata18 : 1277  (1994 évaluations, 1.3 s)
+HurinkEdata17 : 1204  (2111 évaluations, 1.5 s)
+BrandimarteMk8 : 545  (7855 évaluations, 7.1 s)
+HurinkEdata20 : 819  (2585 évaluations, 1.5 s)
+HurinkEdata19 : 1006  (3289 évaluations, 1.9 s)
+BrandimarteMk9 : 318  (7005 évaluations, 6.1 s)
+BrandimarteMk10 : 233  (6405 évaluations, 6.2 s)
+HurinkEdata21 : 947  (2745 évaluations, 1.7 s)
+HurinkEdata23 : 898  (3232 évaluations, 2.0 s)
+HurinkEdata22 : 922  (3696 évaluations, 2.3 s)
+HurinkEdata25 : 961  (4244 évaluations, 3.1 s)
+HurinkEdata26 : 1087  (4537 évaluations, 3.3 s)
+HurinkEdata24 : 1160  (4939 évaluations, 3.6 s)
+HurinkEdata27 : 1060  (4913 évaluations, 3.4 s)
+HurinkEdata28 : 1052  (4896 évaluations, 3.4 s)
+HurinkEdata29 : 1286  (5766 évaluations, 4.7 s)
+HurinkEdata30 : 1340  (5754 évaluations, 4.5 s)
+HurinkEdata31 : 1341  (5693 évaluations, 4.5 s)
+HurinkEdata32 : 1322  (6171 évaluations, 4.9 s)
+HurinkEdata33 : 1432  (6318 évaluations, 5.0 s)
+HurinkEdata35 : 1873  (7181 évaluations, 7.4 s)
+HurinkEdata36 : 1693  (7322 évaluations, 7.5 s)
+HurinkEdata34 : 1725  (7616 évaluations, 7.8 s)
+HurinkRdata4 : 644  (969 évaluations, 0.6 s)
+HurinkEdata39 : 1253  (8698 évaluations, 6.4 s)
+HurinkRdata5 : 594  (975 évaluations, 0.5 s)
+HurinkRdata6 : 537  (1010 évaluations, 0.5 s)
+HurinkRdata7 : 581  (902 évaluations, 0.5 s)
+HurinkRdata8 : 511  (888 évaluations, 0.5 s)
+HurinkRdata9 : 864  (1448 évaluations, 0.9 s)
+HurinkEdata37 : 1808  (8314 évaluations, 8.7 s)
+HurinkRdata10 : 809  (1450 évaluations, 0.9 s)
+HurinkEdata40 : 1540  (8666 évaluations, 6.4 s)
+HurinkEdata38 : 1891  (8491 évaluations, 8.7 s)
+HurinkRdata11 : 831  (1448 évaluations, 0.8 s)
+HurinkEdata41 : 1307  (8763 évaluations, 6.4 s)
+HurinkRdata12 : 919  (1489 évaluations, 0.9 s)
+HurinkRdata13 : 874  (1445 évaluations, 0.9 s)
+HurinkRdata15 : 991  (1944 évaluations, 1.2 s)
+HurinkRdata14 : 1131  (1950 évaluations, 1.3 s)
+HurinkRdata16 : 1093  (1949 évaluations, 1.3 s)
+HurinkRdata18 : 1155  (1930 évaluations, 1.3 s)
+HurinkRdata17 : 1144  (1983 évaluations, 1.3 s)
+HurinkRdata20 : 722  (1634 évaluations, 0.9 s)
+HurinkRdata19 : 800  (2669 évaluations, 1.7 s)
+HurinkRdata21 : 757  (2863 évaluations, 1.8 s)
+HurinkRdata22 : 787  (3015 évaluations, 1.8 s)
+HurinkEdata42 : 1341  (8898 évaluations, 6.7 s)
+HurinkEdata43 : 1315  (8733 évaluations, 6.5 s)
+HurinkRdata23 : 871  (3152 évaluations, 1.7 s)
+HurinkRdata24 : 948  (3002 évaluations, 2.2 s)
+HurinkRdata26 : 978  (3650 évaluations, 2.7 s)
+HurinkRdata25 : 892  (4174 évaluations, 3.0 s)
+HurinkRdata28 : 884  (3370 évaluations, 2.4 s)
+HurinkRdata27 : 939  (3518 évaluations, 2.5 s)
+HurinkRdata31 : 1182  (3797 évaluations, 3.1 s)
+HurinkRdata30 : 1201  (4150 évaluations, 3.3 s)
+HurinkRdata29 : 1160  (4501 évaluations, 3.6 s)
+HurinkRdata32 : 1098  (4081 évaluations, 3.3 s)
+HurinkRdata33 : 1219  (4649 évaluations, 3.9 s)
+HurinkRdata34 : 1597  (6128 évaluations, 6.5 s)
+HurinkRdata36 : 1568  (5792 évaluations, 6.3 s)
+HurinkRdata35 : 1751  (6298 évaluations, 6.7 s)
+HurinkRdata39 : 1160  (7383 évaluations, 5.7 s)
+HurinkVdata4 : 633  (955 évaluations, 0.6 s)
+HurinkVdata5 : 589  (1003 évaluations, 0.6 s)
+HurinkRdata38 : 1623  (6025 évaluations, 6.6 s)
+HurinkVdata6 : 535  (935 évaluations, 0.6 s)
+HurinkRdata37 : 1609  (6263 évaluations, 7.0 s)
+HurinkVdata7 : 561  (899 évaluations, 0.5 s)
+HurinkRdata40 : 1190  (8299 évaluations, 6.7 s)
+HurinkVdata8 : 511  (984 évaluations, 0.6 s)
+HurinkVdata9 : 855  (1466 évaluations, 1.0 s)
+HurinkVdata10 : 811  (1464 évaluations, 0.9 s)
+HurinkVdata11 : 820  (1532 évaluations, 1.0 s)
+HurinkVdata13 : 860  (1412 évaluations, 1.0 s)
+HurinkVdata12 : 916  (1515 évaluations, 1.1 s)
+HurinkRdata41 : 1121  (8096 évaluations, 6.5 s)
+HurinkVdata15 : 985  (1946 évaluations, 1.5 s)
+HurinkVdata14 : 1128  (1986 évaluations, 1.6 s)
+HurinkVdata16 : 1092  (1948 évaluations, 1.5 s)
+HurinkVdata21 : 663  (458 évaluations, 0.4 s)
+HurinkVdata17 : 1123  (2001 évaluations, 1.6 s)
+HurinkVdata18 : 1145  (1964 évaluations, 1.6 s)
+HurinkVdata23 : 756  (534 évaluations, 0.4 s)
+HurinkVdata19 : 720  (2295 évaluations, 1.6 s)
+HurinkVdata20 : 646  (2056 évaluations, 1.5 s)
+HurinkVdata22 : 644  (2436 évaluations, 1.8 s)
+HurinkRdata42 : 1143  (7820 évaluations, 6.6 s)
+HurinkVdata24 : 865  (2613 évaluations, 2.2 s)
+HurinkRdata43 : 1099  (8215 évaluations, 7.1 s)
+HurinkVdata25 : 795  (2899 évaluations, 2.5 s)
+HurinkVdata27 : 832  (2693 évaluations, 2.3 s)
+HurinkVdata26 : 879  (2987 évaluations, 2.6 s)
+HurinkVdata28 : 813  (2830 évaluations, 2.4 s)
+HurinkVdata29 : 1110  (3900 évaluations, 4.0 s)
+HurinkVdata30 : 1142  (4003 évaluations, 4.1 s)
+HurinkVdata31 : 1127  (4101 évaluations, 4.2 s)
+HurinkVdata32 : 1050  (4034 évaluations, 4.1 s)
+HurinkVdata33 : 1127  (3992 évaluations, 4.0 s)
+HurinkVdata41 : 943  (40 évaluations, 0.1 s)
+HurinkVdata39 : 951  (2795 évaluations, 2.6 s)
+HurinkVdata40 : 986  (2546 évaluations, 2.5 s)
+Kacem1 : 11  (4 évaluations, 0.0 s)
+Kacem2 : 11  (60 évaluations, 0.1 s)
+Kacem3 : 7  (100 évaluations, 0.2 s)
+HurinkVdata43 : 955  (701 évaluations, 0.7 s)
+Kacem4 : 11  (500 évaluations, 0.7 s)
+HurinkVdata42 : 948  (4713 évaluations, 4.2 s)
+HurinkVdata34 : 1573  (5782 évaluations, 9.1 s)
+HurinkVdata35 : 1718  (5910 évaluations, 9.0 s)
+HurinkVdata36 : 1550  (5928 évaluations, 8.9 s)
+HurinkVdata37 : 1590  (5824 évaluations, 7.9 s)
+HurinkVdata38 : 1604  (5715 évaluations, 7.7 s)
+# Agent qui anticipe « RL:imit-ft [faisceau=5,k=4] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -1.35 % | 7/2/1 |
+| HurinkEdata | 40 | +4.32 % | 2/0/38 |
+| HurinkRdata | 40 | +1.61 % | 4/1/35 |
+| HurinkVdata | 40 | -1.97 % | 32/1/7 |
+| Kacem | 4 | -7.45 % | 3/1/0 |
+| **Total** | 134 | **+0.86 %** | 48/5/81 |
+
+Temps moyen par instance : agent 3.0 s, recuit 16.4 s. Plannings évalués : agent 3464, recuit 50 000.
+
+### 2026-11-03T01:06:22 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --modele models/imitation/cand_ft_best.pt --nom imit-ft --largeur 50 --k 5 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1.5 --processus 8 --suffixe _fs1.5
+134 instances à lancer (RL:imit-ft [faisceau=50,k=5])
+BrandimarteMk2 : 29  (12025 évaluations, 6.7 s)
+BrandimarteMk1 : 47  (17859 évaluations, 8.4 s)
+BrandimarteMk5 : 182  (25729 évaluations, 14.2 s)
+BrandimarteMk4 : 74  (28220 évaluations, 15.2 s)
+BrandimarteMk7 : 150  (25522 évaluations, 16.0 s)
+HurinkEdata4 : 671  (10327 évaluations, 4.5 s)
+HurinkEdata6 : 641  (11179 évaluations, 5.1 s)
+HurinkEdata5 : 761  (12831 évaluations, 6.1 s)
+HurinkEdata7 : 665  (9828 évaluations, 4.8 s)
+HurinkEdata8 : 549  (10113 évaluations, 4.3 s)
+HurinkEdata9 : 886  (16471 évaluations, 7.3 s)
+HurinkEdata10 : 869  (16391 évaluations, 7.4 s)
+BrandimarteMk6 : 72  (53070 évaluations, 32.9 s)
+HurinkEdata11 : 905  (17437 évaluations, 8.1 s)
+BrandimarteMk3 : 214  (61652 évaluations, 35.0 s)
+HurinkEdata12 : 969  (18520 évaluations, 8.2 s)
+HurinkEdata13 : 920  (17210 évaluations, 7.7 s)
+HurinkEdata14 : 1175  (24051 évaluations, 11.3 s)
+HurinkEdata15 : 1026  (24217 évaluations, 10.9 s)
+HurinkEdata16 : 1154  (24302 évaluations, 11.5 s)
+HurinkEdata18 : 1213  (22355 évaluations, 10.7 s)
+HurinkEdata17 : 1218  (27713 évaluations, 13.1 s)
+HurinkEdata21 : 931  (34562 évaluations, 15.4 s)
+HurinkEdata19 : 1044  (40745 évaluations, 18.1 s)
+HurinkEdata20 : 795  (39892 évaluations, 17.7 s)
+BrandimarteMk8 : 545  (97353 évaluations, 62.6 s)
+HurinkEdata22 : 890  (33175 évaluations, 15.6 s)
+HurinkEdata23 : 904  (38501 évaluations, 16.5 s)
+BrandimarteMk9 : 318  (87121 évaluations, 61.9 s)
+BrandimarteMk10 : 231  (80804 évaluations, 64.8 s)
+HurinkEdata24 : 1201  (49606 évaluations, 29.0 s)
+HurinkEdata25 : 991  (52937 évaluations, 29.4 s)
+HurinkEdata26 : 1102  (50862 évaluations, 29.5 s)
+HurinkEdata27 : 1041  (53843 évaluations, 30.0 s)
+HurinkEdata28 : 1041  (52033 évaluations, 29.7 s)
+HurinkEdata29 : 1288  (60248 évaluations, 41.3 s)
+HurinkEdata30 : 1346  (61977 évaluations, 40.7 s)
+HurinkEdata31 : 1338  (66928 évaluations, 42.1 s)
+HurinkEdata33 : 1411  (70387 évaluations, 45.9 s)
+HurinkEdata32 : 1276  (69434 évaluations, 47.8 s)
+HurinkEdata36 : 1664  (81717 évaluations, 72.2 s)
+HurinkEdata35 : 1873  (88463 évaluations, 76.2 s)
+HurinkEdata34 : 1730  (89508 évaluations, 78.0 s)
+HurinkRdata4 : 641  (10497 évaluations, 4.4 s)
+HurinkEdata39 : 1263  (105921 évaluations, 62.5 s)
+HurinkRdata5 : 597  (10264 évaluations, 4.3 s)
+HurinkRdata6 : 536  (10946 évaluations, 4.7 s)
+HurinkRdata7 : 580  (10572 évaluations, 4.5 s)
+HurinkRdata8 : 508  (10751 évaluations, 4.7 s)
+HurinkRdata9 : 860  (18168 évaluations, 7.6 s)
+HurinkEdata37 : 1827  (95199 évaluations, 84.5 s)
+HurinkRdata10 : 806  (17593 évaluations, 8.0 s)
+HurinkEdata38 : 1884  (100322 évaluations, 87.8 s)
+HurinkRdata11 : 831  (16974 évaluations, 8.9 s)
+HurinkRdata12 : 915  (17969 évaluations, 8.7 s)
+HurinkEdata40 : 1509  (106525 évaluations, 63.4 s)
+HurinkEdata41 : 1306  (109731 évaluations, 63.9 s)
+HurinkRdata13 : 873  (17455 évaluations, 8.6 s)
+HurinkRdata14 : 1129  (24276 évaluations, 12.6 s)
+HurinkRdata15 : 987  (23487 évaluations, 11.7 s)
+HurinkRdata16 : 1090  (23247 évaluations, 12.0 s)
+HurinkRdata17 : 1151  (25257 évaluations, 13.3 s)
+HurinkRdata18 : 1153  (24447 évaluations, 12.1 s)
+HurinkRdata19 : 789  (33662 évaluations, 15.2 s)
+HurinkRdata20 : 712  (22769 évaluations, 10.4 s)
+HurinkEdata42 : 1319  (88820 évaluations, 53.3 s)
+HurinkRdata21 : 728  (26958 évaluations, 13.5 s)
+HurinkRdata23 : 829  (24886 évaluations, 10.8 s)
+HurinkEdata43 : 1262  (102219 évaluations, 59.2 s)
+HurinkRdata22 : 797  (37689 évaluations, 17.3 s)
+HurinkRdata24 : 956  (33479 évaluations, 19.3 s)
+HurinkRdata26 : 948  (33689 évaluations, 20.0 s)
+HurinkRdata25 : 889  (44338 évaluations, 25.9 s)
+HurinkRdata27 : 933  (45684 évaluations, 27.1 s)
+HurinkRdata28 : 885  (39491 évaluations, 22.9 s)
+HurinkRdata29 : 1155  (50079 évaluations, 33.5 s)
+HurinkRdata30 : 1195  (49014 évaluations, 33.4 s)
+HurinkRdata31 : 1180  (47284 évaluations, 32.5 s)
+HurinkRdata32 : 1076  (45801 évaluations, 30.2 s)
+HurinkRdata33 : 1200  (47777 évaluations, 31.5 s)
+HurinkRdata34 : 1586  (69038 évaluations, 60.1 s)
+HurinkRdata39 : 1161  (80792 évaluations, 46.4 s)
+HurinkRdata35 : 1734  (71271 évaluations, 63.9 s)
+HurinkRdata36 : 1574  (70611 évaluations, 63.6 s)
+HurinkVdata4 : 630  (11118 évaluations, 4.6 s)
+HurinkVdata5 : 588  (11367 évaluations, 4.6 s)
+HurinkVdata6 : 532  (11351 évaluations, 4.7 s)
+HurinkRdata40 : 1203  (94994 évaluations, 56.6 s)
+HurinkVdata7 : 562  (11437 évaluations, 4.8 s)
+HurinkRdata37 : 1607  (72445 évaluations, 64.2 s)
+HurinkRdata41 : 1114  (89116 évaluations, 52.0 s)
+HurinkVdata8 : 506  (10509 évaluations, 4.6 s)
+HurinkRdata38 : 1640  (73974 évaluations, 65.1 s)
+HurinkVdata9 : 854  (16825 évaluations, 7.9 s)
+HurinkVdata10 : 807  (18347 évaluations, 8.0 s)
+HurinkVdata11 : 818  (16710 évaluations, 7.3 s)
+HurinkVdata12 : 912  (18272 évaluations, 8.3 s)
+HurinkVdata13 : 859  (17298 évaluations, 7.6 s)
+HurinkVdata19 : 717  (10340 évaluations, 5.0 s)
+HurinkVdata20 : 646  (2191 évaluations, 1.3 s)
+HurinkVdata14 : 1128  (23623 évaluations, 12.4 s)
+HurinkVdata21 : 663  (2039 évaluations, 1.2 s)
+HurinkVdata23 : 756  (365 évaluations, 0.4 s)
+HurinkVdata16 : 1091  (23869 évaluations, 12.5 s)
+HurinkVdata15 : 983  (24180 évaluations, 12.9 s)
+HurinkVdata17 : 1124  (23899 évaluations, 12.3 s)
+HurinkVdata18 : 1144  (24010 évaluations, 12.7 s)
+HurinkVdata22 : 634  (21857 évaluations, 11.2 s)
+HurinkVdata24 : 860  (34158 évaluations, 21.0 s)
+HurinkVdata25 : 794  (34018 évaluations, 20.7 s)
+HurinkRdata42 : 1150  (95442 évaluations, 58.1 s)
+HurinkRdata43 : 1063  (88849 évaluations, 54.1 s)
+HurinkVdata27 : 831  (34228 évaluations, 21.3 s)
+HurinkVdata28 : 814  (31593 évaluations, 19.4 s)
+HurinkVdata26 : 873  (34979 évaluations, 22.6 s)
+HurinkVdata29 : 1108  (48262 évaluations, 36.9 s)
+HurinkVdata31 : 1126  (46107 évaluations, 33.9 s)
+HurinkVdata30 : 1141  (48163 évaluations, 35.5 s)
+HurinkVdata32 : 1047  (48932 évaluations, 35.1 s)
+HurinkVdata33 : 1131  (49399 évaluations, 36.1 s)
+HurinkVdata41 : 943  (30 évaluations, 0.1 s)
+HurinkVdata39 : 950  (17813 évaluations, 11.9 s)
+HurinkVdata43 : 955  (120 évaluations, 0.2 s)
+Kacem1 : 11  (5 évaluations, 0.0 s)
+Kacem2 : 11  (375 évaluations, 0.3 s)
+Kacem3 : 7  (535 évaluations, 0.7 s)
+Kacem4 : 11  (12968 évaluations, 11.2 s)
+HurinkVdata42 : 932  (45968 évaluations, 29.4 s)
+HurinkVdata40 : 987  (62050 évaluations, 40.5 s)
+HurinkVdata34 : 1572  (73112 évaluations, 81.4 s)
+HurinkVdata35 : 1715  (74299 évaluations, 81.7 s)
+HurinkVdata36 : 1549  (73729 évaluations, 82.0 s)
+HurinkVdata37 : 1589  (73785 évaluations, 68.8 s)
+HurinkVdata38 : 1603  (73304 évaluations, 63.8 s)
+# Agent qui anticipe « RL:imit-ft [faisceau=50,k=5] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -1.63 % | 7/2/1 |
+| HurinkEdata | 40 | +2.92 % | 3/4/33 |
+| HurinkRdata | 40 | +1.01 % | 10/1/29 |
+| HurinkVdata | 40 | -2.20 % | 35/2/3 |
+| Kacem | 4 | -7.45 % | 3/1/0 |
+| **Total** | 134 | **+0.17 %** | 58/10/66 |
+
+Temps moyen par instance : agent 26.4 s, recuit 16.4 s. Plannings évalués : agent 40033, recuit 50 000.
+
+### 2026-11-03T01:14:12 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --filtre regle --nom filtre-regle --largeur 5 --k 4 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1.5 --processus 8 --suffixe _fs1.5
+134 instances à lancer (Faisceau:filtre-regle [faisceau=5,k=4,filtre=regle])
+BrandimarteMk1 : 47  (1152 évaluations, 1.6 s)
+BrandimarteMk2 : 30  (1139 évaluations, 1.6 s)
+BrandimarteMk4 : 80  (2077 évaluations, 2.1 s)
+BrandimarteMk5 : 186  (2093 évaluations, 2.0 s)
+BrandimarteMk7 : 162  (2008 évaluations, 2.2 s)
+HurinkEdata4 : 707  (904 évaluations, 0.3 s)
+HurinkEdata5 : 798  (953 évaluations, 0.3 s)
+HurinkEdata6 : 639  (962 évaluations, 0.3 s)
+BrandimarteMk3 : 214  (2995 évaluations, 2.7 s)
+HurinkEdata7 : 691  (993 évaluations, 0.4 s)
+HurinkEdata8 : 570  (976 évaluations, 0.4 s)
+BrandimarteMk6 : 69  (3633 évaluations, 3.0 s)
+HurinkEdata9 : 925  (1490 évaluations, 0.6 s)
+HurinkEdata10 : 897  (1428 évaluations, 0.6 s)
+HurinkEdata11 : 937  (1340 évaluations, 0.6 s)
+HurinkEdata12 : 1026  (1612 évaluations, 0.7 s)
+HurinkEdata13 : 927  (1237 évaluations, 0.5 s)
+HurinkEdata14 : 1183  (1866 évaluations, 0.8 s)
+HurinkEdata15 : 1026  (1971 évaluations, 1.0 s)
+HurinkEdata16 : 1202  (1969 évaluations, 1.0 s)
+HurinkEdata17 : 1200  (1940 évaluations, 1.0 s)
+HurinkEdata18 : 1277  (1933 évaluations, 0.9 s)
+BrandimarteMk8 : 545  (4828 évaluations, 5.0 s)
+HurinkEdata19 : 984  (2672 évaluations, 1.1 s)
+HurinkEdata20 : 806  (2662 évaluations, 1.2 s)
+HurinkEdata23 : 930  (2362 évaluations, 1.0 s)
+HurinkEdata22 : 906  (2184 évaluations, 1.0 s)
+HurinkEdata21 : 937  (2917 évaluations, 1.4 s)
+BrandimarteMk9 : 318  (5864 évaluations, 4.7 s)
+BrandimarteMk10 : 234  (5696 évaluations, 4.7 s)
+HurinkEdata24 : 1159  (3538 évaluations, 2.0 s)
+HurinkEdata25 : 981  (3680 évaluations, 1.9 s)
+HurinkEdata26 : 1113  (3534 évaluations, 1.9 s)
+HurinkEdata28 : 1041  (3514 évaluations, 1.9 s)
+HurinkEdata27 : 1043  (4175 évaluations, 2.3 s)
+HurinkEdata29 : 1286  (4333 évaluations, 2.7 s)
+HurinkEdata30 : 1365  (4299 évaluations, 2.9 s)
+HurinkEdata31 : 1418  (4421 évaluations, 3.0 s)
+HurinkEdata32 : 1256  (4692 évaluations, 3.2 s)
+HurinkEdata33 : 1420  (4912 évaluations, 3.3 s)
+HurinkEdata35 : 1843  (6244 évaluations, 5.7 s)
+HurinkEdata34 : 1730  (6291 évaluations, 6.0 s)
+HurinkEdata36 : 1678  (6001 évaluations, 5.7 s)
+HurinkEdata39 : 1301  (6865 évaluations, 4.7 s)
+HurinkRdata4 : 645  (1050 évaluations, 0.3 s)
+HurinkRdata5 : 606  (939 évaluations, 0.4 s)
+HurinkRdata6 : 534  (998 évaluations, 0.3 s)
+HurinkEdata37 : 1799  (6083 évaluations, 5.8 s)
+HurinkRdata7 : 591  (982 évaluations, 0.4 s)
+HurinkRdata8 : 518  (931 évaluations, 0.3 s)
+HurinkEdata38 : 1872  (6111 évaluations, 5.8 s)
+HurinkEdata41 : 1374  (5957 évaluations, 4.4 s)
+HurinkRdata9 : 872  (1535 évaluations, 0.6 s)
+HurinkEdata40 : 1523  (6335 évaluations, 4.5 s)
+HurinkRdata10 : 812  (1416 évaluations, 0.6 s)
+HurinkRdata11 : 820  (1490 évaluations, 0.6 s)
+HurinkRdata12 : 934  (1519 évaluations, 0.6 s)
+HurinkRdata13 : 871  (1453 évaluations, 0.6 s)
+HurinkRdata15 : 992  (1961 évaluations, 1.1 s)
+HurinkRdata14 : 1136  (2019 évaluations, 1.1 s)
+HurinkRdata16 : 1091  (1999 évaluations, 1.1 s)
+HurinkRdata17 : 1166  (2001 évaluations, 1.1 s)
+HurinkRdata18 : 1164  (1992 évaluations, 1.1 s)
+HurinkRdata20 : 722  (1330 évaluations, 0.5 s)
+HurinkRdata19 : 767  (2801 évaluations, 1.2 s)
+HurinkRdata23 : 850  (1458 évaluations, 0.6 s)
+HurinkRdata21 : 744  (2228 évaluations, 0.9 s)
+HurinkRdata22 : 787  (2310 évaluations, 1.0 s)
+HurinkEdata43 : 1326  (6422 évaluations, 4.4 s)
+HurinkEdata42 : 1379  (7256 évaluations, 4.9 s)
+HurinkRdata24 : 953  (3371 évaluations, 1.7 s)
+HurinkRdata26 : 951  (3200 évaluations, 1.6 s)
+HurinkRdata25 : 890  (3473 évaluations, 1.8 s)
+HurinkRdata27 : 926  (3644 évaluations, 1.9 s)
+HurinkRdata28 : 897  (3925 évaluations, 2.1 s)
+HurinkRdata29 : 1172  (4326 évaluations, 2.9 s)
+HurinkRdata30 : 1219  (4328 évaluations, 2.8 s)
+HurinkRdata31 : 1189  (4257 évaluations, 2.8 s)
+HurinkRdata33 : 1203  (4250 évaluations, 2.7 s)
+HurinkRdata32 : 1094  (4378 évaluations, 3.0 s)
+HurinkRdata34 : 1598  (5814 évaluations, 5.8 s)
+HurinkRdata41 : 1082  (5490 évaluations, 3.3 s)
+HurinkRdata35 : 1763  (5831 évaluations, 6.1 s)
+HurinkRdata39 : 1152  (6789 évaluations, 4.3 s)
+HurinkVdata4 : 633  (982 évaluations, 0.4 s)
+HurinkRdata36 : 1571  (6110 évaluations, 6.4 s)
+HurinkVdata5 : 592  (984 évaluations, 0.3 s)
+HurinkVdata6 : 533  (958 évaluations, 0.4 s)
+HurinkVdata7 : 564  (991 évaluations, 0.4 s)
+HurinkRdata40 : 1185  (7359 évaluations, 4.7 s)
+HurinkVdata8 : 511  (947 évaluations, 0.3 s)
+HurinkVdata9 : 856  (1451 évaluations, 0.7 s)
+HurinkVdata11 : 821  (1376 évaluations, 0.6 s)
+HurinkVdata10 : 814  (1527 évaluations, 0.7 s)
+HurinkVdata12 : 914  (1508 évaluations, 0.7 s)
+HurinkRdata37 : 1611  (6285 évaluations, 6.6 s)
+HurinkRdata38 : 1640  (6051 évaluations, 6.2 s)
+HurinkVdata13 : 861  (1489 évaluations, 0.7 s)
+HurinkVdata15 : 984  (1909 évaluations, 1.1 s)
+HurinkVdata14 : 1132  (2029 évaluations, 1.2 s)
+HurinkVdata16 : 1092  (2003 évaluations, 1.2 s)
+HurinkVdata17 : 1125  (1633 évaluations, 1.0 s)
+HurinkVdata19 : 725  (2039 évaluations, 0.7 s)
+HurinkVdata20 : 646  (1043 évaluations, 0.4 s)
+HurinkVdata21 : 663  (958 évaluations, 0.4 s)
+HurinkVdata23 : 756  (721 évaluations, 0.3 s)
+HurinkVdata18 : 1146  (1942 évaluations, 1.2 s)
+HurinkVdata22 : 641  (2193 évaluations, 0.9 s)
+HurinkRdata42 : 1166  (6665 évaluations, 4.5 s)
+HurinkRdata43 : 1118  (6826 évaluations, 4.4 s)
+HurinkVdata24 : 861  (2807 évaluations, 1.6 s)
+HurinkVdata28 : 812  (2399 évaluations, 1.4 s)
+HurinkVdata25 : 793  (2957 évaluations, 1.6 s)
+HurinkVdata27 : 830  (2792 évaluations, 1.6 s)
+HurinkVdata26 : 882  (3007 évaluations, 1.7 s)
+HurinkVdata30 : 1142  (3676 évaluations, 3.0 s)
+HurinkVdata29 : 1109  (3919 évaluations, 3.2 s)
+HurinkVdata31 : 1129  (3998 évaluations, 3.1 s)
+HurinkVdata32 : 1049  (3813 évaluations, 2.9 s)
+HurinkVdata33 : 1129  (3910 évaluations, 3.1 s)
+HurinkVdata41 : 943  (20 évaluations, 0.0 s)
+HurinkVdata39 : 953  (3878 évaluations, 2.2 s)
+HurinkVdata43 : 955  (200 évaluations, 0.1 s)
+Kacem1 : 11  (4 évaluations, 0.0 s)
+Kacem2 : 11  (56 évaluations, 0.0 s)
+Kacem3 : 7  (268 évaluations, 0.1 s)
+HurinkVdata40 : 987  (4032 évaluations, 2.3 s)
+HurinkVdata42 : 930  (3756 évaluations, 2.1 s)
+Kacem4 : 12  (908 évaluations, 0.4 s)
+HurinkVdata34 : 1573  (5812 évaluations, 7.0 s)
+HurinkVdata35 : 1718  (5882 évaluations, 7.2 s)
+HurinkVdata36 : 1551  (5838 évaluations, 7.2 s)
+HurinkVdata37 : 1588  (5998 évaluations, 6.2 s)
+HurinkVdata38 : 1605  (5980 évaluations, 6.2 s)
+# Agent qui anticipe « Faisceau:filtre-regle [faisceau=5,k=4,filtre=regle] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | +0.21 % | 4/3/3 |
+| HurinkEdata | 40 | +4.54 % | 1/1/38 |
+| HurinkRdata | 40 | +1.62 % | 3/1/36 |
+| HurinkVdata | 40 | -1.97 % | 31/1/8 |
+| Kacem | 4 | -5.53 % | 3/1/0 |
+| **Total** | 134 | **+1.10 %** | 42/7/85 |
+
+Temps moyen par instance : agent 2.2 s, recuit 16.4 s. Plannings évalués : agent 3059, recuit 50 000.
+
+### 2026-11-03T01:15:01 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --filtre regle --nom filtre-regle --largeur 50 --k 5 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1.5 --processus 8 --suffixe _fs1.5
+134 instances à lancer (Faisceau:filtre-regle [faisceau=50,k=5,filtre=regle])
+BrandimarteMk2 : 30  (12216 évaluations, 5.0 s)
+BrandimarteMk1 : 47  (13673 évaluations, 5.5 s)
+BrandimarteMk5 : 184  (25395 évaluations, 11.3 s)
+BrandimarteMk4 : 76  (24930 évaluations, 11.5 s)
+BrandimarteMk7 : 154  (23846 évaluations, 12.6 s)
+HurinkEdata4 : 723  (11286 évaluations, 3.4 s)
+HurinkEdata5 : 742  (11240 évaluations, 3.5 s)
+HurinkEdata6 : 641  (11237 évaluations, 3.7 s)
+HurinkEdata7 : 665  (8645 évaluations, 3.0 s)
+BrandimarteMk3 : 214  (34859 évaluations, 18.3 s)
+HurinkEdata8 : 595  (10862 évaluations, 3.4 s)
+HurinkEdata9 : 911  (16049 évaluations, 5.5 s)
+BrandimarteMk6 : 67  (44062 évaluations, 23.0 s)
+HurinkEdata10 : 853  (17152 évaluations, 6.1 s)
+HurinkEdata12 : 965  (17143 évaluations, 5.9 s)
+HurinkEdata11 : 911  (16739 évaluations, 6.1 s)
+HurinkEdata13 : 930  (16285 évaluations, 5.7 s)
+HurinkEdata14 : 1186  (23919 évaluations, 10.2 s)
+HurinkEdata17 : 1200  (22253 évaluations, 9.5 s)
+HurinkEdata16 : 1154  (22612 évaluations, 9.7 s)
+HurinkEdata15 : 1026  (23895 évaluations, 10.6 s)
+HurinkEdata18 : 1274  (22528 évaluations, 10.0 s)
+BrandimarteMk8 : 545  (54304 évaluations, 40.7 s)
+HurinkEdata20 : 813  (26175 évaluations, 11.0 s)
+HurinkEdata22 : 899  (26878 évaluations, 12.0 s)
+HurinkEdata19 : 1006  (34725 évaluations, 14.6 s)
+HurinkEdata21 : 911  (31938 évaluations, 13.9 s)
+HurinkEdata23 : 909  (30618 évaluations, 12.8 s)
+BrandimarteMk9 : 318  (71549 évaluations, 50.8 s)
+BrandimarteMk10 : 231  (68526 évaluations, 51.8 s)
+HurinkEdata24 : 1120  (42022 évaluations, 22.6 s)
+HurinkEdata26 : 1086  (39951 évaluations, 19.6 s)
+HurinkEdata25 : 969  (43824 évaluations, 22.2 s)
+HurinkEdata27 : 1068  (41068 évaluations, 20.6 s)
+HurinkEdata28 : 1088  (41225 évaluations, 21.1 s)
+HurinkEdata29 : 1310  (52629 évaluations, 30.3 s)
+HurinkEdata30 : 1348  (50787 évaluations, 30.6 s)
+HurinkEdata31 : 1353  (53663 évaluations, 31.5 s)
+HurinkEdata32 : 1289  (49621 évaluations, 30.9 s)
+HurinkEdata33 : 1417  (61014 évaluations, 36.6 s)
+HurinkEdata35 : 1873  (66076 évaluations, 54.7 s)
+HurinkEdata34 : 1728  (73966 évaluations, 62.0 s)
+HurinkEdata36 : 1670  (74879 évaluations, 63.5 s)
+HurinkRdata4 : 644  (12015 évaluations, 3.5 s)
+HurinkEdata39 : 1292  (77907 évaluations, 47.4 s)
+HurinkRdata5 : 593  (11031 évaluations, 3.1 s)
+HurinkRdata6 : 538  (11277 évaluations, 3.5 s)
+HurinkEdata40 : 1520  (72651 évaluations, 47.0 s)
+HurinkEdata37 : 1784  (73444 évaluations, 60.9 s)
+HurinkRdata7 : 561  (11175 évaluations, 3.5 s)
+HurinkRdata8 : 506  (10720 évaluations, 3.3 s)
+HurinkRdata9 : 855  (17640 évaluations, 6.6 s)
+HurinkRdata10 : 804  (17421 évaluations, 6.4 s)
+HurinkRdata12 : 918  (16744 évaluations, 6.1 s)
+HurinkRdata11 : 834  (18296 évaluations, 6.9 s)
+HurinkEdata38 : 1891  (73223 évaluations, 63.4 s)
+HurinkEdata41 : 1284  (74246 évaluations, 50.4 s)
+HurinkRdata13 : 865  (17116 évaluations, 6.3 s)
+HurinkRdata15 : 989  (23648 évaluations, 10.5 s)
+HurinkRdata14 : 1128  (24687 évaluations, 11.6 s)
+HurinkRdata16 : 1091  (23465 évaluations, 11.0 s)
+HurinkRdata17 : 1156  (24709 évaluations, 11.7 s)
+HurinkRdata18 : 1159  (24135 évaluations, 11.0 s)
+HurinkRdata19 : 783  (28522 évaluations, 10.4 s)
+HurinkRdata21 : 762  (18572 évaluations, 6.5 s)
+HurinkRdata20 : 711  (28016 évaluations, 11.3 s)
+HurinkRdata22 : 793  (29863 évaluations, 11.6 s)
+HurinkRdata23 : 827  (26547 évaluations, 11.1 s)
+HurinkEdata43 : 1280  (75214 évaluations, 44.4 s)
+HurinkEdata42 : 1323  (84973 évaluations, 52.7 s)
+HurinkRdata24 : 939  (34160 évaluations, 16.0 s)
+HurinkRdata26 : 950  (39907 évaluations, 18.5 s)
+HurinkRdata25 : 889  (45276 évaluations, 21.3 s)
+HurinkRdata27 : 913  (39600 évaluations, 18.2 s)
+HurinkRdata28 : 882  (38590 évaluations, 17.9 s)
+HurinkRdata30 : 1194  (47415 évaluations, 27.6 s)
+HurinkRdata29 : 1156  (49981 évaluations, 28.9 s)
+HurinkRdata31 : 1182  (47643 évaluations, 27.1 s)
+HurinkRdata32 : 1096  (48622 évaluations, 28.3 s)
+HurinkRdata33 : 1195  (52167 évaluations, 31.5 s)
+HurinkRdata34 : 1584  (71005 évaluations, 63.4 s)
+HurinkRdata36 : 1567  (69222 évaluations, 63.4 s)
+HurinkRdata39 : 1175  (86233 évaluations, 52.2 s)
+HurinkRdata40 : 1158  (82325 évaluations, 49.3 s)
+HurinkRdata35 : 1741  (74366 évaluations, 69.4 s)
+HurinkVdata4 : 630  (10819 évaluations, 3.4 s)
+HurinkVdata5 : 590  (11915 évaluations, 3.7 s)
+HurinkVdata7 : 559  (10988 évaluations, 3.1 s)
+HurinkVdata6 : 529  (10903 évaluations, 3.3 s)
+HurinkRdata41 : 1106  (80376 évaluations, 47.4 s)
+HurinkVdata8 : 509  (11236 évaluations, 3.6 s)
+HurinkVdata9 : 854  (16979 évaluations, 6.5 s)
+HurinkRdata37 : 1599  (74371 évaluations, 67.2 s)
+HurinkVdata10 : 803  (17752 évaluations, 6.6 s)
+HurinkRdata38 : 1635  (73480 évaluations, 68.7 s)
+HurinkVdata11 : 817  (17448 évaluations, 7.1 s)
+HurinkVdata12 : 913  (17899 évaluations, 7.0 s)
+HurinkVdata13 : 859  (17249 évaluations, 6.8 s)
+HurinkVdata15 : 984  (23702 évaluations, 11.6 s)
+HurinkVdata19 : 718  (15302 évaluations, 5.4 s)
+HurinkVdata14 : 1127  (24135 évaluations, 12.0 s)
+HurinkVdata21 : 663  (1155 évaluations, 0.5 s)
+HurinkVdata23 : 756  (155 évaluations, 0.1 s)
+HurinkVdata16 : 1090  (23547 évaluations, 11.9 s)
+HurinkVdata20 : 646  (7131 évaluations, 2.4 s)
+HurinkVdata17 : 1123  (23360 évaluations, 12.0 s)
+HurinkVdata18 : 1144  (23683 évaluations, 12.0 s)
+HurinkVdata22 : 640  (15372 évaluations, 5.3 s)
+HurinkVdata24 : 860  (34465 évaluations, 16.6 s)
+HurinkVdata25 : 789  (32150 évaluations, 15.4 s)
+HurinkRdata42 : 1130  (82595 évaluations, 48.9 s)
+HurinkVdata28 : 808  (33304 évaluations, 15.4 s)
+HurinkVdata26 : 875  (34797 évaluations, 17.2 s)
+HurinkVdata27 : 833  (36686 évaluations, 17.6 s)
+HurinkRdata43 : 1082  (85133 évaluations, 48.4 s)
+HurinkVdata29 : 1108  (48508 évaluations, 32.5 s)
+HurinkVdata30 : 1141  (48081 évaluations, 32.1 s)
+HurinkVdata31 : 1125  (47716 évaluations, 32.2 s)
+HurinkVdata32 : 1047  (48709 évaluations, 31.8 s)
+HurinkVdata33 : 1130  (50356 évaluations, 33.8 s)
+HurinkVdata41 : 943  (30 évaluations, 0.0 s)
+HurinkVdata39 : 949  (26593 évaluations, 13.4 s)
+HurinkVdata43 : 955  (905 évaluations, 0.7 s)
+Kacem1 : 11  (5 évaluations, 0.0 s)
+Kacem2 : 11  (260 évaluations, 0.2 s)
+Kacem3 : 7  (1486 évaluations, 0.5 s)
+Kacem4 : 12  (10965 évaluations, 4.6 s)
+HurinkVdata40 : 987  (49425 évaluations, 25.7 s)
+HurinkVdata42 : 935  (47780 évaluations, 24.3 s)
+HurinkVdata34 : 1572  (71446 évaluations, 78.7 s)
+HurinkVdata35 : 1716  (73572 évaluations, 79.7 s)
+HurinkVdata36 : 1549  (72013 évaluations, 78.4 s)
+HurinkVdata37 : 1588  (73700 évaluations, 69.9 s)
+HurinkVdata38 : 1604  (73998 évaluations, 63.5 s)
+# Agent qui anticipe « Faisceau:filtre-regle [faisceau=50,k=5,filtre=regle] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -1.36 % | 4/3/3 |
+| HurinkEdata | 40 | +3.42 % | 2/2/36 |
+| HurinkRdata | 40 | +0.83 % | 16/0/24 |
+| HurinkVdata | 40 | -2.21 % | 37/1/2 |
+| Kacem | 4 | -5.53 % | 3/1/0 |
+| **Total** | 134 | **+0.34 %** | 62/7/65 |
+
+Temps moyen par instance : agent 22.2 s, recuit 16.4 s. Plannings évalués : agent 36072, recuit 50 000.
+
+### 2026-11-03T01:21:45 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --filtre borne --nom filtre-borne --largeur 5 --k 4 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1.5 --processus 8 --suffixe _fs1.5
+134 instances à lancer (Faisceau:filtre-borne [faisceau=5,k=4,filtre=borne])
+BrandimarteMk1 : 49  (1093 évaluations, 1.4 s)
+BrandimarteMk2 : 30  (1197 évaluations, 1.5 s)
+BrandimarteMk5 : 183  (1749 évaluations, 1.8 s)
+BrandimarteMk4 : 74  (2010 évaluations, 1.9 s)
+HurinkEdata4 : 752  (915 évaluations, 0.3 s)
+HurinkEdata5 : 770  (981 évaluations, 0.4 s)
+BrandimarteMk7 : 156  (2108 évaluations, 2.1 s)
+BrandimarteMk3 : 214  (3011 évaluations, 2.6 s)
+HurinkEdata6 : 635  (1168 évaluations, 0.4 s)
+HurinkEdata7 : 696  (992 évaluations, 0.3 s)
+HurinkEdata8 : 570  (927 évaluations, 0.3 s)
+BrandimarteMk6 : 73  (3531 évaluations, 2.9 s)
+HurinkEdata9 : 928  (1479 évaluations, 0.6 s)
+HurinkEdata10 : 873  (1505 évaluations, 0.5 s)
+HurinkEdata11 : 928  (1486 évaluations, 0.6 s)
+HurinkEdata12 : 976  (1507 évaluations, 0.6 s)
+HurinkEdata13 : 991  (1497 évaluations, 0.6 s)
+HurinkEdata15 : 1026  (2031 évaluations, 0.9 s)
+HurinkEdata17 : 1200  (1911 évaluations, 0.8 s)
+HurinkEdata14 : 1200  (2083 évaluations, 1.0 s)
+HurinkEdata16 : 1165  (2021 évaluations, 0.9 s)
+HurinkEdata18 : 1308  (2062 évaluations, 0.9 s)
+BrandimarteMk8 : 545  (4927 évaluations, 4.8 s)
+HurinkEdata21 : 943  (2176 évaluations, 0.9 s)
+HurinkEdata19 : 967  (2587 évaluations, 1.1 s)
+HurinkEdata20 : 806  (2663 évaluations, 1.2 s)
+BrandimarteMk10 : 232  (4927 évaluations, 3.9 s)
+BrandimarteMk9 : 318  (5896 évaluations, 4.3 s)
+HurinkEdata22 : 930  (2874 évaluations, 1.3 s)
+HurinkEdata23 : 954  (2215 évaluations, 1.0 s)
+HurinkEdata24 : 1178  (3536 évaluations, 1.9 s)
+HurinkEdata25 : 968  (3709 évaluations, 1.9 s)
+HurinkEdata26 : 1097  (3525 évaluations, 1.8 s)
+HurinkEdata27 : 1042  (3635 évaluations, 1.9 s)
+HurinkEdata28 : 1049  (3793 évaluations, 2.0 s)
+HurinkEdata30 : 1376  (4104 évaluations, 2.5 s)
+HurinkEdata31 : 1354  (4476 évaluations, 2.7 s)
+HurinkEdata29 : 1322  (4777 évaluations, 2.9 s)
+HurinkEdata32 : 1274  (3824 évaluations, 2.4 s)
+HurinkEdata33 : 1429  (4770 évaluations, 3.0 s)
+HurinkEdata34 : 1760  (5029 évaluations, 4.4 s)
+HurinkEdata35 : 1881  (5601 évaluations, 4.8 s)
+HurinkEdata36 : 1680  (6056 évaluations, 5.1 s)
+HurinkRdata4 : 647  (969 évaluations, 0.4 s)
+HurinkEdata39 : 1297  (6649 évaluations, 4.8 s)
+HurinkRdata5 : 594  (954 évaluations, 0.5 s)
+HurinkEdata38 : 1877  (5473 évaluations, 5.0 s)
+HurinkRdata6 : 538  (956 évaluations, 0.4 s)
+HurinkRdata7 : 567  (878 évaluations, 0.4 s)
+HurinkEdata37 : 1763  (6242 évaluations, 5.7 s)
+HurinkRdata8 : 516  (1004 évaluations, 0.4 s)
+HurinkEdata40 : 1496  (6199 évaluations, 4.5 s)
+HurinkRdata9 : 865  (1434 évaluations, 0.7 s)
+HurinkRdata10 : 803  (1436 évaluations, 0.7 s)
+HurinkRdata11 : 827  (1418 évaluations, 0.7 s)
+HurinkRdata12 : 918  (1508 évaluations, 0.7 s)
+HurinkRdata13 : 875  (1425 évaluations, 0.6 s)
+HurinkRdata14 : 1133  (1642 évaluations, 0.9 s)
+HurinkRdata15 : 990  (1701 évaluations, 0.9 s)
+HurinkRdata16 : 1091  (1750 évaluations, 1.0 s)
+HurinkRdata17 : 1145  (1886 évaluations, 1.0 s)
+HurinkRdata18 : 1167  (1974 évaluations, 1.1 s)
+HurinkEdata41 : 1297  (7822 évaluations, 6.0 s)
+HurinkRdata20 : 726  (1394 évaluations, 0.8 s)
+HurinkRdata19 : 799  (2658 évaluations, 1.4 s)
+HurinkRdata21 : 758  (2575 évaluations, 1.4 s)
+HurinkRdata23 : 841  (2212 évaluations, 1.2 s)
+HurinkRdata22 : 794  (2543 évaluations, 1.4 s)
+HurinkEdata43 : 1326  (6425 évaluations, 5.2 s)
+HurinkEdata42 : 1319  (7188 évaluations, 5.9 s)
+HurinkRdata25 : 887  (3290 évaluations, 2.0 s)
+HurinkRdata24 : 967  (3653 évaluations, 2.1 s)
+HurinkRdata26 : 948  (3011 évaluations, 1.8 s)
+HurinkRdata28 : 901  (3906 évaluations, 2.1 s)
+HurinkRdata27 : 933  (3826 évaluations, 2.1 s)
+HurinkRdata29 : 1186  (4351 évaluations, 2.8 s)
+HurinkRdata30 : 1203  (4117 évaluations, 2.5 s)
+HurinkRdata31 : 1185  (4405 évaluations, 2.9 s)
+HurinkRdata32 : 1109  (3909 évaluations, 2.4 s)
+HurinkRdata33 : 1241  (4160 évaluations, 2.6 s)
+HurinkRdata34 : 1602  (5311 évaluations, 4.7 s)
+HurinkRdata39 : 1200  (5649 évaluations, 3.5 s)
+HurinkRdata36 : 1579  (5274 évaluations, 4.8 s)
+HurinkVdata4 : 633  (969 évaluations, 0.4 s)
+HurinkRdata35 : 1761  (6043 évaluations, 5.4 s)
+HurinkVdata5 : 593  (954 évaluations, 0.3 s)
+HurinkVdata6 : 530  (817 évaluations, 0.3 s)
+HurinkVdata7 : 559  (898 évaluations, 0.3 s)
+HurinkRdata41 : 1092  (6518 évaluations, 4.1 s)
+HurinkVdata8 : 512  (1042 évaluations, 0.4 s)
+HurinkRdata40 : 1248  (7127 évaluations, 4.7 s)
+HurinkRdata37 : 1608  (6254 évaluations, 5.6 s)
+HurinkVdata9 : 856  (1367 évaluations, 0.6 s)
+HurinkRdata38 : 1641  (6358 évaluations, 5.6 s)
+HurinkVdata10 : 812  (1552 évaluations, 0.6 s)
+HurinkVdata11 : 819  (1251 évaluations, 0.5 s)
+HurinkVdata12 : 916  (1466 évaluations, 0.6 s)
+HurinkVdata13 : 860  (1455 évaluations, 0.6 s)
+HurinkVdata14 : 1134  (1973 évaluations, 1.0 s)
+HurinkVdata15 : 986  (1954 évaluations, 1.0 s)
+HurinkVdata19 : 723  (1331 évaluations, 0.6 s)
+HurinkVdata16 : 1091  (1843 évaluations, 1.0 s)
+HurinkVdata20 : 646  (325 évaluations, 0.2 s)
+HurinkVdata17 : 1125  (1916 évaluations, 1.0 s)
+HurinkVdata23 : 756  (80 évaluations, 0.1 s)
+HurinkVdata18 : 1144  (1627 évaluations, 0.9 s)
+HurinkVdata21 : 663  (921 évaluations, 0.4 s)
+HurinkRdata42 : 1151  (6785 évaluations, 4.3 s)
+HurinkVdata22 : 645  (2288 évaluations, 1.0 s)
+HurinkRdata43 : 1075  (6337 évaluations, 3.9 s)
+HurinkVdata28 : 817  (2139 évaluations, 1.1 s)
+HurinkVdata25 : 797  (2933 évaluations, 1.6 s)
+HurinkVdata26 : 883  (2837 évaluations, 1.6 s)
+HurinkVdata24 : 864  (2892 évaluations, 1.6 s)
+HurinkVdata27 : 829  (2975 évaluations, 1.7 s)
+HurinkVdata29 : 1108  (3393 évaluations, 2.5 s)
+HurinkVdata31 : 1127  (3580 évaluations, 2.6 s)
+HurinkVdata30 : 1142  (3735 évaluations, 2.8 s)
+HurinkVdata33 : 1133  (3644 évaluations, 2.6 s)
+HurinkVdata32 : 1049  (3850 évaluations, 2.8 s)
+HurinkVdata41 : 943  (200 évaluations, 0.2 s)
+HurinkVdata40 : 991  (3658 évaluations, 2.2 s)
+HurinkVdata39 : 951  (4646 évaluations, 2.9 s)
+Kacem1 : 11  (4 évaluations, 0.0 s)
+Kacem2 : 12  (220 évaluations, 0.1 s)
+Kacem3 : 8  (164 évaluations, 0.1 s)
+HurinkVdata43 : 955  (967 évaluations, 0.6 s)
+Kacem4 : 12  (480 évaluations, 0.4 s)
+HurinkVdata36 : 1551  (4518 évaluations, 5.7 s)
+HurinkVdata42 : 934  (5114 évaluations, 3.1 s)
+HurinkVdata35 : 1718  (5361 évaluations, 6.2 s)
+HurinkVdata34 : 1573  (5700 évaluations, 6.4 s)
+HurinkVdata37 : 1590  (5598 évaluations, 5.5 s)
+HurinkVdata38 : 1604  (5262 évaluations, 5.1 s)
+# Agent qui anticipe « Faisceau:filtre-borne [faisceau=5,k=4,filtre=borne] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -0.26 % | 3/5/2 |
+| HurinkEdata | 40 | +4.44 % | 2/1/37 |
+| HurinkRdata | 40 | +1.83 % | 4/1/35 |
+| HurinkVdata | 40 | -1.94 % | 31/1/8 |
+| Kacem | 4 | -0.12 % | 1/1/2 |
+| **Total** | 134 | **+1.27 %** | 41/9/84 |
+
+Temps moyen par instance : agent 2.0 s, recuit 16.4 s. Plannings évalués : agent 2992, recuit 50 000.
+
+### 2026-11-03T01:22:30 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --filtre borne --nom filtre-borne --largeur 50 --k 5 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1.5 --processus 8 --suffixe _fs1.5
+134 instances à lancer (Faisceau:filtre-borne [faisceau=50,k=5,filtre=borne])
+BrandimarteMk1 : 47  (13007 évaluations, 5.5 s)
+BrandimarteMk2 : 29  (13771 évaluations, 5.9 s)
+BrandimarteMk4 : 74  (22815 évaluations, 9.9 s)
+BrandimarteMk5 : 182  (25029 évaluations, 10.4 s)
+BrandimarteMk7 : 155  (25574 évaluations, 13.3 s)
+HurinkEdata4 : 723  (11523 évaluations, 3.9 s)
+HurinkEdata5 : 770  (10884 évaluations, 3.7 s)
+HurinkEdata6 : 641  (10222 évaluations, 3.4 s)
+HurinkEdata7 : 665  (9157 évaluations, 3.0 s)
+HurinkEdata8 : 570  (11263 évaluations, 3.3 s)
+BrandimarteMk3 : 214  (36037 évaluations, 18.9 s)
+HurinkEdata9 : 911  (16211 évaluations, 5.3 s)
+HurinkEdata10 : 878  (16351 évaluations, 5.9 s)
+HurinkEdata11 : 911  (16915 évaluations, 5.6 s)
+HurinkEdata12 : 979  (18918 évaluations, 6.3 s)
+BrandimarteMk6 : 71  (47348 évaluations, 26.1 s)
+HurinkEdata13 : 920  (19341 évaluations, 6.2 s)
+HurinkEdata14 : 1197  (23007 évaluations, 8.6 s)
+HurinkEdata15 : 1026  (23178 évaluations, 8.9 s)
+HurinkEdata16 : 1155  (24958 évaluations, 9.0 s)
+HurinkEdata17 : 1197  (22983 évaluations, 8.4 s)
+HurinkEdata18 : 1261  (23764 évaluations, 9.2 s)
+BrandimarteMk8 : 545  (55914 évaluations, 41.3 s)
+HurinkEdata20 : 811  (31619 évaluations, 12.4 s)
+HurinkEdata19 : 997  (35883 évaluations, 14.6 s)
+HurinkEdata22 : 899  (26823 évaluations, 11.8 s)
+HurinkEdata21 : 901  (32421 évaluations, 13.2 s)
+HurinkEdata23 : 931  (25829 évaluations, 10.3 s)
+BrandimarteMk9 : 318  (69276 évaluations, 47.5 s)
+BrandimarteMk10 : 231  (67411 évaluations, 48.3 s)
+HurinkEdata24 : 1152  (41639 évaluations, 20.3 s)
+HurinkEdata25 : 969  (40485 évaluations, 18.3 s)
+HurinkEdata26 : 1096  (43237 évaluations, 20.4 s)
+HurinkEdata27 : 1058  (45794 évaluations, 21.4 s)
+HurinkEdata28 : 1052  (43248 évaluations, 20.8 s)
+HurinkEdata29 : 1286  (53141 évaluations, 28.7 s)
+HurinkEdata30 : 1343  (54209 évaluations, 29.2 s)
+HurinkEdata31 : 1336  (50525 évaluations, 28.1 s)
+HurinkEdata32 : 1269  (55225 évaluations, 31.0 s)
+HurinkEdata33 : 1382  (57398 évaluations, 31.5 s)
+HurinkEdata35 : 1873  (73170 évaluations, 54.1 s)
+HurinkEdata34 : 1716  (77575 évaluations, 59.9 s)
+HurinkEdata36 : 1684  (79331 évaluations, 59.5 s)
+HurinkRdata4 : 641  (11040 évaluations, 3.2 s)
+HurinkEdata40 : 1508  (66234 évaluations, 39.3 s)
+HurinkEdata37 : 1797  (72146 évaluations, 55.5 s)
+HurinkEdata39 : 1269  (84838 évaluations, 50.1 s)
+HurinkRdata5 : 597  (11596 évaluations, 3.6 s)
+HurinkRdata7 : 580  (10626 évaluations, 2.9 s)
+HurinkRdata6 : 535  (11283 évaluations, 3.3 s)
+HurinkRdata8 : 508  (11252 évaluations, 3.3 s)
+HurinkRdata9 : 855  (17031 évaluations, 5.8 s)
+HurinkRdata10 : 804  (17178 évaluations, 5.5 s)
+HurinkEdata38 : 1877  (74894 évaluations, 59.1 s)
+HurinkRdata11 : 820  (16104 évaluations, 5.9 s)
+HurinkRdata12 : 918  (17391 évaluations, 5.8 s)
+HurinkEdata41 : 1303  (79752 évaluations, 47.4 s)
+HurinkRdata13 : 873  (16194 évaluations, 5.6 s)
+HurinkRdata14 : 1127  (21113 évaluations, 8.8 s)
+HurinkRdata16 : 1091  (21552 évaluations, 9.2 s)
+HurinkRdata15 : 990  (23694 évaluations, 9.7 s)
+HurinkRdata17 : 1135  (24290 évaluations, 9.8 s)
+HurinkRdata18 : 1163  (25409 évaluations, 10.5 s)
+HurinkRdata19 : 789  (28791 évaluations, 11.6 s)
+HurinkRdata21 : 762  (18564 évaluations, 7.7 s)
+HurinkRdata20 : 719  (23071 évaluations, 10.0 s)
+HurinkRdata23 : 806  (18946 évaluations, 8.2 s)
+HurinkRdata22 : 793  (29526 évaluations, 13.1 s)
+HurinkRdata24 : 944  (35140 évaluations, 18.0 s)
+HurinkEdata43 : 1280  (75241 évaluations, 45.5 s)
+HurinkRdata26 : 943  (36302 évaluations, 17.4 s)
+HurinkEdata42 : 1352  (79909 évaluations, 54.0 s)
+HurinkRdata27 : 918  (36151 évaluations, 17.1 s)
+HurinkRdata25 : 868  (39813 évaluations, 19.5 s)
+HurinkRdata28 : 900  (40761 évaluations, 20.3 s)
+HurinkRdata29 : 1158  (47093 évaluations, 27.0 s)
+HurinkRdata30 : 1203  (51423 évaluations, 28.4 s)
+HurinkRdata31 : 1178  (48753 évaluations, 27.9 s)
+HurinkRdata32 : 1089  (48022 évaluations, 27.2 s)
+HurinkRdata33 : 1191  (49117 évaluations, 28.6 s)
+HurinkRdata35 : 1740  (71068 évaluations, 59.1 s)
+HurinkRdata34 : 1591  (74017 évaluations, 59.6 s)
+HurinkRdata36 : 1564  (74622 évaluations, 61.6 s)
+HurinkVdata4 : 630  (11087 évaluations, 3.2 s)
+HurinkVdata5 : 588  (11572 évaluations, 3.4 s)
+HurinkRdata41 : 1078  (79649 évaluations, 43.1 s)
+HurinkRdata40 : 1224  (85673 évaluations, 48.2 s)
+HurinkVdata6 : 530  (11522 évaluations, 3.3 s)
+HurinkVdata7 : 559  (11659 évaluations, 3.6 s)
+HurinkRdata37 : 1610  (73989 évaluations, 60.8 s)
+HurinkRdata39 : 1146  (91653 évaluations, 52.5 s)
+HurinkVdata8 : 508  (11601 évaluations, 3.6 s)
+HurinkVdata9 : 855  (18549 évaluations, 6.2 s)
+HurinkVdata10 : 811  (18068 évaluations, 6.5 s)
+HurinkVdata11 : 818  (18516 évaluations, 7.2 s)
+HurinkVdata12 : 913  (18029 évaluations, 6.4 s)
+HurinkRdata38 : 1640  (75271 évaluations, 61.2 s)
+HurinkVdata13 : 859  (16894 évaluations, 6.1 s)
+HurinkVdata19 : 717  (9757 évaluations, 3.5 s)
+HurinkVdata20 : 646  (5365 évaluations, 2.1 s)
+HurinkVdata21 : 663  (375 évaluations, 0.3 s)
+HurinkVdata14 : 1128  (23991 évaluations, 10.6 s)
+HurinkVdata23 : 756  (635 évaluations, 0.4 s)
+HurinkVdata15 : 984  (24194 évaluations, 10.6 s)
+HurinkVdata16 : 1090  (23446 évaluations, 10.1 s)
+HurinkVdata17 : 1124  (23927 évaluations, 10.3 s)
+HurinkVdata18 : 1144  (23368 évaluations, 9.9 s)
+HurinkRdata43 : 1082  (68357 évaluations, 37.3 s)
+HurinkVdata22 : 634  (22355 évaluations, 8.2 s)
+HurinkRdata42 : 1135  (83756 évaluations, 48.4 s)
+HurinkVdata25 : 794  (33597 évaluations, 15.8 s)
+HurinkVdata27 : 829  (33346 évaluations, 15.9 s)
+HurinkVdata24 : 860  (35919 évaluations, 16.8 s)
+HurinkVdata26 : 877  (36535 évaluations, 17.6 s)
+HurinkVdata28 : 813  (35584 évaluations, 16.8 s)
+HurinkVdata29 : 1108  (49557 évaluations, 33.1 s)
+HurinkVdata30 : 1142  (51491 évaluations, 33.0 s)
+HurinkVdata32 : 1046  (44730 évaluations, 28.3 s)
+HurinkVdata33 : 1131  (48774 évaluations, 30.6 s)
+HurinkVdata31 : 1126  (50483 évaluations, 31.9 s)
+HurinkVdata41 : 943  (655 évaluations, 0.8 s)
+HurinkVdata42 : 942  (12246 évaluations, 6.4 s)
+HurinkVdata43 : 955  (625 évaluations, 0.8 s)
+Kacem1 : 11  (5 évaluations, 0.0 s)
+Kacem2 : 11  (655 évaluations, 0.4 s)
+Kacem3 : 7  (405 évaluations, 0.4 s)
+HurinkVdata39 : 952  (26881 évaluations, 14.0 s)
+Kacem4 : 12  (10225 évaluations, 6.4 s)
+HurinkVdata40 : 986  (32835 évaluations, 16.7 s)
+HurinkVdata35 : 1716  (66196 évaluations, 67.1 s)
+HurinkVdata34 : 1572  (68717 évaluations, 69.9 s)
+HurinkVdata36 : 1550  (73713 évaluations, 71.6 s)
+HurinkVdata37 : 1587  (68883 évaluations, 59.9 s)
+HurinkVdata38 : 1603  (69937 évaluations, 60.5 s)
+# Agent qui anticipe « Faisceau:filtre-borne [faisceau=50,k=5,filtre=borne] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+| Famille | Instances | Écart moyen au recuit | V/E/D de l'agent |
+|---|---|---|---|
+| Brandimarte | 10 | -1.44 % | 7/2/1 |
+| HurinkEdata | 40 | +3.30 % | 0/2/38 |
+| HurinkRdata | 40 | +0.88 % | 11/0/29 |
+| HurinkVdata | 40 | -2.16 % | 35/2/3 |
+| Kacem | 4 | -5.53 % | 3/1/0 |
+| **Total** | 134 | **+0.33 %** | 56/7/71 |
+
+Temps moyen par instance : agent 20.8 s, recuit 16.4 s. Plannings évalués : agent 35654, recuit 50 000.

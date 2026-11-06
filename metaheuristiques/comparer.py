@@ -39,7 +39,7 @@ def reutiliser_defaut(a, instances, cfg, params, deja):
     """Si les paramètres réglés d'une méthode sont exactement ses valeurs par défaut, le résultat
     est identique (même graine, même départ, même budget) à celui déjà calculé sans --parametres :
     on recopie ces lignes sous la nouvelle configuration au lieu de tout relancer."""
-    if not a.parametres or a.forcer:
+    if not a.parametres or a.forcer or os.environ.get("FJSP_DECODEUR"):   # jamais de recopie avec un autre décodeur
         return
     cfg0 = config(a.budget, a.evaluations, a.depart)
     noms = {i.name for i in instances}

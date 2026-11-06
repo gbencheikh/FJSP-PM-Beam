@@ -4,6 +4,7 @@ Ne recalcule rien : met en forme les sorties des scripts d'analyse déjà exécu
   tab_budget.tex      <- resultats/tests_qualite_budget.csv      (tests par budget en évaluations, Holm sur 14 tests)
   tab_temps.tex       <- resultats/tests_qualite_temps.md         (E10, 54 instances) et tests_qualite_temps_E10b.md (36)
   tab_cpsat.tex       <- resultats/e9b.csv                       (CP-SAT seul contre le faisceau, budgets appariés, Holm par groupe)
+  tab_song.tex        <- resultats/e10s_song_temps.csv           (Song et al. au même temps mur, un cœur, Holm sur 3 tests)
   tab_maintenance.tex <- resultats/e15.md                         (placement des maintenances, séquences du faisceau 5x4)
 
   python -m experiences_article1.tableaux_article [--resultats DOSSIER]
@@ -124,13 +125,28 @@ def tab_cpsat(R):
     return "\n".join(t)
 
 
+def tab_song(R):
+    rows = list(csv.DictReader(open(os.path.join(R, "e10s_song_temps.csv"), encoding="utf8")))
+    t = ["% Produit par experiences_article1/tableaux_article.py — source : resultats/e10s_song_temps.csv",
+         "% (FJSP classique, 50 instances Brandimarte + Hurink vdata ; écart = faisceau / Song - 1 ; Holm sur 3 tests)",
+         "\\begin{tabular}{lrrrrr}", "\\toprule",
+         "Beam setting & Gap beam vs Song (\\%) & W/T/L of the beam & $p_{\\mathrm{Holm}}$ & "
+         "Samples of Song (median) & Overrun of Song, median / max (s) \\\\", "\\midrule"]
+    for r in rows:
+        t.append(f"{r['reglage'].replace('x', TIMES)} & {float(r['ecart_moyen']):+.2f} & {r['V']}/{r['E']}/{r['D']} & "
+                 f"{pval(r['p_holm'])} & {r['tirages_song_median']} & "
+                 f"{float(r['depassement_median_s']):.1f} / {float(r['depassement_max_s']):.1f} \\\\")
+    t += ["\\bottomrule", "\\end{tabular}"]
+    return "\n".join(t)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--resultats", default=os.path.join(ICI, "resultats"))
     ap.add_argument("--sortie", default=None)
     a = ap.parse_args()
     S = a.sortie or a.resultats
-    for nom, f in (("tab_budget", tab_budget), ("tab_temps", tab_temps), ("tab_cpsat", tab_cpsat),
+    for nom, f in (("tab_budget", tab_budget), ("tab_temps", tab_temps), ("tab_cpsat", tab_cpsat), ("tab_song", tab_song),
                    ("tab_maintenance", tab_maintenance)):
         open(os.path.join(S, nom + ".tex"), "w", encoding="utf8").write(f(a.resultats) + "\n")
         print("ok", nom)

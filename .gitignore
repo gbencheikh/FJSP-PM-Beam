@@ -5,7 +5,7 @@ __pycache__/
 desktop.ini
 Thumbs.db
 # decompressed automatically from solutions.jsonl.gz on first import (≈ 96 MB)
-banque_resultats/solutions.jsonl
+banque_resultats/solutions*.jsonl
 # external repository of Song et al. (to be cloned, see README)
 externe/fjsp-drl/
 *.tmp

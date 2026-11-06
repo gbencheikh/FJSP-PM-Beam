@@ -1,6 +1,6 @@
 {
  "instance": "BrandimarteMk1",
- "source": "calcul",
+ "source": "banque",
  "T": [
   13,
   12,
@@ -23,7 +23,7 @@
    "config": "glouton",
    "cmax": 52.0,
    "maintenances": 15,
-   "temps_s": 0.06,
+   "temps_s": 0.0,
    "cmax_banque": 52.0,
    "segments": [
     [
@@ -523,7 +523,7 @@
    "config": "faisceau=50,k=5",
    "cmax": 51.0,
    "maintenances": 13,
-   "temps_s": 3.37,
+   "temps_s": 0.0,
    "cmax_banque": 51.0,
    "segments": [
     [
@@ -1009,7 +1009,7 @@
    "config": "evals=50000,depart=heuristique,params=taguchi",
    "cmax": 51.0,
    "maintenances": 14,
-   "temps_s": 2.69,
+   "temps_s": 0.0,
    "cmax_banque": 51.0,
    "segments": [
     [

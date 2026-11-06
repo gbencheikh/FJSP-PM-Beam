@@ -1,0 +1,1389 @@
+
+### 2026-11-03T01:28:49 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe comparer_rl.py --processus 8 --modele models/imitation/cand_ft_best.pt --nom imit-ft --familles Brandimarte HurinkLa Kacem
+imit-ft : 134 exécutions à lancer, 8 processus
+imit-ft BrandimarteMk1 graine 0 43.0
+imit-ft BrandimarteMk2 graine 0 32.0
+imit-ft BrandimarteMk4 graine 0 72.0
+imit-ft BrandimarteMk5 graine 0 183.0
+imit-ft BrandimarteMk3 graine 0 204.0
+imit-ft HurinkEdata5 graine 0 809.0
+imit-ft HurinkEdata4 graine 0 707.0
+imit-ft BrandimarteMk7 graine 0 151.0
+imit-ft HurinkEdata6 graine 0 609.0
+imit-ft HurinkEdata8 graine 0 543.0
+imit-ft HurinkEdata7 graine 0 625.0
+imit-ft HurinkEdata9 graine 0 952.0
+imit-ft HurinkEdata10 graine 0 868.0
+imit-ft BrandimarteMk6 graine 0 78.0
+imit-ft HurinkEdata11 graine 0 949.0
+imit-ft HurinkEdata12 graine 0 1019.0
+imit-ft HurinkEdata13 graine 0 891.0
+imit-ft HurinkEdata14 graine 0 1202.0
+imit-ft HurinkEdata15 graine 0 1096.0
+imit-ft BrandimarteMk10 graine 0 228.0
+imit-ft BrandimarteMk9 graine 0 312.0
+imit-ft HurinkEdata16 graine 0 1152.0
+imit-ft HurinkEdata17 graine 0 1210.0
+imit-ft HurinkEdata18 graine 0 1426.0
+imit-ft BrandimarteMk8 graine 0 524.0
+imit-ft HurinkEdata19 graine 0 1053.0
+imit-ft HurinkEdata20 graine 0 784.0
+imit-ft HurinkEdata21 graine 0 876.0
+imit-ft HurinkEdata22 graine 0 1015.0
+imit-ft HurinkEdata23 graine 0 1013.0
+imit-ft HurinkEdata24 graine 0 1156.0
+imit-ft HurinkEdata25 graine 0 1072.0
+imit-ft HurinkEdata26 graine 0 1139.0
+imit-ft HurinkEdata27 graine 0 1092.0
+imit-ft HurinkEdata28 graine 0 1179.0
+imit-ft HurinkEdata29 graine 0 1334.0
+imit-ft HurinkEdata31 graine 0 1375.0
+imit-ft HurinkEdata30 graine 0 1517.0
+imit-ft HurinkEdata32 graine 0 1394.0
+imit-ft HurinkEdata33 graine 0 1399.0
+imit-ft HurinkEdata34 graine 0 1728.0
+imit-ft HurinkEdata35 graine 0 1923.0
+imit-ft HurinkEdata36 graine 0 1697.0
+imit-ft HurinkRdata4 graine 0 630.0
+imit-ft HurinkEdata37 graine 0 1722.0
+imit-ft HurinkRdata5 graine 0 616.0
+imit-ft HurinkRdata6 graine 0 499.0
+imit-ft HurinkEdata38 graine 0 1882.0
+imit-ft HurinkRdata7 graine 0 550.0
+imit-ft HurinkEdata39 graine 0 1370.0
+imit-ft HurinkRdata8 graine 0 486.0
+imit-ft HurinkRdata9 graine 0 822.0
+imit-ft HurinkEdata40 graine 0 1543.0
+imit-ft HurinkRdata10 graine 0 762.0
+imit-ft HurinkRdata11 graine 0 807.0
+imit-ft HurinkRdata12 graine 0 935.0
+imit-ft HurinkRdata13 graine 0 843.0
+imit-ft HurinkEdata41 graine 0 1369.0
+imit-ft HurinkRdata14 graine 0 1132.0
+imit-ft HurinkEdata42 graine 0 1425.0
+imit-ft HurinkRdata15 graine 0 1037.0
+imit-ft HurinkRdata17 graine 0 1127.0
+imit-ft HurinkRdata16 graine 0 1073.0
+imit-ft HurinkEdata43 graine 0 1374.0
+imit-ft HurinkRdata18 graine 0 1124.0
+imit-ft HurinkRdata19 graine 0 852.0
+imit-ft HurinkRdata20 graine 0 786.0
+imit-ft HurinkRdata22 graine 0 848.0
+imit-ft HurinkRdata23 graine 0 834.0
+imit-ft HurinkRdata21 graine 0 753.0
+imit-ft HurinkRdata24 graine 0 1005.0
+imit-ft HurinkRdata26 graine 0 1015.0
+imit-ft HurinkRdata25 graine 0 879.0
+imit-ft HurinkRdata27 graine 0 952.0
+imit-ft HurinkRdata28 graine 0 972.0
+imit-ft HurinkRdata30 graine 0 1185.0
+imit-ft HurinkRdata29 graine 0 1172.0
+imit-ft HurinkRdata31 graine 0 1236.0
+imit-ft HurinkRdata32 graine 0 1096.0
+imit-ft HurinkRdata33 graine 0 1212.0
+imit-ft HurinkRdata35 graine 0 1756.0
+imit-ft HurinkRdata34 graine 0 1605.0
+imit-ft HurinkRdata38 graine 0 1641.0
+imit-ft HurinkRdata37 graine 0 1660.0
+imit-ft HurinkRdata36 graine 0 1561.0
+imit-ft HurinkVdata4 graine 0 597.0
+imit-ft HurinkVdata6 graine 0 513.0
+imit-ft HurinkVdata5 graine 0 547.0
+imit-ft HurinkVdata7 graine 0 578.0
+imit-ft HurinkVdata8 graine 0 481.0
+imit-ft HurinkVdata9 graine 0 844.0
+imit-ft HurinkVdata10 graine 0 795.0
+imit-ft HurinkRdata39 graine 0 1301.0
+imit-ft HurinkRdata40 graine 0 1550.0
+imit-ft HurinkVdata11 graine 0 808.0
+imit-ft HurinkVdata12 graine 0 872.0
+imit-ft HurinkVdata13 graine 0 856.0
+imit-ft HurinkRdata41 graine 0 1170.0
+imit-ft HurinkVdata14 graine 0 1096.0
+imit-ft HurinkVdata16 graine 0 1075.0
+imit-ft HurinkRdata42 graine 0 1219.0
+imit-ft HurinkVdata15 graine 0 958.0
+imit-ft HurinkVdata17 graine 0 1101.0
+imit-ft HurinkRdata43 graine 0 1205.0
+imit-ft HurinkVdata18 graine 0 1130.0
+imit-ft HurinkVdata19 graine 0 740.0
+imit-ft HurinkVdata20 graine 0 646.0
+imit-ft HurinkVdata21 graine 0 672.0
+imit-ft HurinkVdata22 graine 0 653.0
+imit-ft HurinkVdata24 graine 0 832.0
+imit-ft HurinkVdata25 graine 0 793.0
+imit-ft HurinkVdata23 graine 0 776.0
+imit-ft HurinkVdata26 graine 0 833.0
+imit-ft HurinkVdata27 graine 0 802.0
+imit-ft HurinkVdata28 graine 0 799.0
+imit-ft HurinkVdata29 graine 0 1064.0
+imit-ft HurinkVdata32 graine 0 1032.0
+imit-ft HurinkVdata31 graine 0 1108.0
+imit-ft HurinkVdata33 graine 0 1102.0
+imit-ft HurinkVdata30 graine 0 1109.0
+imit-ft HurinkVdata34 graine 0 1535.0
+imit-ft HurinkVdata35 graine 0 1678.0
+imit-ft HurinkVdata36 graine 0 1512.0
+imit-ft Kacem1 graine 0 11.0
+imit-ft Kacem2 graine 0 14.0
+imit-ft HurinkVdata37 graine 0 1555.0
+imit-ft HurinkVdata40 graine 0 1018.0
+imit-ft HurinkVdata39 graine 0 972.0
+imit-ft HurinkVdata41 graine 0 986.0
+imit-ft Kacem3 graine 0 8.0
+imit-ft HurinkVdata38 graine 0 1569.0
+imit-ft Kacem4 graine 0 13.0
+imit-ft HurinkVdata43 graine 0 964.0
+imit-ft HurinkVdata42 graine 0 963.0
+# Comparaison — 134 instances, régime A, facteur de seuil 1
+
+C_max moyen sur les graines disponibles ; écart au meilleur connu = meilleure valeur, toutes méthodes de la banque.
+
+| Méthode [configuration] | C_max moyen | Écart moyen au meilleur connu | V/E/D de imit-ft |
+|---|---|---|---|
+| RL:imit-ft [glouton] | 964.4 | +0.0 % | – |
+
+V/E/D = victoires / égalités / défaites de l'agent face à la méthode de la ligne, instance par instance.
+
+### 2026-11-03T01:29:07 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe comparer_rl.py --processus 8 --modele models/imitation/cand_ft_best.pt --nom imit-ft --familles Brandimarte HurinkLa Kacem --echantillons 100 --graines 0 1 2 3 4
+imit-ft : 670 exécutions à lancer, 8 processus
+imit-ft BrandimarteMk2 graine 1 28.0
+imit-ft BrandimarteMk2 graine 2 28.0
+imit-ft BrandimarteMk2 graine 0 29.0
+imit-ft BrandimarteMk1 graine 0 42.0
+imit-ft BrandimarteMk1 graine 1 42.0
+imit-ft BrandimarteMk1 graine 4 42.0
+imit-ft BrandimarteMk1 graine 3 42.0
+imit-ft BrandimarteMk1 graine 2 43.0
+imit-ft BrandimarteMk2 graine 4 28.0
+imit-ft BrandimarteMk2 graine 3 29.0
+imit-ft BrandimarteMk4 graine 0 68.0
+imit-ft BrandimarteMk4 graine 2 69.0
+imit-ft BrandimarteMk4 graine 1 69.0
+imit-ft BrandimarteMk3 graine 0 204.0
+imit-ft BrandimarteMk3 graine 4 204.0
+imit-ft BrandimarteMk3 graine 1 204.0
+imit-ft BrandimarteMk3 graine 3 204.0
+imit-ft BrandimarteMk3 graine 2 204.0
+imit-ft BrandimarteMk4 graine 3 68.0
+imit-ft BrandimarteMk5 graine 0 176.0
+imit-ft BrandimarteMk5 graine 1 178.0
+imit-ft BrandimarteMk5 graine 2 179.0
+imit-ft BrandimarteMk4 graine 4 68.0
+imit-ft BrandimarteMk5 graine 4 176.0
+imit-ft BrandimarteMk5 graine 3 179.0
+imit-ft BrandimarteMk6 graine 0 72.0
+imit-ft BrandimarteMk7 graine 0 151.0
+imit-ft BrandimarteMk7 graine 1 151.0
+imit-ft BrandimarteMk7 graine 2 148.0
+imit-ft BrandimarteMk6 graine 1 71.0
+imit-ft BrandimarteMk6 graine 2 68.0
+imit-ft BrandimarteMk6 graine 3 71.0
+imit-ft BrandimarteMk6 graine 4 67.0
+imit-ft BrandimarteMk7 graine 4 154.0
+imit-ft BrandimarteMk7 graine 3 151.0
+imit-ft BrandimarteMk8 graine 0 523.0
+imit-ft BrandimarteMk8 graine 1 523.0
+imit-ft BrandimarteMk8 graine 2 523.0
+imit-ft BrandimarteMk9 graine 0 311.0
+imit-ft BrandimarteMk9 graine 1 316.0
+imit-ft BrandimarteMk8 graine 3 523.0
+imit-ft BrandimarteMk9 graine 2 323.0
+imit-ft BrandimarteMk8 graine 4 523.0
+imit-ft HurinkEdata4 graine 0 627.0
+imit-ft HurinkEdata4 graine 1 630.0
+imit-ft HurinkEdata4 graine 2 621.0
+imit-ft HurinkEdata4 graine 3 644.0
+imit-ft BrandimarteMk9 graine 3 315.0
+imit-ft BrandimarteMk9 graine 4 326.0
+imit-ft HurinkEdata4 graine 4 621.0
+imit-ft BrandimarteMk10 graine 0 233.0
+imit-ft BrandimarteMk10 graine 1 234.0
+imit-ft HurinkEdata5 graine 0 721.0
+imit-ft BrandimarteMk10 graine 2 234.0
+imit-ft HurinkEdata5 graine 1 717.0
+imit-ft BrandimarteMk10 graine 3 230.0
+imit-ft HurinkEdata5 graine 2 692.0
+imit-ft BrandimarteMk10 graine 4 235.0
+imit-ft HurinkEdata5 graine 3 727.0
+imit-ft HurinkEdata5 graine 4 704.0
+imit-ft HurinkEdata6 graine 0 599.0
+imit-ft HurinkEdata6 graine 1 594.0
+imit-ft HurinkEdata6 graine 2 592.0
+imit-ft HurinkEdata6 graine 3 592.0
+imit-ft HurinkEdata6 graine 4 595.0
+imit-ft HurinkEdata7 graine 0 621.0
+imit-ft HurinkEdata7 graine 1 604.0
+imit-ft HurinkEdata7 graine 2 604.0
+imit-ft HurinkEdata7 graine 3 608.0
+imit-ft HurinkEdata8 graine 0 530.0
+imit-ft HurinkEdata7 graine 4 608.0
+imit-ft HurinkEdata8 graine 1 524.0
+imit-ft HurinkEdata8 graine 2 530.0
+imit-ft HurinkEdata8 graine 3 524.0
+imit-ft HurinkEdata8 graine 4 522.0
+imit-ft HurinkEdata9 graine 0 875.0
+imit-ft HurinkEdata9 graine 1 873.0
+imit-ft HurinkEdata9 graine 2 858.0
+imit-ft HurinkEdata9 graine 3 854.0
+imit-ft HurinkEdata9 graine 4 849.0
+imit-ft HurinkEdata10 graine 0 836.0
+imit-ft HurinkEdata10 graine 1 839.0
+imit-ft HurinkEdata10 graine 2 852.0
+imit-ft HurinkEdata10 graine 3 840.0
+imit-ft HurinkEdata10 graine 4 808.0
+imit-ft HurinkEdata11 graine 0 864.0
+imit-ft HurinkEdata11 graine 1 860.0
+imit-ft HurinkEdata11 graine 2 860.0
+imit-ft HurinkEdata11 graine 3 860.0
+imit-ft HurinkEdata12 graine 0 909.0
+imit-ft HurinkEdata11 graine 4 869.0
+imit-ft HurinkEdata12 graine 1 909.0
+imit-ft HurinkEdata12 graine 2 904.0
+imit-ft HurinkEdata12 graine 3 900.0
+imit-ft HurinkEdata12 graine 4 909.0
+imit-ft HurinkEdata13 graine 0 874.0
+imit-ft HurinkEdata13 graine 1 867.0
+imit-ft HurinkEdata13 graine 2 871.0
+imit-ft HurinkEdata13 graine 3 880.0
+imit-ft HurinkEdata13 graine 4 874.0
+imit-ft HurinkEdata14 graine 0 1150.0
+imit-ft HurinkEdata14 graine 1 1150.0
+imit-ft HurinkEdata14 graine 2 1134.0
+imit-ft HurinkEdata14 graine 4 1156.0
+imit-ft HurinkEdata14 graine 3 1156.0
+imit-ft HurinkEdata15 graine 1 979.0
+imit-ft HurinkEdata15 graine 0 987.0
+imit-ft HurinkEdata15 graine 2 997.0
+imit-ft HurinkEdata15 graine 3 979.0
+imit-ft HurinkEdata15 graine 4 979.0
+imit-ft HurinkEdata16 graine 0 1109.0
+imit-ft HurinkEdata16 graine 2 1094.0
+imit-ft HurinkEdata16 graine 1 1117.0
+imit-ft HurinkEdata16 graine 4 1118.0
+imit-ft HurinkEdata16 graine 3 1102.0
+imit-ft HurinkEdata17 graine 0 1147.0
+imit-ft HurinkEdata17 graine 1 1148.0
+imit-ft HurinkEdata17 graine 2 1147.0
+imit-ft HurinkEdata17 graine 3 1148.0
+imit-ft HurinkEdata17 graine 4 1148.0
+imit-ft HurinkEdata18 graine 0 1218.0
+imit-ft HurinkEdata18 graine 1 1202.0
+imit-ft HurinkEdata18 graine 2 1217.0
+imit-ft HurinkEdata18 graine 3 1232.0
+imit-ft HurinkEdata18 graine 4 1173.0
+imit-ft HurinkEdata19 graine 0 944.0
+imit-ft HurinkEdata19 graine 1 944.0
+imit-ft HurinkEdata19 graine 2 990.0
+imit-ft HurinkEdata20 graine 0 785.0
+imit-ft HurinkEdata19 graine 3 974.0
+imit-ft HurinkEdata19 graine 4 943.0
+imit-ft HurinkEdata20 graine 1 794.0
+imit-ft HurinkEdata20 graine 2 781.0
+imit-ft HurinkEdata20 graine 3 771.0
+imit-ft HurinkEdata20 graine 4 789.0
+imit-ft HurinkEdata21 graine 0 910.0
+imit-ft HurinkEdata21 graine 1 889.0
+imit-ft HurinkEdata21 graine 2 911.0
+imit-ft HurinkEdata21 graine 3 914.0
+imit-ft HurinkEdata21 graine 4 890.0
+imit-ft HurinkEdata22 graine 0 914.0
+imit-ft HurinkEdata22 graine 1 913.0
+imit-ft HurinkEdata22 graine 2 899.0
+imit-ft HurinkEdata22 graine 3 906.0
+imit-ft HurinkEdata22 graine 4 884.0
+imit-ft HurinkEdata23 graine 0 946.0
+imit-ft HurinkEdata23 graine 1 916.0
+imit-ft HurinkEdata23 graine 2 929.0
+imit-ft HurinkEdata23 graine 3 945.0
+imit-ft HurinkEdata23 graine 4 943.0
+imit-ft HurinkEdata24 graine 0 1140.0
+imit-ft HurinkEdata24 graine 1 1132.0
+imit-ft HurinkEdata24 graine 2 1166.0
+imit-ft HurinkEdata24 graine 3 1156.0
+imit-ft HurinkEdata24 graine 4 1179.0
+imit-ft HurinkEdata25 graine 0 1009.0
+imit-ft HurinkEdata25 graine 1 989.0
+imit-ft HurinkEdata25 graine 2 1016.0
+imit-ft HurinkEdata25 graine 3 1003.0
+imit-ft HurinkEdata25 graine 4 984.0
+imit-ft HurinkEdata26 graine 0 1076.0
+imit-ft HurinkEdata26 graine 1 1062.0
+imit-ft HurinkEdata26 graine 2 1059.0
+imit-ft HurinkEdata26 graine 3 1075.0
+imit-ft HurinkEdata26 graine 4 1067.0
+imit-ft HurinkEdata27 graine 0 1055.0
+imit-ft HurinkEdata27 graine 1 1046.0
+imit-ft HurinkEdata27 graine 2 1015.0
+imit-ft HurinkEdata27 graine 3 1021.0
+imit-ft HurinkEdata27 graine 4 1030.0
+imit-ft HurinkEdata28 graine 0 1042.0
+imit-ft HurinkEdata28 graine 1 1058.0
+imit-ft HurinkEdata28 graine 2 1053.0
+imit-ft HurinkEdata28 graine 3 1062.0
+imit-ft HurinkEdata28 graine 4 1050.0
+imit-ft HurinkEdata29 graine 0 1277.0
+imit-ft HurinkEdata29 graine 1 1287.0
+imit-ft HurinkEdata29 graine 2 1278.0
+imit-ft HurinkEdata29 graine 3 1260.0
+imit-ft HurinkEdata29 graine 4 1266.0
+imit-ft HurinkEdata30 graine 0 1330.0
+imit-ft HurinkEdata30 graine 1 1355.0
+imit-ft HurinkEdata30 graine 2 1356.0
+imit-ft HurinkEdata30 graine 3 1371.0
+imit-ft HurinkEdata31 graine 0 1315.0
+imit-ft HurinkEdata30 graine 4 1316.0
+imit-ft HurinkEdata31 graine 1 1317.0
+imit-ft HurinkEdata31 graine 2 1302.0
+imit-ft HurinkEdata31 graine 3 1340.0
+imit-ft HurinkEdata31 graine 4 1345.0
+imit-ft HurinkEdata32 graine 0 1324.0
+imit-ft HurinkEdata32 graine 1 1325.0
+imit-ft HurinkEdata32 graine 3 1312.0
+imit-ft HurinkEdata32 graine 2 1324.0
+imit-ft HurinkEdata32 graine 4 1301.0
+imit-ft HurinkEdata33 graine 0 1403.0
+imit-ft HurinkEdata33 graine 1 1399.0
+imit-ft HurinkEdata33 graine 2 1371.0
+imit-ft HurinkEdata33 graine 3 1399.0
+imit-ft HurinkEdata33 graine 4 1387.0
+imit-ft HurinkEdata34 graine 0 1723.0
+imit-ft HurinkEdata34 graine 1 1714.0
+imit-ft HurinkEdata34 graine 2 1711.0
+imit-ft HurinkEdata34 graine 3 1723.0
+imit-ft HurinkEdata34 graine 4 1693.0
+imit-ft HurinkEdata35 graine 0 1849.0
+imit-ft HurinkEdata35 graine 1 1826.0
+imit-ft HurinkEdata35 graine 2 1803.0
+imit-ft HurinkEdata35 graine 3 1841.0
+imit-ft HurinkEdata35 graine 4 1805.0
+imit-ft HurinkEdata36 graine 0 1646.0
+imit-ft HurinkEdata36 graine 1 1665.0
+imit-ft HurinkEdata36 graine 2 1673.0
+imit-ft HurinkEdata36 graine 3 1673.0
+imit-ft HurinkEdata36 graine 4 1662.0
+imit-ft HurinkEdata37 graine 0 1727.0
+imit-ft HurinkEdata37 graine 1 1749.0
+imit-ft HurinkEdata37 graine 2 1705.0
+imit-ft HurinkEdata37 graine 3 1741.0
+imit-ft HurinkEdata37 graine 4 1719.0
+imit-ft HurinkEdata38 graine 0 1881.0
+imit-ft HurinkEdata38 graine 1 1858.0
+imit-ft HurinkEdata38 graine 2 1838.0
+imit-ft HurinkEdata38 graine 3 1870.0
+imit-ft HurinkEdata39 graine 0 1299.0
+imit-ft HurinkEdata38 graine 4 1865.0
+imit-ft HurinkEdata39 graine 1 1325.0
+imit-ft HurinkEdata39 graine 2 1305.0
+imit-ft HurinkEdata39 graine 3 1325.0
+imit-ft HurinkEdata39 graine 4 1318.0
+imit-ft HurinkEdata40 graine 0 1533.0
+imit-ft HurinkEdata40 graine 1 1562.0
+imit-ft HurinkEdata40 graine 2 1541.0
+imit-ft HurinkEdata40 graine 3 1569.0
+imit-ft HurinkEdata40 graine 4 1569.0
+imit-ft HurinkEdata41 graine 0 1314.0
+imit-ft HurinkEdata41 graine 1 1314.0
+imit-ft HurinkEdata41 graine 2 1325.0
+imit-ft HurinkEdata41 graine 3 1339.0
+imit-ft HurinkEdata41 graine 4 1339.0
+imit-ft HurinkEdata42 graine 0 1368.0
+imit-ft HurinkEdata42 graine 1 1373.0
+imit-ft HurinkEdata42 graine 2 1326.0
+imit-ft HurinkEdata42 graine 3 1345.0
+imit-ft HurinkRdata4 graine 0 597.0
+imit-ft HurinkRdata4 graine 1 612.0
+imit-ft HurinkRdata4 graine 2 595.0
+imit-ft HurinkEdata42 graine 4 1351.0
+imit-ft HurinkRdata4 graine 3 586.0
+imit-ft HurinkRdata4 graine 4 592.0
+imit-ft HurinkEdata43 graine 0 1280.0
+imit-ft HurinkRdata5 graine 0 563.0
+imit-ft HurinkRdata5 graine 1 567.0
+imit-ft HurinkRdata5 graine 2 562.0
+imit-ft HurinkRdata5 graine 3 563.0
+imit-ft HurinkRdata5 graine 4 562.0
+imit-ft HurinkRdata6 graine 0 503.0
+imit-ft HurinkEdata43 graine 1 1319.0
+imit-ft HurinkRdata6 graine 1 491.0
+imit-ft HurinkRdata6 graine 2 505.0
+imit-ft HurinkRdata6 graine 3 493.0
+imit-ft HurinkRdata6 graine 4 506.0
+imit-ft HurinkRdata7 graine 0 525.0
+imit-ft HurinkRdata7 graine 1 526.0
+imit-ft HurinkRdata7 graine 2 527.0
+imit-ft HurinkEdata43 graine 2 1306.0
+imit-ft HurinkRdata7 graine 3 530.0
+imit-ft HurinkRdata7 graine 4 521.0
+imit-ft HurinkRdata8 graine 0 475.0
+imit-ft HurinkRdata8 graine 1 469.0
+imit-ft HurinkRdata8 graine 2 483.0
+imit-ft HurinkRdata8 graine 3 470.0
+imit-ft HurinkRdata8 graine 4 476.0
+imit-ft HurinkEdata43 graine 3 1299.0
+imit-ft HurinkEdata43 graine 4 1285.0
+imit-ft HurinkRdata9 graine 1 818.0
+imit-ft HurinkRdata9 graine 0 818.0
+imit-ft HurinkRdata9 graine 3 823.0
+imit-ft HurinkRdata9 graine 2 816.0
+imit-ft HurinkRdata9 graine 4 815.0
+imit-ft HurinkRdata10 graine 0 763.0
+imit-ft HurinkRdata10 graine 1 774.0
+imit-ft HurinkRdata10 graine 3 773.0
+imit-ft HurinkRdata10 graine 2 761.0
+imit-ft HurinkRdata10 graine 4 769.0
+imit-ft HurinkRdata11 graine 1 788.0
+imit-ft HurinkRdata11 graine 2 784.0
+imit-ft HurinkRdata11 graine 0 781.0
+imit-ft HurinkRdata11 graine 3 786.0
+imit-ft HurinkRdata11 graine 4 790.0
+imit-ft HurinkRdata12 graine 0 879.0
+imit-ft HurinkRdata12 graine 1 881.0
+imit-ft HurinkRdata12 graine 2 862.0
+imit-ft HurinkRdata12 graine 3 867.0
+imit-ft HurinkRdata12 graine 4 885.0
+imit-ft HurinkRdata13 graine 0 826.0
+imit-ft HurinkRdata13 graine 1 816.0
+imit-ft HurinkRdata13 graine 2 819.0
+imit-ft HurinkRdata13 graine 4 822.0
+imit-ft HurinkRdata13 graine 3 822.0
+imit-ft HurinkRdata14 graine 0 1084.0
+imit-ft HurinkRdata14 graine 2 1085.0
+imit-ft HurinkRdata14 graine 1 1093.0
+imit-ft HurinkRdata14 graine 3 1092.0
+imit-ft HurinkRdata14 graine 4 1089.0
+imit-ft HurinkRdata15 graine 0 952.0
+imit-ft HurinkRdata15 graine 1 945.0
+imit-ft HurinkRdata15 graine 2 961.0
+imit-ft HurinkRdata15 graine 3 959.0
+imit-ft HurinkRdata15 graine 4 951.0
+imit-ft HurinkRdata16 graine 0 1061.0
+imit-ft HurinkRdata16 graine 1 1061.0
+imit-ft HurinkRdata16 graine 2 1051.0
+imit-ft HurinkRdata16 graine 3 1045.0
+imit-ft HurinkRdata16 graine 4 1050.0
+imit-ft HurinkRdata17 graine 0 1089.0
+imit-ft HurinkRdata17 graine 1 1091.0
+imit-ft HurinkRdata17 graine 2 1098.0
+imit-ft HurinkRdata17 graine 4 1093.0
+imit-ft HurinkRdata17 graine 3 1082.0
+imit-ft HurinkRdata18 graine 0 1115.0
+imit-ft HurinkRdata18 graine 1 1118.0
+imit-ft HurinkRdata18 graine 2 1103.0
+imit-ft HurinkRdata18 graine 3 1121.0
+imit-ft HurinkRdata18 graine 4 1104.0
+imit-ft HurinkRdata19 graine 0 768.0
+imit-ft HurinkRdata19 graine 1 784.0
+imit-ft HurinkRdata19 graine 2 782.0
+imit-ft HurinkRdata19 graine 3 795.0
+imit-ft HurinkRdata19 graine 4 780.0
+imit-ft HurinkRdata20 graine 0 685.0
+imit-ft HurinkRdata20 graine 1 704.0
+imit-ft HurinkRdata20 graine 2 708.0
+imit-ft HurinkRdata20 graine 3 683.0
+imit-ft HurinkRdata21 graine 0 726.0
+imit-ft HurinkRdata20 graine 4 683.0
+imit-ft HurinkRdata21 graine 1 728.0
+imit-ft HurinkRdata21 graine 3 730.0
+imit-ft HurinkRdata21 graine 2 727.0
+imit-ft HurinkRdata21 graine 4 735.0
+imit-ft HurinkRdata22 graine 0 804.0
+imit-ft HurinkRdata22 graine 1 806.0
+imit-ft HurinkRdata22 graine 3 787.0
+imit-ft HurinkRdata22 graine 2 810.0
+imit-ft HurinkRdata22 graine 4 796.0
+imit-ft HurinkRdata23 graine 1 842.0
+imit-ft HurinkRdata23 graine 2 806.0
+imit-ft HurinkRdata23 graine 0 811.0
+imit-ft HurinkRdata23 graine 3 838.0
+imit-ft HurinkRdata23 graine 4 831.0
+imit-ft HurinkRdata24 graine 0 965.0
+imit-ft HurinkRdata24 graine 1 945.0
+imit-ft HurinkRdata24 graine 2 964.0
+imit-ft HurinkRdata24 graine 3 968.0
+imit-ft HurinkRdata24 graine 4 953.0
+imit-ft HurinkRdata25 graine 0 895.0
+imit-ft HurinkRdata25 graine 1 897.0
+imit-ft HurinkRdata25 graine 2 895.0
+imit-ft HurinkRdata25 graine 3 917.0
+imit-ft HurinkRdata26 graine 0 946.0
+imit-ft HurinkRdata25 graine 4 903.0
+imit-ft HurinkRdata26 graine 1 944.0
+imit-ft HurinkRdata26 graine 2 954.0
+imit-ft HurinkRdata26 graine 3 931.0
+imit-ft HurinkRdata26 graine 4 924.0
+imit-ft HurinkRdata27 graine 0 918.0
+imit-ft HurinkRdata27 graine 1 931.0
+imit-ft HurinkRdata27 graine 2 947.0
+imit-ft HurinkRdata27 graine 3 929.0
+imit-ft HurinkRdata27 graine 4 916.0
+imit-ft HurinkRdata28 graine 0 912.0
+imit-ft HurinkRdata28 graine 1 914.0
+imit-ft HurinkRdata28 graine 2 906.0
+imit-ft HurinkRdata28 graine 3 919.0
+imit-ft HurinkRdata28 graine 4 923.0
+imit-ft HurinkRdata29 graine 0 1183.0
+imit-ft HurinkRdata29 graine 1 1173.0
+imit-ft HurinkRdata29 graine 2 1170.0
+imit-ft HurinkRdata29 graine 3 1160.0
+imit-ft HurinkRdata29 graine 4 1172.0
+imit-ft HurinkRdata30 graine 0 1201.0
+imit-ft HurinkRdata30 graine 1 1188.0
+imit-ft HurinkRdata30 graine 2 1193.0
+imit-ft HurinkRdata30 graine 3 1199.0
+imit-ft HurinkRdata30 graine 4 1199.0
+imit-ft HurinkRdata31 graine 0 1163.0
+imit-ft HurinkRdata31 graine 1 1171.0
+imit-ft HurinkRdata31 graine 2 1187.0
+imit-ft HurinkRdata31 graine 3 1201.0
+imit-ft HurinkRdata31 graine 4 1191.0
+imit-ft HurinkRdata32 graine 0 1109.0
+imit-ft HurinkRdata32 graine 1 1118.0
+imit-ft HurinkRdata32 graine 2 1111.0
+imit-ft HurinkRdata32 graine 3 1080.0
+imit-ft HurinkRdata32 graine 4 1114.0
+imit-ft HurinkRdata33 graine 0 1201.0
+imit-ft HurinkRdata33 graine 1 1203.0
+imit-ft HurinkRdata33 graine 2 1213.0
+imit-ft HurinkRdata33 graine 3 1203.0
+imit-ft HurinkRdata33 graine 4 1211.0
+imit-ft HurinkRdata34 graine 0 1603.0
+imit-ft HurinkRdata34 graine 1 1600.0
+imit-ft HurinkRdata34 graine 2 1596.0
+imit-ft HurinkRdata34 graine 3 1606.0
+imit-ft HurinkRdata34 graine 4 1621.0
+imit-ft HurinkRdata35 graine 0 1728.0
+imit-ft HurinkRdata35 graine 1 1717.0
+imit-ft HurinkRdata35 graine 2 1741.0
+imit-ft HurinkRdata35 graine 3 1709.0
+imit-ft HurinkRdata35 graine 4 1728.0
+imit-ft HurinkRdata36 graine 0 1573.0
+imit-ft HurinkRdata36 graine 1 1565.0
+imit-ft HurinkRdata36 graine 2 1567.0
+imit-ft HurinkRdata36 graine 3 1560.0
+imit-ft HurinkRdata36 graine 4 1550.0
+imit-ft HurinkRdata37 graine 0 1598.0
+imit-ft HurinkRdata37 graine 2 1596.0
+imit-ft HurinkRdata37 graine 1 1615.0
+imit-ft HurinkRdata37 graine 3 1583.0
+imit-ft HurinkRdata37 graine 4 1608.0
+imit-ft HurinkRdata38 graine 0 1646.0
+imit-ft HurinkRdata38 graine 1 1628.0
+imit-ft HurinkRdata38 graine 2 1623.0
+imit-ft HurinkRdata38 graine 3 1649.0
+imit-ft HurinkRdata38 graine 4 1619.0
+imit-ft HurinkRdata39 graine 0 1201.0
+imit-ft HurinkRdata39 graine 1 1199.0
+imit-ft HurinkRdata39 graine 2 1196.0
+imit-ft HurinkRdata39 graine 3 1189.0
+imit-ft HurinkRdata39 graine 4 1186.0
+imit-ft HurinkRdata40 graine 0 1232.0
+imit-ft HurinkRdata40 graine 1 1238.0
+imit-ft HurinkRdata40 graine 2 1233.0
+imit-ft HurinkRdata40 graine 4 1227.0
+imit-ft HurinkRdata40 graine 3 1221.0
+imit-ft HurinkRdata41 graine 0 1119.0
+imit-ft HurinkRdata41 graine 1 1094.0
+imit-ft HurinkRdata41 graine 2 1117.0
+imit-ft HurinkRdata41 graine 3 1135.0
+imit-ft HurinkRdata41 graine 4 1122.0
+imit-ft HurinkRdata42 graine 0 1159.0
+imit-ft HurinkRdata42 graine 1 1172.0
+imit-ft HurinkRdata42 graine 2 1172.0
+imit-ft HurinkRdata42 graine 3 1152.0
+imit-ft HurinkVdata4 graine 0 586.0
+imit-ft HurinkRdata42 graine 4 1151.0
+imit-ft HurinkVdata4 graine 1 574.0
+imit-ft HurinkVdata4 graine 2 587.0
+imit-ft HurinkVdata4 graine 3 578.0
+imit-ft HurinkVdata4 graine 4 588.0
+imit-ft HurinkRdata43 graine 0 1142.0
+imit-ft HurinkVdata5 graine 0 542.0
+imit-ft HurinkVdata5 graine 1 547.0
+imit-ft HurinkVdata5 graine 2 541.0
+imit-ft HurinkVdata5 graine 3 540.0
+imit-ft HurinkVdata5 graine 4 544.0
+imit-ft HurinkRdata43 graine 1 1131.0
+imit-ft HurinkVdata6 graine 0 497.0
+imit-ft HurinkVdata6 graine 1 495.0
+imit-ft HurinkVdata6 graine 2 498.0
+imit-ft HurinkRdata43 graine 2 1096.0
+imit-ft HurinkVdata6 graine 3 501.0
+imit-ft HurinkVdata6 graine 4 496.0
+imit-ft HurinkVdata7 graine 0 523.0
+imit-ft HurinkVdata7 graine 1 519.0
+imit-ft HurinkVdata7 graine 2 517.0
+imit-ft HurinkVdata7 graine 3 522.0
+imit-ft HurinkVdata7 graine 4 513.0
+imit-ft HurinkVdata8 graine 0 471.0
+imit-ft HurinkVdata8 graine 1 474.0
+imit-ft HurinkVdata8 graine 2 479.0
+imit-ft HurinkVdata8 graine 3 465.0
+imit-ft HurinkVdata8 graine 4 479.0
+imit-ft HurinkRdata43 graine 3 1141.0
+imit-ft HurinkVdata9 graine 0 810.0
+imit-ft HurinkVdata9 graine 1 810.0
+imit-ft HurinkVdata9 graine 2 808.0
+imit-ft HurinkRdata43 graine 4 1105.0
+imit-ft HurinkVdata9 graine 3 806.0
+imit-ft HurinkVdata9 graine 4 813.0
+imit-ft HurinkVdata10 graine 0 770.0
+imit-ft HurinkVdata10 graine 1 760.0
+imit-ft HurinkVdata10 graine 2 764.0
+imit-ft HurinkVdata10 graine 3 762.0
+imit-ft HurinkVdata10 graine 4 763.0
+imit-ft HurinkVdata11 graine 0 774.0
+imit-ft HurinkVdata11 graine 1 772.0
+imit-ft HurinkVdata11 graine 2 777.0
+imit-ft HurinkVdata11 graine 3 772.0
+imit-ft HurinkVdata11 graine 4 778.0
+imit-ft HurinkVdata12 graine 0 872.0
+imit-ft HurinkVdata12 graine 2 861.0
+imit-ft HurinkVdata12 graine 1 869.0
+imit-ft HurinkVdata12 graine 3 864.0
+imit-ft HurinkVdata12 graine 4 860.0
+imit-ft HurinkVdata13 graine 0 811.0
+imit-ft HurinkVdata13 graine 1 818.0
+imit-ft HurinkVdata13 graine 2 820.0
+imit-ft HurinkVdata13 graine 3 816.0
+imit-ft HurinkVdata13 graine 4 814.0
+imit-ft HurinkVdata14 graine 0 1083.0
+imit-ft HurinkVdata14 graine 1 1083.0
+imit-ft HurinkVdata14 graine 2 1083.0
+imit-ft HurinkVdata14 graine 3 1086.0
+imit-ft HurinkVdata14 graine 4 1079.0
+imit-ft HurinkVdata15 graine 0 943.0
+imit-ft HurinkVdata15 graine 1 949.0
+imit-ft HurinkVdata15 graine 2 950.0
+imit-ft HurinkVdata15 graine 4 943.0
+imit-ft HurinkVdata15 graine 3 944.0
+imit-ft HurinkVdata16 graine 0 1051.0
+imit-ft HurinkVdata16 graine 1 1046.0
+imit-ft HurinkVdata16 graine 2 1053.0
+imit-ft HurinkVdata16 graine 3 1042.0
+imit-ft HurinkVdata16 graine 4 1053.0
+imit-ft HurinkVdata17 graine 0 1085.0
+imit-ft HurinkVdata17 graine 1 1080.0
+imit-ft HurinkVdata17 graine 2 1083.0
+imit-ft HurinkVdata17 graine 3 1080.0
+imit-ft HurinkVdata17 graine 4 1075.0
+imit-ft HurinkVdata18 graine 0 1102.0
+imit-ft HurinkVdata18 graine 1 1102.0
+imit-ft HurinkVdata18 graine 2 1096.0
+imit-ft HurinkVdata18 graine 3 1094.0
+imit-ft HurinkVdata18 graine 4 1099.0
+imit-ft HurinkVdata19 graine 0 719.0
+imit-ft HurinkVdata19 graine 1 719.0
+imit-ft HurinkVdata19 graine 2 720.0
+imit-ft HurinkVdata19 graine 3 717.0
+imit-ft HurinkVdata19 graine 4 718.0
+imit-ft HurinkVdata20 graine 0 646.0
+imit-ft HurinkVdata20 graine 1 646.0
+imit-ft HurinkVdata20 graine 2 646.0
+imit-ft HurinkVdata20 graine 3 646.0
+imit-ft HurinkVdata20 graine 4 646.0
+imit-ft HurinkVdata21 graine 0 663.0
+imit-ft HurinkVdata21 graine 1 663.0
+imit-ft HurinkVdata21 graine 2 663.0
+imit-ft HurinkVdata21 graine 3 663.0
+imit-ft HurinkVdata21 graine 4 663.0
+imit-ft HurinkVdata22 graine 0 624.0
+imit-ft HurinkVdata22 graine 1 637.0
+imit-ft HurinkVdata22 graine 2 621.0
+imit-ft HurinkVdata22 graine 3 624.0
+imit-ft HurinkVdata22 graine 4 620.0
+imit-ft HurinkVdata23 graine 0 756.0
+imit-ft HurinkVdata23 graine 2 756.0
+imit-ft HurinkVdata23 graine 1 756.0
+imit-ft HurinkVdata23 graine 3 756.0
+imit-ft HurinkVdata23 graine 4 756.0
+imit-ft HurinkVdata24 graine 0 842.0
+imit-ft HurinkVdata24 graine 1 840.0
+imit-ft HurinkVdata24 graine 2 843.0
+imit-ft HurinkVdata24 graine 3 841.0
+imit-ft HurinkVdata24 graine 4 845.0
+imit-ft HurinkVdata25 graine 0 766.0
+imit-ft HurinkVdata25 graine 1 759.0
+imit-ft HurinkVdata25 graine 2 776.0
+imit-ft HurinkVdata25 graine 3 769.0
+imit-ft HurinkVdata25 graine 4 765.0
+imit-ft HurinkVdata26 graine 0 841.0
+imit-ft HurinkVdata26 graine 1 848.0
+imit-ft HurinkVdata26 graine 2 847.0
+imit-ft HurinkVdata26 graine 3 842.0
+imit-ft HurinkVdata26 graine 4 847.0
+imit-ft HurinkVdata27 graine 0 809.0
+imit-ft HurinkVdata27 graine 1 812.0
+imit-ft HurinkVdata27 graine 2 822.0
+imit-ft HurinkVdata27 graine 3 810.0
+imit-ft HurinkVdata27 graine 4 810.0
+imit-ft HurinkVdata28 graine 0 794.0
+imit-ft HurinkVdata28 graine 1 813.0
+imit-ft HurinkVdata28 graine 2 805.0
+imit-ft HurinkVdata28 graine 3 793.0
+imit-ft HurinkVdata28 graine 4 803.0
+imit-ft HurinkVdata29 graine 0 1065.0
+imit-ft HurinkVdata29 graine 1 1077.0
+imit-ft HurinkVdata29 graine 2 1070.0
+imit-ft HurinkVdata29 graine 3 1071.0
+imit-ft HurinkVdata29 graine 4 1078.0
+imit-ft HurinkVdata30 graine 0 1107.0
+imit-ft HurinkVdata30 graine 1 1105.0
+imit-ft HurinkVdata30 graine 2 1102.0
+imit-ft HurinkVdata30 graine 3 1107.0
+imit-ft HurinkVdata30 graine 4 1104.0
+imit-ft HurinkVdata31 graine 0 1085.0
+imit-ft HurinkVdata31 graine 1 1101.0
+imit-ft HurinkVdata31 graine 2 1091.0
+imit-ft HurinkVdata31 graine 3 1095.0
+imit-ft HurinkVdata31 graine 4 1099.0
+imit-ft HurinkVdata32 graine 0 1027.0
+imit-ft HurinkVdata32 graine 2 1016.0
+imit-ft HurinkVdata32 graine 1 1019.0
+imit-ft HurinkVdata32 graine 3 1024.0
+imit-ft HurinkVdata32 graine 4 1012.0
+imit-ft HurinkVdata33 graine 1 1099.0
+imit-ft HurinkVdata33 graine 0 1091.0
+imit-ft HurinkVdata33 graine 2 1095.0
+imit-ft HurinkVdata33 graine 3 1096.0
+imit-ft HurinkVdata33 graine 4 1096.0
+imit-ft HurinkVdata34 graine 0 1540.0
+imit-ft HurinkVdata34 graine 1 1539.0
+imit-ft HurinkVdata34 graine 2 1541.0
+imit-ft HurinkVdata34 graine 3 1544.0
+imit-ft HurinkVdata34 graine 4 1537.0
+imit-ft HurinkVdata35 graine 0 1683.0
+imit-ft HurinkVdata35 graine 1 1680.0
+imit-ft HurinkVdata35 graine 2 1686.0
+imit-ft HurinkVdata35 graine 3 1686.0
+imit-ft HurinkVdata35 graine 4 1677.0
+imit-ft HurinkVdata36 graine 0 1516.0
+imit-ft HurinkVdata36 graine 1 1514.0
+imit-ft HurinkVdata36 graine 2 1513.0
+imit-ft HurinkVdata36 graine 3 1512.0
+imit-ft HurinkVdata36 graine 4 1516.0
+imit-ft HurinkVdata37 graine 0 1563.0
+imit-ft HurinkVdata37 graine 1 1560.0
+imit-ft HurinkVdata37 graine 2 1559.0
+imit-ft HurinkVdata37 graine 3 1557.0
+imit-ft HurinkVdata37 graine 4 1560.0
+imit-ft HurinkVdata38 graine 0 1573.0
+imit-ft HurinkVdata38 graine 1 1573.0
+imit-ft HurinkVdata38 graine 2 1565.0
+imit-ft HurinkVdata38 graine 3 1568.0
+imit-ft HurinkVdata38 graine 4 1573.0
+imit-ft HurinkVdata39 graine 0 956.0
+imit-ft HurinkVdata39 graine 1 949.0
+imit-ft HurinkVdata39 graine 2 957.0
+imit-ft HurinkVdata39 graine 3 951.0
+imit-ft HurinkVdata39 graine 4 952.0
+imit-ft HurinkVdata40 graine 0 1000.0
+imit-ft HurinkVdata40 graine 1 995.0
+imit-ft HurinkVdata40 graine 2 995.0
+imit-ft HurinkVdata40 graine 3 998.0
+imit-ft HurinkVdata40 graine 4 995.0
+imit-ft HurinkVdata41 graine 0 943.0
+imit-ft HurinkVdata41 graine 1 943.0
+imit-ft HurinkVdata41 graine 2 943.0
+imit-ft HurinkVdata41 graine 3 943.0
+imit-ft HurinkVdata41 graine 4 943.0
+imit-ft HurinkVdata42 graine 0 951.0
+imit-ft HurinkVdata42 graine 1 943.0
+imit-ft HurinkVdata42 graine 2 938.0
+imit-ft Kacem1 graine 0 11.0
+imit-ft HurinkVdata42 graine 3 943.0
+imit-ft Kacem1 graine 1 11.0
+imit-ft Kacem1 graine 2 11.0
+imit-ft HurinkVdata42 graine 4 952.0
+imit-ft Kacem1 graine 3 11.0
+imit-ft Kacem1 graine 4 11.0
+imit-ft HurinkVdata43 graine 0 955.0
+imit-ft Kacem2 graine 0 11.0
+imit-ft HurinkVdata43 graine 1 956.0
+imit-ft Kacem2 graine 1 12.0
+imit-ft Kacem2 graine 2 11.0
+imit-ft Kacem2 graine 3 12.0
+imit-ft Kacem2 graine 4 12.0
+imit-ft HurinkVdata43 graine 2 955.0
+imit-ft Kacem3 graine 0 7.0
+imit-ft Kacem3 graine 1 7.0
+imit-ft Kacem3 graine 2 7.0
+imit-ft Kacem3 graine 3 7.0
+imit-ft Kacem3 graine 4 7.0
+imit-ft Kacem4 graine 0 13.0
+imit-ft Kacem4 graine 1 15.0
+imit-ft Kacem4 graine 2 14.0
+imit-ft Kacem4 graine 3 14.0
+imit-ft Kacem4 graine 4 14.0
+imit-ft HurinkVdata43 graine 4 957.0
+imit-ft HurinkVdata43 graine 3 955.0
+# Comparaison — 134 instances, régime A, facteur de seuil 1
+
+C_max moyen sur les graines disponibles ; écart au meilleur connu = meilleure valeur, toutes méthodes de la banque.
+
+| Méthode [configuration] | C_max moyen | Écart moyen au meilleur connu | V/E/D de imit-ft |
+|---|---|---|---|
+| RL:imit-ft [echantillons=100] | 930.5 | +0.2 % | – |
+| RL:imit-ft [glouton] | 964.4 | +4.1 % | 106/5/23 |
+
+V/E/D = victoires / égalités / défaites de l'agent face à la méthode de la ligne, instance par instance.
+
+### 2026-11-03T02:28:08 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --modele models/imitation/cand_ft_best.pt --nom imit-ft --largeur 5 --k 4 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1 --processus 8 --suffixe _TkLk
+134 instances à lancer (RL:imit-ft [faisceau=5,k=4])
+BrandimarteMk2 : 27  (1080 évaluations, 1.6 s)
+BrandimarteMk1 : 41  (1371 évaluations, 1.7 s)
+BrandimarteMk4 : 67  (2226 évaluations, 2.2 s)
+BrandimarteMk5 : 175  (2043 évaluations, 2.3 s)
+BrandimarteMk7 : 146  (2001 évaluations, 2.4 s)
+HurinkEdata4 : 664  (1080 évaluations, 0.6 s)
+HurinkEdata5 : 700  (1074 évaluations, 0.6 s)
+HurinkEdata6 : 601  (1157 évaluations, 0.6 s)
+HurinkEdata7 : 650  (1001 évaluations, 0.5 s)
+BrandimarteMk3 : 204  (4096 évaluations, 3.6 s)
+HurinkEdata8 : 568  (1167 évaluations, 0.7 s)
+BrandimarteMk6 : 68  (3994 évaluations, 3.7 s)
+HurinkEdata9 : 875  (1459 évaluations, 0.8 s)
+HurinkEdata10 : 811  (1510 évaluations, 0.8 s)
+HurinkEdata12 : 912  (1394 évaluations, 0.7 s)
+HurinkEdata11 : 874  (1573 évaluations, 0.9 s)
+HurinkEdata13 : 866  (1569 évaluations, 0.9 s)
+HurinkEdata14 : 1153  (2001 évaluations, 1.2 s)
+HurinkEdata15 : 979  (1946 évaluations, 1.2 s)
+HurinkEdata16 : 1102  (1969 évaluations, 1.3 s)
+HurinkEdata17 : 1158  (2166 évaluations, 1.4 s)
+HurinkEdata18 : 1254  (1949 évaluations, 1.2 s)
+HurinkEdata19 : 955  (2948 évaluations, 1.7 s)
+BrandimarteMk8 : 523  (7505 évaluations, 6.9 s)
+HurinkEdata20 : 757  (3515 évaluations, 2.0 s)
+HurinkEdata22 : 858  (3310 évaluations, 1.9 s)
+HurinkEdata21 : 889  (3586 évaluations, 2.0 s)
+BrandimarteMk9 : 307  (7084 évaluations, 6.2 s)
+HurinkEdata23 : 906  (3373 évaluations, 1.9 s)
+BrandimarteMk10 : 218  (6455 évaluations, 6.2 s)
+HurinkEdata24 : 1136  (4813 évaluations, 3.2 s)
+HurinkEdata27 : 1013  (3762 évaluations, 2.4 s)
+HurinkEdata25 : 968  (4519 évaluations, 3.1 s)
+HurinkEdata26 : 1056  (4832 évaluations, 3.3 s)
+HurinkEdata28 : 1076  (5070 évaluations, 3.4 s)
+HurinkEdata31 : 1285  (5507 évaluations, 4.3 s)
+HurinkEdata30 : 1380  (6076 évaluations, 4.6 s)
+HurinkEdata29 : 1241  (5963 évaluations, 4.7 s)
+HurinkEdata32 : 1247  (5654 évaluations, 4.5 s)
+HurinkEdata33 : 1377  (6550 évaluations, 5.2 s)
+HurinkEdata34 : 1669  (7263 évaluations, 7.5 s)
+HurinkEdata35 : 1786  (6972 évaluations, 7.1 s)
+HurinkEdata39 : 1259  (8195 évaluations, 5.9 s)
+HurinkEdata36 : 1642  (7313 évaluations, 7.5 s)
+HurinkRdata4 : 592  (938 évaluations, 0.5 s)
+HurinkRdata5 : 546  (923 évaluations, 0.5 s)
+HurinkRdata6 : 493  (868 évaluations, 0.5 s)
+HurinkRdata7 : 527  (927 évaluations, 0.5 s)
+HurinkRdata8 : 468  (898 évaluations, 0.5 s)
+HurinkEdata37 : 1770  (7847 évaluations, 8.1 s)
+HurinkRdata9 : 808  (1431 évaluations, 0.8 s)
+HurinkEdata40 : 1488  (8075 évaluations, 6.0 s)
+HurinkRdata10 : 756  (1449 évaluations, 0.8 s)
+HurinkEdata38 : 1850  (8068 évaluations, 8.4 s)
+HurinkRdata11 : 771  (1407 évaluations, 0.8 s)
+HurinkRdata12 : 857  (1403 évaluations, 0.9 s)
+HurinkRdata13 : 813  (1458 évaluations, 0.7 s)
+HurinkEdata41 : 1281  (8516 évaluations, 6.3 s)
+HurinkRdata15 : 941  (1894 évaluations, 1.2 s)
+HurinkRdata14 : 1081  (1963 évaluations, 1.4 s)
+HurinkRdata16 : 1042  (1821 évaluations, 1.2 s)
+HurinkRdata17 : 1099  (1997 évaluations, 1.3 s)
+HurinkRdata18 : 1099  (1817 évaluations, 1.2 s)
+HurinkRdata20 : 690  (1903 évaluations, 1.2 s)
+HurinkEdata43 : 1264  (7631 évaluations, 5.8 s)
+HurinkRdata19 : 744  (3205 évaluations, 2.1 s)
+HurinkRdata21 : 719  (2594 évaluations, 1.7 s)
+HurinkEdata42 : 1323  (8393 évaluations, 6.4 s)
+HurinkRdata23 : 830  (2988 évaluations, 2.0 s)
+HurinkRdata22 : 771  (3217 évaluations, 2.4 s)
+HurinkRdata24 : 910  (3083 évaluations, 3.2 s)
+HurinkRdata25 : 835  (3761 évaluations, 3.8 s)
+HurinkRdata26 : 913  (3485 évaluations, 3.9 s)
+HurinkRdata28 : 869  (3963 évaluations, 3.9 s)
+HurinkRdata27 : 886  (3921 évaluations, 4.4 s)
+HurinkRdata29 : 1127  (4335 évaluations, 4.8 s)
+HurinkRdata30 : 1156  (4376 évaluations, 4.4 s)
+HurinkRdata31 : 1139  (4422 évaluations, 4.4 s)
+HurinkRdata32 : 1057  (3859 évaluations, 3.8 s)
+HurinkRdata33 : 1166  (4738 évaluations, 4.0 s)
+HurinkRdata34 : 1541  (5963 évaluations, 6.3 s)
+HurinkRdata35 : 1688  (6148 évaluations, 6.7 s)
+HurinkRdata39 : 1138  (7377 évaluations, 5.7 s)
+HurinkRdata36 : 1526  (6118 évaluations, 6.8 s)
+HurinkVdata4 : 573  (931 évaluations, 0.6 s)
+HurinkRdata37 : 1564  (5960 évaluations, 6.6 s)
+HurinkVdata5 : 532  (892 évaluations, 0.6 s)
+HurinkRdata38 : 1576  (5997 évaluations, 6.7 s)
+HurinkVdata6 : 482  (853 évaluations, 0.5 s)
+HurinkVdata7 : 518  (893 évaluations, 0.5 s)
+HurinkRdata41 : 1072  (6152 évaluations, 5.0 s)
+HurinkVdata8 : 466  (921 évaluations, 0.5 s)
+HurinkRdata40 : 1163  (8088 évaluations, 6.5 s)
+HurinkVdata9 : 802  (1301 évaluations, 0.9 s)
+HurinkVdata10 : 767  (1427 évaluations, 0.9 s)
+HurinkVdata11 : 768  (1364 évaluations, 0.9 s)
+HurinkVdata12 : 855  (1400 évaluations, 0.9 s)
+HurinkVdata13 : 806  (1372 évaluations, 0.9 s)
+HurinkVdata19 : 717  (140 évaluations, 0.1 s)
+HurinkVdata20 : 646  (4 évaluations, 0.0 s)
+HurinkVdata21 : 663  (4 évaluations, 0.0 s)
+HurinkVdata14 : 1076  (1963 évaluations, 1.4 s)
+HurinkVdata23 : 756  (4 évaluations, 0.0 s)
+HurinkVdata15 : 938  (1935 évaluations, 1.3 s)
+HurinkVdata22 : 623  (1357 évaluations, 0.9 s)
+HurinkVdata17 : 1070  (1840 évaluations, 1.2 s)
+HurinkVdata16 : 1039  (1800 évaluations, 1.4 s)
+HurinkVdata18 : 1090  (1885 évaluations, 1.4 s)
+HurinkVdata28 : 768  (1542 évaluations, 1.1 s)
+HurinkVdata24 : 809  (2764 évaluations, 2.0 s)
+HurinkRdata43 : 1071  (6772 évaluations, 5.4 s)
+HurinkVdata27 : 780  (2841 évaluations, 1.9 s)
+HurinkVdata25 : 745  (3065 évaluations, 2.1 s)
+HurinkVdata26 : 818  (2816 évaluations, 2.0 s)
+HurinkRdata42 : 1119  (8278 évaluations, 6.4 s)
+HurinkVdata29 : 1056  (3768 évaluations, 3.2 s)
+HurinkVdata31 : 1075  (3789 évaluations, 3.3 s)
+HurinkVdata30 : 1088  (3936 évaluations, 3.4 s)
+HurinkVdata32 : 997  (3752 évaluations, 3.2 s)
+HurinkVdata33 : 1078  (3849 évaluations, 3.3 s)
+HurinkVdata41 : 943  (40 évaluations, 0.1 s)
+HurinkVdata39 : 950  (1175 évaluations, 1.0 s)
+HurinkVdata43 : 955  (60 évaluations, 0.1 s)
+Kacem1 : 11  (4 évaluations, 0.0 s)
+Kacem2 : 11  (60 évaluations, 0.1 s)
+Kacem3 : 7  (407 évaluations, 0.3 s)
+HurinkVdata40 : 986  (1833 évaluations, 1.4 s)
+Kacem4 : 12  (1060 évaluations, 0.9 s)
+HurinkVdata42 : 926  (4058 évaluations, 2.8 s)
+HurinkVdata34 : 1522  (5784 évaluations, 7.5 s)
+HurinkVdata36 : 1501  (5780 évaluations, 7.3 s)
+HurinkVdata35 : 1660  (5819 évaluations, 7.6 s)
+HurinkVdata37 : 1540  (5944 évaluations, 6.6 s)
+HurinkVdata38 : 1551  (5884 évaluations, 6.0 s)
+# Agent qui anticipe « RL:imit-ft [faisceau=5,k=4] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+(pas de résultat « evals=50000,depart=heuristique,params=taguchi » dans la banque pour comparer)
+
+### 2026-11-03T02:29:08 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --modele models/imitation/cand_ft_best.pt --nom imit-ft --largeur 50 --k 5 --familles Brandimarte HurinkLa Kacem --facteur-seuil 1 --processus 8 --suffixe _TkLk
+134 instances à lancer (RL:imit-ft [faisceau=50,k=5])
+BrandimarteMk2 : 26  (10309 évaluations, 6.3 s)
+BrandimarteMk1 : 41  (15960 évaluations, 7.6 s)
+BrandimarteMk5 : 176  (25103 évaluations, 13.2 s)
+BrandimarteMk7 : 146  (24572 évaluations, 14.2 s)
+BrandimarteMk4 : 67  (29549 évaluations, 14.5 s)
+HurinkEdata4 : 663  (11377 évaluations, 5.0 s)
+HurinkEdata6 : 574  (10562 évaluations, 4.4 s)
+HurinkEdata5 : 692  (12410 évaluations, 5.4 s)
+HurinkEdata7 : 615  (8920 évaluations, 4.1 s)
+HurinkEdata8 : 503  (9691 évaluations, 4.1 s)
+BrandimarteMk6 : 63  (44311 évaluations, 26.0 s)
+HurinkEdata9 : 840  (16020 évaluations, 6.8 s)
+BrandimarteMk3 : 204  (49875 évaluations, 27.8 s)
+HurinkEdata10 : 810  (17236 évaluations, 7.5 s)
+HurinkEdata11 : 852  (18448 évaluations, 8.7 s)
+HurinkEdata12 : 893  (15500 évaluations, 7.0 s)
+HurinkEdata13 : 866  (17593 évaluations, 8.2 s)
+HurinkEdata14 : 1145  (24475 évaluations, 11.6 s)
+HurinkEdata15 : 979  (23618 évaluations, 10.7 s)
+HurinkEdata16 : 1118  (24275 évaluations, 11.5 s)
+HurinkEdata17 : 1147  (25289 évaluations, 11.5 s)
+HurinkEdata18 : 1214  (23594 évaluations, 11.0 s)
+HurinkEdata19 : 946  (41243 évaluations, 17.0 s)
+HurinkEdata20 : 755  (39330 évaluations, 16.5 s)
+BrandimarteMk8 : 523  (91349 évaluations, 58.7 s)
+BrandimarteMk9 : 307  (78190 évaluations, 54.5 s)
+HurinkEdata21 : 889  (40235 évaluations, 17.6 s)
+HurinkEdata22 : 865  (39914 évaluations, 17.6 s)
+HurinkEdata23 : 916  (39408 évaluations, 16.8 s)
+BrandimarteMk10 : 216  (77766 évaluations, 61.6 s)
+HurinkEdata25 : 946  (51307 évaluations, 29.1 s)
+HurinkEdata24 : 1118  (53480 évaluations, 30.9 s)
+HurinkEdata27 : 1003  (48024 évaluations, 27.8 s)
+HurinkEdata28 : 1002  (48973 évaluations, 28.3 s)
+HurinkEdata26 : 1051  (53000 évaluations, 31.1 s)
+HurinkEdata30 : 1349  (64073 évaluations, 42.7 s)
+HurinkEdata29 : 1253  (63264 évaluations, 43.3 s)
+HurinkEdata31 : 1315  (64614 évaluations, 43.6 s)
+HurinkEdata32 : 1246  (66296 évaluations, 43.3 s)
+HurinkEdata33 : 1362  (69540 évaluations, 43.4 s)
+HurinkEdata35 : 1817  (85949 évaluations, 72.4 s)
+HurinkEdata39 : 1262  (89987 évaluations, 51.6 s)
+HurinkEdata34 : 1677  (87258 évaluations, 75.8 s)
+HurinkEdata36 : 1642  (87536 évaluations, 76.1 s)
+HurinkRdata4 : 580  (10520 évaluations, 4.4 s)
+HurinkRdata5 : 538  (9829 évaluations, 4.1 s)
+HurinkRdata6 : 486  (10168 évaluations, 4.0 s)
+HurinkRdata7 : 524  (10677 évaluations, 4.3 s)
+HurinkRdata8 : 464  (10199 évaluations, 4.4 s)
+HurinkRdata9 : 802  (16842 évaluations, 7.3 s)
+HurinkRdata10 : 754  (17166 évaluations, 7.5 s)
+HurinkEdata40 : 1464  (98779 évaluations, 55.3 s)
+HurinkEdata41 : 1282  (101917 évaluations, 57.3 s)
+HurinkEdata37 : 1744  (93787 évaluations, 83.0 s)
+HurinkRdata11 : 772  (17393 évaluations, 7.6 s)
+HurinkEdata38 : 1807  (96573 évaluations, 84.5 s)
+HurinkRdata12 : 859  (17114 évaluations, 7.6 s)
+HurinkRdata13 : 813  (16973 évaluations, 7.6 s)
+HurinkRdata14 : 1077  (23750 évaluations, 11.7 s)
+HurinkRdata15 : 942  (23575 évaluations, 11.7 s)
+HurinkRdata16 : 1040  (23527 évaluations, 11.5 s)
+HurinkRdata17 : 1095  (23910 évaluations, 12.2 s)
+HurinkRdata18 : 1108  (22391 évaluations, 11.1 s)
+HurinkRdata21 : 715  (15442 évaluations, 6.8 s)
+HurinkRdata19 : 744  (36016 évaluations, 15.7 s)
+HurinkRdata23 : 800  (19981 évaluations, 8.5 s)
+HurinkRdata20 : 664  (25917 évaluations, 11.4 s)
+HurinkRdata22 : 768  (35581 évaluations, 15.2 s)
+HurinkEdata42 : 1323  (102319 évaluations, 57.1 s)
+HurinkEdata43 : 1239  (101944 évaluations, 57.5 s)
+HurinkRdata24 : 902  (34774 évaluations, 19.7 s)
+HurinkRdata25 : 830  (32224 évaluations, 17.9 s)
+HurinkRdata26 : 901  (39427 évaluations, 22.4 s)
+HurinkRdata28 : 847  (35936 évaluations, 20.4 s)
+HurinkRdata27 : 878  (42515 évaluations, 24.5 s)
+HurinkRdata29 : 1106  (49748 évaluations, 33.2 s)
+HurinkRdata30 : 1151  (48946 évaluations, 31.1 s)
+HurinkRdata31 : 1131  (49592 évaluations, 31.9 s)
+HurinkRdata32 : 1049  (49882 évaluations, 32.7 s)
+HurinkRdata33 : 1152  (53209 évaluations, 35.4 s)
+HurinkRdata34 : 1542  (70419 évaluations, 60.7 s)
+HurinkRdata35 : 1679  (70631 évaluations, 60.0 s)
+HurinkRdata36 : 1526  (74370 évaluations, 64.9 s)
+HurinkRdata40 : 1164  (78444 évaluations, 45.1 s)
+HurinkVdata4 : 573  (11191 évaluations, 4.5 s)
+HurinkRdata39 : 1123  (90553 évaluations, 51.4 s)
+HurinkVdata5 : 531  (10461 évaluations, 4.2 s)
+HurinkVdata8 : 462  (9378 évaluations, 3.8 s)
+HurinkVdata7 : 515  (9992 évaluations, 4.3 s)
+HurinkVdata6 : 481  (10510 évaluations, 4.4 s)
+HurinkRdata38 : 1569  (71165 évaluations, 61.6 s)
+HurinkRdata37 : 1551  (71892 évaluations, 62.5 s)
+HurinkRdata41 : 1051  (98759 évaluations, 55.8 s)
+HurinkVdata9 : 799  (16877 évaluations, 7.6 s)
+HurinkVdata10 : 758  (16944 évaluations, 7.6 s)
+HurinkVdata11 : 767  (17651 évaluations, 7.9 s)
+HurinkVdata12 : 855  (16986 évaluations, 7.4 s)
+HurinkVdata13 : 805  (16682 évaluations, 7.3 s)
+HurinkVdata19 : 717  (365 évaluations, 0.4 s)
+HurinkVdata20 : 646  (5 évaluations, 0.0 s)
+HurinkVdata21 : 663  (5 évaluations, 0.0 s)
+HurinkVdata22 : 617  (2854 évaluations, 1.6 s)
+HurinkVdata23 : 756  (5 évaluations, 0.0 s)
+HurinkVdata14 : 1073  (23750 évaluations, 12.5 s)
+HurinkVdata16 : 1038  (23288 évaluations, 11.8 s)
+HurinkVdata15 : 936  (23509 évaluations, 12.1 s)
+HurinkVdata17 : 1070  (23564 évaluations, 12.2 s)
+HurinkVdata18 : 1090  (22834 évaluations, 12.0 s)
+HurinkVdata24 : 805  (32725 évaluations, 18.2 s)
+HurinkRdata43 : 1052  (91663 évaluations, 51.8 s)
+HurinkRdata42 : 1122  (94016 évaluations, 52.9 s)
+HurinkVdata25 : 745  (31314 évaluations, 17.1 s)
+HurinkVdata26 : 818  (32810 évaluations, 18.4 s)
+HurinkVdata27 : 778  (32862 évaluations, 18.6 s)
+HurinkVdata28 : 759  (35011 évaluations, 19.6 s)
+HurinkVdata29 : 1055  (49039 évaluations, 34.1 s)
+HurinkVdata30 : 1086  (48340 évaluations, 33.1 s)
+HurinkVdata32 : 996  (46911 évaluations, 31.2 s)
+HurinkVdata31 : 1073  (47967 évaluations, 32.9 s)
+HurinkVdata39 : 948  (615 évaluations, 0.9 s)
+HurinkVdata41 : 943  (30 évaluations, 0.1 s)
+HurinkVdata40 : 986  (370 évaluations, 0.8 s)
+HurinkVdata43 : 955  (30 évaluations, 0.1 s)
+Kacem1 : 11  (5 évaluations, 0.0 s)
+Kacem2 : 11  (365 évaluations, 0.4 s)
+Kacem3 : 7  (340 évaluations, 0.5 s)
+HurinkVdata33 : 1075  (49094 évaluations, 33.5 s)
+Kacem4 : 11  (11775 évaluations, 10.2 s)
+HurinkVdata42 : 922  (21322 évaluations, 12.3 s)
+HurinkVdata35 : 1660  (72850 évaluations, 72.5 s)
+HurinkVdata36 : 1499  (71407 évaluations, 72.3 s)
+HurinkVdata34 : 1521  (73826 évaluations, 75.0 s)
+HurinkVdata37 : 1536  (72553 évaluations, 64.6 s)
+HurinkVdata38 : 1551  (72293 évaluations, 60.0 s)
+# Agent qui anticipe « RL:imit-ft [faisceau=50,k=5] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+(pas de résultat « evals=50000,depart=heuristique,params=taguchi » dans la banque pour comparer)
+
+### 2026-11-03T02:36:31 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --filtre regle --nom filtre-regle --largeur 5 --k 4 --familles Brandimarte HurinkLa Kacem --processus 8 --suffixe _TkLk
+134 instances à lancer (Faisceau:filtre-regle [faisceau=5,k=4,filtre=regle])
+BrandimarteMk1 : 42  (826 évaluations, 1.3 s)
+BrandimarteMk2 : 28  (988 évaluations, 1.3 s)
+BrandimarteMk4 : 73  (1793 évaluations, 1.7 s)
+BrandimarteMk5 : 181  (2002 évaluations, 1.8 s)
+HurinkEdata4 : 683  (967 évaluations, 0.3 s)
+BrandimarteMk7 : 154  (1967 évaluations, 2.0 s)
+HurinkEdata5 : 692  (973 évaluations, 0.3 s)
+BrandimarteMk3 : 204  (2897 évaluations, 2.4 s)
+HurinkEdata6 : 599  (923 évaluations, 0.3 s)
+HurinkEdata8 : 524  (907 évaluations, 0.3 s)
+HurinkEdata7 : 639  (995 évaluations, 0.4 s)
+BrandimarteMk6 : 70  (3418 évaluations, 2.6 s)
+HurinkEdata9 : 872  (1476 évaluations, 0.6 s)
+HurinkEdata10 : 828  (1462 évaluations, 0.6 s)
+HurinkEdata11 : 897  (1484 évaluations, 0.6 s)
+HurinkEdata12 : 972  (1476 évaluations, 0.7 s)
+HurinkEdata13 : 873  (1113 évaluations, 0.5 s)
+HurinkEdata14 : 1153  (1998 évaluations, 1.0 s)
+HurinkEdata17 : 1147  (1766 évaluations, 0.8 s)
+HurinkEdata15 : 979  (2043 évaluations, 1.0 s)
+HurinkEdata16 : 1131  (1992 évaluations, 1.0 s)
+HurinkEdata18 : 1222  (1954 évaluations, 1.0 s)
+HurinkEdata20 : 757  (1801 évaluations, 0.8 s)
+BrandimarteMk8 : 523  (4695 évaluations, 4.7 s)
+HurinkEdata21 : 889  (2139 évaluations, 1.0 s)
+HurinkEdata19 : 953  (2644 évaluations, 1.2 s)
+BrandimarteMk10 : 219  (5003 évaluations, 4.1 s)
+HurinkEdata22 : 855  (2655 évaluations, 1.1 s)
+HurinkEdata23 : 914  (2255 évaluations, 1.0 s)
+BrandimarteMk9 : 311  (5585 évaluations, 4.5 s)
+HurinkEdata25 : 951  (3091 évaluations, 1.7 s)
+HurinkEdata24 : 1154  (3371 évaluations, 1.9 s)
+HurinkEdata27 : 1041  (3109 évaluations, 1.8 s)
+HurinkEdata26 : 1067  (3330 évaluations, 1.8 s)
+HurinkEdata28 : 1034  (3410 évaluations, 1.9 s)
+HurinkEdata30 : 1353  (4098 évaluations, 2.7 s)
+HurinkEdata29 : 1226  (4394 évaluations, 2.8 s)
+HurinkEdata31 : 1335  (4171 évaluations, 2.7 s)
+HurinkEdata32 : 1270  (4528 évaluations, 3.1 s)
+HurinkEdata33 : 1388  (4334 évaluations, 2.9 s)
+HurinkEdata39 : 1251  (5546 évaluations, 3.9 s)
+HurinkEdata35 : 1779  (5877 évaluations, 5.4 s)
+HurinkEdata34 : 1684  (5884 évaluations, 5.5 s)
+HurinkRdata4 : 584  (876 évaluations, 0.3 s)
+HurinkEdata36 : 1641  (5983 évaluations, 5.7 s)
+HurinkRdata5 : 561  (947 évaluations, 0.4 s)
+HurinkRdata6 : 488  (960 évaluations, 0.4 s)
+HurinkRdata7 : 531  (803 évaluations, 0.3 s)
+HurinkRdata8 : 475  (951 évaluations, 0.3 s)
+HurinkEdata37 : 1746  (5925 évaluations, 5.7 s)
+HurinkEdata38 : 1843  (6050 évaluations, 5.8 s)
+HurinkRdata9 : 808  (1389 évaluations, 0.6 s)
+HurinkRdata10 : 753  (1464 évaluations, 0.7 s)
+HurinkEdata40 : 1507  (5832 évaluations, 4.4 s)
+HurinkEdata41 : 1282  (5977 évaluations, 4.4 s)
+HurinkRdata11 : 776  (1231 évaluations, 0.6 s)
+HurinkRdata13 : 822  (1356 évaluations, 0.6 s)
+HurinkRdata12 : 879  (1429 évaluations, 0.7 s)
+HurinkRdata15 : 947  (1882 évaluations, 0.9 s)
+HurinkRdata16 : 1039  (1902 évaluations, 1.1 s)
+HurinkRdata14 : 1082  (1939 évaluations, 1.2 s)
+HurinkRdata17 : 1096  (1923 évaluations, 1.1 s)
+HurinkRdata19 : 757  (2445 évaluations, 1.0 s)
+HurinkRdata20 : 709  (1300 évaluations, 0.6 s)
+HurinkRdata18 : 1110  (1962 évaluations, 1.2 s)
+HurinkRdata21 : 708  (1268 évaluations, 0.5 s)
+HurinkRdata23 : 820  (2088 évaluations, 0.9 s)
+HurinkRdata22 : 764  (2609 évaluations, 1.2 s)
+HurinkEdata42 : 1335  (6284 évaluations, 4.6 s)
+HurinkRdata25 : 844  (2548 évaluations, 1.3 s)
+HurinkEdata43 : 1259  (6445 évaluations, 4.7 s)
+HurinkRdata24 : 932  (2967 évaluations, 1.6 s)
+HurinkRdata27 : 887  (3113 évaluations, 1.6 s)
+HurinkRdata26 : 934  (3515 évaluations, 1.9 s)
+HurinkRdata28 : 886  (3536 évaluations, 1.9 s)
+HurinkRdata29 : 1130  (4049 évaluations, 2.5 s)
+HurinkRdata30 : 1173  (3854 évaluations, 2.5 s)
+HurinkRdata31 : 1144  (3924 évaluations, 2.6 s)
+HurinkRdata32 : 1047  (4293 évaluations, 2.8 s)
+HurinkRdata33 : 1171  (4115 évaluations, 2.7 s)
+HurinkRdata34 : 1537  (5782 évaluations, 5.8 s)
+HurinkRdata39 : 1143  (6041 évaluations, 3.9 s)
+HurinkRdata35 : 1691  (5902 évaluations, 6.1 s)
+HurinkRdata41 : 1070  (6302 évaluations, 3.8 s)
+HurinkRdata40 : 1202  (5993 évaluations, 4.0 s)
+HurinkVdata4 : 577  (871 évaluations, 0.3 s)
+HurinkVdata5 : 540  (974 évaluations, 0.3 s)
+HurinkRdata36 : 1528  (5941 évaluations, 5.9 s)
+HurinkVdata6 : 482  (821 évaluations, 0.3 s)
+HurinkVdata8 : 462  (791 évaluations, 0.3 s)
+HurinkVdata7 : 515  (953 évaluations, 0.3 s)
+HurinkVdata9 : 802  (1432 évaluations, 0.6 s)
+HurinkVdata10 : 765  (1413 évaluations, 0.6 s)
+HurinkVdata11 : 767  (1444 évaluations, 0.7 s)
+HurinkVdata12 : 857  (1429 évaluations, 0.7 s)
+HurinkRdata38 : 1582  (5916 évaluations, 5.9 s)
+HurinkRdata37 : 1565  (5985 évaluations, 6.3 s)
+HurinkVdata13 : 805  (1319 évaluations, 0.6 s)
+HurinkVdata19 : 717  (217 évaluations, 0.1 s)
+HurinkVdata20 : 646  (4 évaluations, 0.0 s)
+HurinkVdata21 : 663  (4 évaluations, 0.0 s)
+HurinkVdata22 : 617  (522 évaluations, 0.2 s)
+HurinkVdata23 : 756  (20 évaluations, 0.0 s)
+HurinkVdata14 : 1081  (1938 évaluations, 1.2 s)
+HurinkVdata15 : 939  (1864 évaluations, 1.0 s)
+HurinkVdata16 : 1041  (1835 évaluations, 1.1 s)
+HurinkVdata17 : 1072  (1855 évaluations, 1.1 s)
+HurinkVdata18 : 1091  (1904 évaluations, 1.2 s)
+HurinkRdata42 : 1127  (6101 évaluations, 4.0 s)
+HurinkVdata24 : 810  (2764 évaluations, 1.4 s)
+HurinkVdata25 : 744  (2706 évaluations, 1.4 s)
+HurinkVdata26 : 824  (2734 évaluations, 1.4 s)
+HurinkVdata28 : 764  (2629 évaluations, 1.4 s)
+HurinkVdata27 : 779  (2816 évaluations, 1.5 s)
+HurinkRdata43 : 1067  (6807 évaluations, 4.5 s)
+HurinkVdata29 : 1056  (3781 évaluations, 2.9 s)
+HurinkVdata31 : 1074  (3652 évaluations, 2.7 s)
+HurinkVdata30 : 1088  (3853 évaluations, 2.9 s)
+HurinkVdata39 : 948  (60 évaluations, 0.1 s)
+HurinkVdata32 : 997  (3611 évaluations, 2.7 s)
+HurinkVdata41 : 943  (4 évaluations, 0.0 s)
+HurinkVdata33 : 1073  (3777 évaluations, 2.9 s)
+HurinkVdata43 : 955  (40 évaluations, 0.0 s)
+Kacem1 : 11  (4 évaluations, 0.0 s)
+Kacem2 : 11  (56 évaluations, 0.0 s)
+HurinkVdata40 : 986  (693 évaluations, 0.4 s)
+Kacem3 : 7  (280 évaluations, 0.1 s)
+Kacem4 : 12  (724 évaluations, 0.4 s)
+HurinkVdata42 : 927  (2504 évaluations, 1.2 s)
+HurinkVdata35 : 1661  (5875 évaluations, 6.7 s)
+HurinkVdata34 : 1522  (5893 évaluations, 6.8 s)
+HurinkVdata36 : 1501  (5955 évaluations, 6.7 s)
+HurinkVdata37 : 1536  (5840 évaluations, 6.0 s)
+HurinkVdata38 : 1551  (5829 évaluations, 5.7 s)
+# Agent qui anticipe « Faisceau:filtre-regle [faisceau=5,k=4,filtre=regle] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+(pas de résultat « evals=50000,depart=heuristique,params=taguchi » dans la banque pour comparer)
+
+### 2026-11-03T02:37:17 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe anticiper.py --sans-reseau --filtre regle --nom filtre-regle --largeur 50 --k 5 --familles Brandimarte HurinkLa Kacem --processus 8 --suffixe _TkLk
+134 instances à lancer (Faisceau:filtre-regle [faisceau=50,k=5,filtre=regle])
+BrandimarteMk1 : 41  (11737 évaluations, 4.9 s)
+BrandimarteMk2 : 28  (12317 évaluations, 4.8 s)
+BrandimarteMk5 : 178  (24881 évaluations, 10.6 s)
+BrandimarteMk4 : 69  (23068 évaluations, 10.8 s)
+BrandimarteMk7 : 148  (24447 évaluations, 12.4 s)
+HurinkEdata4 : 656  (9659 évaluations, 2.9 s)
+HurinkEdata5 : 692  (10889 évaluations, 3.5 s)
+HurinkEdata6 : 582  (10246 évaluations, 3.2 s)
+HurinkEdata7 : 615  (7417 évaluations, 2.3 s)
+BrandimarteMk3 : 204  (34163 évaluations, 16.6 s)
+HurinkEdata8 : 507  (10046 évaluations, 2.8 s)
+BrandimarteMk6 : 66  (42658 évaluations, 21.3 s)
+HurinkEdata9 : 872  (17015 évaluations, 5.8 s)
+HurinkEdata10 : 828  (16484 évaluations, 5.8 s)
+HurinkEdata11 : 880  (15219 évaluations, 5.3 s)
+HurinkEdata12 : 900  (15998 évaluations, 5.4 s)
+HurinkEdata13 : 871  (16219 évaluations, 5.7 s)
+HurinkEdata14 : 1145  (22057 évaluations, 8.9 s)
+HurinkEdata15 : 979  (23004 évaluations, 9.3 s)
+HurinkEdata16 : 1123  (22825 évaluations, 9.5 s)
+HurinkEdata17 : 1147  (22612 évaluations, 9.3 s)
+HurinkEdata18 : 1220  (22631 évaluations, 9.4 s)
+BrandimarteMk8 : 523  (54292 évaluations, 39.0 s)
+HurinkEdata21 : 889  (24265 évaluations, 10.4 s)
+HurinkEdata20 : 754  (26332 évaluations, 11.0 s)
+HurinkEdata22 : 883  (27827 évaluations, 12.2 s)
+HurinkEdata19 : 968  (32390 évaluations, 13.9 s)
+HurinkEdata23 : 918  (27427 évaluations, 12.9 s)
+BrandimarteMk10 : 217  (62156 évaluations, 46.0 s)
+BrandimarteMk9 : 309  (67212 évaluations, 47.5 s)
+HurinkEdata24 : 1110  (38834 évaluations, 22.4 s)
+HurinkEdata27 : 1021  (36509 évaluations, 20.4 s)
+HurinkEdata25 : 946  (40391 évaluations, 23.4 s)
+HurinkEdata26 : 1060  (41446 évaluations, 23.7 s)
+HurinkEdata28 : 1010  (40923 évaluations, 23.2 s)
+HurinkEdata29 : 1229  (51945 évaluations, 35.6 s)
+HurinkEdata30 : 1349  (46412 évaluations, 34.4 s)
+HurinkEdata31 : 1299  (47699 évaluations, 33.7 s)
+HurinkEdata32 : 1231  (48847 évaluations, 35.0 s)
+HurinkEdata33 : 1367  (50095 évaluations, 37.1 s)
+HurinkEdata35 : 1767  (71422 évaluations, 65.2 s)
+HurinkEdata34 : 1646  (76015 évaluations, 71.0 s)
+HurinkEdata36 : 1655  (73826 évaluations, 72.1 s)
+HurinkEdata39 : 1275  (75724 évaluations, 55.2 s)
+HurinkRdata4 : 583  (10479 évaluations, 3.3 s)
+HurinkRdata5 : 547  (9962 évaluations, 3.4 s)
+HurinkRdata6 : 483  (10076 évaluations, 3.8 s)
+HurinkRdata7 : 527  (8898 évaluations, 3.7 s)
+HurinkEdata40 : 1456  (68396 évaluations, 51.5 s)
+HurinkRdata8 : 462  (10490 évaluations, 4.1 s)
+HurinkEdata37 : 1727  (72927 évaluations, 69.3 s)
+HurinkRdata9 : 810  (16189 évaluations, 6.9 s)
+HurinkRdata10 : 759  (18173 évaluations, 7.7 s)
+HurinkEdata38 : 1820  (73045 évaluations, 70.7 s)
+HurinkRdata11 : 773  (15991 évaluations, 6.1 s)
+HurinkEdata41 : 1283  (72721 évaluations, 57.8 s)
+HurinkRdata12 : 861  (17308 évaluations, 6.5 s)
+HurinkRdata13 : 815  (17296 évaluations, 6.2 s)
+HurinkRdata14 : 1077  (23406 évaluations, 11.0 s)
+HurinkRdata15 : 942  (23453 évaluations, 11.2 s)
+HurinkRdata16 : 1039  (23560 évaluations, 10.8 s)
+HurinkRdata17 : 1091  (24012 évaluations, 10.9 s)
+HurinkRdata19 : 751  (28499 évaluations, 10.6 s)
+HurinkRdata20 : 680  (15864 évaluations, 5.1 s)
+HurinkRdata18 : 1105  (23260 évaluations, 11.0 s)
+HurinkRdata21 : 714  (15803 évaluations, 5.7 s)
+HurinkRdata23 : 816  (15122 évaluations, 5.5 s)
+HurinkRdata22 : 764  (30229 évaluations, 11.7 s)
+HurinkEdata42 : 1321  (70500 évaluations, 51.1 s)
+HurinkRdata24 : 918  (36181 évaluations, 17.0 s)
+HurinkRdata25 : 838  (38221 évaluations, 17.9 s)
+HurinkRdata26 : 896  (39742 évaluations, 18.0 s)
+HurinkRdata27 : 890  (37792 évaluations, 18.8 s)
+HurinkEdata43 : 1280  (80404 évaluations, 56.9 s)
+HurinkRdata28 : 873  (38992 évaluations, 18.2 s)
+HurinkRdata29 : 1116  (48583 évaluations, 27.7 s)
+HurinkRdata30 : 1134  (48099 évaluations, 27.7 s)
+HurinkRdata31 : 1125  (46474 évaluations, 26.5 s)
+HurinkRdata32 : 1042  (49266 évaluations, 28.2 s)
+HurinkRdata33 : 1160  (48588 évaluations, 28.7 s)
+HurinkRdata39 : 1126  (54883 évaluations, 30.4 s)
+HurinkRdata41 : 1062  (56766 évaluations, 32.3 s)
+HurinkRdata34 : 1544  (70126 évaluations, 61.6 s)
+HurinkRdata36 : 1523  (67850 évaluations, 60.0 s)
+HurinkRdata35 : 1695  (69682 évaluations, 61.9 s)
+HurinkVdata4 : 572  (10962 évaluations, 3.2 s)
+HurinkVdata5 : 532  (10966 évaluations, 2.9 s)
+HurinkVdata6 : 482  (10108 évaluations, 2.9 s)
+HurinkVdata8 : 462  (8961 évaluations, 2.4 s)
+HurinkVdata7 : 510  (10980 évaluations, 3.1 s)
+HurinkRdata40 : 1171  (77399 évaluations, 44.4 s)
+HurinkVdata9 : 801  (16688 évaluations, 6.1 s)
+HurinkVdata11 : 767  (16670 évaluations, 6.4 s)
+HurinkVdata10 : 763  (17541 évaluations, 6.7 s)
+HurinkVdata12 : 857  (16845 évaluations, 6.2 s)
+HurinkRdata37 : 1556  (72009 évaluations, 62.7 s)
+HurinkVdata13 : 805  (17093 évaluations, 6.7 s)
+HurinkRdata38 : 1573  (71024 évaluations, 61.4 s)
+HurinkVdata19 : 717  (140 évaluations, 0.1 s)
+HurinkVdata20 : 646  (5 évaluations, 0.0 s)
+HurinkVdata21 : 663  (5 évaluations, 0.0 s)
+HurinkVdata22 : 617  (655 évaluations, 0.3 s)
+HurinkVdata23 : 756  (30 évaluations, 0.0 s)
+HurinkVdata15 : 939  (23289 évaluations, 11.2 s)
+HurinkVdata14 : 1077  (24121 évaluations, 11.9 s)
+HurinkVdata16 : 1039  (23794 évaluations, 11.6 s)
+HurinkVdata17 : 1070  (23538 évaluations, 11.3 s)
+HurinkVdata18 : 1090  (23229 évaluations, 11.6 s)
+HurinkVdata24 : 807  (31882 évaluations, 14.7 s)
+HurinkRdata42 : 1104  (77594 évaluations, 45.3 s)
+HurinkVdata25 : 741  (33082 évaluations, 14.8 s)
+HurinkVdata26 : 821  (34159 évaluations, 15.5 s)
+HurinkVdata27 : 778  (33477 évaluations, 15.2 s)
+HurinkVdata28 : 758  (32843 évaluations, 14.7 s)
+HurinkRdata43 : 1063  (78264 évaluations, 45.7 s)
+HurinkVdata29 : 1055  (47628 évaluations, 30.4 s)
+HurinkVdata30 : 1086  (47348 évaluations, 29.9 s)
+HurinkVdata31 : 1071  (47575 évaluations, 31.1 s)
+HurinkVdata39 : 948  (155 évaluations, 0.2 s)
+HurinkVdata32 : 997  (48098 évaluations, 30.4 s)
+HurinkVdata41 : 943  (5 évaluations, 0.0 s)
+HurinkVdata40 : 986  (405 évaluations, 0.4 s)
+HurinkVdata43 : 955  (155 évaluations, 0.2 s)
+Kacem1 : 11  (5 évaluations, 0.0 s)
+Kacem2 : 11  (260 évaluations, 0.2 s)
+Kacem3 : 7  (1486 évaluations, 0.5 s)
+HurinkVdata33 : 1074  (47909 évaluations, 31.2 s)
+HurinkVdata42 : 922  (6352 évaluations, 3.1 s)
+Kacem4 : 12  (10965 évaluations, 3.9 s)
+HurinkVdata35 : 1660  (72073 évaluations, 71.9 s)
+HurinkVdata34 : 1521  (73350 évaluations, 74.5 s)
+HurinkVdata36 : 1499  (73572 évaluations, 73.8 s)
+HurinkVdata37 : 1538  (73558 évaluations, 65.2 s)
+HurinkVdata38 : 1550  (72808 évaluations, 63.1 s)
+# Agent qui anticipe « Faisceau:filtre-regle [faisceau=50,k=5,filtre=regle] » face au recuit simulé (Taguchi, 50 000 évaluations)
+
+(pas de résultat « evals=50000,depart=heuristique,params=taguchi » dans la banque pour comparer)

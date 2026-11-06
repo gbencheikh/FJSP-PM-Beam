@@ -1,0 +1,82 @@
+
+### 2026-10-28T17:39:15 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe -m imitation.entrainer --reseau candidats --epoques 20 --seed 1 --out models/imitation/cand_g1
+2000 plannings experts ; réseau « candidats »
+{"phase": "imitation", "epoque": 1, "perte": 1.2155, "accord_expert": 0.5574, "validation": 196.125, "pannes": 0.0, "minutes": 5.6, "meilleur": true}
+{"phase": "imitation", "epoque": 2, "perte": 1.1201, "accord_expert": 0.598, "validation": 188.625, "pannes": 0.0, "minutes": 10.9, "meilleur": true}
+{"phase": "imitation", "epoque": 3, "perte": 1.0875, "accord_expert": 0.612, "validation": 180.5, "pannes": 0.0, "minutes": 16.1, "meilleur": true}
+{"phase": "imitation", "epoque": 4, "perte": 1.0744, "accord_expert": 0.6182, "validation": 231.79166666666666, "pannes": 0.0, "minutes": 21.3}
+{"phase": "imitation", "epoque": 5, "perte": 1.0655, "accord_expert": 0.6214, "validation": 177.33333333333334, "pannes": 0.0, "minutes": 26.7, "meilleur": true}
+{"phase": "imitation", "epoque": 6, "perte": 1.0552, "accord_expert": 0.6264, "validation": 190.54166666666666, "pannes": 0.0, "minutes": 31.9}
+{"phase": "imitation", "epoque": 7, "perte": 1.0456, "accord_expert": 0.6302, "validation": 198.5, "pannes": 0.0, "minutes": 37.1}
+{"phase": "imitation", "epoque": 8, "perte": 1.0321, "accord_expert": 0.6347, "validation": 187.54166666666666, "pannes": 0.0, "minutes": 42.3}
+{"phase": "imitation", "epoque": 9, "perte": 1.0213, "accord_expert": 0.64, "validation": 190.04166666666666, "pannes": 0.0, "minutes": 47.5}
+{"phase": "imitation", "epoque": 10, "perte": 1.0057, "accord_expert": 0.6444, "validation": 202.0, "pannes": 0.0, "minutes": 52.7}
+{"phase": "imitation", "epoque": 11, "perte": 1.0017, "accord_expert": 0.6464, "validation": 191.25, "pannes": 0.0, "minutes": 57.9}
+{"phase": "imitation", "epoque": 12, "perte": 0.9963, "accord_expert": 0.6483, "validation": 180.125, "pannes": 0.0, "minutes": 63.1}
+{"phase": "imitation", "epoque": 13, "perte": 0.9812, "accord_expert": 0.6543, "validation": 178.16666666666666, "pannes": 0.0, "minutes": 68.3}
+{"phase": "imitation", "epoque": 14, "perte": 0.9804, "accord_expert": 0.654, "validation": 193.5, "pannes": 0.0, "minutes": 73.4}
+{"phase": "imitation", "epoque": 15, "perte": 0.9667, "accord_expert": 0.6589, "validation": 191.16666666666666, "pannes": 0.0, "minutes": 78.6}
+{"phase": "imitation", "epoque": 16, "perte": 0.9605, "accord_expert": 0.6607, "validation": 191.54166666666666, "pannes": 0.0, "minutes": 83.8}
+{"phase": "imitation", "epoque": 17, "perte": 0.9543, "accord_expert": 0.6624, "validation": 192.25, "pannes": 0.0, "minutes": 88.9}
+{"phase": "imitation", "epoque": 18, "perte": 0.9481, "accord_expert": 0.6638, "validation": 188.41666666666666, "pannes": 0.0, "minutes": 94.0}
+{"phase": "imitation", "epoque": 19, "perte": 0.9442, "accord_expert": 0.6661, "validation": 190.41666666666666, "pannes": 0.0, "minutes": 99.3}
+{"phase": "imitation", "epoque": 20, "perte": 0.9417, "accord_expert": 0.666, "validation": 189.70833333333334, "pannes": 0.0, "minutes": 104.5}
+meilleur modèle : models/imitation/cand_g1_best.pt (validation 177.33)
+
+### 2026-10-28T19:23:49 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe train_v3.py --init models/imitation/cand_g1_best.pt --lr 1e-4 --ppo_steps 300000 --seed 1 --out models/imitation/cand_ft_g1
+{"phase": "ppo", "step": 2048, "objective": 185.75, "breakdowns": 0.0, "ref": 175.75, "gap": 0.056899004267425335, "minutes": 0.1198486606280009}
+{"phase": "ppo", "step": 51200, "objective": 166.41666666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.05310573731626367, "minutes": 1.7822659929593405}
+{"phase": "ppo", "step": 100352, "objective": 165.91666666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.055950687529634946, "minutes": 3.525945754845937}
+{"phase": "ppo", "step": 151552, "objective": 165.375, "breakdowns": 0.0, "ref": 175.75, "gap": -0.05903271692745382, "minutes": 5.31480256319046}
+{"phase": "ppo", "step": 200704, "objective": 166.66666666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.051683262209578085, "minutes": 7.067407262325287}
+{"phase": "ppo", "step": 251904, "objective": 165.70833333333334, "breakdowns": 0.0, "ref": 175.75, "gap": -0.05713608345187282, "minutes": 8.897851864496866}
+{"phase": "ppo", "step": 301056, "objective": 165.16666666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.06021811284969181, "minutes": 10.67897800207138}
+{"phase": "sil", "iter": 1, "objective": 164.625, "breakdowns": 0.0, "ref": 175.75, "gap": -0.06330014224751068, "teacher_gain": -0.08159470930613981, "minutes": 1.5461193203926087}
+{"phase": "sil", "iter": 2, "objective": 165.25, "breakdowns": 0.0, "ref": 175.75, "gap": -0.05974395448079661, "teacher_gain": -0.07871812687472013, "minutes": 2.911841992537181}
+{"phase": "sil", "iter": 3, "objective": 166.41666666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.05310573731626367, "teacher_gain": -0.09314291298871753, "minutes": 4.587216055393219}
+{"phase": "sil", "iter": 4, "objective": 166.375, "breakdowns": 0.0, "ref": 175.75, "gap": -0.053342816500711265, "teacher_gain": -0.09413789117209287, "minutes": 6.388276580969492}
+{"phase": "sil", "iter": 5, "objective": 165.66666666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.05737316263632064, "teacher_gain": -0.0973150194228601, "minutes": 8.189370735486348}
+{"phase": "sil", "iter": 6, "objective": 164.95833333333334, "breakdowns": 0.0, "ref": 175.75, "gap": -0.06140350877192979, "teacher_gain": -0.08742978376670862, "minutes": 10.35574015378952}
+{"phase": "sil", "iter": 7, "objective": 165.41666666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.058795637743006224, "teacher_gain": -0.08837535810308313, "minutes": 12.523819144566854}
+{"phase": "sil", "iter": 8, "objective": 163.95833333333334, "breakdowns": 0.0, "ref": 175.75, "gap": -0.06709340919867235, "teacher_gain": -0.08774023413960952, "minutes": 14.629182489713033}
+
+### 2026-10-28T19:49:12 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe -m imitation.entrainer --reseau candidats --epoques 20 --seed 2 --out models/imitation/cand_g2
+2000 plannings experts ; réseau « candidats »
+{"phase": "imitation", "epoque": 1, "perte": 1.2138, "accord_expert": 0.5589, "validation": 197.20833333333334, "pannes": 0.0, "minutes": 5.3, "meilleur": true}
+{"phase": "imitation", "epoque": 2, "perte": 1.1231, "accord_expert": 0.5965, "validation": 188.125, "pannes": 0.0, "minutes": 10.4, "meilleur": true}
+{"phase": "imitation", "epoque": 3, "perte": 1.0893, "accord_expert": 0.6112, "validation": 184.5, "pannes": 0.0, "minutes": 15.7, "meilleur": true}
+{"phase": "imitation", "epoque": 4, "perte": 1.0789, "accord_expert": 0.6176, "validation": 181.58333333333334, "pannes": 0.0, "minutes": 20.9, "meilleur": true}
+{"phase": "imitation", "epoque": 5, "perte": 1.0623, "accord_expert": 0.6246, "validation": 190.83333333333334, "pannes": 0.0, "minutes": 26.2}
+{"phase": "imitation", "epoque": 6, "perte": 1.0504, "accord_expert": 0.6292, "validation": 180.45833333333334, "pannes": 0.0, "minutes": 31.4, "meilleur": true}
+{"phase": "imitation", "epoque": 7, "perte": 1.0354, "accord_expert": 0.6339, "validation": 193.04166666666666, "pannes": 0.0, "minutes": 36.7}
+{"phase": "imitation", "epoque": 8, "perte": 1.031, "accord_expert": 0.6371, "validation": 184.20833333333334, "pannes": 0.0, "minutes": 41.9}
+{"phase": "imitation", "epoque": 9, "perte": 1.0154, "accord_expert": 0.6407, "validation": 180.25, "pannes": 0.0, "minutes": 47.2, "meilleur": true}
+{"phase": "imitation", "epoque": 10, "perte": 1.015, "accord_expert": 0.6429, "validation": 180.875, "pannes": 0.0, "minutes": 52.4}
+{"phase": "imitation", "epoque": 11, "perte": 1.0044, "accord_expert": 0.6464, "validation": 185.16666666666666, "pannes": 0.0, "minutes": 58.2}
+{"phase": "imitation", "epoque": 12, "perte": 0.994, "accord_expert": 0.65, "validation": 183.45833333333334, "pannes": 0.0, "minutes": 63.5}
+{"phase": "imitation", "epoque": 13, "perte": 0.9816, "accord_expert": 0.654, "validation": 185.125, "pannes": 0.0, "minutes": 68.8}
+{"phase": "imitation", "epoque": 14, "perte": 0.9769, "accord_expert": 0.6546, "validation": 178.79166666666666, "pannes": 0.0, "minutes": 74.1, "meilleur": true}
+{"phase": "imitation", "epoque": 15, "perte": 0.965, "accord_expert": 0.6588, "validation": 189.375, "pannes": 0.0, "minutes": 79.4}
+{"phase": "imitation", "epoque": 16, "perte": 0.9604, "accord_expert": 0.6602, "validation": 188.70833333333334, "pannes": 0.0, "minutes": 84.7}
+{"phase": "imitation", "epoque": 17, "perte": 0.9538, "accord_expert": 0.6619, "validation": 184.75, "pannes": 0.0, "minutes": 90.1}
+{"phase": "imitation", "epoque": 18, "perte": 0.951, "accord_expert": 0.6622, "validation": 187.95833333333334, "pannes": 0.0, "minutes": 95.3}
+{"phase": "imitation", "epoque": 19, "perte": 0.9467, "accord_expert": 0.6643, "validation": 190.5, "pannes": 0.0, "minutes": 100.6}
+{"phase": "imitation", "epoque": 20, "perte": 0.9429, "accord_expert": 0.666, "validation": 189.33333333333334, "pannes": 0.0, "minutes": 106.0}
+meilleur modèle : models/imitation/cand_g2_best.pt (validation 178.79)
+
+### 2026-10-28T21:35:14 D:\Workspace\RL_FJSSP_PM\.venv\Scripts\python.exe train_v3.py --init models/imitation/cand_g2_best.pt --lr 1e-4 --ppo_steps 300000 --seed 2 --out models/imitation/cand_ft_g2
+{"phase": "ppo", "step": 2048, "objective": 179.79166666666666, "breakdowns": 0.0, "ref": 175.75, "gap": 0.02299668089141771, "minutes": 0.13935632705688478}
+{"phase": "ppo", "step": 51200, "objective": 166.5, "breakdowns": 0.0, "ref": 175.75, "gap": -0.052631578947368474, "minutes": 1.805030846595764}
+{"phase": "ppo", "step": 100352, "objective": 168.45833333333334, "breakdowns": 0.0, "ref": 175.75, "gap": -0.04148885727833096, "minutes": 3.537121419111888}
+{"phase": "ppo", "step": 151552, "objective": 167.625, "breakdowns": 0.0, "ref": 175.75, "gap": -0.046230440967283126, "minutes": 5.370875116189321}
+{"phase": "ppo", "step": 200704, "objective": 164.79166666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.06235182550972029, "minutes": 7.064290928840637}
+{"phase": "ppo", "step": 251904, "objective": 168.45833333333334, "breakdowns": 0.0, "ref": 175.75, "gap": -0.04148885727833096, "minutes": 8.894432028134664}
+{"phase": "ppo", "step": 301056, "objective": 167.58333333333334, "breakdowns": 0.0, "ref": 175.75, "gap": -0.04646752015173061, "minutes": 10.606266391277313}
+{"phase": "sil", "iter": 1, "objective": 166.41666666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.05310573731626367, "teacher_gain": -0.08796363230216675, "minutes": 1.4165218313535055}
+{"phase": "sil", "iter": 2, "objective": 166.16666666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.05452821242294936, "teacher_gain": -0.0882894422229444, "minutes": 2.898044490814209}
+{"phase": "sil", "iter": 3, "objective": 166.25, "breakdowns": 0.0, "ref": 175.75, "gap": -0.05405405405405406, "teacher_gain": -0.08683287406836143, "minutes": 4.583113900820414}
+{"phase": "sil", "iter": 4, "objective": 167.95833333333334, "breakdowns": 0.0, "ref": 175.75, "gap": -0.044333807491702126, "teacher_gain": -0.10008614699528658, "minutes": 6.276066680749257}
+{"phase": "sil", "iter": 5, "objective": 167.875, "breakdowns": 0.0, "ref": 175.75, "gap": -0.04480796586059743, "teacher_gain": -0.08686958420183477, "minutes": 8.164619453748067}
+{"phase": "sil", "iter": 6, "objective": 166.54166666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.052394499762920876, "teacher_gain": -0.0853551149725872, "minutes": 10.030202647050222}
+{"phase": "sil", "iter": 7, "objective": 166.54166666666666, "breakdowns": 0.0, "ref": 175.75, "gap": -0.052394499762920876, "teacher_gain": -0.08013417039245564, "minutes": 11.680311652024587}
+{"phase": "sil", "iter": 8, "objective": 164.33333333333334, "breakdowns": 0.0, "ref": 175.75, "gap": -0.06495969653864386, "teacher_gain": -0.08930820420354747, "minutes": 13.69582422176997}

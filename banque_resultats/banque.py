@@ -18,7 +18,21 @@ import csv, datetime, json, os, re
 DOSSIER = os.path.join(os.path.dirname(os.path.abspath(__file__)))
 FICHIER = os.path.join(DOSSIER, "resultats.csv")
 SOLUTIONS = os.path.join(DOSSIER, "solutions.jsonl")
-# Dépôt public : les plannings sont livrés compressés (solutions.jsonl.gz) ; décompression au premier import.
+# R4 (29/10/2026) : instances à maintenance longue (FJSP_MU ≠ 1) -> banque séparée, pour ne jamais mélanger les protocoles
+_MU = float(os.environ.get("FJSP_MU", "1"))
+if _MU != 1.0:
+    FICHIER = os.path.join(DOSSIER, f"resultats_mu{_MU:g}.csv")
+    SOLUTIONS = os.path.join(DOSSIER, f"solutions_mu{_MU:g}.jsonl")
+# B2 (04/11/2026) : autre tirage des facteurs φ_k (FJSP_GRAINE_PHI ≠ 0) -> banque séparée
+_PHI = int(os.environ.get("FJSP_GRAINE_PHI", "0"))
+if _PHI != 0:
+    FICHIER = os.path.join(DOSSIER, f"resultats_phi{_PHI}.csv")
+    SOLUTIONS = os.path.join(DOSSIER, f"solutions_phi{_PHI}.jsonl")
+# D4 (02/11/2026) : seuils T_k = L_k (FJSP_TK_LK=1) -> banque séparée
+if os.environ.get("FJSP_TK_LK") == "1":
+    FICHIER = os.path.join(DOSSIER, "resultats_TkLk.csv")
+    SOLUTIONS = os.path.join(DOSSIER, "solutions_TkLk.jsonl")
+# Dépôt public : les plannings sont livrés compressés (solutions*.jsonl.gz) ; décompression au premier import.
 if not os.path.exists(SOLUTIONS) and os.path.exists(SOLUTIONS + ".gz"):
     import gzip, shutil
     with gzip.open(SOLUTIONS + ".gz", "rb") as _src, open(SOLUTIONS, "wb") as _dst:

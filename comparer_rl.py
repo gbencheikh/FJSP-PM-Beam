@@ -20,6 +20,7 @@ from jssp_pm.fjsp_env3 import FJSPEnv3, run3
 from jssp_pm.fjsp_ppo import PPOPolicy
 from jssp_pm.fjsp_cpsat import check
 from metaheuristiques.instances import charger_instances
+_TAG = "_TkLk" if os.environ.get("FJSP_TK_LK") == "1" else ("_mu" + os.environ["FJSP_MU"] if os.environ.get("FJSP_MU", "1") != "1" else "")
 from banque_resultats import banque
 
 
@@ -144,7 +145,7 @@ def main():
     methodes = sorted({k[0] for k in val if all((k[0], n) in val for n in noms)})
     moy = {(m, n): float(np.mean(val[(m, n)])) for m in methodes for n in noms}
     meilleur = {n: min(moy[(m, n)] for m in methodes) for n in noms}
-    with open(f"comparaisons/comparaison_seuil{a.facteur_seuil:g}.csv", "w", encoding="utf-8") as f:
+    with open(f"comparaisons/comparaison_seuil{a.facteur_seuil:g}{_TAG}.csv", "w", encoding="utf-8") as f:
         f.write("instance;meilleur_connu;" + ";".join(methodes) + "\n")
         for n in noms:
             f.write(f"{n};{meilleur[n]:g};" + ";".join(f"{moy[(m, n)]:g}" for m in methodes) + "\n")
@@ -162,7 +163,7 @@ def main():
             vs.append("–" if m == ag else f"{(d < -1e-9).sum()}/{(abs(d) <= 1e-9).sum()}/{(d > 1e-9).sum()}")
         md.append(f"| {m} | {np.mean([moy[(m, n)] for n in noms]):.1f} | {100 * e:+.1f} % | " + " | ".join(vs) + " |")
     md.append("\nV/E/D = victoires / égalités / défaites de l'agent face à la méthode de la ligne, instance par instance.")
-    open(f"comparaisons/comparaison_seuil{a.facteur_seuil:g}.md", "w", encoding="utf-8").write("\n".join(md) + "\n")
+    open(f"comparaisons/comparaison_seuil{a.facteur_seuil:g}{_TAG}.md", "w", encoding="utf-8").write("\n".join(md) + "\n")
     print("\n".join(md))
 
 

@@ -12,6 +12,7 @@ l'opération ne tient pas dans la marge d'usure de la machine (T_k - c_k), on in
 maintenance préventive (durée M_k) dès que la machine est libre, ce qui remet l'usure à 0.
 Le résultat respecte toutes les règles du simulateur : aucune panne.
 """
+import os
 import numpy as np
 
 EPS = 1e-9
@@ -46,6 +47,63 @@ def decoder(inst, OS, MS, avec_planning=False):
         if avec_planning:
             planning.append((k, debut, fin, 1, j))
     return (cmax, n_pm, planning) if avec_planning else (cmax, n_pm)
+
+
+def decoder_actif(inst, OS, MS, avec_planning=False):
+    """Décodeur ACTIF (3e relecture, R1 ; déclaré le 04/11/2026, campagne A1) : chaque opération, dans l'ordre de OS,
+    est placée au plus tôt sur sa machine, y compris dans un trou entre deux activités déjà placées, si elle y tient après
+    la fin de son prédécesseur de job ET si la charge du segment d'usure (entre deux maintenances) qui contient le trou,
+    augmentée de sa durée, reste <= T_k (alors aucune opération du segment ne dépasse le seuil). Sinon elle est placée en
+    fin de machine, avec une maintenance juste avant si le dernier segment déborde (comme le décodeur semi-actif)."""
+    P, T, M = inst.P, inst.T, inst.M
+    prochaine = [0] * inst.n
+    fin_job = [0.0] * inst.n
+    act = [[] for _ in range(inst.m)]        # (début, fin, type, segment, job)
+    charge = [[0.0] for _ in range(inst.m)]
+    n_pm, cmax = 0, 0.0
+    for j in OS:
+        o = inst.job_ops[j][prochaine[j]]
+        prochaine[j] += 1
+        k = MS[o]
+        p = float(P[o, k])
+        r = fin_job[j]
+        L = act[k]
+        place, prec_fin, seg = None, 0.0, 0
+        for i, (s, e, typ, sg, _) in enumerate(L):
+            d = max(r, prec_fin)
+            seg_trou = sg if typ == 1 else seg      # un trou avant une maintenance appartient au segment courant
+            if d + p <= s + EPS and charge[k][seg_trou] + p <= T[k] + EPS:
+                place = (i, d, seg_trou)
+                break
+            prec_fin = e
+            seg = sg + 1 if typ == 2 else sg
+        if place is None:
+            seg = len(charge[k]) - 1
+            libre = L[-1][1] if L else 0.0
+            if charge[k][seg] + p > T[k] + EPS:
+                L.append((libre, libre + float(M[k]), 2, seg, -1))
+                n_pm += 1
+                charge[k].append(0.0)
+                seg += 1
+                libre += float(M[k])
+            d = max(r, libre)
+            L.append((d, d + p, 1, seg, j))
+        else:
+            i, d, seg = place
+            L.insert(i, (d, d + p, 1, seg, j))
+        charge[k][seg] += p
+        fin_job[j] = d + p
+        cmax = max(cmax, d + p)
+    if avec_planning:
+        planning = [(k, s, e, typ, jj) for k in range(inst.m) for (s, e, typ, _, jj) in act[k]]
+        return cmax, n_pm, planning
+    return cmax, n_pm
+
+
+# Choix du décodeur pour TOUTES les métaheuristiques (variable lue à l'import ; défaut : semi-actif, protocole de l'article)
+decoder_semi_actif = decoder
+if os.environ.get("FJSP_DECODEUR") == "actif":
+    decoder = decoder_actif
 
 
 def machines_eligibles(inst):

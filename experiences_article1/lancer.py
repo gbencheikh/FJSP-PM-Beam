@@ -159,6 +159,111 @@ ETAPES = {
                 cout="≈ 134 × 2 sources × (100 tirages + 5 recuits de 20 000) ≈ 30 min",
                 cmds=[[PY, "-m", "experiences_article1.e15_maintenance", "--familles", *FAM,
                        "--sources", "Recuit simulé|evals=50000,depart=heuristique,params=taguchi", "RL:imit-ft|faisceau=5,k=4"]]),
+    # --- Révision du 27/10/2026 (rapport de relecture, PROTOCOLE § 3 sexies) : réglages déclarés avant calcul ---
+    "R1": dict(titre="Faisceau à filtre NON appris (règle du moteur, fin au plus tôt, borne inférieure), mêmes B × K que le réseau",
+               cout="≈ 3 filtres × 4 réglages ≈ 10–14 h CPU ; ≈ 2 h avec 8 processus",
+               cmds=[[PY, "anticiper.py", "--sans-reseau", "--filtre", f, "--nom", f"filtre-{f}", "--largeur", str(B),
+                      "--k", str(K), "--familles", *FAM, "--processus", "{P}"]
+                     for f in ("regle", "fin", "borne") for B, K in [(5, 4), (10, 4), (20, 4), (50, 5)]]),
+    "R2": dict(titre="Réseau entraîné par imitation SEULE (cand_best.pt) : glouton, 100 tirages × 5 graines, faisceaux",
+               cout="≈ 4 h CPU ; ≈ 40 min avec 8 processus",
+               cmds=[[PY, "comparer_rl.py", "--processus", "{P}", "--modele", "models/imitation/cand_best.pt", "--nom", "imit-seule",
+                      "--familles", *FAM],
+                     [PY, "comparer_rl.py", "--processus", "{P}", "--modele", "models/imitation/cand_best.pt", "--nom", "imit-seule",
+                      "--familles", *FAM, "--echantillons", "100", "--graines", "0", "1", "2", "3", "4"]]
+                    + [faisceau("imit-seule", "models/imitation/cand_best.pt", B, K) for B, K in [(5, 4), (10, 4), (20, 4), (50, 5)]]),
+    "R4": dict(titre="Sensibilité : maintenance longue (mu = 3, M_k = round(3u)), banque séparée resultats_mu3.csv ; réseau NON réentraîné",
+               cout="≈ recuit 134 × 3 × 21 s ≈ 2,5 h CPU + faisceaux ≈ 4 h CPU ; ≈ 1 h 30 avec 8 processus",
+               env={"FJSP_MU": "3"},
+               cmds=[mh([SA], evals=50000, graines=["0", "1", "2"]) + ["--sortie", "resultats_metaheuristiques/mu3"]]
+                    + [faisceau("imit-ft", MODELE, B, K, extra=("--suffixe", "_mu3")) for B, K in [(5, 4), (50, 5)]]
+                    + [[PY, "anticiper.py", "--sans-reseau", "--filtre", f, "--nom", f"filtre-{f}", "--largeur", str(B),
+                        "--k", str(K), "--familles", *FAM, "--processus", "{P}", "--suffixe", "_mu3"]
+                       for f in ("regle", "borne") for B, K in [(5, 4), (50, 5)]]),
+    # --- 2e relecture (02/11/2026, claude/plan_revision2_article1.md) : déclarées avant calcul (PROTOCOLE, entrée du 02/11) ---
+    "D1": dict(titre="Filtres simples à budget égal : B' = ceil(B × E_réseau / E_filtre), K inchangé (μ = 1)",
+               cout="≈ 2 h CPU ; ≈ 30 min avec 8 processus",
+               cmds=[[PY, "anticiper.py", "--sans-reseau", "--filtre", f, "--nom", f"filtre-{f}", "--largeur", str(B),
+                      "--k", str(K), "--familles", *FAM, "--processus", "{P}"]
+                     for f, BK in (("regle", [(6, 4), (12, 4), (22, 4), (55, 5)]),
+                                   ("fin", [(7, 4), (12, 4), (24, 4), (56, 5)]),
+                                   ("borne", [(6, 4), (12, 4), (23, 4), (55, 5)])) for B, K in BK]),
+    "D2": dict(titre="TEMPS des filtres simples, un processus, machine au repos (sous-ensembles E10 et E10b), mêmes réglages que R1",
+               cout="≈ 2–3 h, machine au repos",
+               cmds=[[PY, "anticiper.py", "--sans-reseau", "--filtre", f, "--nom", f"filtre-{f}-mono", "--largeur", str(B),
+                      "--k", str(K), "--familles", *fam, "--processus", "1", "--suffixe", suf]
+                     for fam, suf in ((SOUS_ENSEMBLE_TEMPS, "_E10"), (SOUS_ENSEMBLE_TEMPS_B, "_E10b"))
+                     for f in ("regle", "fin", "borne") for B, K in [(5, 4), (10, 4), (20, 4), (50, 5)]]
+                    + [[PY, "-m", "outils.temps_experts", "--parametres", TAGUCHI]]),   # ajouté le 03/11 (M13, coût des experts)
+    "D3": dict(titre="Sensibilité au facteur de seuil 0,7 et 1,5 (E13 déclarée le 27/10, plan réduit comme R4) : recuit 50k × 3, réseau et filtres regle/borne 5×4 et 50×5",
+               cout="≈ 2 × R4 ≈ 3 h avec 8 processus",
+               cmds=sum([[mh([SA], evals=50000, graines=["0", "1", "2"], fs=fs)]
+                         + [faisceau("imit-ft", MODELE, B, K, fs=fs, extra=("--suffixe", f"_fs{fs}")) for B, K in [(5, 4), (50, 5)]]
+                         + [[PY, "anticiper.py", "--sans-reseau", "--filtre", f, "--nom", f"filtre-{f}", "--largeur", str(B),
+                             "--k", str(K), "--familles", *FAM, "--facteur-seuil", fs, "--processus", "{P}", "--suffixe", f"_fs{fs}"]
+                            for f in ("regle", "borne") for B, K in [(5, 4), (50, 5)]] for fs in ("0.7", "1.5")], [])),
+    "D4": dict(titre="Problème classique avec T_k = L_k (au lieu de × 1000) : banque séparée resultats_TkLk.csv",
+               cout="≈ 1–2 h avec 8 processus",
+               env={"FJSP_TK_LK": "1"},
+               cmds=[[PY, "comparer_rl.py", "--processus", "{P}", "--modele", MODELE, "--nom", "imit-ft", "--familles", *FAM],
+                     [PY, "comparer_rl.py", "--processus", "{P}", "--modele", MODELE, "--nom", "imit-ft", "--familles", *FAM,
+                      "--echantillons", "100", "--graines", "0", "1", "2", "3", "4"]]
+                    + [faisceau("imit-ft", MODELE, B, K, extra=("--suffixe", "_TkLk")) for B, K in [(5, 4), (50, 5)]]
+                    + [[PY, "anticiper.py", "--sans-reseau", "--filtre", "regle", "--nom", "filtre-regle", "--largeur", str(B),
+                        "--k", str(K), "--familles", *FAM, "--processus", "{P}", "--suffixe", "_TkLk"] for B, K in [(5, 4), (50, 5)]]),
+    "D5": dict(titre="Filtre appris POUR filtrer : données de classement (300 instances d'entraînement), entraînement, évaluation 4 réglages",
+               cout="≈ 30 min (données, 8 processus) + ≈ 1 h (entraînement, 10 époques) + ≈ 1 h (évaluation, 8 processus)",
+               cmds=[[PY, "-m", "imitation.filtre_appris", "generer", "--instances", "300", "--proba-etat", "0.5", "--processus", "{P}"],
+                     [PY, "-m", "imitation.filtre_appris", "entrainer"],
+                     [PY, "comparer_rl.py", "--processus", "{P}", "--modele", "models/filtre/filtre_best.pt", "--nom", "filtre-appris",
+                      "--familles", *FAM]]
+                    + [faisceau("filtre-appris", "models/filtre/filtre_best.pt", B, K) for B, K in [(5, 4), (10, 4), (20, 4), (50, 5)]]
+                    + [[PY, "-m", "experiences_article1.analyse_revision_D5"]]),
+    # --- 3e relecture (04/11/2026), R1 : déclaré avant calcul (PROTOCOLE, entrée A1) ---
+    "A1": dict(titre="Décodeur ACTIF pour recuit et tabou (Brandimarte + Kacem, 14 instances), 50k, départ heuristique, graines 0–4, régime A et classique",
+               cout="≈ 1 h avec 8 processus",
+               env={"FJSP_DECODEUR": "actif"},
+               cmds=[[PY, "-m", "metaheuristiques.comparer", "--familles", "Brandimarte", "Kacem", "--graines", "0", "1", "2", "3", "4",
+                      "--parametres", TAGUCHI, "--etiquette-params", "taguchi-actif", "--facteur-seuil", fs, "--processus", "{P}",
+                      "--methodes", SA, TS, "--evaluations", "50000", "--sortie", "resultats_metaheuristiques/actif"]
+                     for fs in ("1", CLASSIQUE)]
+                    + [[PY, "-m", "experiences_article1.analyse_revision_A1"]]),
+    # --- Relecteur indépendant (04/11/2026, claude/revue_article1_deterministe_v6.md) : déclarées avant calcul ---
+    "B1": dict(titre="Ablation du départage des ex aequo (M4) : réseau départagé par l'ordre ; filtres départagés par leur rang cumulé ; 5×4 et 50×5",
+               cout="≈ 1 h avec 8 processus",
+               cmds=[faisceau("imit-ft", MODELE, B, K, extra=("--departage", "ordre")) for B, K in [(5, 4), (50, 5)]]
+                    + [[PY, "anticiper.py", "--sans-reseau", "--filtre", f, "--nom", f"filtre-{f}", "--largeur", str(B),
+                        "--k", str(K), "--familles", *FAM, "--processus", "{P}", "--departage", "rang"]
+                       for f in ("regle", "fin", "borne") for B, K in [(5, 4), (50, 5)]]
+                    + [[PY, "-m", "experiences_article1.analyse_revision_B1"]]),
+    "B2": dict(titre="Autre tirage des facteurs φ_k (graine 1) : recuit 50k × 3, réseau et filtres regle/borne 5×4 et 50×5 ; banque resultats_phi1.csv",
+               cout="≈ 1 h 30 avec 8 processus",
+               env={"FJSP_GRAINE_PHI": "1"},
+               cmds=[mh([SA], evals=50000, graines=["0", "1", "2"]) + ["--sortie", "resultats_metaheuristiques/phi1"]]
+                    + [faisceau("imit-ft", MODELE, B, K, extra=("--suffixe", "_phi1")) for B, K in [(5, 4), (50, 5)]]
+                    + [[PY, "anticiper.py", "--sans-reseau", "--filtre", f, "--nom", f"filtre-{f}", "--largeur", str(B),
+                        "--k", str(K), "--familles", *FAM, "--processus", "{P}", "--suffixe", "_phi1"]
+                       for f in ("regle", "borne") for B, K in [(5, 4), (50, 5)]]
+                    + ([[PY, "-m", "experiences_article1.analyse_revision_B2"]] if 1 == 2 else [])),
+    "B2b": dict(titre="Autre tirage des facteurs φ_k (graine 2) : recuit 50k × 3, réseau et filtres regle/borne 5×4 et 50×5 ; banque resultats_phi2.csv",
+               cout="≈ 1 h 30 avec 8 processus",
+               env={"FJSP_GRAINE_PHI": "2"},
+               cmds=[mh([SA], evals=50000, graines=["0", "1", "2"]) + ["--sortie", "resultats_metaheuristiques/phi2"]]
+                    + [faisceau("imit-ft", MODELE, B, K, extra=("--suffixe", "_phi2")) for B, K in [(5, 4), (50, 5)]]
+                    + [[PY, "anticiper.py", "--sans-reseau", "--filtre", f, "--nom", f"filtre-{f}", "--largeur", str(B),
+                        "--k", str(K), "--familles", *FAM, "--processus", "{P}", "--suffixe", "_phi2"]
+                       for f in ("regle", "borne") for B, K in [(5, 4), (50, 5)]]
+                    + ([[PY, "-m", "experiences_article1.analyse_revision_B2"]] if 2 == 2 else [])),
+    "B3": dict(titre="Song et al. au même temps sur Hurink edata/rdata (36 instances de E10b), un cœur, machine au repos (M8)",
+               cout="≈ 1 h (faisceau) + ≈ 2 h (Song) ; machine au repos",
+               cmds=[faisceau("imit-ft-mono", MODELE, B, K, fs=CLASSIQUE, familles=SOUS_ENSEMBLE_TEMPS_B, processus="1",
+                              extra=("--suffixe", "_B3")) for B, K in [(5, 4), (10, 4), (50, 5)]]
+                    + [[PY, "-m", "outils.budgets_song", "--prefixes", "HurinkEdata", "HurinkRdata",
+                        "--sortie", "externe/budgets_song_E10b.csv"],
+                       [PY, "evaluer_song_temps.py", "--budgets", "budgets_song_E10b.csv", "--graines", "0", "1", "2",
+                        "--sortie", "resultats_song_temps_E10b.csv"],
+                       [PY, "-m", "experiences_article1.analyse_revision_B3"]],
+               dossiers=["."] * 4 + ["externe", "."]),
     "P1": dict(titre="Pilote pannes permises (déjà fait le 6/10 dans le cloud ; relance possible pour vérification)",
                cout="≈ 30 min",
                cmds=[[PY, "-m", "experiences_article1.pilote_regime_pannes", "--evaluations", "10000", "--betas", "0", "0.5", "2",
@@ -222,7 +327,7 @@ def main():
                 log.write(f"\n### {datetime.datetime.now().isoformat(timespec='seconds')} {' '.join(c)}\n")
                 log.flush()
                 rc = subprocess.call(c, cwd=cwd, stdout=log, stderr=subprocess.STDOUT,
-                                     env=dict(os.environ, PYTHONIOENCODING="utf-8"))
+                                     env=dict(os.environ, PYTHONIOENCODING="utf-8", **e.get("env", {})))
             with open(os.path.join(ICI, "journaux", "executions.jsonl"), "a", encoding="utf-8") as f:
                 f.write(json.dumps(dict(etape=k, date=datetime.datetime.now().isoformat(timespec="seconds"),
                                         code=emp, machine=mach, commande=c, duree_s=round(time.time() - t0, 1),

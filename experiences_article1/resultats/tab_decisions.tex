@@ -1,0 +1,31 @@
+% Généré par experiences_article1/tableau_decisions.py — ne pas modifier à la main.
+% Valeurs vérifiées contre resultats/revision_*.md, tab_gain_global.tex et PROTOCOLE.md.
+\begin{tabular}{@{}l>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{4.2cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{2.6cm}@{}}
+\toprule
+Campaign & Question & Declared rule & Outcome & Decision \\
+\midrule
+R1 & Does the learned filter add to the search? & Network significantly better than the best simple filter (Holm, 12 tests) at $\geq 3$ of 4 settings & 0/4 ($p_{\mathrm{Holm}} \geq 0.12$) & Not met: contribution reformulated \\
+R1 & Beam $50 \times 5$ against SA 50k & Equivalence if the 90\,\% CI of the mean gap lies within $\pm 1\,\%$ & $[-0.53, +0.62]\,\%$ & Equivalent (on average) \\
+R2 & Imitation alone against the final network & No decision rule; Holm over 6 tests reported & Greedy $-23.15$ points; beam $5 \times 4$ and $10 \times 4$ significant, $20 \times 4$ and $50 \times 5$ not & Reported as such \\
+R4 & Longer maintenances ($\mu = 3$) & Conclusion of R1 holds if no setting significant against the best of two filters (Holm, 4 tests) & None significant ($p_{\mathrm{Holm}} \geq 0.09$); TOST $[-0.87, +0.66]\,\%$ & R1 holds; equivalent \\
+D1 & Equal budget & (a) $\geq 3/4$ settings significant (Holm, 4): gain at each setting; (b) only the pooled test: small but consistent & (a) 0/4; (b) $-0.23$ points, $p = 0.025$ & Small but consistent gain \\
+D3 & Threshold factor 0.7 & Rule of R4; TOST $\pm 1\,\%$ & None significant; $+0.11\,\%$, $[-0.55, +0.76]\,\%$ & R1 holds; equivalent \\
+D3 & Threshold factor 1.5 & Rule of R4; TOST $\pm 1\,\%$ & None significant; $+0.14\,\%$, $[-0.39, +0.66]\,\%$ & R1 holds; equivalent \\
+D4 & Classical problem, $T_k = L_k$ & Greedy gap $< 20\,\%$: feature scale; $\geq 50\,\%$: change of problem & Greedy $+7.63\,\%$ & Collapse attributed to the feature scale \\
+D5 & Filter trained for the search & Retrained network retained if better on validation; then pooled test against the final network & No epoch better; difference 0 & Conclusions restricted (title) \\
+A1 & Active decoder for SA and TS & Reference weakened by its decoder if SA active better by $> 1$ point with $p_{\mathrm{Holm}} < 0.05$ & $+0.42$ points ($p_{\mathrm{Holm}} = 1$) & Decoder does not explain the gap \\
+B1 & Tie-breaking & Gain due to filtering if network (ties by order) $-$ best filter is negative and significant (pooled) & $+0.13$ points, $p = 0.69$ & Gain attributed to tie-breaking \\
+B2 & Draw of $\varphi_k$, seed 1 & Rule of R4; TOST $\pm 1\,\%$ & Significant at both settings ($p_{\mathrm{Holm}} = 0.015$, $0.025$); $[-0.84, +0.27]\,\%$ & R1 does not hold; equivalent \\
+B2 & Draw of $\varphi_k$, seed 2 & Rule of R4; TOST $\pm 1\,\%$ & None significant; $[-0.87, +0.22]\,\%$ & R1 holds; equivalent \\
+B3 & Song et al., edata and rdata & Rule of the comparison at equal time (Holm, 3 tests) & Beam better by 0.60, 0.78, 1.92\,\% ($p_{\mathrm{Holm}} = 0.062$, $0.016$, $1.2 \times 10^{-5}$) & Beam better at two of three settings \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Analyses computed afterwards (not declared, no decision attached)}} \\
+-- & \multicolumn{2}{>{\raggedright\arraybackslash}p{7.4cm}}{Pooled test, equal settings, $\mu = 1$ (R1)} & \multicolumn{2}{>{\raggedright\arraybackslash}p{6.4cm}}{$-0.27$ points, $p = 0.0024$} \\
+-- & \multicolumn{2}{>{\raggedright\arraybackslash}p{7.4cm}}{Pooled test, equal settings, $\mu = 3$ (R4)} & \multicolumn{2}{>{\raggedright\arraybackslash}p{6.4cm}}{$-0.34$ points, $p = 0.032$} \\
+-- & \multicolumn{2}{>{\raggedright\arraybackslash}p{7.4cm}}{Holm over the five pooled tests} & \multicolumn{2}{>{\raggedright\arraybackslash}p{6.4cm}}{Only R1 below 0.05 ($p = 0.012$)} \\
+-- & \multicolumn{2}{>{\raggedright\arraybackslash}p{7.4cm}}{Pooled test at equal budget over clusters (D1)} & \multicolumn{2}{>{\raggedright\arraybackslash}p{6.4cm}}{$p = 0.033$} \\
+-- & \multicolumn{2}{>{\raggedright\arraybackslash}p{7.4cm}}{Pooled test at equal budget without Kacem (D1)} & \multicolumn{2}{>{\raggedright\arraybackslash}p{6.4cm}}{$-0.09$ points, $p = 0.09$} \\
+-- & \multicolumn{2}{>{\raggedright\arraybackslash}p{7.4cm}}{Tie-breaking without Kacem (B1)} & \multicolumn{2}{>{\raggedright\arraybackslash}p{6.4cm}}{Network $-$ filters by rank $p = 0.042$; network $-$ network by order $p = 0.0095$} \\
+-- & \multicolumn{2}{>{\raggedright\arraybackslash}p{7.4cm}}{Computing time of the filters (D2)} & \multicolumn{2}{>{\raggedright\arraybackslash}p{6.4cm}}{No decision rule; network better at 5\,s only on flexible instances} \\
+\bottomrule
+\end{tabular}

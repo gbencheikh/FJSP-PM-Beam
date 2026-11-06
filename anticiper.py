@@ -27,12 +27,12 @@ _NET = {}
 
 
 def une_instance(args):
-    inst, chemin, B, K, regles, elagage, doublons = args
+    inst, chemin, B, K, regles, elagage, doublons, filtre, departage = args
     torch.set_num_threads(1)
     if chemin and _NET.get("chemin") != chemin:
         _NET["net"], _NET["chemin"] = charger_reseau(chemin), chemin
     agent = AgentAnticipation(_NET["net"] if chemin else None, B, K, regles=regles,
-                              elagage=elagage, doublons=doublons)
+                              elagage=elagage, doublons=doublons, filtre=filtre, departage=departage)
     c, plan, st = agent.planifier(inst)
     check(inst, plan)
     return inst.name, c, plan, st
@@ -42,6 +42,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--modele", default=None)
     ap.add_argument("--sans-reseau", action="store_true")
+    ap.add_argument("--filtre", default=None, choices=["regle", "fin", "borne"],
+                    help="avec --sans-reseau : K actions par piste choisies par une règle (contrôle non appris, 27/10/2026)")
     ap.add_argument("--nom", required=True)
     ap.add_argument("--largeur", type=int, default=5)
     ap.add_argument("--k", type=int, default=4)
@@ -52,16 +54,21 @@ def main():
     ap.add_argument("--sans-elagage", action="store_true", help="ablation : pas d'élagage par borne inférieure")
     ap.add_argument("--sans-doublons", action="store_true", help="ablation : pas de suppression des doublons")
     ap.add_argument("--forcer", action="store_true")
+    ap.add_argument("--departage", default=None, choices=["ordre", "rang"],
+                    help="ablation B1 (04/11/2026) : départage des ex aequo par l'ordre de génération (réseau) ou le rang cumulé (filtre)")
     ap.add_argument("--suffixe", default="", help="suffixe du rapport .md (14/10/2026, E10b : ne pas écraser le rapport de E10)")
     a = ap.parse_args()
     assert a.sans_reseau or a.modele, "donner --modele ou --sans-reseau"
     chemin = None if a.sans_reseau else a.modele
-    cfg = f"faisceau={a.largeur},k={a.k if chemin else 0}" + ("" if a.regles == ["MWKR"] else ",regles=" + "+".join(a.regles)) \
-        + (",sans_elagage" if a.sans_elagage else "") + (",sans_doublons" if a.sans_doublons else "")
+    assert a.filtre is None or a.sans_reseau, "--filtre s'utilise avec --sans-reseau"
+    cfg = f"faisceau={a.largeur},k={a.k if (chemin or a.filtre) else 0}" + (f",filtre={a.filtre}" if a.filtre else "") + ("" if a.regles == ["MWKR"] else ",regles=" + "+".join(a.regles)) \
+        + (",sans_elagage" if a.sans_elagage else "") + (",sans_doublons" if a.sans_doublons else "") \
+        + (f",departage={a.departage}" if a.departage else "")
     methode = f"RL:{a.nom}" if chemin else f"Faisceau:{a.nom}"
     instances = charger_instances(a.familles, regime=REGIME, facteur_seuil=a.facteur_seuil)
     deja = banque.cles_existantes()
-    taches = [(i, chemin, a.largeur, a.k, tuple(a.regles), not a.sans_elagage, not a.sans_doublons) for i in instances
+    taches = [(i, chemin, a.largeur, a.k, tuple(a.regles), not a.sans_elagage, not a.sans_doublons, a.filtre, a.departage)
+              for i in instances
               if a.forcer or banque.cle(i.name, REGIME, a.facteur_seuil, methode, cfg, 0) not in deja]
     print(f"{len(taches)} instances à lancer ({methode} [{cfg}])", flush=True)
     ctx = mp.get_context("spawn" if os.name == "nt" else "fork")
@@ -70,7 +77,8 @@ def main():
             npm = sum(1 for s in plan if s[3] == 2)
             banque.ajouter(nom, REGIME, a.facteur_seuil, methode, cfg, 0, c, npm, 0, st["temps_s"], plan,
                            evaluations=st["evaluations"])
-            print(f"{nom} : {c:g}  ({st['evaluations']} évaluations, {st['temps_s']:.1f} s)", flush=True)
+            print(f"{nom} : {c:g}  ({st['evaluations']} évaluations, {st['temps_s']:.1f} s ; "
+                  f"ex aequo à la coupure {st['egalites_coupure']}/{st['coupures']})", flush=True)
 
     # tableau : agent qui anticipe vs recuit simulé Taguchi
     noms = sorted(i.name for i in instances)
