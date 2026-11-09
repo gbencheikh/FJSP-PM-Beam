@@ -1,29 +1,29 @@
-# Règles de priorité — FJSP avec maintenance préventive
+# Dispatching rules
 
-Une règle = une règle d'opération (quelle opération lancer) + une règle de machine (sur quelle
-machine). La maintenance suit pour toutes la même règle « juste à temps » : si l'opération ne tient
-pas dans la marge d'usure de la machine, maintenance d'abord, puis l'opération.
+A rule combines an operation rule (which ready operation to start) with a machine rule (on which machine). Maintenance
+follows the same just-in-time rule for all: if the operation does not fit within the remaining wear margin of the
+machine, the machine is maintained first.
 
-| Règle d'opération | Choisit l'opération prête… |
+| Operation rule | Chooses the ready operation… |
 |---|---|
-| SPT | la plus courte |
-| LPT | la plus longue |
-| MWKR | dont le job a le plus de travail restant |
-| LWKR | dont le job a le moins de travail restant |
-| MOR | dont le job a le plus d'opérations restantes |
-| LOR | dont le job a le moins d'opérations restantes |
-| FIFO | prête depuis le plus longtemps |
-| WSPT | la plus courte rapportée au poids du job (poids = 1 par défaut : les .fjs n'en ont pas) |
+| SPT | with the shortest processing time |
+| LPT | with the longest processing time |
+| MWKR | whose job has the most remaining work |
+| LWKR | whose job has the least remaining work |
+| MOR | whose job has the most remaining operations |
+| LOR | whose job has the fewest remaining operations |
+| FIFO | that has been ready the longest |
+| WSPT | with the shortest processing time divided by the weight of its job (weight 1 by default) |
 
-| Règle de machine | Choisit… |
+| Machine rule | Chooses… |
 |---|---|
-| EFT | la machine qui terminera l'opération le plus tôt (attente + maintenance éventuelle + durée) |
-| SPTM | la machine la plus rapide pour cette opération |
+| EFT | the machine on which the operation finishes earliest (waiting, maintenance if needed, processing) |
+| SPTM | the fastest machine for the operation |
 
-```
+```bash
 python -m regles_priorite.comparer
 python -m regles_priorite.comparer --familles Brandimarte --facteur-seuil 0.7
 ```
 
-Ajouter une règle : une ligne dans `REGLES_OPERATION` (fichier `regles.py`), une fonction
-`clé(env, job, poids)` — la plus petite clé est la plus prioritaire.
+To add a rule, add an entry to `REGLES_OPERATION` in `regles.py`: a function `key(env, job, weight)`, the smallest key
+having the highest priority.

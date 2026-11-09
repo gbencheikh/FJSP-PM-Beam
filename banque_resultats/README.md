@@ -1,37 +1,29 @@
-# Banque de résultats
+# Result bank
 
-Tous les résultats par instance sont enregistrés ici, une fois pour toutes :
+Every run is recorded once and for all.
 
-| Fichier | Contenu |
+| File | Content |
 |---|---|
-| `resultats.csv` | une ligne par exécution : instance, régime, facteur de seuil, méthode, configuration, graine, C_max, nombre de maintenances, pannes, temps, date, identifiant du planning |
-| `solutions.jsonl` | le planning complet de chaque exécution : liste `[machine, début, fin, type, job]`, type 1 = opération, 2 = maintenance, 3 = réparation |
-| `banque.py` | lecture / écriture / suppression |
+| `resultats.csv` | One line per run: instance, regime, threshold factor, method, configuration, seed, makespan, number of maintenances, breakdowns (always 0 here), running time, date, identifier of the schedule, number of evaluated schedules |
+| `solutions.jsonl.gz` | The complete schedule of every run: list of `[machine, start, end, type, job]`, type 1 = operation, 2 = maintenance |
+| `resultats_mu3.csv`, `resultats_phi1.csv`, `resultats_phi2.csv`, `resultats_TkLk.csv` (+ schedules) | Variants of the instance generator, kept in separate banks (see the main README) |
+| `banque.py` | Reading, writing and deleting lines |
 
-Les scripts `regles_priorite.comparer`, `metaheuristiques.comparer` et `comparer_rl.py` consultent
-la banque avant de lancer quoi que ce soit : une exécution déjà présente (même instance, régime,
-facteur de seuil, méthode, configuration, graine) n'est jamais relancée. Pour forcer : `--forcer`.
+The schedules are decompressed automatically (`solutions*.jsonl`) the first time the module is imported.
 
-Comparer un nouvel agent RL sans relancer les autres méthodes :
+The comparison scripts (`regles_priorite.comparer`, `metaheuristiques.comparer`, `comparer_rl.py`, `anticiper.py`)
+read the bank before running anything: a run that is already present (same instance, regime, threshold factor,
+method, configuration and seed) is never repeated. Use `--forcer` to run it again.
 
-```
-python comparer_rl.py --modele models/v3/A_full_s0_best.pt --nom complet-s0
-```
-
-Seul l'agent est exécuté ; le tableau `comparaisons/comparaison_seuil1.md` et le fichier
-`comparaisons/comparaison_seuil1.csv` (une ligne par instance, une colonne par méthode) sont
-reconstruits à partir de la banque.
-
-Lire la banque dans Python :
+Reading the bank in Python:
 
 ```python
 from banque_resultats import banque
-lignes = banque.charger()                                    # liste de dicts
+lignes = banque.charger()                                    # list of dicts, one per run
 mk1 = [l for l in lignes if l["instance"] == "BrandimarteMk1"]
-plan = banque.planning(mk1[0])                               # planning complet
-banque.supprimer(lambda l: l["methode"] == "RL:essai")      # retirer des lignes
+plan = banque.planning(mk1[0])                               # complete schedule of a run
+banque.supprimer(lambda l: l["methode"] == "RL:essai")      # remove lines
 ```
 
-Note : les métaheuristiques sont arrêtées au bout d'un temps donné. Relancées, elles peuvent donner
-un C_max légèrement différent (le nombre d'itérations dépend de la vitesse de la machine) : c'est
-une raison de plus pour garder les résultats une fois pour toutes.
+Metaheuristics stopped by a time limit (steps E10, E10b) may give a slightly different makespan when re-run, because
+the number of iterations depends on the speed of the computer: one more reason to keep the results.

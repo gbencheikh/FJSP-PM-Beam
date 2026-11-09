@@ -1,30 +1,32 @@
-# Métaheuristiques — FJSP avec maintenance préventive
+# Metaheuristics
 
-Trois méthodes qui résolvent le même problème, avec le même codage et le même décodage :
+Three methods solve the same problem with the same encoding and the same decoder.
 
-| Fichier | Méthode | Paramètres par défaut |
-|---|---|---|
-| `genetique.py` | Algorithme génétique | population 60, croisement 0,8, mutation 0,1, élitisme 2 |
-| `tabou.py` | Recherche tabou | 40 voisins par itération, durée tabou 12 |
-| `recuit_simule.py` | Recuit simulé | probabilité initiale d'accepter une dégradation 0,5, refroidissement géométrique sur le temps |
-| `codage.py` | Codage OS/MS, décodage avec maintenance, voisinage | – |
-| `instances.py` | Chargement des instances .fjs + paramètres de maintenance | – |
-| `comparer.py` | Comparaison à budget de temps égal | – |
+| File | Content |
+|---|---|
+| `genetique.py` | Genetic algorithm |
+| `tabou.py` | Tabu search |
+| `recuit_simule.py` | Simulated annealing, with a geometric temperature schedule over the fraction of the budget consumed |
+| `codage.py` | Encoding (operation sequence and machine assignment), semi-active decoder with maintenance inserted at the latest feasible position, active decoder (option `FJSP_DECODEUR=actif`), neighbourhoods, budgets |
+| `instances.py` | Loading of the `.fjs` files and of the wear parameters |
+| `comparer.py` | Runs the methods on the benchmark instances and records the results in the bank |
+| `decodeur_actif_prototype.py` | Prototype of the active decoder (exploratory) |
 
-Toutes les méthodes s'arrêtent quand le budget de temps est écoulé, et tous les plannings sont
-vérifiés (pas de chevauchement, usure ≤ seuil entre deux maintenances, donc aucune panne).
+The budget is a number of evaluated schedules (`--evaluations`, used in the article) or a time limit (`--budget`, in
+seconds). Every decoded schedule is feasible: no overlap, and the wear never exceeds the threshold between two
+maintenances. The parameters tuned by the Taguchi design are in `reglage_taguchi/parametres_retenus.json`.
 
+```bash
+python -m metaheuristiques.comparer --evaluations 50000 --parametres reglage_taguchi/parametres_retenus.json --graines 0 1 2 3 4 --processus 8
 ```
-python -m metaheuristiques.comparer --budget 10 --graines 0 1 2
-python -m metaheuristiques.comparer --familles Brandimarte --budget 5 --depart aleatoire --facteur-seuil 0.7
-```
 
-Utiliser une méthode seule :
+Using one method alone:
 
 ```python
 import numpy as np
 from metaheuristiques import recuit_simule
+from metaheuristiques.codage import Budget
 from metaheuristiques.instances import charger_instances
 inst = charger_instances(["Brandimarte"])[0]
-cmax, (OS, MS), info = recuit_simule.resoudre(inst, budget_s=10, rng=np.random.default_rng(0))
+cmax, (OS, MS), info = recuit_simule.resoudre(inst, budget=Budget(evaluations=50000), rng=np.random.default_rng(0))
 ```

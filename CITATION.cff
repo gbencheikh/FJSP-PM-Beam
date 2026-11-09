@@ -1,21 +1,20 @@
 cff-version: 1.2.0
 message: "If you use this software or its data, please cite the article below."
-title: "Decision-time search for the flexible job shop with preventive maintenance: what does a learned filter add? Code and data"
+title: "Joint scheduling of production and wear-driven preventive maintenance in a flexible job shop using a policy-guided beam search: code and data"
 authors:
   - family-names: Bencheikh
     given-names: Ghita
-    affiliation: "CESI LINEACT UR5727, Pau, France"
+    affiliation: "CESI LINEACT"
 license: MIT
 repository-code: "https://github.com/gbencheikh/FJSP-PM-Beam"
-version: "1.1.0"
-date-released: "2026-11-06"
+version: "1.1.1"
+date-released: "2026-11-09"
 preferred-citation:
   type: article
-  title: "Decision-time search for the flexible job shop with preventive maintenance: what does a learned filter add?"
+  title: "Joint scheduling of production and wear-driven preventive maintenance in a flexible job shop using a policy-guided beam search"
   authors:
     - family-names: Bencheikh
       given-names: Ghita
-      affiliation: "CESI LINEACT UR5727, Pau, France"
-  journal: "Computers & Operations Research"
+      affiliation: "CESI LINEACT"
   year: 2026
-  notes: "Submitted. Volume and DOI to be completed."
+  notes: "Submitted. Journal, volume and DOI to be completed."

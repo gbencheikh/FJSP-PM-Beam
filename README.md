@@ -1,89 +1,62 @@
-# Decision-time search for the flexible job shop with preventive maintenance: what does a learned filter add?
+# Joint scheduling of production and wear-driven preventive maintenance in a flexible job shop using a policy-guided beam search
 
-Code, data and raw results of the article of the same title (G. Bencheikh, submitted to *Computers & Operations
-Research*, November 2026). The repository contains everything needed to **reproduce every table and figure of the
-article and of its Supplementary Material** from the raw results, to **re-run any experiment**, and to **evaluate a
-new method under the same protocol** (same instances, feasibility check, reference and statistics).
+Code, extended benchmark instances and raw results of the article of the same title (submitted). The repository
+contains everything needed to **reproduce every table and figure of the article and of its Supplementary Material**
+from the raw results, to **re-run any experiment**, and to **evaluate a new method under the same protocol** (same
+instances, feasibility check, reference and statistics).
 
-## The question and the answer
+## Problem
 
-A flexible job shop in which every machine accumulates wear while processing: an operation of length *p* may start
-on machine *k* only if its wear *c_k* satisfies *c_k + p ≤ T_k*, and a preventive maintenance of length *M_k* resets
-the wear to zero. Production and maintenance are scheduled jointly; the objective is the makespan.
+A flexible job shop in which every machine accumulates wear while it processes: an operation of length *p* may start on
+machine *k* only if the wear *c_k* of the machine satisfies *c_k + p ≤ T_k*, and a preventive maintenance of length
+*M_k* resets the wear to zero. The assignment and sequence of the operations and the moments of the maintenances are
+decided jointly; the objective is the makespan. The thresholds are known and no breakdown can occur.
 
-The method is a **filtered beam search** (Ow & Morton, 1988). At each node, a *filter* keeps the *K* most promising
-actions (launch an operation on a machine, maintain a machine, wait); each kept action is evaluated by completing the
-schedule with a priority rule (MWKR, Numba, ≈ 0.1 ms per completion); duplicate states and states whose lower bound
-cannot improve on the best schedule are discarded. The filter is interchangeable: either a **policy network** trained
-by imitation of a tuned simulated annealing and refined by PPO, or one of **three simple filters** (priority rule,
-earliest finish time, lower bound), all other components being identical. The article asks what learning adds.
+## Method
 
-On 127 public benchmark instances extended with wear parameters:
-
-- the guided beam search is equivalent on average to a tuned simulated annealing within ±1 % while evaluating fewer
-  schedules, although not in less time;
-- most of this comes from the search: filtering saves six to nine times the evaluations of an unfiltered search, and
-  simple filters achieve most of this saving;
-- the learned policy adds a small gain (0.2 to 0.5 points of makespan), constant in sign but not significant in every
-  campaign; an ablation shows that it comes from **breaking ties** between states of equal completion value (85 % of
-  the selections), not from choosing the actions to evaluate.
+A filtered beam search in the sense of Ow and Morton (1988). At each node, a policy network keeps the *K* most promising
+actions (launch an operation on a machine, maintain a machine, wait). Each kept action is evaluated by completing the
+schedule with a priority rule that also decides the maintenances (Numba, about 0.1 ms per completion). Duplicate states
+and states whose lower bound cannot improve on the best schedule are discarded, and the *B* best states are kept. The
+network is trained on generated instances by imitation of a tuned simulated annealing, proximal policy optimisation and
+self-imitation. A constraint programming model with maintenance segments provides lower bounds and proven optima.
 
 <p align="center">
   <img src="docs/beam_search_mk01.gif" width="800" alt="Construction of a schedule on Brandimarte Mk01 by the policy-guided beam search">
 </p>
 
-*Schedule found by the policy-guided beam search (50 × 5) on Brandimarte Mk01, replayed decision by decision
-(black outline: last decision). Right: wear of each machine relative to its threshold, reset by preventive
-maintenance. Makespan 51; proven optimum 50.*
+*Schedule built by the policy-guided beam search (50 × 5) on Brandimarte Mk01, replayed decision by decision (black
+outline: last decision). Right: wear of each machine relative to its threshold, reset by preventive maintenance.
+Makespan 51; proven optimum 50.*
 
 ## Repository layout
 
 | Path | Content |
 |---|---|
-| `jssp_pm/` | Core library: instances and wear protocol (`fjsp_instance.py`), event simulator and MDP (`fjsp_sim.py`, `fjsp_env3.py`), policy network (`reseaux.py`), PPO (`fjsp_ppo.py`), completion engine and lower bound (`moteur_rapide.py`), beam search with interchangeable filter and tie-breaking (`anticipation.py`), CP-SAT model with maintenance segments (`fjsp_cpsat.py`) |
-| `anticiper.py` | Beam search on benchmark instances: `--modele` (network), `--filtre regle\|fin\|borne` (simple filters), `--departage ordre\|rang` (tie-breaking ablation) |
+| `jssp_pm/` | Core library: instances and wear protocol (`fjsp_instance.py`), event simulator and decision process (`fjsp_sim.py`, `fjsp_env3.py`), policy network (`reseaux.py`), PPO (`fjsp_ppo.py`), completion engine and lower bound (`moteur_rapide.py`), beam search (`anticipation.py`), CP model with maintenance segments (`fjsp_cpsat.py`) |
+| `anticiper.py` | Beam search on the benchmark instances |
 | `comparer_rl.py` | Policy alone: greedy and best of *N* samples |
-| `train_v3.py` | PPO and self-imitation stages |
-| `imitation/` | Expert schedules (`experts.jsonl`, 2 000 schedules of simulated annealing), imitation stage (`entrainer.py`), filter trained for the search (`filtre_appris.py`, experiment D5), earlier attempts mentioned in the article (`eleve_recuit.py`, `auto_amelioration.py`) |
-| `metaheuristiques/` | Simulated annealing, tabu search, genetic algorithm (one encoding; semi-active decoder, active decoder `decoder_actif` for experiment A1) |
-| `reglage_taguchi/`, `regles_priorite/` | Taguchi tuning of the metaheuristics; dispatching rules |
-| `cpsat_article1.py`, `cpsat_sans_depart.py` | CP-SAT with and without warm start (bounds, proven optima, CP-SAT alone) |
-| `externe/` | Evaluation of the published model of Song et al. (2023) on our instances, and its results |
-| `outils/` | **Independent schedule checker** (`verifier_planning.py`), analyses, time measurements, instance export |
-| `experiences_article1/` | Experiment launcher (`lancer.py`), analysis and table scripts, protocol log (`PROTOCOLE.md`), execution logs (`journaux/`), result tables and figures (`resultats/`) |
-| `banque_resultats/` | **Raw results**: one line per run and the complete schedule of every run (see below) |
-| `models/` | Trained networks (see below) |
+| `train_v3.py` | Reinforcement learning stages (PPO and self-imitation) |
+| `imitation/` | Expert schedules (`experts.jsonl`, 2 000 schedules of simulated annealing) and imitation stage |
+| `metaheuristiques/` | Simulated annealing, tabu search and genetic algorithm (one encoding, one decoder) |
+| `reglage_taguchi/` | Taguchi tuning of the metaheuristics and retained parameters |
+| `regles_priorite/` | Dispatching rules |
+| `cpsat_article1.py`, `cpsat_sans_depart.py` | CP-SAT with and without a starting schedule (bounds, proven optima, CP-SAT alone) |
+| `outils/` | **Independent schedule checker** (`verifier_planning.py`), instance export, analyses |
+| `experiences_article1/` | Experiment launcher (`lancer.py`), statistics, table and figure scripts, protocol log (`PROTOCOLE.md`), execution logs (`journaux/`), outputs (`resultats/`) |
+| `banque_resultats/` | **Raw results**: one line per run and the complete schedule of every run |
+| `models/` | Trained networks |
 | `Instances/` | Benchmark files and their wear parameters |
+| `externe/` | Evaluation of the published model of Song et al. (2023) on the same instances (companion analyses) |
+| `comparaisons/`, `resultats_metaheuristiques/`, `resultats_regles/` | Per-campaign summaries written by the scripts |
+| `docs/` | Animation shown above |
 
-Internal file names, comments and the protocol log are in French. Method labels in the raw results:
+File names, identifiers, comments and the protocol log are in French. Method labels in the raw results:
 `Recuit simulé` = simulated annealing, `Recherche tabou` = tabu search, `Algorithme génétique` = genetic algorithm,
-`RL:imit-ft` = trained policy (final network), `Faisceau:regle` = beam search without filter,
-`RL:aleatoire-g0` = untrained network. In configurations: `glouton` = greedy, `echantillons` = samples,
-`faisceau=B,k=K` = beam search *B* × *K*, `filtre=regle|fin|borne` = simple filter (priority rule, earliest finish,
-lower bound), `departage=ordre|rang` = tie-breaking by order of generation or by cumulative rank.
-
-### Raw results
-
-| File | Content |
-|---|---|
-| `banque_resultats/resultats.csv` + `solutions.jsonl.gz` | Protocol of the article (35 418 runs) |
-| `resultats_mu3.csv` + `solutions_mu3.jsonl.gz` | Longer maintenances, μ = 3 (R4) |
-| `resultats_TkLk.csv` + `solutions_TkLk.jsonl.gz` | Classical problem with T_k = L_k (D4) |
-| `resultats_phi1.csv`, `resultats_phi2.csv` + schedules | Two other draws of the threshold factors φ_k (B2) |
-
-The separate banks are selected by environment variables (`FJSP_MU=3`, `FJSP_TK_LK=1`, `FJSP_GRAINE_PHI=1|2`), so
-that runs of different protocols are never mixed. Schedules are decompressed automatically the first time
-`banque_resultats` is imported.
-
-### Networks
-
-| File | Role in the article |
-|---|---|
-| `models/imitation/cand_ft_best.pt` | **Final network** (seed 0, after PPO), used in all main results |
-| `models/imitation/cand_best.pt` | Imitation alone (training stages) |
-| `models/imitation/cand_ft_g1_best.pt`, `cand_ft_g2_best.pt` | Training seeds 1 and 2 (after self-imitation); `cand_g*_best.pt` and `cand_ft_g*_ppo_best.pt` are the intermediate stages |
-| `models/aleatoire/cand_aleatoire_g0.pt` | Untrained network (ablation) |
-| `models/filtre/filtre_best.pt` | Filter trained for the search (D5); no epoch improved the validation, so the final network was retained |
+`RL:imit-ft` = trained policy (final network), `Faisceau:regle` = beam search without filter, `RL:aleatoire-g0` =
+untrained network, `Faisceau:filtre-regle|fin|borne` = beam search with a simple filter (priority rule, earliest
+finish, lower bound). In configurations: `glouton` = greedy, `echantillons` = samples, `faisceau=B,k=K` = beam search
+*B* × *K*.
 
 ## Installation
 
@@ -97,20 +70,22 @@ pip install -r requirements.txt
 python -m pytest -q tests          # unit tests of the simulator, completion engine and beam search
 ```
 
-All commands are run from the root of the repository.
+All commands are run from the root of the repository. The schedules of the raw results are shipped compressed
+(`solutions*.jsonl.gz`) and are decompressed automatically the first time `banque_resultats` is imported.
 
 ## Instances
 
-The article uses 134 public instances: Brandimarte Mk01–Mk10, Hurink edata, rdata and vdata la01–la40, and Kacem
-(four instances). Seven Hurink instances serve for the Taguchi tuning of the metaheuristics and are excluded from
-all analyses, which leaves **127 test instances**.
+134 public instances are computed: Brandimarte Mk01–Mk10, Hurink edata, rdata and vdata la01–la40, and Kacem (four
+instances). Seven Hurink instances serve for the Taguchi tuning of the metaheuristics and are excluded from all
+analyses, which leaves **127 test instances** with 4 to 30 jobs and 5 to 15 machines.
 
 The benchmark files contain no wear parameters. They are added by a reproducible protocol
 (`jssp_pm/fjsp_instance.py`, function `attach_wear_v3`, regime A, seed 0): with *u* the mean of the shortest
 processing times and *L̄* the mean machine load,
 *T_k* = max(round(*φ_k* · max(0.5 *L̄*, 3 *u*)), longest eligible operation on *k*), *φ_k* ~ U[0.8, 1.2];
-*M_k* = max(1, round(*u*)). The values are listed in `Instances/parametres_usure_regime_A.csv` and
-`Instances/parametres_usure_regime_A.json`, and can be regenerated with `python -m outils.exporter_instances`.
+*M_k* = max(1, round(*u*)). The resulting values are listed in `Instances/parametres_usure_regime_A.csv` (one line
+per machine) and `Instances/parametres_usure_regime_A.json` (one entry per instance, with its role: test or tuning).
+They can be regenerated with `python -m outils.exporter_instances`.
 
 ```python
 from metaheuristiques.instances import charger_instances
@@ -118,78 +93,99 @@ instances = charger_instances(["Brandimarte", "HurinkLa", "Kacem"], regime="A") 
 inst = instances[0]          # inst.P (operations × machines, 0 = not eligible), inst.job_ops, inst.T, inst.M
 ```
 
-## Reproducing the tables and figures (minutes, from the raw results)
+## Raw results
+
+| File | Content |
+|---|---|
+| `banque_resultats/resultats.csv` + `solutions.jsonl.gz` | Protocol of the article (35 418 runs) |
+| `resultats_mu3.csv` + `solutions_mu3.jsonl.gz` | Maintenances three times longer (μ = 3) |
+| `resultats_phi1.csv`, `resultats_phi2.csv` + schedules | Two other draws of the threshold factors φ_k |
+| `resultats_TkLk.csv` + `solutions_TkLk.jsonl.gz` | Classical problem with T_k = L_k (companion analyses) |
+
+The thresholds multiplied by 0.7 and 1.5 are stored in the main bank (column `facteur_seuil`). The separate banks are
+selected by environment variables (`FJSP_MU=3`, `FJSP_GRAINE_PHI=1|2`, `FJSP_TK_LK=1`), so that runs of different
+protocols are never mixed. Each line of a bank gives the instance, regime, threshold factor, method, configuration,
+seed, makespan, number of maintenances, running time, date, number of evaluated schedules and the identifier of the
+complete schedule.
+
+## Reproducing the article (minutes, from the raw results)
 
 No number is copied by hand: every table is produced by a script from the raw results or from the reports of the
-analysis scripts. Outputs go to `experiences_article1/resultats/`. Commands are `python -m experiences_article1.<script>`
-unless stated otherwise.
+analysis scripts. Commands are `python -m experiences_article1.<script>` unless stated otherwise; outputs go to
+`experiences_article1/resultats/`.
 
 | Article | Script | Output |
 |---|---|---|
-| Table 3 (families) and Table 15 (classical problem, T_k = L_k) | `tableaux_revision3` | `tab_familles.tex`, `tab_classique_TkLk.tex` |
-| Table 4 (main comparison) | `statistiques --methodes experiences_article1/methodes_principal_sans_hybride.json --nom principal_provisoire` | `principal_provisoire.*` |
-| Table 5 (equal budget in evaluations), Table 12 (equal time), Table 13 (maintenance placement), Table 14 (Song et al.) | `tableaux_article` | `tab_budget.tex`, `tab_temps.tex`, `tab_maintenance.tex`, `tab_song.tex` |
-| Table 6 (lower bounds, proven optima, best known) | `tableau_bornes` | `tab_bornes.tex` |
-| Table 7 (gain of the learned filter, pooled tests) | `tableau_gain_global` | `tab_gain_global.tex` |
-| Table 8 (tie-breaking ablation) and Table 11 (draws of φ_k) | `tableaux_revision4` | `tab_departage.tex`, `tab_tirages_phi.tex` |
-| Tables 9 and 10 (filters, declared tests) | `tableaux_revision` | `tab_filtres.tex`, `tab_tests_filtres.tex` |
-| Table 15 (classical problem, ×1000) | `statistiques --methodes experiences_article1/methodes_classique.json --facteur-seuil 1000 --nom classique` | `classique.*` |
-| Figure 7 (quality versus evaluations) | `tests_qualite_budget` then `figure_qualite_budget` | `tests_qualite_budget.*`, `qualite_budget.pdf` |
-| Figure 6 (schedules on Mk01) | `figure_gantt_resultats` | `gantt_resultats_BrandimarteMk1.pdf` |
-| Figures 1–5, 8, 9 (models, method, proofs) | `figure_modele_cp`, `figures_methode`, `figure_reseau_couches`, `figure_faisceau`, `figure_segments`, `figure_preuve_completude` | `schema_*.pdf` |
-| Supplementary Table S3 (time of the filters) | `tableaux_revision3` | `tab_temps_filtres.tex` |
-| Supplementary Table S4 (ablations) | `statistiques --methodes experiences_article1/methodes_ablations.json --nom ablations` | `ablations.*` |
-| Supplementary Table S5 (CP-SAT at equal time) | `tableaux_article` | `tab_cpsat.tex` |
-| Supplementary Table S6 (declared rules, outcomes, decisions) | `tableau_decisions` (checks every value against the reports) | `tab_decisions.tex` |
-| Supplementary Figure S1 (training) | `figure_entrainement` | `schema_entrainement.pdf` |
+| Table 2 (comparison of all methods) | `statistiques --methodes experiences_article1/methodes_principal_sans_hybride.json --nom principal_provisoire` | `principal_provisoire.*` |
+| Tables 3, 5 and 7 (equal budget, equal time, maintenance placement) | `tableaux_article` | `tab_budget.tex`, `tab_temps.tex`, `tab_maintenance.tex` |
+| Table 4 (lower bounds, proven optima, best known) | `tableau_bornes` | `tab_bornes.tex` |
+| Tables 6 and 8 (families, variants of the generator) | `tableaux_caie` | `tab_familles_caie.tex`, `tab_robustesse_caie.tex` |
+| Figure 1 (CP model) and Figure 2 (beam search) | `figure_modele_cp`, `figure_faisceau` | `schema_modele_cp.pdf`, `schema_faisceau.pdf` |
+| Figure 3 (schedules on Mk01) | `figure_gantt_resultats` | `gantt_resultats_BrandimarteMk1.pdf` |
+| Figure 4 (quality versus evaluations) | `tests_qualite_budget`, then `figure_qualite_budget_caie` | `qualite_budget_caie.pdf` |
+| Supplementary Figures S1–S3 (proofs, training) | `figure_segments`, `figure_preuve_completude`, `figure_entrainement` | `schema_*.pdf` |
+| Supplementary Table S3 (beam search without filter, components) | `statistiques --methodes experiences_article1/methodes_ablations_caie.json --nom ablations_caie` | `ablations_caie.*` |
+| Supplementary Table S4 (CP-SAT alone at equal time) | `tableaux_article` | `tab_cpsat.tex` |
 
-The analysis reports read by the table scripts are produced by `analyse_revision_<campaign>` (R1R2, R3, R4, D1D3D4,
-D2, D5, A1, B1, B2, B3) → `resultats/revision_<campaign>.md`; the intermediate analyses of the initial campaigns by
-`tests_qualite_budget`, `tests_qualite_temps` (`--sous-ensemble E10b`, `union`), `outils.analyse_e9b`,
-`outils.analyse_song_temps` and step E15 of `lancer`. Analyses that were computed after the corresponding campaign,
-and are reported as such in the article, are in `exploratoire_N1_filtres.py` and `exploratoire_relecteur2.py`.
+The intermediate analyses read by these scripts are produced by `tests_qualite_budget`, `tests_qualite_temps`
+(`--sous-ensemble E10b` and `union`), `outils.analyse_e9b` and step E15 of `lancer`.
+
+## Companion analyses
+
+The repository also contains analyses that are not reported in the article: the comparison of the learned filter with
+simple filters at equal settings, budgets and computing times, the ablation of tie-breaking, training stages and
+seeds, a filter trained for the search, the classical problem, the comparison with Song et al. (2023), and a table
+of all declared decision rules with their outcomes. Their analysis scripts are `analyse_revision_<campaign>`
+(reports `resultats/revision_<campaign>.md`) and their tables are produced by `tableaux_revision`,
+`tableaux_revision3`, `tableaux_revision4`, `tableau_gain_global`, `tableau_decisions` and `figure_qualite_budget`.
 
 ## Re-running the experiments
 
 Every experiment is a step of `experiences_article1/lancer.py`. The settings and decision rules of each step were
-written in `experiences_article1/PROTOCOLE.md` (in French) **before** the corresponding computations; each entry
-of the log is dated.
+written in `experiences_article1/PROTOCOLE.md` before the corresponding computations; each entry of the log is dated.
 
 ```bash
 python -m experiences_article1.lancer --liste                         # steps and estimated cost
-python -m experiences_article1.lancer --etape R1 --essai              # print the commands without running them
-python -m experiences_article1.lancer --etape D1 D3 --processus 8     # run
+python -m experiences_article1.lancer --etape E5 --essai              # print the commands without running them
+python -m experiences_article1.lancer --etape E5 --processus 8        # run
 ```
 
 | Step | Content |
 |---|---|
-| E0–E15 | Initial campaigns: unit tests, dispatching rules, metaheuristics at 2 000 to 200 000 evaluations, policy alone, beam grid, ablations, classical problem, Song et al., CP-SAT, wall-clock time (one process), training seeds, value of maintenance decisions |
-| R1 | Beam search with the three simple filters, same settings as the network |
-| R2, R3 | Imitation alone; training seeds 1 and 2 |
-| R4 | Longer maintenances (μ = 3) |
-| D1 | Simple filters at equal budget in evaluations |
-| D2 | Computing time of the filters (one process, idle machine) and cost of the expert schedules |
-| D3 | Threshold factors 0.7 and 1.5 |
-| D4 | Classical problem with T_k = L_k |
-| D5 | Filter trained for the search |
-| A1 | Active decoder for simulated annealing and tabu search |
-| B1 | Tie-breaking ablation |
-| B2, B2b | Two other draws of the factors φ_k |
-| B3 | Song et al. at equal time on Hurink edata and rdata |
+| E0 | Unit tests and machine information |
+| E1 | Dispatching rules |
+| E2, E3 | Metaheuristics (Taguchi parameters) from 2 000 to 200 000 evaluations |
+| E4 | Policy alone: greedy and best of 100 samples × 5 seeds |
+| E5, E5b | Policy-guided beam search, grid of settings *B* × *K* |
+| E6, E6b | Beam search without filter, untrained network, without pruning, without duplicate removal |
+| E9, E9b | CP-SAT (bounds and proven optima); CP-SAT alone at the running times of the beam search |
+| E10, E10b | Wall-clock time on one process, idle machine (54 and 36 instances) |
+| E15 | Value of the maintenance decisions for fixed sequences |
+| R4, D3, B2, B2b | Variants of the generator: μ = 3, threshold factors 0.7 and 1.5, two other draws of φ_k |
+| E7, E8, E10s, E11, E12, R1, R2, D1, D2, D4, D5, A1, B1, B3 | Companion analyses (classical problem, Song et al., training seeds, simple filters, equal budget, time of the filters, active decoder, tie-breaking) |
 
 **Important.** The scripts never re-run a configuration that is already in the result bank (same instance, method,
-configuration and seed). To re-run an existing configuration, use a new method name (`--nom`) or move the bank files
-aside to start from an empty bank. Wall-clock times are meaningful only for the steps run on a single process on an
-idle machine (E9b, E10, E10b, E10s, D2, B3).
+configuration and seed). To re-run an existing configuration, use a new method name (`--nom`), the option `--forcer`
+of the comparison scripts, or move the bank files aside to start from an empty bank. Wall-clock times are meaningful
+only for the steps run on a single process on an idle machine (E9b, E10, E10b, E10s, D2, B3).
 
-Example: beam search 5 × 4 guided by the network, then by the priority-rule filter, on the Brandimarte instances:
+Example: policy-guided beam search 5 × 4 on the Brandimarte instances, under a new name:
 
 ```bash
 python anticiper.py --modele models/imitation/cand_ft_best.pt --nom demo --largeur 5 --k 4 --familles Brandimarte --processus 2
-python anticiper.py --filtre regle --nom demo-regle --largeur 5 --k 4 --familles Brandimarte --processus 2
 ```
 
-## Training the network from scratch
+## Networks
+
+| File | Role |
+|---|---|
+| `models/imitation/cand_ft_best.pt` | **Network used in the article** (training seed 0, after PPO) |
+| `models/imitation/cand_best.pt` | Network after the imitation stage only |
+| `models/imitation/cand_ft_g1_best.pt`, `cand_ft_g2_best.pt` | Training seeds 1 and 2 (companion analyses); `cand_g*_best.pt` and `cand_ft_g*_ppo_best.pt` are their intermediate stages |
+| `models/aleatoire/cand_aleatoire_g0.pt` | Untrained network |
+| `models/filtre/filtre_best.pt` | Network retrained for the filtering role (companion analysis; no epoch improved the validation, so it is identical in behaviour to the final network) |
+
+To train the network from scratch:
 
 ```bash
 python -m imitation.experts --nombre 2000 --evaluations 50000 --parametres reglage_taguchi/parametres_retenus.json --processus 8   # optional: experts.jsonl is provided
@@ -198,9 +194,9 @@ python train_v3.py --init models/imitation/cand_best.pt --lr 1e-4 --ppo_steps 30
 ```
 
 Training uses generated instances only; no benchmark instance is used for training, validation or model selection.
-Hyperparameters: `models/imitation/cand_ft_config.json`, `imitation/entrainer.py`, `train_v3.py` (Supplementary
-Table S2). On a laptop CPU (Intel Core i5-1235U), the imitation stage takes about 6 min per epoch and the PPO stage
-about 11 min. Computing the 2 000 expert schedules takes about 2.4 h of CPU (`outils/temps_experts.py`).
+The hyperparameters are listed in `models/imitation/cand_ft_config.json` and in the Supplementary Material. On a
+laptop CPU (Intel Core i5-1235U), the imitation stage takes about 6 min per epoch and the PPO stage about 11 min;
+computing the 2 000 expert schedules takes about 2.4 h of CPU time.
 
 ## Evaluating a new method under the same protocol
 
@@ -229,7 +225,7 @@ for inst in charger_instances(["Brandimarte", "HurinkLa", "Kacem"], regime="A"):
    annealing, 50 000 evaluations, Taguchi parameters), bootstrap confidence intervals, win/tie/loss counts and paired
    Wilcoxon tests with Holm's correction. Proven optima and lower bounds come from the CP-SAT runs in the bank.
 
-## Song et al. (2023) baseline
+## Song et al. (2023)
 
 The published model of Song et al. is not included. To re-run steps E8, E10s and B3, clone their repository
 (Apache-2.0) into `externe/fjsp-drl` and install `externe/requirements_song.txt`:
@@ -238,10 +234,9 @@ The published model of Song et al. is not included. To re-run steps E8, E10s and
 git clone https://github.com/songwenas12/fjsp-drl externe/fjsp-drl
 ```
 
-Their results on our instances are provided in `externe/resultats_song.csv`, `externe/resultats_song_temps.csv` and
-`externe/resultats_song_temps_E10b.csv`.
+Their results on our instances are provided in `externe/resultats_song*.csv`.
 
-## Hardware and software used for the article
+## Hardware and software
 
 Intel Core i5-1235U (12 logical cores), Windows 11, Python 3.11.9, PyTorch 2.14.0 (CPU), NumPy 2.4.6, Numba 0.68.0,
 SciPy 1.17.1, OR-Tools 9.15.6755. The environment of every run is logged in

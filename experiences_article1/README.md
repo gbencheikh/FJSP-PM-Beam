@@ -1,37 +1,18 @@
-# Expériences de l'article 1 (cas déterministe)
+# Experiments
 
-Protocole figé : `PROTOCOLE.md` (validé le 6/10/2026). Plan d'ensemble : document de projet
-`claude/plan_article1_deterministe.md`.
+| File or folder | Content |
+|---|---|
+| `lancer.py` | Launcher: every experiment is a step (`--liste` lists them with their estimated cost; `--essai` prints the commands without running them). Each step resumes where it stopped, writes its log in `journaux/<step>.log` and appends a line to `journaux/executions.jsonl` (date, machine, fingerprint of the code, command, duration, return code) |
+| `PROTOCOLE.md` | Protocol log, in French: instances, seeds, budgets, statistics and the decision rules of every campaign, each entry dated before the corresponding computations |
+| `statistiques.py` | Comparison tables: gap to the reference, bootstrap confidence intervals, wins/ties/losses, Wilcoxon tests with Holm's correction (`--methodes <file.json> --nom <name>`) |
+| `methodes_*.json` | Lists of the methods compared in each table |
+| `tests_qualite_budget.py`, `tests_qualite_temps.py` | Tests at equal budgets in evaluations and in wall-clock time |
+| `e15_maintenance.py` | Value of the maintenance decisions for fixed sequences |
+| `tableaux_article.py`, `tableau_bornes.py`, `tableaux_caie.py` | LaTeX tables of the article |
+| `figure_*.py`, `figures_methode.py`, `style_figures.py`, `animation_gantt.py` | Figures and animation |
+| `analyse_revision_*.py`, `exploratoire_*.py`, `tableaux_revision*.py`, `tableau_gain_global.py`, `tableau_decisions.py` | Companion analyses (see the main README) |
+| `pilote_regime_pannes.py` | Pilot study on letting machines break down, which led to the regime without breakdowns used here |
+| `resultats/` | Outputs: tables (`.md`, `.csv`, `.tex`), figures and analysis reports |
+| `journaux/` | Logs of all campaigns |
 
-## Lancer (Windows, depuis le dossier du projet, environnement activé)
-```
-python -m experiences_article1.lancer --liste
-python -m experiences_article1.lancer --etape E0 E1 E4 E6 --processus 8   # contrôles, règles, agent seul, ablations
-python -m experiences_article1.lancer --etape E5 E15 --processus 8        # grille du faisceau (sensibilité), valeur de la maintenance
-python -m experiences_article1.lancer --etape E7 E8 --processus 8         # FJSP classique, Song et al.
-python -m experiences_article1.lancer --etape E9 --processus 8            # CP-SAT, la nuit
-python -m experiences_article1.lancer --etape E10 --processus 1           # mesures de temps : machine au repos, secteur branché
-python -m experiences_article1.lancer --etape E11 E12 E13 E14 --processus 8
-```
-**Ordre suivi** (modifié le 6/10/2026) : E2 (fait) → E0, E1, E4, E6 → E5, E15 → E7, E8 → E9 (nuit) → E10 (machine au repos) → E11, E12 → E13, E14. P1 : relance facultative du pilote.
-Pourquoi E2 en premier : la validation du protocole autorisait E2 tout de suite (elle ne dépendait d'aucune des deux corrections), alors que E4 et E5 attendaient l'inscription de la règle de sélection du faisceau et des graines de l'agent ; E2 était aussi l'étape la plus longue sans intervention.
-**Seules contraintes d'ordre réelles** : E15 après E2 et E5 (elle lit leurs plannings) ; E14 après E5 ; E12 après E11 ; E10 seule, machine au repos ; une seule campagne à la fois (une seule fenêtre). Les autres étapes sont indépendantes et leurs réglages sont déclarés d'avance : leur ordre ne change aucun résultat.
-Chaque étape reprend où elle s'est arrêtée. Journaux : `journaux/`.
-
-## Produire les tableaux
-```
-python -m experiences_article1.statistiques --methodes experiences_article1/methodes_principal.json --nom principal
-python -m experiences_article1.statistiques --methodes experiences_article1/methodes_ablations.json --nom ablations
-python -m experiences_article1.statistiques --methodes experiences_article1/methodes_classique.json --facteur-seuil 1000 --nom classique
-python -m experiences_article1.statistiques --methodes experiences_article1/methodes_graines.json --nom graines
-```
-Sorties : `resultats/<nom>.md|.csv|.tex|_boxplots.png|.pdf`. Le script signale les instances manquantes.
-
-## Fichiers ajoutés ou modifiés le 6/10/2026 (copies d'origine dans `../archives_code_6oct/`)
-- `jssp_pm/anticipation.py`, `anticiper.py` : options `--sans-elagage`, `--sans-doublons` (comportement par défaut inchangé).
-- `metaheuristiques/instances.py` : familles `HurinkLa`, `HurinkEdataLa`, `HurinkRdataLa`, `HurinkVdataLa` (la01–la40) ; `Hurink` (ancien sous-ensemble de 20) inchangé.
-- `jssp_pm/fjsp_cpsat.py` : option `segments="valide"` (borne inférieure prouvée) ; défaut inchangé.
-- `cpsat_article1.py` (nouveau) ; `outils/reseau_aleatoire.py` (nouveau) ; `hybride_rl_mh.py` : option `--depart-banque`.
-- `../../externe/evaluer_song.py` : évaluation du modèle publié de Song et al.
-- `comparer_rl.py` : option `--processus` (agent seul en parallèle ; résultats identiques à l'exécution en un processus, vérifié sur Brandimarte : 20/20 tirages et 10/10 gloutons identiques). Utilisée par E4, E7, E12.
-- `pilote_regime_pannes.py` (pilote go/no-go, verdict dans `resultats/pilote_regime_pannes.md`) ; `e15_maintenance.py` (E15, PROTOCOLE § 3 bis).
+The correspondence between the tables and figures of the article and the scripts is given in the main README.

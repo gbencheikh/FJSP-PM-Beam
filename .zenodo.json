@@ -1,0 +1,22 @@
+{
+  "title": "FJSP-PM-Beam: code, extended instances and results for joint scheduling of production and wear-driven preventive maintenance in a flexible job shop",
+  "upload_type": "software",
+  "description": "Code, benchmark instances extended with wear thresholds and maintenance durations (127 test instances from Brandimarte, Hurink and Kacem), lower bounds, best known schedules, an independent schedule checker, trained policy networks and the raw results of all runs for the article 'Joint scheduling of production and wear-driven preventive maintenance in a flexible job shop using a policy-guided beam search'. Every table and figure of the article can be reproduced from the raw results with the scripts provided.",
+  "creators": [
+    {
+      "name": "Bencheikh, Ghita",
+      "affiliation": "CESI LINEACT"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "flexible job shop scheduling",
+    "preventive maintenance",
+    "machine wear",
+    "beam search",
+    "constraint programming",
+    "reinforcement learning",
+    "benchmark instances"
+  ],
+  "language": "eng"
+}

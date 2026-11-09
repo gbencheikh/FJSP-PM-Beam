@@ -1,37 +1,28 @@
-# Réglage des paramètres des métaheuristiques (méthode de Taguchi)
+# Taguchi tuning of the metaheuristics
 
-## Pourquoi
-Les paramètres de l'algorithme génétique, de la recherche tabou et du recuit simulé avaient été
-fixés « à la main ». Un relecteur peut objecter qu'une méthode a été désavantagée. La méthode de
-Taguchi permet de les régler de façon systématique, avec peu d'essais.
+The parameters of the genetic algorithm, the tabu search and the simulated annealing are tuned systematically, with
+few runs, by a Taguchi design.
 
-## Ce que fait le script
-1. Chaque paramètre est testé à 3 niveaux (le niveau du milieu = valeur actuelle).
-2. Le tableau orthogonal L9 choisit 9 combinaisons seulement (au lieu de 81 pour 4 paramètres),
-   de sorte que chaque niveau de chaque paramètre soit testé autant de fois.
-3. Les essais tournent sur 8 instances Hurink **qui ne servent pas** aux comparaisons finales
-   (edata 3, 13, 23, 33 et rdata 8, 18, 28, 38) : on ne règle pas sur les instances de test.
-4. Mesure : C_max divisé par celui de la règle MWKR+EFT ; score S/N « plus petit est meilleur »
-   (plus il est grand, meilleur et plus stable est le réglage).
-5. Pour chaque paramètre, on garde le niveau au meilleur S/N ; une ANOVA donne l'influence (%)
-   de chaque paramètre.
-6. Confirmation : la combinaison retenue est relancée et comparée aux valeurs par défaut.
-   Si elle ne fait pas mieux, les valeurs par défaut sont gardées.
+1. Each parameter is tested at three levels.
+2. An L9 orthogonal array selects 9 combinations (instead of 81 for four parameters), so that each level of each
+   parameter is tested equally often.
+3. The runs use eight Hurink instances that are excluded from the test set (edata 3, 13, 23, 33 and rdata 8, 18, 28,
+   38; edata 3 is mt20): the parameters are not tuned on the test instances.
+4. Measure: makespan divided by that of the MWKR rule with earliest finishing time; "smaller is better"
+   signal-to-noise ratio.
+5. For each parameter, the level with the best signal-to-noise ratio is kept; an analysis of variance gives the
+   influence of each parameter.
+6. Confirmation: the retained combination is run again and compared with the default values, which are kept if it does
+   not do better.
 
-## Lancer (Windows, depuis le dossier du projet, environnement activé)
-```
-python -m reglage_taguchi.taguchi --processus 10
-```
-Durée indicative : 3 méthodes × (9 + 2) combinaisons × 8 instances × 2 graines = 528 exécutions
-de 50 000 évaluations. Si le script est interrompu, relancez la même commande : il reprend.
-
-Puis, pour comparer avec les paramètres réglés (enregistré dans la banque sous une configuration
-distincte `...,params=taguchi`, les anciens résultats restent) :
-```
-python -m metaheuristiques.comparer --evaluations 50000 --parametres reglage_taguchi/parametres_retenus.json --processus 10
+```bash
+python -m reglage_taguchi.taguchi --processus 8
 ```
 
-## Fichiers produits
-- `essais.csv` : chaque exécution (méthode, essai, paramètres, instance, graine, C_max…)
-- `rapport.md` : tableaux L9, effet des niveaux, ANOVA, confirmation — prêt pour l'article
-- `parametres_retenus.json` : paramètres finaux par méthode
+The script resumes where it stopped if it is interrupted.
+
+| File | Content |
+|---|---|
+| `essais.csv` | Every run (method, trial, parameters, instance, seed, makespan) |
+| `rapport.md` | L9 arrays, level effects, analysis of variance, confirmation |
+| `parametres_retenus.json` | Parameters retained for each method |

@@ -1,0 +1,10 @@
+[
+ {"label": "Beam without filter, B=5", "methode": "Faisceau:regle", "config": "faisceau=5,k=0"},
+ {"label": "Beam without filter, B=20", "methode": "Faisceau:regle", "config": "faisceau=20,k=0"},
+ {"label": "Beam without filter, B=50", "methode": "Faisceau:regle", "config": "faisceau=50,k=0"},
+ {"label": "Beam without filter, B=200", "methode": "Faisceau:regle", "config": "faisceau=200,k=0"},
+ {"label": "Policy + beam 5x4", "methode": "RL:imit-ft", "config": "faisceau=5,k=4"},
+ {"label": "  without LB pruning", "methode": "RL:imit-ft", "config": "faisceau=5,k=4,sans_elagage"},
+ {"label": "  without duplicate removal", "methode": "RL:imit-ft", "config": "faisceau=5,k=4,sans_doublons"},
+ {"label": "Policy + beam 50x5", "methode": "RL:imit-ft", "config": "faisceau=50,k=5"}
+]
